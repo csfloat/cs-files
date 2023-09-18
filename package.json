@@ -1,0 +1,16 @@
+{
+  "name": "cs-cdn",
+  "version": "1.0.0",
+  "description": "Fetches items_game.txt and csgo_english.txt from Steam CDN",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csfloat/cs-cdn.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "steam-totp": "^2.0.1",
+    "steam-user": "^4.19.2"
+  }
+}
