@@ -15,8 +15,8 @@ function downloadFile(user, file) {
     return user.downloadFile(appId, depotId, file, `${dir}/${fileName}`);
 }
 
-if (process.argv.length === 5) {
-    console.error('Missing input arguments');
+if (process.argv.length != 5) {
+    console.error(`Missing input arguments, expected 5 got ${process.argv.length}`);
     process.exit(1);
 }
 
