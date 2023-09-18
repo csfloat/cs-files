@@ -1,5 +1,4 @@
 const SteamUser = require('steam-user');
-const SteamTotp = require('steam-totp');
 const fs = require('fs');
 const appId = 730;
 const depotId = 731;
@@ -20,32 +19,20 @@ if (process.argv.length != 5) {
     process.exit(1);
 }
 
-const cred = {
-    username: process.argv[2],
-    password: process.argv[3],
-    shared_secret: process.argv[4],
-};
-
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
 }
 
 const user = new SteamUser();
 
-SteamTotp.getAuthCode(cred.shared_secret, (err, code) => {
-    if (err) {
-        throw err;
-    }
+console.log('Logging into Steam....');
 
-    console.log('Logging into Steam....');
-
-    user.logOn({
-        accountName: cred.username,
-        password: cred.password,
-        rememberPassword: true,
-        twoFactorCode: code,
-        logonID: 2121,
-    });
+user.logOn({
+    accountName: process.argv[2],
+    password: process.argv[3],
+    rememberPassword: true,
+    authCode: process.argv[4],
+    logonID: 2121,
 });
 
 
