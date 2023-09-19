@@ -14,7 +14,7 @@ function downloadFile(user, file) {
     return user.downloadFile(appId, depotId, file, `${dir}/${fileName}`);
 }
 
-if (process.argv.length != 5) {
+if (process.argv.length != 4) {
     console.error(`Missing input arguments, expected 5 got ${process.argv.length}`);
     process.exit(1);
 }
@@ -31,7 +31,6 @@ user.logOn({
     accountName: process.argv[2],
     password: process.argv[3],
     rememberPassword: true,
-    authCode: process.argv[4],
     logonID: 2121,
 });
 
@@ -69,6 +68,9 @@ user.once('loggedOn', async () => {
 
     const csgoEnglishFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo_english.txt"));
     await downloadFile(user, csgoEnglishFile)
+
+    const itemsGameCDNFile = manifest.manifest.files.find((file) => file.filename.endsWith("items_game_cdn.txt"));
+    await downloadFile(user, itemsGameCDNFile)
 
     try {
         fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId)
