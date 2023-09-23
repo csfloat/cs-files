@@ -11,11 +11,40 @@ function downloadFile(user, file) {
     
     console.log(`Downloading ${fileName}`)
 
-    return user.downloadFile(appId, depotId, file, `${dir}/${fileName}`);
+    return user.downloadFile(appId, depotId, file, (err, data) => {
+        if (data.type != "complete") {
+            return
+        }
+
+        // Because Valve can't even return non-corrupt files.
+        // The beginning of the csgo_english file has two � characters. Printing them individually they are ÿ and þ.
+        if (fileName == "csgo_english.txt") {
+            let i = 0
+            for (;i < data.file.length; i++) {
+                if (String.fromCharCode(data.file[i]) != '"') {
+                    continue;
+                }
+
+                break;
+            }
+
+            if (i == data.file.length) {
+                throw "couldn't find start of vdf file";
+            }
+            
+            data.file = data.file.slice(i);
+        }
+
+        try {
+            fs.writeFileSync(`${dir}/${fileName}`, data.file)
+        } catch (err) {
+            throw err;
+        }
+    });
 }
 
 if (process.argv.length != 4) {
-    console.error(`Missing input arguments, expected 5 got ${process.argv.length}`);
+    console.error(`Missing input arguments, expected 4 got ${process.argv.length}`);
     process.exit(1);
 }
 
