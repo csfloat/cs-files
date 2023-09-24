@@ -10,7 +10,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "steam-totp": "^2.0.1",
-    "steam-user": "^4.19.2"
+    "steam-totp": "^2.1.2",
+    "steam-user": "^5.0.1",
+    "iconv-lite": "^0.6.3"
   }
 }

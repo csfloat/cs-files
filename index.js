@@ -1,5 +1,6 @@
 const SteamUser = require('steam-user');
 const fs = require('fs');
+const iconv = require('iconv-lite');
 const appId = 730;
 const depotId = 731;
 const dir = `./static`;
@@ -16,23 +17,10 @@ function downloadFile(user, file) {
             return
         }
 
-        // Because Valve can't even return non-corrupt files.
-        // The beginning of the csgo_english file has two � characters. Printing them individually they are ÿ and þ.
+        // Because Valve can't even return consistent files.
+        // For whatever reason the csgo_english file is a UTF-16 file instead of the requested (and normally) UTF-8.
         if (fileName == "csgo_english.txt") {
-            let i = 0
-            for (;i < data.file.length; i++) {
-                if (String.fromCharCode(data.file[i]) != '"') {
-                    continue;
-                }
-
-                break;
-            }
-
-            if (i == data.file.length) {
-                throw "couldn't find start of vdf file";
-            }
-            
-            data.file = data.file.slice(i);
+            data.file = iconv.decode(data.file, 'UTF-16');
         }
 
         try {
