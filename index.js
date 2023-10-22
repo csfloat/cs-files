@@ -1,16 +1,20 @@
 const SteamUser = require('steam-user');
 const fs = require('fs');
+const vpk = require('vpk');
 const iconv = require('iconv-lite');
 const appId = 730;
-const depotId = 731;
+const depotId = 2347770;
 const dir = `./static`;
 const manifestIdFile = 'manifestId.txt'
+
+const neededFiles = [
+    'scripts/items/items_game.txt',
+    'scripts/items/items_game_cdn.txt',
+];
 
 function downloadFile(user, file) {
     const name = file.filename.split('\\');
     const fileName = name[name.length-1];
-    
-    console.log(`Downloading ${fileName}`)
 
     return user.downloadFile(appId, depotId, file, (err, data) => {
         if (data.type != "complete") {
@@ -31,6 +35,87 @@ function downloadFile(user, file) {
     });
 }
 
+function getRequiredVPKFiles(vpkDir) {
+    const requiredIndices = [];
+
+    for (const fileName of vpkDir.files) {
+        for (const f of neededFiles) {
+            if (fileName.startsWith(f)) {
+                console.log(`Found vpk for ${f}: ${fileName}`)
+
+                const archiveIndex = vpkDir.tree[fileName].archiveIndex;
+
+                if (!requiredIndices.includes(archiveIndex)) {
+                    requiredIndices.push(archiveIndex);
+                }
+
+                break;
+            }
+        }
+    }
+
+    return requiredIndices.sort();
+}
+
+async function downloadVPKFiles(user, manifest) {
+    const dirFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo\\pak01_dir.vpk"));
+
+    console.log(`Downloading vpk dir`)
+
+    await user.downloadFile(appId, depotId, dirFile,"temp/pak01_dir.vpk");
+    
+    vpkDir = new vpk('temp/pak01_dir.vpk');
+    vpkDir.load();
+
+    const requiredIndices = getRequiredVPKFiles(vpkDir);
+
+    console.log(`Required VPK files ${requiredIndices}`);
+
+    for (let index in requiredIndices) {
+        index = parseInt(index);
+
+        // pad to 3 zeroes
+        const archiveIndex = requiredIndices[index];
+        const paddedIndex = '0'.repeat(3-archiveIndex.toString().length) + archiveIndex;
+        const fileName = `pak01_${paddedIndex}.vpk`;
+
+        const file = manifest.manifest.files.find((f) => f.filename.endsWith(fileName));
+        const filePath = `temp/${fileName}`;
+
+        const status = `[${index+1}/${requiredIndices.length}]`;
+
+        console.log(`${status} Downloading ${fileName}`);
+
+        await user.downloadFile(appId, depotId, file, filePath);
+    }
+
+    console.log("Extracting needed files")
+
+    for (const f of neededFiles) {
+        let found = false;
+        for (const path of vpkDir.files) {
+            if (path.startsWith(f)) {
+                const file = vpkDir.getFile(path);
+                const data = f.split('/');
+                const fileName = data[data.length-1];
+
+                try {
+                    fs.writeFileSync(`${dir}/${fileName}`, file)
+                } catch (err) {
+                    throw err;
+                }
+
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            throw `could not find ${f}`;
+        }
+    }
+}
+
 if (process.argv.length != 4) {
     console.error(`Missing input arguments, expected 4 got ${process.argv.length}`);
     process.exit(1);
@@ -38,6 +123,10 @@ if (process.argv.length != 4) {
 
 if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
+}
+
+if (!fs.existsSync('temp')){
+    fs.mkdirSync('temp');
 }
 
 const user = new SteamUser();
@@ -80,14 +169,11 @@ user.once('loggedOn', async () => {
 
     const manifest = await user.getManifest(appId, depotId, latestManifestId, 'public');
 
-    const itemsGameFile = manifest.manifest.files.find((file) => file.filename.endsWith("items_game.txt"));
-    await downloadFile(user, itemsGameFile);
+    await downloadVPKFiles(user, manifest)
 
     const csgoEnglishFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo_english.txt"));
+    console.log(`Downloading csgo_english.txt`)
     await downloadFile(user, csgoEnglishFile)
-
-    const itemsGameCDNFile = manifest.manifest.files.find((file) => file.filename.endsWith("items_game_cdn.txt"));
-    await downloadFile(user, itemsGameCDNFile)
 
     try {
         fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId)
