@@ -5,9 +5,10 @@ const iconv = require('iconv-lite');
 const appId = 730;
 const depotId = 2347770;
 const dir = `./static`;
+const temp = "./temp";
 const manifestIdFile = 'manifestId.txt'
 
-const neededFiles = [
+const vpkFiles = [
     'scripts/items/items_game.txt',
     'scripts/items/items_game_cdn.txt',
 ];
@@ -35,11 +36,24 @@ function downloadFile(user, file) {
     });
 }
 
+async function downloadVPKDir(user, manifest) {
+    const dirFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo\\pak01_dir.vpk"));
+
+    console.log(`Downloading vpk dir`)
+
+    await user.downloadFile(appId, depotId, dirFile, `${temp}/pak01_dir.vpk`);
+    
+    vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
+    vpkDir.load();
+
+    return vpkDir;
+}
+
 function getRequiredVPKFiles(vpkDir) {
     const requiredIndices = [];
 
     for (const fileName of vpkDir.files) {
-        for (const f of neededFiles) {
+        for (const f of vpkFiles) {
             if (fileName.startsWith(f)) {
                 console.log(`Found vpk for ${f}: ${fileName}`)
 
@@ -57,16 +71,7 @@ function getRequiredVPKFiles(vpkDir) {
     return requiredIndices.sort();
 }
 
-async function downloadVPKFiles(user, manifest) {
-    const dirFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo\\pak01_dir.vpk"));
-
-    console.log(`Downloading vpk dir`)
-
-    await user.downloadFile(appId, depotId, dirFile,"temp/pak01_dir.vpk");
-    
-    vpkDir = new vpk('temp/pak01_dir.vpk');
-    vpkDir.load();
-
+async function downloadVPKArchives(user, manifest, vpkDir) {
     const requiredIndices = getRequiredVPKFiles(vpkDir);
 
     console.log(`Required VPK files ${requiredIndices}`);
@@ -80,7 +85,7 @@ async function downloadVPKFiles(user, manifest) {
         const fileName = `pak01_${paddedIndex}.vpk`;
 
         const file = manifest.manifest.files.find((f) => f.filename.endsWith(fileName));
-        const filePath = `temp/${fileName}`;
+        const filePath = `${temp}/${fileName}`;
 
         const status = `[${index+1}/${requiredIndices.length}]`;
 
@@ -88,10 +93,12 @@ async function downloadVPKFiles(user, manifest) {
 
         await user.downloadFile(appId, depotId, file, filePath);
     }
+}
 
-    console.log("Extracting needed files")
+function extractVPKFiles(vpkDir) {
+    console.log("Extracting vpk files")
 
-    for (const f of neededFiles) {
+    for (const f of vpkFiles) {
         let found = false;
         for (const path of vpkDir.files) {
             if (path.startsWith(f)) {
@@ -125,8 +132,8 @@ if (!fs.existsSync(dir)){
     fs.mkdirSync(dir);
 }
 
-if (!fs.existsSync('temp')){
-    fs.mkdirSync('temp');
+if (!fs.existsSync(temp)){
+    fs.mkdirSync(temp);
 }
 
 const user = new SteamUser();
@@ -142,8 +149,6 @@ user.logOn({
 
 
 user.once('loggedOn', async () => {
-    console.log('Obtaining latest manifest ID');
-
     const cs = (await user.getProductInfo([appId], [], true)).apps[appId].appinfo;
     const commonDepot = cs.depots[depotId];
     const latestManifestId = commonDepot.manifests.public.gid;
@@ -169,14 +174,16 @@ user.once('loggedOn', async () => {
 
     const manifest = await user.getManifest(appId, depotId, latestManifestId, 'public');
 
-    await downloadVPKFiles(user, manifest)
+    const vpkDir = await downloadVPKDir(user, manifest);
+    await downloadVPKArchives(user, manifest, vpkDir);
+    extractVPKFiles(vpkDir);
 
     const csgoEnglishFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo_english.txt"));
-    console.log(`Downloading csgo_english.txt`)
-    await downloadFile(user, csgoEnglishFile)
+    console.log(`Downloading csgo_english.txt`);
+    await downloadFile(user, csgoEnglishFile);
 
     try {
-        fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId)
+        fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId);
     } catch (err) {
         throw err;
     }
