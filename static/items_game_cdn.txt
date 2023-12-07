@@ -1751,6 +1751,7 @@ weapon_knife_flip=http://media.steampowered.com/apps/730/icons/econ/weapons/base
 weapon_knife_gut=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_gut.554bad66e2173efa41e29f17ca8058b32ca71afe.png
 weapon_knife_gypsy_jackknife=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_gypsy_jackknife.4f47f12a0647d473b50b311cd8c4eb285dfd42ab.png
 weapon_knife_karambit=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_karambit.d896eda7b0c6b12a99d0bdba75a46dbf53fb0c12.png
+weapon_knife_kukri=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_kukri.c448077ea6fb23eb960ab6d592cf12e121b8c34a.png
 weapon_knife_m9_bayonet=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_m9_bayonet.d9bd28140741a769492cd59723d2ae86b212624a.png
 weapon_knife_outdoor=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_outdoor.0f4578ac46571648febc67628616dcb38b94e71c.png
 weapon_knife_push=http://media.steampowered.com/apps/730/icons/econ/weapons/base_weapons/weapon_knife_push.e1585183cdad93a66647e02cdc672a40592ad202.png
