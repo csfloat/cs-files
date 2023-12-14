@@ -14,29 +14,6 @@ const vpkFiles = [
     'scripts/items/items_game_cdn.txt',
 ];
 
-function downloadFile(user, file) {
-    const name = file.filename.split('\\');
-    const fileName = name[name.length-1];
-
-    return user.downloadFile(appId, depotId, file, (err, data) => {
-        if (data.type != "complete") {
-            return
-        }
-
-        // Because Valve can't even return consistent files.
-        // For whatever reason the csgo_english file is a UTF-16 file instead of the requested (and normally) UTF-8.
-        if (fileName == "csgo_english.txt") {
-            data.file = iconv.decode(data.file, 'UTF-16');
-        }
-
-        try {
-            fs.writeFileSync(`${dir}/${fileName}`, data.file)
-        } catch (err) {
-            throw err;
-        }
-    });
-}
-
 async function downloadVPKDir(user, manifest) {
     const dirFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo\\pak01_dir.vpk"));
 
