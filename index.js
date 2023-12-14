@@ -73,6 +73,17 @@ async function downloadVPKArchives(user, manifest, vpkDir) {
     }
 }
 
+function trimBOM(buffer) {
+    // Check if the Buffer starts with the BOM character
+    if (buffer.length >= 2 && buffer[0] === 0xEF && buffer[1] === 0xBB && buffer[2] === 0xBF) {
+        // Trim the first two bytes (BOM)
+        return buffer.slice(3);
+    } else {
+        // No BOM, return the original Buffer
+        return buffer;
+    }
+}
+
 function extractVPKFiles(vpkDir) {
     console.log("Extracting vpk files")
 
@@ -80,9 +91,13 @@ function extractVPKFiles(vpkDir) {
         let found = false;
         for (const path of vpkDir.files) {
             if (path.startsWith(f)) {
-                const file = vpkDir.getFile(path);
-                const data = f.split('/');
-                const fileName = data[data.length-1];
+                let file = vpkDir.getFile(path);
+                const filepath = f.split('/');
+                const fileName = filepath[filepath.length-1];
+
+                // Remove BOM from file (https://en.wikipedia.org/wiki/Byte_order_mark)
+                // Convenience so down stream users don't have to worry about decoding with BOM
+                file = trimBOM(file)
 
                 try {
                     fs.writeFileSync(`${dir}/${fileName}`, file)
