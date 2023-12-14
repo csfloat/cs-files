@@ -9,6 +9,7 @@ const temp = "./temp";
 const manifestIdFile = 'manifestId.txt'
 
 const vpkFiles = [
+    'resource/csgo_english.txt',
     'scripts/items/items_game.txt',
     'scripts/items/items_game_cdn.txt',
 ];
@@ -177,10 +178,6 @@ user.once('loggedOn', async () => {
     const vpkDir = await downloadVPKDir(user, manifest);
     await downloadVPKArchives(user, manifest, vpkDir);
     extractVPKFiles(vpkDir);
-
-    const csgoEnglishFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo_english.txt"));
-    console.log(`Downloading csgo_english.txt`);
-    await downloadFile(user, csgoEnglishFile);
 
     try {
         fs.writeFileSync(`${dir}/${manifestIdFile}`, latestManifestId);
