@@ -75,7 +75,7 @@ async function downloadVPKArchives(user, manifest, vpkDir) {
 
 function trimBOM(buffer) {
     // Check if the Buffer starts with the BOM character
-    if (buffer.length >= 2 && buffer[0] === 0xEF && buffer[1] === 0xBB && buffer[2] === 0xBF) {
+    if (buffer.length >= 3 && buffer[0] === 0xEF && buffer[1] === 0xBB && buffer[2] === 0xBF) {
         // Trim the first two bytes (BOM)
         return buffer.slice(3);
     } else {
