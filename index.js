@@ -11,6 +11,7 @@ const manifestIdFile = 'manifestId.txt'
 const vpkFiles = [
     'resource/csgo_english.txt',
     'scripts/items/items_game.txt',
+    'scripts/items/items_game_cdn.txt',
 ];
 
 async function downloadVPKDir(user, manifest) {
