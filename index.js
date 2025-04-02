@@ -18,9 +18,9 @@ async function downloadVPKDir(user, manifest) {
 
     console.log(`Downloading vpk dir`)
 
-    await user.downloadFile(appId, depotId, dirFile, `${temp}/pak01_dir.vpk`);
+    await user.downloadFile(appId, depotId, dirFile, `${dir}/pak01_dir.vpk`);
     
-    vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
+    vpkDir = new vpk(`${dir}/pak01_dir.vpk`);
     vpkDir.load();
 
     return vpkDir;
