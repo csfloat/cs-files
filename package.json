@@ -11,8 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "iconv-lite": "^0.6.3",
+    "package.json": "^2.0.1",
     "steam-totp": "^2.1.2",
-    "steam-user": "^5.0.1",
+    "steam-user": "^5.0.2",
     "vpk": "^0.2.0"
   }
 }
