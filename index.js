@@ -8,10 +8,9 @@ const dir = `./static`;
 const temp = "./temp";
 const manifestIdFile = 'manifestId.txt'
 
-const vpkFiles = [
-    'resource/csgo_english.txt',
-    'scripts/items/items_game.txt',
-];
+// use regex to match language filename
+const langRegex = /^resource\/csgo_[a-z]+\.txt$/;
+const itemsGameFile = 'scripts/items/items_game.txt';
 
 async function downloadVPKDir(user, manifest) {
     const dirFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo\\pak01_dir.vpk"));
@@ -29,11 +28,25 @@ async function downloadVPKDir(user, manifest) {
     return vpkDir;
 }
 
+function getFilePaths(vpkDir) {
+    const paths = [itemsGameFile];
+
+    // get language file paths
+    for (const fileName of vpkDir.files) {
+        if (langRegex.test(fileName)) {
+            paths.push(fileName);
+        }
+    }
+
+    return paths;
+}
+
 function getRequiredVPKFiles(vpkDir) {
+    const paths = getFilePaths(vpkDir);
     const requiredIndices = [];
 
     for (const fileName of vpkDir.files) {
-        for (const f of vpkFiles) {
+        for (const f of paths) {
             if (fileName.startsWith(f)) {
                 console.log(`Found vpk for ${f}: ${fileName}`)
 
@@ -88,14 +101,19 @@ function trimBOM(buffer) {
 
 function extractVPKFiles(vpkDir) {
     console.log("Extracting vpk files")
-
-    for (const f of vpkFiles) {
+    
+    const filePaths = getFilePaths(vpkDir);
+    
+    for (const targetPath of filePaths) {
         let found = false;
-        for (const path of vpkDir.files) {
-            if (path.startsWith(f)) {
-                let file = vpkDir.getFile(path);
-                const filepath = f.split('/');
-                const fileName = filepath[filepath.length-1];
+        
+        for (const vpkPath of vpkDir.files) {
+            if (vpkPath.startsWith(targetPath)) {
+                console.log(`Extracting ${targetPath}: ${vpkPath}`);
+                
+                let file = vpkDir.getFile(vpkPath);
+                const filepath = targetPath.split('/');
+                const fileName = filepath[filepath.length - 1];
 
                 // Remove BOM from file (https://en.wikipedia.org/wiki/Byte_order_mark)
                 // Convenience so down stream users don't have to worry about decoding with BOM
@@ -113,12 +131,12 @@ function extractVPKFiles(vpkDir) {
         }
 
         if (!found) {
-            throw `could not find ${f}`;
+            throw new Error(`could not find ${targetPath}`);
         }
     }
 }
 
-if (process.argv.length != 4) {
+if (process.argv.length !== 4) {
     console.error(`Missing input arguments, expected 4 got ${process.argv.length}`);
     process.exit(1);
 }
@@ -155,15 +173,15 @@ user.once('loggedOn', async () => {
     try {
         existingManifestId = fs.readFileSync(`${dir}/${manifestIdFile}`);
     } catch (err) {
-        if (err.code != 'ENOENT') {
+        if (err.code !== 'ENOENT') {
             throw err;
         }
     }
 
-    if (existingManifestId == latestManifestId) {
-        console.log("Latest manifest Id matches existing manifest Id, exiting");
-        process.exit(0);
-    }
+    // if (existingManifestId === latestManifestId) {
+    //     console.log("Latest manifest Id matches existing manifest Id, exiting");
+    //     process.exit(0);
+    // }
 
     console.log("Latest manifest Id does not match existing manifest Id, downloading game files")
 
