@@ -22,7 +22,7 @@ async function downloadVPKDir(user, manifest) {
     // Persist in static directory
     fs.copyFileSync(`${temp}/pak01_dir.vpk`, `${dir}/pak01_dir.vpk`);
     
-    vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
+    const vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
     vpkDir.load();
 
     return vpkDir;
@@ -69,18 +69,17 @@ async function downloadVPKArchives(user, manifest, vpkDir) {
 
     console.log(`Required VPK files ${requiredIndices}`);
 
-    for (let index in requiredIndices) {
-        index = parseInt(index);
-
+    for (let i = 0; i < requiredIndices.length; i++) {
+        const archiveIndex = requiredIndices[i];
+        
         // pad to 3 zeroes
-        const archiveIndex = requiredIndices[index];
         const paddedIndex = '0'.repeat(3-archiveIndex.toString().length) + archiveIndex;
         const fileName = `pak01_${paddedIndex}.vpk`;
 
         const file = manifest.manifest.files.find((f) => f.filename.endsWith(fileName));
         const filePath = `${temp}/${fileName}`;
 
-        const status = `[${index+1}/${requiredIndices.length}]`;
+        const status = `[${i + 1}/${requiredIndices.length}]`;
 
         console.log(`${status} Downloading ${fileName}`);
 
@@ -112,8 +111,8 @@ function extractVPKFiles(vpkDir) {
                 console.log(`Extracting ${targetPath}: ${vpkPath}`);
                 
                 let file = vpkDir.getFile(vpkPath);
-                const filepath = targetPath.split('/');
-                const fileName = filepath[filepath.length - 1];
+                const pathParts = targetPath.split('/');
+                const fileName = pathParts[pathParts.length - 1];
 
                 // Remove BOM from file (https://en.wikipedia.org/wiki/Byte_order_mark)
                 // Convenience so down stream users don't have to worry about decoding with BOM
@@ -171,7 +170,7 @@ user.once('loggedOn', async () => {
     let existingManifestId = "";
 
     try {
-        existingManifestId = fs.readFileSync(`${dir}/${manifestIdFile}`);
+        existingManifestId = fs.readFileSync(`${dir}/${manifestIdFile}`, 'utf-8');
     } catch (err) {
         if (err.code !== 'ENOENT') {
             throw err;
