@@ -178,10 +178,10 @@ user.once('loggedOn', async () => {
         }
     }
 
-    // if (existingManifestId === latestManifestId) {
-    //     console.log("Latest manifest Id matches existing manifest Id, exiting");
-    //     process.exit(0);
-    // }
+    if (existingManifestId === latestManifestId) {
+        console.log("Latest manifest Id matches existing manifest Id, exiting");
+        process.exit(0);
+    }
 
     console.log("Latest manifest Id does not match existing manifest Id, downloading game files")
 
