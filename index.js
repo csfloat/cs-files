@@ -28,7 +28,7 @@ async function downloadVPKDir(user, manifest) {
     return vpkDir;
 }
 
-function getFilePaths(vpkDir) {
+function getVPKFilePaths(vpkDir) {
     const paths = [itemsGameFile];
 
     // get language file paths
@@ -42,7 +42,7 @@ function getFilePaths(vpkDir) {
 }
 
 function getRequiredVPKFiles(vpkDir) {
-    const paths = getFilePaths(vpkDir);
+    const paths = getVPKFilePaths(vpkDir);
     const requiredIndices = [];
 
     for (const fileName of vpkDir.files) {
@@ -101,7 +101,7 @@ function trimBOM(buffer) {
 function extractVPKFiles(vpkDir) {
     console.log("Extracting vpk files")
     
-    const filePaths = getFilePaths(vpkDir);
+    const filePaths = getVPKFilePaths(vpkDir);
     
     for (const targetPath of filePaths) {
         let found = false;
@@ -110,16 +110,16 @@ function extractVPKFiles(vpkDir) {
             if (vpkPath.startsWith(targetPath)) {
                 console.log(`Extracting ${targetPath}: ${vpkPath}`);
                 
-                let file = vpkDir.getFile(vpkPath);
+                const file = vpkDir.getFile(vpkPath);
                 const pathParts = targetPath.split('/');
                 const fileName = pathParts[pathParts.length - 1];
 
                 // Remove BOM from file (https://en.wikipedia.org/wiki/Byte_order_mark)
                 // Convenience so down stream users don't have to worry about decoding with BOM
-                file = trimBOM(file)
+                const trimmedFile = trimBOM(file)
 
                 try {
-                    fs.writeFileSync(`${dir}/${fileName}`, file)
+                    fs.writeFileSync(`${dir}/${fileName}`, trimmedFile)
                 } catch (err) {
                     throw err;
                 }
