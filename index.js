@@ -8,10 +8,9 @@ const dir = `./static`;
 const temp = "./temp";
 const manifestIdFile = 'manifestId.txt'
 
-const vpkFiles = [
-    'resource/csgo_english.txt',
-    'scripts/items/items_game.txt',
-];
+// use regex to match language filename
+const langRegex = /^resource\/csgo_[a-z]+\.txt$/;
+const itemsGameFile = 'scripts/items/items_game.txt';
 
 async function downloadVPKDir(user, manifest) {
     const dirFile = manifest.manifest.files.find((file) => file.filename.endsWith("csgo\\pak01_dir.vpk"));
@@ -22,18 +21,32 @@ async function downloadVPKDir(user, manifest) {
 
     // Persist in static directory
     fs.copyFileSync(`${temp}/pak01_dir.vpk`, `${dir}/pak01_dir.vpk`);
-    
-    vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
+
+    const vpkDir = new vpk(`${temp}/pak01_dir.vpk`);
     vpkDir.load();
 
     return vpkDir;
 }
 
+function getVPKFilePaths(vpkDir) {
+    const paths = [itemsGameFile];
+
+    // get language file paths
+    for (const fileName of vpkDir.files) {
+        if (langRegex.test(fileName)) {
+            paths.push(fileName);
+        }
+    }
+
+    return paths;
+}
+
 function getRequiredVPKFiles(vpkDir) {
+    const paths = getVPKFilePaths(vpkDir);
     const requiredIndices = [];
 
     for (const fileName of vpkDir.files) {
-        for (const f of vpkFiles) {
+        for (const f of paths) {
             if (fileName.startsWith(f)) {
                 console.log(`Found vpk for ${f}: ${fileName}`)
 
@@ -56,18 +69,17 @@ async function downloadVPKArchives(user, manifest, vpkDir) {
 
     console.log(`Required VPK files ${requiredIndices}`);
 
-    for (let index in requiredIndices) {
-        index = parseInt(index);
+    for (let i = 0; i < requiredIndices.length; i++) {
+        const archiveIndex = requiredIndices[i];
 
         // pad to 3 zeroes
-        const archiveIndex = requiredIndices[index];
         const paddedIndex = '0'.repeat(3-archiveIndex.toString().length) + archiveIndex;
         const fileName = `pak01_${paddedIndex}.vpk`;
 
         const file = manifest.manifest.files.find((f) => f.filename.endsWith(fileName));
         const filePath = `${temp}/${fileName}`;
 
-        const status = `[${index+1}/${requiredIndices.length}]`;
+        const status = `[${i + 1}/${requiredIndices.length}]`;
 
         console.log(`${status} Downloading ${fileName}`);
 
@@ -89,20 +101,25 @@ function trimBOM(buffer) {
 function extractVPKFiles(vpkDir) {
     console.log("Extracting vpk files")
 
-    for (const f of vpkFiles) {
+    const filePaths = getVPKFilePaths(vpkDir);
+
+    for (const targetPath of filePaths) {
         let found = false;
-        for (const path of vpkDir.files) {
-            if (path.startsWith(f)) {
-                let file = vpkDir.getFile(path);
-                const filepath = f.split('/');
-                const fileName = filepath[filepath.length-1];
+
+        for (const vpkPath of vpkDir.files) {
+            if (vpkPath.startsWith(targetPath)) {
+                console.log(`Extracting ${targetPath}: ${vpkPath}`);
+
+                const file = vpkDir.getFile(vpkPath);
+                const pathParts = targetPath.split('/');
+                const fileName = pathParts[pathParts.length - 1];
 
                 // Remove BOM from file (https://en.wikipedia.org/wiki/Byte_order_mark)
                 // Convenience so down stream users don't have to worry about decoding with BOM
-                file = trimBOM(file)
+                const trimmedFile = trimBOM(file)
 
                 try {
-                    fs.writeFileSync(`${dir}/${fileName}`, file)
+                    fs.writeFileSync(`${dir}/${fileName}`, trimmedFile)
                 } catch (err) {
                     throw err;
                 }
@@ -113,12 +130,12 @@ function extractVPKFiles(vpkDir) {
         }
 
         if (!found) {
-            throw `could not find ${f}`;
+            throw new Error(`could not find ${targetPath}`);
         }
     }
 }
 
-if (process.argv.length != 4) {
+if (process.argv.length !== 4) {
     console.error(`Missing input arguments, expected 4 got ${process.argv.length}`);
     process.exit(1);
 }
@@ -153,14 +170,14 @@ user.once('loggedOn', async () => {
     let existingManifestId = "";
 
     try {
-        existingManifestId = fs.readFileSync(`${dir}/${manifestIdFile}`);
+        existingManifestId = fs.readFileSync(`${dir}/${manifestIdFile}`, 'utf-8');
     } catch (err) {
-        if (err.code != 'ENOENT') {
+        if (err.code !== 'ENOENT') {
             throw err;
         }
     }
 
-    if (existingManifestId == latestManifestId) {
+    if (existingManifestId === latestManifestId) {
         console.log("Latest manifest Id matches existing manifest Id, exiting");
         process.exit(0);
     }
