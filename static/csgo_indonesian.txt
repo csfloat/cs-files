@@ -1698,7 +1698,7 @@
 		"SFUI_WPNHUD_Knife_Butterfly" 			"Pisau Kupu-kupu"
 		"SFUI_WPNHUD_PartyPopper"				"Party Popper!"
 		"SFUI_WPNHUD_knife_falchion_advanced" 	"Pisau Falchion"
-		"SFUI_WPNHUD_knife_push" 				"Shadow Daggers"
+		"SFUI_WPNHUD_knife_push" 				"Belati Bayangan"
 		"SFUI_WPNHUD_knife_survival_bowie" 		"Pisau Bowie"
 		"SFUI_WPNHUD_Healthshot"				"Medi-Shot"
 		"SFUI_WPNHUD_TAGrenade"					"Granat TA (Tactical Awareness)"
@@ -2330,6 +2330,9 @@
 		"Econ_Revolving_Loot_List"				"Berisi salah satu dari item berikut:"
 		"Econ_Revolving_Loot_List_Single"		"Buka dan terima salah satu item berikut"
 		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> Sewa semua senjata (tidak termasuk Item Sangat Langka) yang ada di dalam kontainer ini selama 7 hari"
+		"Econ_Revolving_Loot_SecureConnectionLine"	"Satu item dapat dibeli dari Terminal ini. Terminal ini akan menampilkan beberapa penawaran untuk item-item berikut:"
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"atau Item Spesial yang Sangat Langka!"
 		"Exceedingly_Rare_Item"					"★ Item Langka Spesial ★"
 
@@ -2366,6 +2369,7 @@
 		"Item_Crafted"							" %s1 telah memenuhi kontrak dan menerima: %s2"
 		"Item_Traded"							" %s1 telah menerima lewat penukaran: %s2"
 		"Item_Purchased"						" %s1 membeli: %s2"
+		"Item_PurchasedVolatile"				" %s1 telah membeli dari Pedangang Senjata: %s2"
 		"Item_FoundInCrate"						" %s1 membuka kontainer dan menemukan: %s2"
 		"Item_Gifted"							" %s1 menerima hadiah: %s2"
 		"Item_Earned"							" %s1 memperoleh: %s2"
@@ -2390,6 +2394,7 @@
 		"NewItemMethod_Crafted"			"Kamu Menerima:"
 		"NewItemMethod_Traded"			"Kamu Tukar dengan:"
 		"NewItemMethod_Purchased"		"Kamu Membeli:"
+		"NewItemMethod_PurchasedVolatile" "Kamu Membeli dari Pedagang Senjata:"
 		"NewItemMethod_FoundInCrate"	"Kamu Membuka:"
 		"NewItemMethod_Rental"			"Kamu Menyewa:"
 		"NewItemMethod_XpShopRedeem"	"Kamu mendapatkan dari Arsenal:"
@@ -2449,6 +2454,7 @@
 		"ItemHistory_Action_Drop"										"Mendapat ranking baru dan drop item"
 		"ItemHistory_Action_ManualCreate"								"Dibuat oleh Tim Bantuan Counter-Strike"
 		"ItemHistory_Action_Purchase"									"Dibeli dari toko"
+		"ItemHistory_Action_PurchaseVolatileContainerItem"				"Dibeli dari Pedagang Senjata"
 		"ItemHistory_Action_AutoGrantItem"								"Diperoleh"
 		"ItemHistory_Action_CrossGameAchievement"						"Didapatkan dari memperoleh pencapaian di game lain"
 		"ItemHistory_Action_AwardGift_Receiver"							"Mendapat hadiah"
@@ -2631,6 +2637,7 @@
 		"Attrib_MatchWins"							"Menang Mode Kompetitif di Map Operation: %s1"
 		"Attrib_HasSilencer"						"Peredam"
 		"Attrib_HasBurstMode"						"Opsi 3-Round Burst"
+		"Attrib_SecureConnectionLine"				"Seri Kontainer #%s1"
 		"Attrib_SupplyCrateSeries"					"Seri Kontainer #%s1"
 		"Attrib_KillEater"							"Item ini memiliki fitur teknologi StatTrak™ yang bisa melacak statistik tertentu ketika digunakan."
 		"Attrib_ReferencedItem"						"Berisi: %s1"
@@ -2666,6 +2673,9 @@
 		"Attrib_OperationBonusXP"					"Bonus Operation Diperoleh: +%s1 XP"
 		"Attrib_IssueDate"							"Tanggal Dikeluarkan: %s1"
 		"Attrib_ExpirationDate"						"Tanggal Kedaluwarsa: %s1"
+		"Attrib_PurchaserAccountID"					"Item ini memiliki Sertifikat Pemilik Asli."
+		"Attrib_PurchaserAccountID_title"			"Sertifikat Pemilik Asli"
+
 		"Notify_KeychainRemoveTool_ChargesUseToRemove"	"Pencabut Gantungan Tersedia: {d:item_count}<br>Pencabut Gantungan diperlukan untuk mencabut gantungan."
 		"Attrib_KeychainRemoveTool_Charges"			"Pencabut Gantungan Tersedia: {d:item_count}"
 		"Attrib_SpraysRemaining"					"Sisa: %s1"
@@ -4286,6 +4296,16 @@
 		"CSGO_crate_sticker_pack_warhammer_xenos_capsule_desc"			"Sebarkan teror Xenos dengan Kapsul Stiker Xenos Warhammer 40.000 yang dirilis pada bulan Mei 2025."
 		"coupon_warhammer_xenos_sticker_capsule"						"Kapsul Stiker Xenos Warhammer 40.000"
 		
+		"CSGO_crate_sticker_pack_sugarface2_capsule"	   				"Koleksi Stiker Sugarface 2"
+		"CSGO_crate_sticker_pack_sugarface2_capsule_desc"				"Koleksi stiker ini berisi berbagai stiker bertema Sugarface dan dirilis pada September 2025."
+		"CSGO_crate_sticker_pack_sugarface2_short"						"Stiker Sugarface 2"
+		
+		"CSGO_crate_sticker_pack_community2025_capsule"	    			"Koleksi Stiker Komunitas 2025"
+		"CSGO_crate_sticker_pack_community2025_capsule_desc"			"Koleksi ini berisi berbagai stiker dan dirilis pada September 2025."
+		"CSGO_crate_sticker_pack_community_2025_short"					"Stiker Komunitas 2025"
+		
+		"CSGO_crate_community_36"				"Terminal Genesis Tersegel"
+		"CSGO_crate_community_36^volatile"		"Terminal Genesis Aktif"
 		"SprayKit_vcap1_ace_01"		"Ace"
 "SprayKit_vcap1_banana"		"Banana"
 "SprayKit_vcap1_cerberus"		"Cerberus"
@@ -5236,6 +5256,7 @@
 		"CSGO_set_timed_drops_warm"				"Koleksi Radiant"
 		"CSGO_set_timed_drops_neutral"			"Koleksi Boreal"
 		"CSGO_set_timed_drops_cool"				"Koleksi Ascent"
+		"CSGO_set_community_36"					"Koleksi Genesis"
 		/////////////////
 		// lootlist override strings
 		//////////////////
@@ -27173,7 +27194,47 @@
 		"StickerKit_warhammer_decals_paper_tau_empire_2"				"T'au Empire 2"
 		"StickerKit_warhammer_decals_paper_tyranids_1"					"Tyranids 1"
 		"StickerKit_warhammer_decals_paper_tyranids_2"					"Tyranids 2"
-"PatchKit_patch_banana"            "Crazy Banana"
+		//Sugarface 2 Sticker Capsule
+		
+		"StickerKit_sugarface2_paper_clavis"							"Clavis"
+		"StickerKit_sugarface2_paper_lorena"							"Lorena"
+		"StickerKit_sugarface2_paper_lucas"								"Lucas"
+		"StickerKit_sugarface2_holo_clavis"								"Clavis (Holo)"
+		"StickerKit_sugarface2_holo_lorena"								"Lorena (Holo)"
+		"StickerKit_sugarface2_holo_lucas"								"Lucas (Holo)"
+		"StickerKit_sugarface2_foil_clavis"								"Clavis (Perak)"
+		"StickerKit_sugarface2_foil_lorena"								"Lorena (Perak)"
+		"StickerKit_sugarface2_foil_lucas"								"Lucas (Perak)"
+		//2025 Community Sticker Capsule
+		
+		"StickerKit_community_2025_paper_candy_apples"					"Candy Apples"
+		"StickerKit_community_2025_paper_cubix_connexion"				"Cubix Connexion"
+		"StickerKit_community_2025_paper_eyes_of_farlow"				"Eyes of Farlow"
+		"StickerKit_community_2025_paper_fade_mangos"					"Fade Mangos"
+		"StickerKit_community_2025_paper_gloves_on"						"Gloves On"
+		"StickerKit_community_2025_paper_lock_in"						"Lock In"
+		"StickerKit_community_2025_paper_mimicapsule"					"Mimicapsule"
+		"StickerKit_community_2025_paper_pop_pup"						"Pop Pup"
+		"StickerKit_community_2025_paper_pots"							"POTS"
+		"StickerKit_community_2025_paper_sent_with_love"				"Sent With Love"
+		"StickerKit_community_2025_paper_skelly_stab"					"Skelly Stabby"
+		"StickerKit_community_2025_paper_vice_cursor"					"Vice Cursor"
+		"StickerKit_community_2025_glitter_ct_tracks"					"CT Tracks (Gliter)"
+		"StickerKit_community_2025_glitter_overloaded"					"Overloaded (Gliter)"
+		"StickerKit_community_2025_glitter_t_tracks"					"T Tracks (Gliter)"
+		"StickerKit_community_2025_holo_bomb_planted"					"Bomb Planted (Holo)"
+		"StickerKit_community_2025_holo_chrome_dome"					"Chrome Dome (Holo)"
+		"StickerKit_community_2025_holo_cutie"							"Cutie (Holo)"
+		"StickerKit_community_2025_holo_evidence"						"Evidence (Holo)"
+		"StickerKit_community_2025_holo_froggles"						"Froggles (Holo)"
+		"StickerKit_community_2025_foil_aint_a_rental"					"Ain't A Rental (Perak)"
+		"StickerKit_community_2025_foil_eyes_sky"						"Eyes In The Sky (Perak)"
+		"StickerKit_community_2025_foil_good_as_new"					"Good As New (Perak)"
+		"StickerKit_community_2025_foil_queen_ava"						"Queen Ava (Perak)"
+		"StickerKit_community_2025_foil_hands_off"						"Hands Off (Perak)"
+		"StickerKit_community_2025_foil_king_crasswater"				"King Crasswater (Perak)"
+		"StickerKit_community_2025_lenticular_bullhit"					"BullHit (Gerak)"
+		"PatchKit_patch_banana"            "Crazy Banana"
 		"PatchKit_desc_patch_banana"       "<i>Agen sebagai pembanding</i>"
 		"PatchKit_patch_boss"              "The Boss"
 		"PatchKit_desc_patch_boss"         "<i>Beban menjadi seorang agen sangatlah besar</i>"
@@ -31116,7 +31177,9 @@
 		
 		"PaintKit_m4a4_green_camo"							"Telah dicat khusus dengan motif kamuflase berwarna hijau.\n\n<i>Tingkatkan jejak digitalmu</i>"
 		"PaintKit_m4a4_green_camo_Tag"						"Choppa"
-// END COMMUNITY_36
+"PaintKit_mp5sd_chrome_Tag"						"Fokus" 
+		
+		// END COMMUNITY_36
 
 // OVERPASS_2024
 				
@@ -31604,8 +31667,8 @@
 		"crate_community_8_unusual_lootlist"		"atau Pisau Falchion yang Sangat Langka!"
 		"crate_community_8_unusual_itemname"		"★ Pisau Falchion ★"
 		
-		"crate_community_9_unusual_lootlist"		"atau Shadow Dagger yang Sangat Langka!"
-		"crate_community_9_unusual_itemname"		"★ Shadow Daggers ★"
+		"crate_community_9_unusual_lootlist"		"atau Belati Bayangan yang Sangat Langka!"
+		"crate_community_9_unusual_itemname"		"★ Belati Bayangan ★"
 		
 		"crate_community_11_unusual_lootlist"		"atau Pisau Bowie yang Sangat Langka!"		
 		"crate_community_11_unusual_itemname"		"★ Pisau Bowie ★"
@@ -35293,6 +35356,9 @@
 		"PANOHUD_Spectate_Navigation_New_Cameraman_On"		"[{s:bind_radio}] Aktifkan Cameraman "
 		"PANOHUD_Spectate_Navigation_ToggleSpec"			"[{s:bind_drop}] Papan Skor Mini "
 		"PANOHUD_Spectate_Navigation_ToggleOverview"		"[{s:bind_duck}] Ringkasan "
+		"PANOHUD_Spectate_Navigation_PlayHighlight"			"[{s:bind_drop}] Putar Sorotan"
+		"PANOHUD_Spectate_Navigation_CopyHighlightAndClose"	"[{s:bind_drop}] Salin ke Clipboard & Tutup"
+		"PANOHUD_Spectate_Navigation_CopyHighlightURL"		"[{s:bind_drop}] Salin URL Sorotan"
 		"PANOHUD_GhostBecomeSpectator"						"Tekan [%s1] untuk menjadi penonton"
 
 		"SFUIHUD_Spectate_You_Are_Dead"				"<font color=\"%s1\">Mengikuti %s2</font>"
@@ -41613,6 +41679,9 @@
 		"popup_title_quest_reward"			"Hadiah"
 		"popup_title_xpshopredeem"			"Didapatkan dari Arsenal"
 
+		"popup_control_tooltip_move_keychain"		"Klik dan seret gantungan untuk memindahkannya ke senjata"
+
+
 		"acknowledge_gifter"				"Hadiah dari: {s:name}"
 		"acknowledge_quest"					"Hadiah misi"
 		"acknowledge_all_items"				"Lanjut ke inventaris"
@@ -41723,12 +41792,15 @@
 		"popup_decodeable_xray_desc"	"<b>{s:itemname}</b>"
 		"popup_decodeable_desc_graffiti"	"Buka <b>{s:itemname}</b>"
 		"popup_decodeable_desc_fantoken"	"Aktifkan <b>{s:itemname}</b>"
+		"popup_decodeable_desc_terminal"	"Buka segel <b>{s:itemname}</b>"
 		"popup_decodeable_warning"		"Kontainer ini hanya bisa dibuka satu kali"
 		"popup_decodeable_warning_graffiti"		"Segel grafiti ini hanya bisa dibuka satu kali"
 		"popup_decodeable_warning_fantoken"		"Item ini hanya bisa diaktifkan satu kali"
+		"popup_decodeable_warning_terminal"		"Setelah dibuka segelnya, Terminal Uplink menjadi tidak bisa ditukar dan dipasarkan"
 		"popup_decodeable_button"		"Buka Kontainer"
 		"popup_decodeable_button_graffiti"	"Buka Segel Grafiti"
 		"popup_decodeable_button_fantoken"	"Aktifkan Item"
+		"popup_decodeable_button_terminal"	"Buka Segel Terminal"
 		"popup_decodeable_async_desc"	"Gunakan <b>{s:itemname}</b>"
 		"popup_decodeable_async_xray_desc"		"Gunakan pemindai x-ray untuk melihat item yang ada di dalam"
 		"popup_decodeable_err_restricted"	"Membuka <b>{s:itemname}</b> tidak diizinkan di dalam negaramu"
@@ -41748,6 +41820,8 @@
 		"popup_totool_decodeable_header_fantoken"	"Aktifkan Item"
 		"popup_totool_purchase_header"	"Beli"
 		"popup_totool_purchase_header2"	"BELI UNTUK MENGEKLAIM"
+		"popup_totool_decodeable_header_terminal"	"Buka Segel Terminal"
+
 		//Purchase
 		"popup_cartpreview_button"		"Pratinjau"
 		"popup_cartpreview_title"		"Pratinjau"
@@ -42598,6 +42672,20 @@
 		"practicesettings_annotations_dropdown_tooltip"	"Menentukan Panduan Map mana yang akan dimuat"
 
 		"PlayMenuReplayNewUserTrainingButton"		"Ulang Hari Pelatihan"
+
+
+		"CSGO_VanityLoadout_Inspect"				"Periksa"
+		"CSGO_VanityLoadout_FindOnMarket"			"Temukan di Pasar"
+
+
+		"VanityLoadout_WeaponInfo_name"				"<span class=\"weapon-name\">{s:weapon_name_full}</span><br><span class=\"weapon-name-custom\">{s:weapon_name_custom}</span></font>"
+
+
+		"VanityLoadout_WeaponInfo_collection"	"{s:collection}"
+		"VanityLoadout_WeaponInfo_wear"			"{s:wear}"
+		"VanityLoadout_WeaponInfo_pattern"		"{s:pattern}"
+
+		"VanityLoadout_WeaponInfo_wear_fill"			"<font color=\"\">%s1: %s2</font>"
 
 
 		//////////////////////
@@ -44373,9 +44461,31 @@
 		"Chatwheel_section_report"	"Laporan"
 
 		"Chatwheel_description" "Chatwheel menyediakan akses cepat ke daftar perintah radio yang berguna dan dapat disesuaikan."
-//
-//
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		////
+		//
+		// Volatile Laptop
+		//
+		////
+
+		// ---------------------------------------------------------------------------------------------
+		"laptop_window_collection_title"			"XP KATALOG KOLEKSI"
+		"laptop_window_expiration_title"			"KEDALUWARSA"
+		"laptop_window_seal_title"					"STATUS"
+		"laptop_window_messages_title"				"OBROLAN - PEDANGANG SENJATA"
+		"laptop_window_currentoffer_title"			"PENAWARAN SAAT INI"
+		"laptop_app_title"							"<span class=\"laptop-app-title-prefix\">UP-</span>Link"
+		"laptop_app_version"						"v 1.1.0.2000"
+
+		"dealer_offer_attachment_title"							"{s:item-name}"
+		"dealer_offer_attachment_wear"						"{s:item-rarity}"
+		"dealer_offer_attachment_remaining_title"				"PENAWARAN #{d:offer-total}"
+		"dealer_offer_attachment_remaining"						"Penawaran #{d:offer-total}"
+		"dealer_offer_received_count"							"<b>{s:offer-count}</b> Penawaran"
+		"dealer_offer_attachment_final_title"					"PENAWARAN AKHIR"
+		"dealer_offer_attachment_status-price"					"<b><span class=\"offer-active\">{s:offer-price}</span></b>"
+		"user_btn_next_3"		"Lewat"
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Retakes
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -44551,8 +44661,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48591_comment
-// crow_mask_48592_comment
+// crow_mask_48593_comment
+// crow_mask_48594_comment
 }
 
 
