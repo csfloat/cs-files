@@ -44592,8 +44592,6 @@
 		"user_btn_next_6"		"Tidak sekarang"
 		"user_btn_next_7"		"Tidak hari ini"
 		"user_btn_pause"		"Jeda Penawaran"
-		"user_btn_end"			"Sampai jumpa lain waktu"
-
 		"current_offer_tooltip"		"Penawaran Terkini dari Pedagang Senjata."
 		"declined_offer_tooltip"	"Penawaran ditolak"
 		"future_offer_tooltip"		"Penawaran belum diperlihatkan."
@@ -44997,8 +44995,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48593_comment
-// crow_mask_48594_comment
+// crow_mask_48605_comment
+// crow_mask_48606_comment
 }
 
 
