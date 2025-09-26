@@ -2377,6 +2377,7 @@
 		"Item_Crafted"							"%s1 已經完成了合約並收到了： %s2"
 		"Item_Traded"							" %s1 已交易：%s2"
 		"Item_Purchased"						" %s1 已購買：%s2"
+		"Item_PurchasedVolatile"				" %s1 已從軍火商購買：%s2"
 		"Item_FoundInCrate"						" %s1 已打開：%s2"
 		"Item_Gifted"							" %s1 接受了一份禮物：%s2"
 		"Item_Earned"							" %s1 已獲得：%s2"
@@ -2460,6 +2461,7 @@
 		"ItemHistory_Action_Drop"										"達到了新的等級並且獲得了一個掉落獎勵"
 		"ItemHistory_Action_ManualCreate"								"由絕對武力客服建立"
 		"ItemHistory_Action_Purchase"									"從商店購買"
+		"ItemHistory_Action_PurchaseVolatileContainerItem"				"已從軍火商購買"
 		"ItemHistory_Action_AutoGrantItem"								"已獲得"
 		"ItemHistory_Action_CrossGameAchievement"						"透過在另一款遊戲解鎖成就獲得"
 		"ItemHistory_Action_AwardGift_Receiver"							"收到一份禮物"
@@ -2677,6 +2679,9 @@
 		"Attrib_OperationBonusXP"					"行動獎勵獲得： +%s1 經驗值"
 		"Attrib_IssueDate"							"發行日期：%s1"
 		"Attrib_ExpirationDate"						"到期日：%s1"
+		"Attrib_PurchaserAccountID"					"此物品具有「原擁有者證書」。"
+		"Attrib_PurchaserAccountID_title"			"原擁有者證書"
+
 		"Notify_KeychainRemoveTool_ChargesUseToRemove"	"剩餘的吊飾卸除器： {d:item_count}<br>移除吊飾需要一個吊飾卸除器。"
 		"Attrib_KeychainRemoveTool_Charges"			"剩餘的吊飾卸除器： {d:item_count}"
 		"Attrib_SpraysRemaining"					"剩餘使用次數：%s1"
@@ -3979,7 +3984,7 @@
 		"CSGO_crate_sticker_pack_pinups_capsule_desc"	"這顆轉蛋包含了一張由社群藝術家 ninjasia 所設計的貼紙。"
 		"coupon_pinups_sticker_capsule"		"封面女郎貼紙轉蛋"
 		
-		"CSGO_crate_sticker_pack_sugarface_capsule"	    "Sugarface 轉蛋"
+		"CSGO_crate_sticker_pack_sugarface_capsule"	    "糖骷髏轉蛋"
 		"CSGO_crate_sticker_pack_sugarface_capsule_desc"	"這顆轉蛋包含了一張由社群藝術家 Guardian Gear 所設計的貼紙。"
 		"coupon_sugarface_sticker_capsule"		"糖骷髏貼紙轉蛋"
 		
@@ -4350,6 +4355,16 @@
 		"CSGO_crate_sticker_pack_warhammer_xenos_capsule_desc"			"釋放異形的恐怖威壓！戰鎚 40K 異形貼紙轉蛋，於 2025 年 5 月推出。"
 		"coupon_warhammer_xenos_sticker_capsule"						"戰鎚 40K 異形貼紙轉蛋"
 		
+		"CSGO_crate_sticker_pack_sugarface2_capsule"	   				"糖骷髏 2 貼紙收藏"
+		"CSGO_crate_sticker_pack_sugarface2_capsule_desc"				"這此貼紙收藏包含多種糖骷髏主題貼紙，於 2025 年 9 月推出。"
+		"CSGO_crate_sticker_pack_sugarface2_short"						"糖骷髏 2 貼紙"
+		
+		"CSGO_crate_sticker_pack_community2025_capsule"	    			"2025 社群貼紙收藏"
+		"CSGO_crate_sticker_pack_community2025_capsule_desc"			"這組收藏包含多種貼紙，於 2025 年 9 月推出。"
+		"CSGO_crate_sticker_pack_community_2025_short"					"2025 社群貼紙"
+		
+		"CSGO_crate_community_36"				"密封的創世終端機"
+		"CSGO_crate_community_36^volatile"		"啟用的創世終端機"
 		"SprayKit_vcap1_ace_01"		"Ace"
 "SprayKit_vcap1_banana"		"香蕉"
 "SprayKit_vcap1_cerberus"		"地獄犬"
@@ -5382,6 +5397,7 @@
 		"CSGO_set_timed_drops_warm"				"光耀收藏"
 		"CSGO_set_timed_drops_neutral"			"北地收藏"
 		"CSGO_set_timed_drops_cool"				"上升收藏"
+		"CSGO_set_community_36"					"創世收藏"
 		/////////////////
 		// lootlist override strings
 		//////////////////
@@ -28668,7 +28684,22 @@
 		"StickerKit_warhammer_decals_paper_tau_empire_2"				"鈦帝國 2"
 		"StickerKit_warhammer_decals_paper_tyranids_1"					"泰倫蟲族 1"
 		"StickerKit_warhammer_decals_paper_tyranids_2"					"泰倫蟲族 2"
-"StickerKit_community_2025_holo_evidence"						"證據（彩光）"
+		//Sugarface 2 Sticker Capsule
+		
+		"StickerKit_sugarface2_paper_clavis"							"克拉維斯"
+		"StickerKit_sugarface2_paper_lorena"							"洛雷娜"
+		"StickerKit_sugarface2_paper_lucas"								"盧卡斯"
+		"StickerKit_sugarface2_holo_clavis"								"克拉維斯（彩光）"
+		"StickerKit_sugarface2_holo_lorena"								"洛雷娜（彩光）"
+		"StickerKit_sugarface2_holo_lucas"								"盧卡斯（彩光）"
+		"StickerKit_sugarface2_foil_clavis"								"克拉維斯（閃亮）"
+		"StickerKit_sugarface2_foil_lorena"								"洛雷娜（閃亮）"
+		"StickerKit_sugarface2_foil_lucas"								"盧卡斯（閃亮）"
+		//2025 Community Sticker Capsule
+		
+		"StickerKit_community_2025_paper_candy_apples"					"蜜糖蘋果"
+		"StickerKit_community_2025_paper_eyes_of_farlow"				"法洛之眼"
+		"StickerKit_community_2025_holo_evidence"						"證據（彩光）"
 		"PatchKit_patch_banana"            "瘋狂香蕉"
 		"PatchKit_desc_patch_banana"       "<i>幹員比例尺</i>"
 		"PatchKit_patch_boss"              "老大"
@@ -30387,7 +30418,7 @@
         "CSGO_CustomPlayer_ctm_swat_variante_Desc"              "「冷若冰霜」傑米森中校見盡大風大浪。她在最激烈的戰事中仍保持多疑和嘲諷的態度，大家還以為她對混亂不以為意。事實並非如此。沒人能過的了「冷若冰霜」這關，不論是手持 AK-47 的壞蛋還是稱她為「長官」的低階軍官，她也不會錯過讓菁英軍官面對莫大壓力時卻傻笑的機會。\n\n<i>你很快就能體會到了。</i>"												
 
 		"CSGO_CustomPlayer_ctm_swat_variantf"                   "法蘿中尉 | 特殊武裝突擊部隊"
-        "CSGO_CustomPlayer_ctm_swat_variantf_Desc"              "法羅中尉聰明過人又彬彬有禮，是 SWAT 中最受人愛戴與尊敬的軍官。由於在脅持人質和設置路障的狀況下充分發揮戰略能力，法羅很快地就在 SWAT 竄升。別被她超級樂天的本質騙了——她可是在一眨眼間就把壞人除掉，毫不遲疑。\n\n<i>他們在那做什麼？喝奶昔嗎？</i>"
+        "CSGO_CustomPlayer_ctm_swat_variantf_Desc"              "法蘿中尉聰明過人又彬彬有禮，是 SWAT 中最受人愛戴與尊敬的軍官。由於在脅持人質和設置路障的狀況下充分發揮戰略能力，法蘿很快地就在 SWAT 竄升。別被她超級樂天的本質騙了——她可是在一眨眼間就把壞人除掉，毫不遲疑。\n\n<i>他們在那做什麼？喝奶昔嗎？</i>"
  														
 		"CSGO_CustomPlayer_ctm_swat_variantg"                   "約翰「范．海倫」克斯克 | 特殊武裝突擊部隊"
         "CSGO_CustomPlayer_ctm_swat_variantg_Desc"              "約翰「范．海倫」克斯克是特殊武裝突擊部隊中最佳的戰術防禦單位和現場軍事護理人員之一。他還彈著一手好吉他——有時在行動中還不忘來一手。他說吉他能讓隊友熱血沸騰，跟自動體外心臟電擊去顫器一樣有效，所以把吉他帶在身邊以防萬一。 \n\n<i>我能讓你起死回生，但無法維繫你的生命。</i>"
@@ -32612,7 +32643,9 @@
 		
 		"PaintKit_m4a4_green_camo"							"採綠色迷彩圖樣的客製化塗裝。\n\n<i>增加你的數位足跡</i>"
 		"PaintKit_m4a4_green_camo_Tag"						"自動步槍"
-// END COMMUNITY_36
+"PaintKit_mp5sd_chrome_Tag"						"專注" 
+		
+		// END COMMUNITY_36
 
 // OVERPASS_2024
 				
@@ -44133,6 +44166,7 @@
 		"PlayMenuReplayNewUserTrainingButton"		"重返訓練日"
 
 
+		"CSGO_VanityLoadout_Inspect"				"檢視"
 		//////////////////////
 		// ANNOTATIONS
 		/////////////////////
@@ -45910,12 +45944,69 @@
 		"Chatwheel_description" "聊天輪盤有一系列可自訂的實用無線電指令，可供快速使用。"
 //
 //
-"laptop_window_currentoffer_title"			" 目前提案"
+"laptop_window_seal_title"					"狀態"
+		"laptop_window_currentoffer_title"			" 目前報價"
+		"dealer_offer_attachment_title"							"{s:item-name}"
+		"dealer_offer_attachment_wear"						"{s:item-rarity}"
+		"user_btn_next_3"		"跳過"
 		"laptop_zoom_tooltip" 			"滾動滑鼠滾輪來放大或縮小。"
 		"laptop_pan_tooltip" 			"按住「Shift」鍵並拖動以平移鏡頭。"
 		"laptop_pricing_tooltip"		"價格為全球通用價格，且會根據對此收藏中各項目的需求自動調整。"
 
 
+		"dealer_message_start_1"  	"我在買賣一些來自灰市的貨，沒有紀錄！<!--.25-->別擔心：這些貨已經很久沒有流通了，沒人在查，很安全。<!--.25-->而且我告訴你，現在還能用，指哪它就打哪。"
+		"dealer_message_start_3"  	"中東有個國家政權交替。<!--.25-->現在軍火庫大門敞開，我親自去選了一些。<!--.25-->我只賣沒有問題的東西，你隨便挑。"
+		"dealer_message_start_4"  	"今天進了一批乾淨的貨。<!--.25-->據我所知，在你之前，沒有人碰過它們呢。"
+		"dealer_message_start_6"  	"這批罕見貨物是最近從一個閱兵單位那找來的。<!--.25-->他們很會踢正步，但這些槍都沒用過。"
+		"dealer_message_start_7"  	"真棒，你來啦。<!--.25-->我的其他客戶總是喜歡問我貨是從哪來的，我最討厭有人問這些了。<!--.25-->你一向都只想知道貨是不是最好的。<!--.25-->你知道嗎：我這些貨真的是最棒的。"
+		"dealer_message_start_9"  	"我從灰市貿易轉移中搞來的這批貨有些罕見的寶貝。<!--.25-->這口徑比較特殊，不適合新手使用，你一定會喜歡。"
+		"dealer_message_start_10"  	"糗了。<!--.25-->我一定是不小心在運貨單上把箱子給標錯了。<!--.25-->嗯，幾十個箱子呢。<!--.25-->不如這樣吧，你在海關人員來調查之前，先幫我把這些貨給解決掉吧？"
+		"dealer_message_start_11"  	"這次的交易有德羅斯維克的檢查員在要求賄賂，那白癡竟然跟我提查封命令。<!--.25-->我在德羅斯維克有一些人手，他們很擅長對付這種大嘴巴。現在他可說不出話了。<!--.25-->不過正好，這批貨不用我多做介紹。"
+		"dealer_message_start_13"	"我有個影子經紀人，他需要趕快處理掉這批貨。<!--.25-->他就說一個字：快。<!--.25-->喔還有：快快快。<!--.25-->這麼說吧：要是你不在乎他要脫手的原因，那你肯定會很高興。"
+		"dealer_message_next_offer_15"   "<!--1-->這不會讓我生氣。這槍又不是我製造的。還有另一把可以選。"
+		"dealer_message_next_offer_16"   "<!--1-->我也不會買那一把。但是這把喔，你認真看一下。"
+		"dealer_message_next_offer_17"   "<!--1-->不要？好吧。下一把。"
+		"dealer_message_next_offer_20"   "<!--1-->嘿，你這麼老實我也好辦事。來看下一把，別浪費時間了。"
+		"dealer_message_next_offer_21"   "<!--1-->好吧，你不喜歡那一把。好消息是我不只賣一把槍。"
+		"dealer_message_next_offer_22"   "<!--1-->沒問題。我還有很多可以給你看。下一把。"
+		"dealer_message_next_offer_24"   "<!--1-->了解。這把不適合，不可能全都適合你沒錯。但這一把在呼喚你的名字。"
+		"dealer_message_next_offer_25"   "<!--1-->看來你對這把沒興趣。來看看下一把能不能吸引你。"
+		"dealer_message_next_offer_27"   "<!--1-->不喜歡那把嗎，嗯？那收進我的私人武裝庫好了。這把呢？"
+		"dealer_message_next_offer_28"   "<!--1-->你很有品味。來看看下一把能否符合你的高標準。"
+		"dealer_message_next_offer_30"   "<!--1-->當沒看過上一把。這把才是我想讓你看看的。"
+		"dealer_message_next_offer_32"   "<!--1-->嘿，總無法全都買下，我明白的。我猜你是在等待看到特別的，像這把。"
+		"dealer_message_next_offer_37"   "<!--1-->沒問題，我想這下一把會適合你。"
+		"dealer_message_next_offer_38"   "<!--1-->聰明。我就知道你不會一下子就買下。給你看看更好的。"
+		"dealer_message_next_offer_39"   "<!--1-->沒問題。我也不會買那一把。不過，現在這一把……"
+		"dealer_message_next_offer_40"   "<!--1-->要我走老遠去拿高級貨架上的？好吧，現在就去拿。"
+
+
+		"dealer_message_last_offer_0"	"<!--0-->好了，這是最後一次報價。要就買下，不要就算了。"
+		"dealer_message_last_offer_1"	"<!--0-->這是我給你的最後一次報價。"
+		"dealer_message_last_offer_2"	"<!--0-->最後一次報價。要就拿走，不買就算了，不要再浪費我的時間。"
+		"dealer_message_last_offer_3"	"<!--0-->最後一次報價。<!--1-->不想要的話，我就先走了。這東西會爆炸。"
+		"dealer_message_last_offer_4"	"<!--0-->最後一次報價。我沒有在求你。"
+		"dealer_message_last_offer_5"	"<!--0-->好吧，這是我能報最好的價格了。"
+		"dealer_message_last_offer_6"	"<!--0-->好吧，這把呢。到底要不要買？"		
+		"dealer_message_last_offer_7"	"<!--0-->這是我能報的最後也是最好的價格了。"
+		"dealer_message_last_offer_8"	"<!--0-->一人退一步，不能報更好的價格了。"
+		"dealer_message_last_offer_9"	"<!--0-->這是我能報的最好價格了，再不接受就沒有了。"	
+
+		"dealer_message_end_0"			"<!--0-->好吧，你錯過了機會。如果你手上拿著這會爆炸的上行鏈結終端機，我建議你趕快放下。在三、二、……"
+		"dealer_message_end_2"			"<!--0-->好吧，我不會求你把它買下的。希望你不要以為這樣就能得到一部免費的上行鏈結終端機。"
+		"dealer_message_timerexpired_0"		"<!--.1-->好吧，沒關係。"
+		"dealer_message_timerexpired_1"		"<!--.1-->算了。<!--.5-->機會已經給過了。"
+		"dealer_message_timerexpired_2"		"<!--.1-->交易結束。<!--.5-->我有別的事要忙。"
+		"dealer_message_timerexpired_3"		"<!--.1-->好吧，讓我去找個真的要買槍的人來買槍。<!--.5-->再見。"
+		"dealer_message_timerexpired_4"		"<!--.1-->你的選擇。<!--.5-->下次再見。"
+		"dealer_message_timerexpired_5"		"<!--.1-->滴答滴答。<!--.5-->時間到了。"
+		"dealer_message_timerexpired_6"		"<!--.1-->交易結束了。<!--.5-->這時間足以讓我在別的地方賣掉這把槍十次了。"
+		"dealer_message_timerexpired_7"		"<!--.1-->我以為我在助你清除敵人。<!--.5-->原來你只是在浪費我的時間。"
+		"dealer_message_timerexpired_8"		"<!--.1-->交易結束。"	
+		"dealer_message_timerexpired_9"		"<!--.1-->時間到。"
+		"dealer_message_timerexpired_10"		"<!--.1-->好吧，我正式覺得無聊了。到此為止吧。"		
+
+		"dealer_message_open_check_out_1"		"<!--.5-->很不錯的決定。我會把它包好讓你帶回家。"
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Retakes
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
