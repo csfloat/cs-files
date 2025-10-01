@@ -2341,6 +2341,9 @@
 		"Econ_Revolving_Loot_List"				"含有下列其中一項物品："
 		"Econ_Revolving_Loot_List_Single"		"開啟並接收下列其中一項"
 		"Econ_Revolving_Loot_List_Rental"		"<img src='file://{images}/icons/ui/hourglass.svg' class='popup-decodable-lootlist-single-icon'/> 租用箱子裡的所有武器（極度稀有物品除外）7 天 "
+		"Econ_Revolving_Loot_SecureConnectionLine"	"可透過此終端機購買一件物品。此終端機會提供以下物品的多個報價："
+
+		
 		"Econ_Revolving_Loot_List_Rare_Item"	"或極度稀有的特殊物品！"
 		"Exceedingly_Rare_Item"					"★ 特殊稀有物品 ★"
 
@@ -2402,6 +2405,7 @@
 		"NewItemMethod_Crafted"			"您收到了："
 		"NewItemMethod_Traded"			"您交易了："
 		"NewItemMethod_Purchased"		"您購買了："
+		"NewItemMethod_PurchasedVolatile" "你已從軍火商購買："
 		"NewItemMethod_FoundInCrate"	"您打開了："
 		"NewItemMethod_Rental"			"您租用了："
 		"NewItemMethod_XpShopRedeem"	"您已從武裝庫獲取："
@@ -2644,6 +2648,7 @@
 		"Attrib_MatchWins"							"行動地圖中競技模式的勝利場數： %s1"
 		"Attrib_HasSilencer"						"滅音器"
 		"Attrib_HasBurstMode"						"三連發模式"
+		"Attrib_SecureConnectionLine"				"箱子系列 #%s1"
 		"Attrib_SupplyCrateSeries"					"箱子系列 #%s1"
 		"Attrib_KillEater"							"這是屬於 StatTrak™ 科技的物品，在由擁有者裝備時紀錄目前數據。"
 		"Attrib_ReferencedItem"						"內容物：%s1"
@@ -28698,8 +28703,34 @@
 		//2025 Community Sticker Capsule
 		
 		"StickerKit_community_2025_paper_candy_apples"					"蜜糖蘋果"
-		"StickerKit_community_2025_paper_eyes_of_farlow"				"法洛之眼"
+		"StickerKit_community_2025_paper_cubix_connexion"				"立方體黑幫"
+		"StickerKit_community_2025_paper_eyes_of_farlow"				"法蘿之眼"
+		"StickerKit_community_2025_paper_fade_mangos"					"漸層芒果"
+		"StickerKit_community_2025_paper_gloves_on"						"戴上手套"
+		"StickerKit_community_2025_paper_lock_in"						"鎖定"
+		"StickerKit_community_2025_paper_mimicapsule"					"仿生膠囊"
+		"StickerKit_community_2025_paper_pop_pup"						"碰碰小波"
+		"StickerKit_community_2025_paper_pots"							"POTS"
+		"StickerKit_community_2025_paper_sent_with_love"				"射出愛意"
+		"StickerKit_community_2025_paper_skelly_stab"					"背後殺手"
+		"StickerKit_community_2025_paper_vice_cursor"					"罪惡游標"
+		"StickerKit_community_2025_glitter_ct_tracks"					"CT 足跡（炫光）"
+		"StickerKit_community_2025_glitter_overloaded"					"超載（炫光）"
+		"StickerKit_community_2025_glitter_t_tracks"					"T 足跡（炫光）"
+		"StickerKit_community_2025_holo_bomb_planted"					"炸彈已設置（彩光）"
+		"StickerKit_community_2025_holo_chrome_dome"					"彩鉻圓盔（彩光）"
+		"StickerKit_community_2025_holo_cutie"							"小可愛（彩光）"
 		"StickerKit_community_2025_holo_evidence"						"證據（彩光）"
+		"StickerKit_community_2025_holo_froggles"						"起霧鏡（彩光）"
+		"StickerKit_community_2025_foil_aint_a_rental"					"不是租的（閃亮）"
+		"StickerKit_community_2025_foil_eyes_sky"						"眼看天空（閃亮）"
+		"StickerKit_community_2025_foil_good_as_new"					"完好如新（閃亮）"
+		"StickerKit_community_2025_foil_queen_ava"						"艾娃皇后（閃亮）"
+		"StickerKit_community_2025_foil_hands_off"						"不准碰（閃亮）"
+		"StickerKit_community_2025_foil_king_crasswater"				"克瑞斯沃特王（閃亮）"
+		"StickerKit_community_2025_lenticular_bullhit"					"彈孔（光柵）"
+		"StickerKit_community_2025_lenticular_digistrike"				"數位出擊（光柵）"
+		"StickerKit_community_2025_lenticular_mvp"						"霓虹 MVP（光柵）"
 		"PatchKit_patch_banana"            "瘋狂香蕉"
 		"PatchKit_desc_patch_banana"       "<i>幹員比例尺</i>"
 		"PatchKit_patch_boss"              "老大"
@@ -32621,6 +32652,7 @@
 		"PaintKit_p90_boost_blue"							"以有稜有角的藍色和綠色設計進行客製化塗裝。\n\n<i>表裡如一</i>"
 		"PaintKit_p90_boost_blue_Tag"						"破浪者"
 		
+		"PaintKit_p2k_fractal"								"客製化塗裝以砲銅灰的碎形設計為主，並加上橘色局部裝飾。\n\n<i>&gt;&gt;武器外觀材質實驗，項目一&lt;&lt;</i>"
 		"PaintKit_p2k_fractal_Tag"							"穩固抓握"
 		
 		"PaintKit_mag7_ammo_box"							"其客製化塗裝為類似彈藥箱的樣式。\n\n<i>收據留著</i>"
@@ -32643,9 +32675,58 @@
 		
 		"PaintKit_m4a4_green_camo"							"採綠色迷彩圖樣的客製化塗裝。\n\n<i>增加你的數位足跡</i>"
 		"PaintKit_m4a4_green_camo_Tag"						"自動步槍"
-"PaintKit_mp5sd_chrome_Tag"						"專注" 
+
+// END COMMUNITY_35
+
+// COMMUNITY_36
+
+		"PaintKit_mp7_smoking_kills_v2"					"客製化塗裝的設計色彩繽紛，主角為一位帶著墨鏡抽菸的女士。\n\n<i>「要快點了結或慢慢來都可以，悉聽尊便」</i>"
+		"PaintKit_mp7_smoking_kills_v2_Tag"				"抽菸致死" 
 		
-		// END COMMUNITY_36
+		"PaintKit_m4a4_skrrrt_green"					"客製化塗裝以螢光綠為基底並加上虛構標誌，用意是要讓人聯想到甩尾與改裝文化。\n\n<i>「Globoil 1 Synthetics」與「ENTRI PERFORMANCE」聯手打造</i>"
+		"PaintKit_m4a4_skrrrt_green_Tag"				"油門全開" 
+		
+		"PaintKit_ak47_puffer_custom"					"經過客製化塗裝，以重現奢華黑白羽絨外套的外觀和觸感，並以黃金點綴。\n\n<i>尋求權力、奪取權力、握緊權力</i>"
+		"PaintKit_ak47_puffer_custom_Tag"				"寡頭霸權" 
+		
+		"PaintKit_ump45_illumina_v2"					"這把槍是以黑藍條紋交替客製化塗裝。\n\n<i>步入虛空</i>"
+		"PaintKit_ump45_illumina_v2_Tag"				"連續體" 
+		
+		"PaintKit_nova_ocular"							"客製化塗裝重點為簡單幾何圖形與逼真細節，靈感來自抽象超現實主義和 20 世紀藝術家的作品。<i>持有者之眼</i>"
+		"PaintKit_nova_ocular_Tag"						"目鏡"
+		
+		"PaintKit_mac10_kamicatze"						"客製化塗裝上齜牙咧嘴的貓和機匣後方的目標圖示。\n\n<i>小貓也有利爪……</i>"
+		"PaintKit_mac10_kamicatze_Tag"					"小貓發威" 
+		
+		"PaintKit_glock_mirror_maze"					"客製化塗裝為仿效馬賽克鏡面的樣式。\n\n<i>陷在自己的思緒中</i>"
+		"PaintKit_glock_mirror_maze_Tag"				"鏡面馬賽克" 
+		
+		"PaintKit_dual_elite_biblical_angel"			"雙槍的客製化塗裝包括槍柄上的眼睛，以及滑套上的天體壁畫。\n\n<i>分一隻眼密切注意──或用五隻眼緊緊盯著</i>"
+		"PaintKit_dual_elite_biblical_angel_Tag"		"天使之眼" 
+		
+		"PaintKit_p250_bullfrog"						"客製化塗裝上古銅色和黑色的車隊贊助商圖樣。\n\n<i>看你衝刺！</i>"
+		"PaintKit_p250_bullfrog_Tag"					"牛蛙" 
+		
+		"PaintKit_mp5sd_chrome"							"客製化塗裝以砲銅灰為底色並以紅色點綴。\n\n<i>保持專注 // 絕對瞄準</i>"
+		"PaintKit_mp5sd_chrome_Tag"						"專注" 
+		
+		"PaintKit_scar_refraction"						"槍身繪製了藍色與紫色的漸層設計。\n<i><i>「侷限框架內藏強大武力……」</i>"
+		"PaintKit_scar_refraction_Tag"					"囚禁" 
+		
+		"PaintKit_p2000_deep_red"						"客製化塗裝採炭黑和深紅色設計。\n\n<i>對敵人落井下石</i>"
+		"PaintKit_p2000_deep_red_Tag"					"紅翼" 
+		
+		"PaintKit_mp9_vinyl"							"客製化塗裝為仿效黑膠唱片、紋路和其整體設計。\n\n<i>馬上就成經典</i>"
+		"PaintKit_mp9_vinyl_Tag"						"破榜唱片" 
+		
+		"PaintKit_mag7_circle_copper"					"此客製化塗裝採用從板機上方的螺栓向外幅射震波的樣式。\n\n<i>震級二點零</i>"
+		"PaintKit_mag7_circle_copper_Tag"				"MAG 震級" 
+		
+		"PaintKit_m4a1s_quick_liquidation"				"以深色基底配上精心挑選的紅藍色調點綴客製化塗裝，使這把 M4A1-S 在環境光中顯得像在發亮一樣。\n\n<i>寂靜映射</i>"
+		
+		"PaintKit_aug_trigger_discipline_velco"			"繪有藍色等距圖樣，並加上橘色點綴。\n\n<i>耐心本身就是回報</i>"
+
+// END COMMUNITY_36
 
 // OVERPASS_2024
 				
@@ -36850,6 +36931,15 @@
 		"PANOHUD_Spectate_Navigation_New_Cameraman_On"		"[{s:bind_radio}] 開啟掌鏡者功能"
 		"PANOHUD_Spectate_Navigation_ToggleSpec"			"[{s:bind_drop}] 小型記分板"
 		"PANOHUD_Spectate_Navigation_ToggleOverview"		"[{s:bind_duck}] 上空俯視"
+		"PANOHUD_Spectate_Navigation_PlayHighlight"			"[{s:bind_drop}] 播放精彩片段"
+		"PANOHUD_Spectate_Navigation_CopyHighlightAndClose"	"[{s:bind_drop}] 複製到剪貼簿並關閉"
+		"PANOHUD_Spectate_Navigation_CopyHighlightURL"		"[{s:bind_drop}] 複製精彩片段網址"
+		"PANOHUD_Spectate_Vanity_Loadout_Hide"				"[{s:bind_lookatweapon}] 隱藏武器裝備"
+		"PANOHUD_Spectate_Vanity_Loadout_Show"				"[{s:bind_lookatweapon}] 打開武器裝備"
+		"PANOHUD_Spectate_Vanity_Loadout_Close_Popup"		"[ESC] 關閉彈出視窗"
+
+
+	
 		"PANOHUD_GhostBecomeSpectator"						"按 [%s1] 成為觀戰者"
 
 		"SFUIHUD_Spectate_You_Are_Dead"				"<font color=\"%s1\">觀看 %s2</font>"
@@ -37762,6 +37852,9 @@
 		"SFUI_HUDWeaponRarityColor"			"以稀有度顏色亮光標示武器"
 		"SFUI_HUDWeaponRarityColor_desc"	"啟用以在 HUD 中按照稀有度顏色亮光標示該武器圖示。"
 
+		"SFUI_HUDSpecColorOverride"			"覆寫觀戰 HUD 的顏色"
+		"SFUI_HUDSpecColorOverride_desc"	"觀戰另一位玩家時，HUD 的顏色會配合其休閒模式中的隊伍顏色，以及其競技模式中的隊友顏色。" 
+
 		"SFUI_Settings_High_Dynamic_Range"	"高動態範圍光映射"
 		"SFUI_Settings_Very_High"			"最高"
 		"SFUI_Settings_High"				"高"
@@ -38599,10 +38692,13 @@
 
 		"SFUI_OfficialDatacenterID_1"		"美國西雅圖"
 		"SFUI_OfficialDatacenterID_2"		"美國維吉尼亞州"
+		"SFUI_OfficialDatacenterID_3"		"歐洲法蘭克福"
 		"SFUI_OfficialDatacenterID_4"		"韓國"
 		"SFUI_OfficialDatacenterID_5"		"新加坡"
 		"SFUI_OfficialDatacenterID_6"		"阿拉伯聯合大公國"
 		"SFUI_OfficialDatacenterID_7"		"澳洲"
+		"SFUI_OfficialDatacenterID_8"		"歐洲斯德哥爾摩"
+		"SFUI_OfficialDatacenterID_9"		"歐洲維也納"
 		"SFUI_OfficialDatacenterID_10"		"巴西"
 		"SFUI_OfficialDatacenterID_11"		"南非"
 		"SFUI_OfficialDatacenterID_12"		"中國上海"
@@ -38614,15 +38710,20 @@
 		// "SFUI_OfficialDatacenterID_18"	"TBD"
 		"SFUI_OfficialDatacenterID_19"		"日本"
 		"SFUI_OfficialDatacenterID_20"		"香港"
+		"SFUI_OfficialDatacenterID_21"		"歐洲馬德里"
 		"SFUI_OfficialDatacenterID_22"		"美國加州"
 		"SFUI_OfficialDatacenterID_23"		"美國亞特蘭大"
 		"SFUI_OfficialDatacenterID_24"		"香港"
 		"SFUI_OfficialDatacenterID_25"		"中國天津"
 		"SFUI_OfficialDatacenterID_26"		"印度清奈"
 		"SFUI_OfficialDatacenterID_27"		"美國芝加哥"
+		"SFUI_OfficialDatacenterID_28"		"歐洲華沙"
+		"SFUI_OfficialDatacenterID_29"		"歐洲阿姆斯特丹"
 		// "SFUI_OfficialDatacenterID_30"		"TBD"
 		"SFUI_OfficialDatacenterID_31"		"美國達拉斯"
-"SFUI_OfficialDatacenterID_34"		"聖保羅"
+		// "SFUI_OfficialDatacenterID_32"		"TBD"
+		"SFUI_OfficialDatacenterID_33"		"歐洲赫爾辛基"
+		"SFUI_OfficialDatacenterID_34"		"聖保羅"
 		// "SFUI_OfficialDatacenterID_35"		"US West"
 		// "SFUI_OfficialDatacenterID_36"		"Germany"
 		// "SFUI_OfficialDatacenterID_37"		"Hong Kong"
@@ -38632,9 +38733,12 @@
 		// "SFUI_OfficialDatacenterID_41"		"TBD"
 		"SFUI_OfficialDatacenterID_42"		"中國成都"
 		"SFUI_OfficialDatacenterID_43"		"美國紐約"
+		"SFUI_OfficialDatacenterID_44"		"歐洲赫爾辛基"
 		"SFUI_OfficialDatacenterID_45"		"英國"
 		"SFUI_OfficialDatacenterID_49"		"中國廣東"
 		"SFUI_OfficialDatacenterID_51"		"中國北京"
+		"SFUI_OfficialDatacenterID_52"		"歐洲法爾肯施泰因"
+
 		"SFUI_UserAlert_HighPings"			"您連至官方伺服器的最低延遲為 %s1 ms。"
 		"SFUI_UserAlert_Unreachable"		"無法連線至任何官方伺服器。"
 		"SFUI_UserAlert_Unreachable_NoConfig"	"無法透過 HTTPS 擷取網路配置。請檢查您的網路連線和防火牆設定。"
@@ -43068,6 +43172,7 @@
 		"inv_context_useitem"				"使用物品"
 		"inv_context_usespray"				"開啟並裝備"
 		"inv_context_open_package"			"開啟箱子"
+		"inv_context_open_terminal"			"開封終端機"
 		"inv_context_open_watch_panel_pickem"	"參與投注挑戰"
 		"inv_context_view_tournament_journal" "檢視硬幣挑戰項目"
 		"inv_context_open_season_stats_panel" "檢視賽季統計資料"
@@ -43179,6 +43284,12 @@
 		"popup_title_quest_reward"			"獎勵"
 		"popup_title_xpshopredeem"			"已從武裝庫獲取"
 
+		"popup_control_tooltip_rotate_weapon"		"拖曳滑鼠以旋轉武器"
+		"popup_control_tooltip_rotate_sticker"		"游標懸停在貼紙上滾動滑鼠滾輪來旋轉貼紙"
+		"popup_control_tooltip_move_sticker"		"點擊並拖曳貼紙以將其移動到武器上"
+		"popup_control_tooltip_move_keychain"		"點擊並拖曳鑰匙圈以將其移動到武器上"
+
+
 		"acknowledge_gifter"				"禮物來自：{s:name}"
 		"acknowledge_quest"					"任務獎勵"
 		"acknowledge_all_items"				"繼續前往物品欄"
@@ -43289,12 +43400,15 @@
 		"popup_decodeable_xray_desc"	"<b>{s:itemname}</b>"
 		"popup_decodeable_desc_graffiti"	"開啟 <b>{s:itemname}</b>"
 		"popup_decodeable_desc_fantoken"	"啟用 <b>{s:itemname}</b>"
+		"popup_decodeable_desc_terminal"	"開封<b>{s:itemname}</b>"
 		"popup_decodeable_warning"		"這個容器只能打開一次"
 		"popup_decodeable_warning_graffiti"		"此塗鴉僅可開封一次"
 		"popup_decodeable_warning_fantoken"		"此物品僅能啟用一次"
+		"popup_decodeable_warning_terminal"		"一旦開封，上行鏈結終端機就會轉為不可交易或販售"
 		"popup_decodeable_button"		"開啟箱子"
 		"popup_decodeable_button_graffiti"	"開封塗鴉"
 		"popup_decodeable_button_fantoken"	"啟用物品"
+		"popup_decodeable_button_terminal"	"開封終端機"
 		"popup_decodeable_async_desc"	"使用 <b>{s:itemname}</b>"
 		"popup_decodeable_async_xray_desc"		"使用 X 光掃描器揭示裡面的物品"
 		"popup_decodeable_err_restricted"	"不允許在您的國家打開 <b>{s:itemname}</b>"
@@ -43314,6 +43428,8 @@
 		"popup_totool_decodeable_header_fantoken"	"啟用物品"
 		"popup_totool_purchase_header"	"購買"
 		"popup_totool_purchase_header2"	"購買以獲得"
+		"popup_totool_decodeable_header_terminal"	"開封終端機"
+
 		//Purchase
 		"popup_cartpreview_button"		"預覽"
 		"popup_cartpreview_title"		"預覽"
@@ -44167,6 +44283,21 @@
 
 
 		"CSGO_VanityLoadout_Inspect"				"檢視"
+		"CSGO_VanityLoadout_FindOnMarket"			"在市集上尋找"
+
+
+		"VanityLoadout_WeaponInfo_name"				"<span class=\"weapon-name\">{s:weapon_name_full}</span><br><span class=\"weapon-name-custom\">{s:weapon_name_custom}</span></font>"
+
+
+		"VanityLoadout_WeaponInfo_stock"		"標準武器"
+
+		"VanityLoadout_WeaponInfo_collection"	"{s:collection}"
+		"VanityLoadout_WeaponInfo_wear"			"{s:wear}"
+		"VanityLoadout_WeaponInfo_pattern"		"{s:pattern}"
+
+		"VanityLoadout_WeaponInfo_wear_fill"			"<font color=\"\">%s1：%s2</font>"
+
+
 		//////////////////////
 		// ANNOTATIONS
 		/////////////////////
@@ -45942,39 +46073,184 @@
 		"Chatwheel_section_report"	"報告"
 
 		"Chatwheel_description" "聊天輪盤有一系列可自訂的實用無線電指令，可供快速使用。"
-//
-//
-"laptop_window_seal_title"					"狀態"
+
+		////
+		//
+		// Volatile Laptop
+		//
+		////
+
+		// ---------------------------------------------------------------------------------------------
+		"laptop_window_collection_title"			"收藏目錄經驗值"
+		"laptop_window_expiration_title"			"有效時間"
+		"laptop_window_seal_title"					"狀態"
+		"laptop_window_messages_title"				"聊天 - 軍火商"
 		"laptop_window_currentoffer_title"			" 目前報價"
+		"laptop_app_title"							"<span class=\"laptop-app-title-prefix\">上行</span>鏈結"
+		"laptop_app_version"						"v 1.1.0.2000"
+
 		"dealer_offer_attachment_title"							"{s:item-name}"
 		"dealer_offer_attachment_wear"						"{s:item-rarity}"
+		"dealer_offer_attachment_remaining_title"				"報價 #{d:offer-total}"
+		"dealer_offer_attachment_remaining"						"報價 #{d:offer-total}"
+		"dealer_offer_received_count"							"<b>{s:offer-count}</b>報價"
+		"dealer_offer_attachment_final_title"					"最後報價"
+		"dealer_offer_attachment_final"							"{s:offer-count}且為最後報價"
+		"dealer_offer_attachment_status"						"報價 - {s:offer-status}"
+		"dealer_offer_attachment_status-active"					"<span class=\"offer-active\">有效</span></b>"
+		"dealer_offer_attachment_status-price"					"<b><span class=\"offer-active\">{s:offer-price}</span></b>"
+		"dealer_offer_attachment_status-declined-price"			"{s:offer-price}"
+		"dealer_offer_attachment_status-declined"				"<span class=\"offer-declined\">{s:offer-count}報價 - 已拒絕</span>"
+
+		"user_btn_purchase_desc_purchase"		"按住以購買此物品。購買後終端機將作廢。"
+		"user_btn_purchase_desc_continue"		"按住以完全拒絕此報價並查看下一個報價。"
+		"user_btn_purchase_desc_end"		"拒絕最後報價並將這台終端機作廢。"
+		"user_btn_purchase_title"			"<b>{s:offer-count}報價</b> - 建議回應"
+		"user_btn_purchase_final_title"		"<b>最後報價</b> - 建議回應"
+		"user_btn_decline_desc"				"拒絕此報價並查看另一個報價"
+		"user_btn_accept"		"接受報價：<b>{s:price}</b>"
+		"user_btn_accept_final"	"接受最後報價：<b>{s:price}</b>"
+		"user_btn_accept_0"		"成交。同意支付 <b>{s:price}</b>。"
+		"user_btn_accept_1"		"我可以接受 - <b>{s:price}</b>"
+		"user_btn_accept_2"		"我願意付 <b>{s:price}</b>"
+		"user_btn_accept_3"		"我同意付 <b>{s:price}</b>"
+		"user_btn_accept_4"		"算你贏我願意付 <b>{s:price}</b>"
+		"user_btn_accept_5"		"這價格好 — <b>{s:price}</b>"
+		"user_btn_next"			"拒絕報價"
+		"user_btn_next_0"		"有點心動，不過免了"
+		"user_btn_next_1"		"不值得我花銀彈"
+		"user_btn_next_2"		"買不下手"
 		"user_btn_next_3"		"跳過"
+		"user_btn_next_4"		"不成交"
+		"user_btn_next_5"		"謝了，不用"
+		"user_btn_next_6"		"這次不買"
+		"user_btn_next_7"		"今天先不買"
+		"user_btn_pause"		"暫停交易"
+		"user_btn_end"			"拒絕最後報價"
+
+		"dealer_offer_Unknown"							" - "
+		"dealer_offer_1"								"第 1 次"
+		"dealer_offer_2"								"第 2 次"
+		"dealer_offer_3"								"第 3 次"
+		"dealer_offer_4"								"第 4 次"
+		"dealer_offer_5"								"第 5 次"
+		"dealer_offer_6"								"第 6 次"
+		"dealer_offer_7"								"第 7 次"
+		"dealer_offer_8"								"第 8 次"
+		"dealer_offer_9"								"第 9 次"
+		"dealer_offer_10"								"第 10 次"
+
+		"current_offer_tooltip"		"軍火商目前給你的報價。"
+		"declined_offer_tooltip"	"已拒絕的報價"
+		"future_offer_tooltip"		"報價尚未揭露。"
+		"laptop_expiration_tooltip"		"這個上行鏈結終端機及其報價剩餘的有效時間。"
+		"collection_xp_tooltip"			"檢視此收藏中的報價即可賺取經驗值。開啟以查閱進度並兌換經驗值。"
+		"popup_lootlist_title"			"收藏目錄經驗值"
+		"popup_lootlist_desc"			"檢視此收藏中的報價即可賺取經驗值"
+		"popup_lootlist_progress"		"已查看 {d:seen} / {d:total} 個報價"
+		"popup_lootlist_claim_xp"		"獲得獎勵經驗值"
+		"popup_lootlist_claim_ww"		"領取經驗值…"
+		"popup_lootlist_claim_ok"		"✅ 已領取經驗值"
+		"popup_vpn_status_connected"	"狀態：已連線至安全網路"
+		"popup_vpn_status_disconnected"	"狀態：已斷線"
+		"popup_signal_full" 			"訊號滿格"
+		"popup_signal_ok" 				"訊號強"
+		"laptop_battery_tooltip" 		"電量：{d:percent}%"
+		"laptop_original_seal_tooltip" 	"從這個上行鏈結終端機購買的物品將附有原擁有者證書，身為擁有者時有效。"
 		"laptop_zoom_tooltip" 			"滾動滑鼠滾輪來放大或縮小。"
 		"laptop_pan_tooltip" 			"按住「Shift」鍵並拖動以平移鏡頭。"
 		"laptop_pricing_tooltip"		"價格為全球通用價格，且會根據對此收藏中各項目的需求自動調整。"
 
 
+		"dealer_message_start_0"  	"這東西是各處承包商用的版本。<!--.25-->配備齊全，而且沒有記錄。"
 		"dealer_message_start_1"  	"我在買賣一些來自灰市的貨，沒有紀錄！<!--.25-->別擔心：這些貨已經很久沒有流通了，沒人在查，很安全。<!--.25-->而且我告訴你，現在還能用，指哪它就打哪。"
+		"dealer_message_start_2"  	"阿拉丹海關今早凍結了我的貨櫃，我想了個藉口，說這些是醫療器材，然後賣個慘說可憐的……誰誰誰快不行了，看看能不能讓他們通融放行。<!--.25-->結果沒用，最後還是得掏出我那一箱的現金。<!--.25-->在我把這些透析儀轉給那些孤兒前，現在就先來看看這些「醫療器材」吧。"
 		"dealer_message_start_3"  	"中東有個國家政權交替。<!--.25-->現在軍火庫大門敞開，我親自去選了一些。<!--.25-->我只賣沒有問題的東西，你隨便挑。"
 		"dealer_message_start_4"  	"今天進了一批乾淨的貨。<!--.25-->據我所知，在你之前，沒有人碰過它們呢。"
+		"dealer_message_start_5"  	"很乾淨的貨，沒有序號，槍機完美無瑕。<!--.25-->可能有個軍事法庭會把這批貨叫證據。<!--.25-->我們倆都知道，這些工藝可都是很棒的。"
 		"dealer_message_start_6"  	"這批罕見貨物是最近從一個閱兵單位那找來的。<!--.25-->他們很會踢正步，但這些槍都沒用過。"
 		"dealer_message_start_7"  	"真棒，你來啦。<!--.25-->我的其他客戶總是喜歡問我貨是從哪來的，我最討厭有人問這些了。<!--.25-->你一向都只想知道貨是不是最好的。<!--.25-->你知道嗎：我這些貨真的是最棒的。"
+		"dealer_message_start_8"  	"德羅斯維克簽訂和平協議，我最愛和平了。<!--.25-->因為我找到了一名負債累累的將軍，他那裡有一個滿滿的軍火庫放著積灰塵。<!--.25-->這個嘛……<!--.25-->說回來，和平當然是件好事，畢竟有很多無辜百姓什麼的……<!--.25-->我扯遠了，你應該不在乎這些。"
 		"dealer_message_start_9"  	"我從灰市貿易轉移中搞來的這批貨有些罕見的寶貝。<!--.25-->這口徑比較特殊，不適合新手使用，你一定會喜歡。"
 		"dealer_message_start_10"  	"糗了。<!--.25-->我一定是不小心在運貨單上把箱子給標錯了。<!--.25-->嗯，幾十個箱子呢。<!--.25-->不如這樣吧，你在海關人員來調查之前，先幫我把這些貨給解決掉吧？"
 		"dealer_message_start_11"  	"這次的交易有德羅斯維克的檢查員在要求賄賂，那白癡竟然跟我提查封命令。<!--.25-->我在德羅斯維克有一些人手，他們很擅長對付這種大嘴巴。現在他可說不出話了。<!--.25-->不過正好，這批貨不用我多做介紹。"
+		"dealer_message_start_12"  	"為了把這批貨物送過阿拉丹邊境，我得賄賂一大堆人。<!--.25-->賄賂他們還得用他們的鈔票，你知道想用這些垃圾貨幣賄賂人需要帶上多少紙嗎？這些人得好好整頓一下他們的經濟才對。"
 		"dealer_message_start_13"	"我有個影子經紀人，他需要趕快處理掉這批貨。<!--.25-->他就說一個字：快。<!--.25-->喔還有：快快快。<!--.25-->這麼說吧：要是你不在乎他要脫手的原因，那你肯定會很高興。"
+		"dealer_message_start_14"	"今天有舊版模型。<!--.25-->它們會很亮眼嗎？不會。但是很可靠！<!--.25-->你的孫子搞不好都還能用它來射人呢。"
+		"dealer_message_start_15"	"一支義勇民兵從偉大領袖的軍火庫解放出了這些裝備。<!--.25-->我看他們應該也把偉大領袖的頭顱和四肢從身體上解放下來了。<!--.25-->（我是不賣那種東西的，不過有興趣的話我可以給你介紹一個門路。）"
+		"dealer_message_start_16"	"德羅斯維克邊境首長威脅要查封這批貨。<!--.25-->他可能是新來的，不知道我在德羅斯維克是不賄賂人的，這裡本地的打手這麼便宜，何必賄賂。德羅斯維克簡直就像是世界的踢拳首都一樣。<!--.25-->反正最後他的接班人很巧地把查封命令給搞丟了，也很巧地他的手腳都還很健全。"
+		"dealer_message_start_17"	"這些都是一名億萬富翁的私人收藏。<!--.25-->嗯，應該說前任億萬富翁。他現在被官方調查，所以我得幫他把一些他賣不掉的東西兌現。<!--.25-->老實說，這東西在你手中比掛在某艘郵輪的牆上好看多了。"
+		"dealer_message_start_18"	"碼頭的檢查員標記這批貨物和運貨單有出入。<!--.25-->有趣的是，一箱步槍和一箱「拖拉機零件」的重量竟然剛好差個一萬元。<!--.25-->我們來看看這些「拖拉機零件」吧。"
+		"dealer_message_start_19"	"我今天為你搞來的這些好東西可是歷經了一場政變呢。<!--.25-->外觀有點磨損，但是功能完全不受影響。槍也不可貌相，對吧？"
+		"dealer_message_start_20"	"一個又小又爛的共和國剛剛把他們的總統給幹掉了。<!--.25-->我運氣很好，把他的供應鏈給接收下來了。"
+		"dealer_message_start_21"	"說是處理程序出錯也好、回報差異也好，或僅僅只是不小心申報錯誤。<!--.25-->出錯是難免的，我只是想幫個朋友，不要讓他丟了補給官的職務罷了。<!--.25-->這些裝備得通通消失。"
+		"dealer_message_start_22"	"某個海關首長以為他能夠為這批貨物對我施壓。所以我就利用碼頭的工會變本加厲地對他施壓。<!--.25-->真好笑，大家忙著在找失蹤人士的時候，我這些文件一下就通過了。<!--.25-->希望他們找到那傢伙，他好像不會游泳。"
+		"dealer_message_start_23"	"阿拉丹的邊境衛兵說我的文件和貨物不符。所以我給了他一疊現金，結果這文件一下就符了。<!--.25-->我沒想到一萬阿拉丹幣竟然真的值點錢，大概六塊美金吧。<!--.25-->要不要來看看我這些沒有文書紀錄的槍？"
+		"dealer_message_start_24"	"我有一名武官將領想要買這批貨，但那個白癡卻被無人機給炸死了。<!--.25-->我建議大家把窗戶給關好。不過他那場爆炸正好讓你撿了便宜。"
+		"dealer_message_start_25"	"德羅斯維克的政權換手了。我不知道怎麼會這樣，但有一個裝滿武器箱的倉庫在整頓的時候莫名地被清空了。<!--.25-->我也不知道這些東西怎麼會在我手中，真奇怪，對吧？<!--.25-->更離譜的是，我搞不好現在會把這些東西賣給你呢。"
+		"dealer_message_start_26"	"我有一箱標記有誤的貨櫃要給你看看。<!--.25-->別被「農具」的標籤給騙了。這些可不是用來翻土的，只不過要是你用它們的時候動作太慢，搞不好你真的會吃土。"
+		"dealer_message_start_27"	"我最討厭和反叛軍合作了，充其量就是一堆死老百姓，換句話說就是一群菜鳥。<!--.25-->算了，反正他們現在音訊全無，我把這些裝備交給真正的高手好了。"
+		"dealer_message_start_28"	"南方長年戰區兩年一度的國會剛剛垮台。<!--.25-->一堆當地的軍火庫就跟剛被砸開的小豬撲滿沒兩樣。"
+		"dealer_message_start_29"	"港口檢查員上週五說這批貨物有異常之處。<!--.25-->禮拜一的時候他的女兒就湊齊資金去斯坦維克大學去讀書了，而這批貨物又是農具。<!--.25-->沒辦法，誰叫教育這麼重要呢？我們來看看這些農具吧。"
+
+
+		"dealer_message_resume_0"  	"<!--1-->你回來啦，很好。這筆交易仍然有效。"
+		"dealer_message_resume_1"  	"<!--1-->需要時間考慮嗎？沒問題。"
+		"dealer_message_resume_2"  	"<!--1-->我就知道你會回來。"
+		"dealer_message_resume_3"  	"<!--1-->我們從上次暫停的地方繼續吧。"
+		"dealer_message_resume_4"  	"<!--1-->準備好來交易了？"
+		"dealer_message_resume_5"  	"<!--1-->你回來得正好。我得脫手這批貨，不然麻煩人物會開始找上門。"
+		"dealer_message_resume_6"  	"<!--1-->你回來了。上次給你看什麼了？"
+
+		"dealer_message_first_offer_0"	"<!--.5-->想買的話就成交吧。"
+		"dealer_message_first_offer_1"	"<!--.5-->我跟你說，有不少人對這把槍很感興趣。"
+		"dealer_message_first_offer_2"	"<!--.5-->要就買下，不然就直話直說，還有一堆有興趣的買家在排隊呢。"
+		"dealer_message_first_offer_3"	"<!--.5-->你想要的話就賣給你。不要的話就是你的損失。"
+		"dealer_message_first_offer_4"	"<!--.5-->要的話就成交吧，這價格可不會一直這麼優惠。"
+		"dealer_message_first_offer_5"	"<!--.5-->這是我的報價，要還是不要。"
+		"dealer_message_first_offer_6"	"<!--.5-->你要買這把槍嗎？不買也沒關係，我有其他買家。"
+		"dealer_message_first_offer_7"	"<!--.5-->你要不要買？"
+		"dealer_message_first_offer_8"	"<!--.5-->我很忙的。"
+		"dealer_message_first_offer_9"	"<!--.5-->這你要不要買？"	
+		"dealer_message_first_offer_10"	"<!--.5-->我不需要強行推銷，這把大家都搶著要。你要不要買？"		
+
+		"dealer_message_next_offer_0"	"<!--1-->好吧，你不喜歡那一把。那這把呢？"
+		"dealer_message_next_offer_1"	"<!--1-->是你的損失。幸好我今天心情好，來看一下這把。"
+		"dealer_message_next_offer_2"	"<!--1-->不買喔？好吧，是你的損失。看一下這把吧。"
+		"dealer_message_next_offer_3"	"<!--1-->這把槍不用推銷也有人買，你不買也有別人等著要買。<!--.5-->不過你已經在這裡了，就來看一下這把為你而設的吧。"
+		"dealer_message_next_offer_4"	"<!--1-->我明白的，不是你的菜。來看看這把有沒有比較適合，我覺得你會喜歡的。"
+		"dealer_message_next_offer_5"	"<!--1-->我就猜到你會不買那一把。還好我有準備這一把寶貝給你看。"
+		"dealer_message_next_offer_6"	"<!--1-->嗯，我也猜到。來，看看這一把。這一把大概更能跟上你的節奏。"
+		"dealer_message_next_offer_7"	"<!--1-->你會後悔沒買下那一把。沒關係。這把呢？"
+		"dealer_message_next_offer_8"	"<!--1-->我太了解你了。我就知道你不會看上那一把。這把呢？"
+		"dealer_message_next_offer_9"	"<!--1-->好吧，前菜吃夠了。現在就給你上主菜。"
+		"dealer_message_next_offer_10"	"<!--1-->我明白的，我也不喜歡那把槍的外觀。來，看看這一款。"		
+		"dealer_message_next_offer_11"   "<!--1-->這把可能不是大眾口味。下一把比較討喜。"
+		"dealer_message_next_offer_12"   "<!--1-->我還有很多存貨。來看看這把寶貝。"
+		"dealer_message_next_offer_13"   "<!--1-->你知道嗎？其實我有預感你會這樣說。來看看下一把吧。"
+		"dealer_message_next_offer_14"   "<!--1-->你得要求比我想像中還要高。這把稱心嗎？"
 		"dealer_message_next_offer_15"   "<!--1-->這不會讓我生氣。這槍又不是我製造的。還有另一把可以選。"
 		"dealer_message_next_offer_16"   "<!--1-->我也不會買那一把。但是這把喔，你認真看一下。"
 		"dealer_message_next_offer_17"   "<!--1-->不要？好吧。下一把。"
+		"dealer_message_next_offer_18"   "<!--1-->明白了，你的標準很高。那是好事。下一把符合最高標準。"
+		"dealer_message_next_offer_19"   "<!--1-->我不想讓你浪費錢，你也不想浪費我的時間。來看看這把。"
 		"dealer_message_next_offer_20"   "<!--1-->嘿，你這麼老實我也好辦事。來看下一把，別浪費時間了。"
 		"dealer_message_next_offer_21"   "<!--1-->好吧，你不喜歡那一把。好消息是我不只賣一把槍。"
 		"dealer_message_next_offer_22"   "<!--1-->沒問題。我還有很多可以給你看。下一把。"
+		"dealer_message_next_offer_23"   "<!--1-->我本來以為鐵定可以賣出的。說不定你會買這把。"
 		"dealer_message_next_offer_24"   "<!--1-->了解。這把不適合，不可能全都適合你沒錯。但這一把在呼喚你的名字。"
 		"dealer_message_next_offer_25"   "<!--1-->看來你對這把沒興趣。來看看下一把能不能吸引你。"
+		"dealer_message_next_offer_26"   "<!--1-->好吧，不兜圈子了。我絕對保證你會喜歡下一把。應該會。"
 		"dealer_message_next_offer_27"   "<!--1-->不喜歡那把嗎，嗯？那收進我的私人武裝庫好了。這把呢？"
 		"dealer_message_next_offer_28"   "<!--1-->你很有品味。來看看下一把能否符合你的高標準。"
+		"dealer_message_next_offer_29"   "<!--1-->好吧，這把只是剛好放在最上頭。讓我往下找一下。"
 		"dealer_message_next_offer_30"   "<!--1-->當沒看過上一把。這把才是我想讓你看看的。"
+		"dealer_message_next_offer_31"   "<!--1-->這把都有你的名字刻在上面了。不是字面上的意思啦，它很乾淨。"
 		"dealer_message_next_offer_32"   "<!--1-->嘿，總無法全都買下，我明白的。我猜你是在等待看到特別的，像這把。"
+		"dealer_message_next_offer_33"   "<!--1-->那只是熱場。這才是真的重頭戲。"
+		"dealer_message_next_offer_34"   "<!--1-->嗯，我也覺得那不太適合。但我看到下面這一把就想到你。"
+		"dealer_message_next_offer_35"   "<!--1-->說得也對。我一直特別為你留著下面這把。"
+		"dealer_message_next_offer_36"   "<!--1-->說服你愛上這把槍不是我的工作。我只是想把庫存賣掉。下一把。"
 		"dealer_message_next_offer_37"   "<!--1-->沒問題，我想這下一把會適合你。"
 		"dealer_message_next_offer_38"   "<!--1-->聰明。我就知道你不會一下子就買下。給你看看更好的。"
 		"dealer_message_next_offer_39"   "<!--1-->沒問題。我也不會買那一把。不過，現在這一把……"
@@ -45993,7 +46269,10 @@
 		"dealer_message_last_offer_9"	"<!--0-->這是我能報的最好價格了，再不接受就沒有了。"	
 
 		"dealer_message_end_0"			"<!--0-->好吧，你錯過了機會。如果你手上拿著這會爆炸的上行鏈結終端機，我建議你趕快放下。在三、二、……"
+		"dealer_message_end_1"			"<!--0-->好吧，下次別人用槍追殺你但你拿不出好武器時，不要後悔這次沒買下這些。"
 		"dealer_message_end_2"			"<!--0-->好吧，我不會求你把它買下的。希望你不要以為這樣就能得到一部免費的上行鏈結終端機。"
+		"dealer_message_end_3"			"<!--0-->你的決定，你的生意，可能也是你的葬禮。<!--1-->離這部快要爆炸的上行鏈結終端機遠一點，做得到的話。"
+
 		"dealer_message_timerexpired_0"		"<!--.1-->好吧，沒關係。"
 		"dealer_message_timerexpired_1"		"<!--.1-->算了。<!--.5-->機會已經給過了。"
 		"dealer_message_timerexpired_2"		"<!--.1-->交易結束。<!--.5-->我有別的事要忙。"
@@ -46006,7 +46285,88 @@
 		"dealer_message_timerexpired_9"		"<!--.1-->時間到。"
 		"dealer_message_timerexpired_10"		"<!--.1-->好吧，我正式覺得無聊了。到此為止吧。"		
 
+		"dealer_message_open_check_out_0"		"<!--.5-->這把簡直是直接刻上你的名字。所以我一看到就先想到你。這就成交吧。"
 		"dealer_message_open_check_out_1"		"<!--.5-->很不錯的決定。我會把它包好讓你帶回家。"
+		"dealer_message_open_check_out_2"		"<!--.5-->你不會後悔的。但是我賭很快就會有人開始後悔。"
+		"dealer_message_open_check_out_3"		"<!--.5-->我就知道你會買。那就成交吧。"
+		"dealer_message_open_check_out_4"		"<!--.5-->太好了。成交。"		
+		"dealer_message_open_check_out_5"		"<!--.5-->很好的選擇。"	
+		"dealer_message_open_check_out_6"		"<!--.5-->你做過最明智的選擇。賣給你囉。"		
+		"dealer_message_open_check_out_7"		"<!--.5-->很好。那就成交吧。"	
+		
+		"dealer_message_txn_xld_bailout_0"		"<!--.5-->不用急。你知道怎麼聯絡我。"
+		"dealer_message_txn_xld_bailout_1"		"<!--.5-->我就一直在這裡。"
+		"dealer_message_txn_xld_bailout_2"		"<!--.5-->這個可以再考慮一下。"
+		"dealer_message_txn_xld_bailout_3"		"<!--.5-->你會回來的。再慢慢想一下吧。"
+
+		"dealer_message_purchase_finalizing_0"	"正在完成付款細節…"
+		"dealer_message_purchase_confirm_0"		"<!--.5-->成交"
+
+		"dealer_message_stattrack_0"			"當然已安裝 StatTrak™。"
+		"dealer_message_stattrack_1"			"這把寶貝還配備了 StatTrak™。"
+		"dealer_message_stattrack_2"			"配備 StatTrak™。這樣你就不用花腦力記住戰績。"
+		"dealer_message_stattrack_3"			"配備了 StatTrak™。扣下扳機，它就會自行計算。"
+		"dealer_message_stattrack_4"			"StatTrak™。把它當成一個記分板。用於這項以人頭算分數的運動競賽。"
+		"dealer_message_stattrack_6"			"包含 StatTrak™，適合喜歡殺戮和統計的專業人士。"
+		"dealer_message_stattrack_7"			"當然，隨附 StatTrak™。"
+		"dealer_message_factory_new_0"			"新鮮出箱。相信我，我剛聞過了。"
+		"dealer_message_factory_new_1"			"全新出廠。有股新武器的味道。"
+		"dealer_message_factory_new_2"			"這把沒人用過。你會是第一個扣下扳機的人。"
+		"dealer_message_factory_new_3"			"剛剛出廠，無任何磨損。跟你想要的一樣。"
+		"dealer_message_factory_new_4"			"這把又乾淨又完好無損。一條刮痕也沒有，沒有過去。就需要你為它增添故事。"
+		"dealer_message_factory_new_5"			"全新出廠，從未開火。這把完美無瑕。"
+		"dealer_message_covert_0"				"你知道嗎？你剛中獎了。這把不只是稀有，而是隱蔽級。"
+		"dealer_message_covert_1"				"我從事這行已有十年，但從沒看過這款在外流通。<!--.5-->你品味好，而且運氣更好。"
+		"dealer_message_covert_2"				"我知道有些買家為了入手這把槍，出賣自己親娘送到勞改營去了。選得好。"
+		"dealer_message_covert_3"				"哇。現在你讓我不太確定了。在我後悔這筆交易之前收起來吧。"
+		"dealer_message_covert_4"				"這是隱蔽級。這是在公開市場中一輩子可能只會看到一次的那類物品，還得要運氣好。<!--.5-->我想你運氣滿好的。"
+		"dealer_message_covert_5"				"這把可是珍寶。但你已經知道。有位買家一年前已嘗試預約購買。他們的損失是你的得益。"
+		"dealer_message_covert_6"				"非常罕有。這把很難找到，但剛好出現在你面前。"
+		"dealer_message_covert_7"				"我以尋找這種重武器為生，所以當我說這是非常非常難找到的，你應該相信我。"
+		"dealer_message_covert_8"				"我希望你珍惜剛剛的交易。那是隱蔽級。你剛買了一隻獨角獸。"
+		"dealer_message_covert_9"				"你最好在我後悔之前把它收進你的武器庫不要再讓我看到。那可是稀世珍寶啊。"
+		"dealer_message_classified_0"				"機密級。十分乾淨，沒有紙本記錄。這把沒有經過登記。"
+		"dealer_message_classified_1"				"機密級。沒有記錄，這把很乾淨且無法追蹤。"
+		"dealer_message_classified_2"				"機密級。無影無蹤、毫無紀錄。我手中這把槍嚴格來說並不存在。"
+		"dealer_message_classified_3"				"僅限私人販售。機密級。希望你能好好使用。"
+		"dealer_message_classified_4"				"機密級。沒有序號，沒有記錄。"
+		"dealer_message_classified_5"				"機密級。只能透過秘密渠道銷售，已去除軍事登記且完全可抵賴。我從未看過這把槍。"
+		"dealer_message_restricted_0"				"管制級。內部結構更優良，多發連射更密集。絕對比制式的強。"
+		"dealer_message_restricted_1"				"這把列為管制級並不是沒有原因的。對平民來說這把槍性能有點過高。"
+		"dealer_message_restricted_2"				"管制級，這不用我解釋吧。管制條例第三條第二項，也是你的第一選擇。"
+		"dealer_message_battle_scarred_0"		"雖然有一些凹痕，但仍能射得準確。"
+		"dealer_message_battle_scarred_1"		"有點磨損，但這只意味著它經過試煉並脫穎而出。"
+		"dealer_message_battle_scarred_2"		"戰地撿來的。雖然被用過一段時間，但十分耐用。"
+		"dealer_message_battle_scarred_3"		"不要把這看作戰場磨損，我會視為經過實戰磨鍊。"
+		"dealer_message_battle_scarred_4"		"這把經歷過一些實戰。外觀有些磨損，但仍很可靠。"
+		"dealer_message_minimal_wear_0"			"這把有輕度磨損。有一兩處擦痕，但使用上沒有影響。"
+		"dealer_message_minimal_wear_1"			"完好無缺。嗯，差不多完好。輕微磨損。"
+		"dealer_message_minimal_wear_2"			"輕度磨損，有一些凹痕，但不需要擔心。"
+		"dealer_message_minimal_wear_3"			"這把有輕度磨損。是有一點耗損但你不會後悔把它加進你的武器庫的。"
+		"dealer_message_minimal_wear_4"			"這把已經過實戰，實不相瞞。它身經百戰。"
+		"dealer_message_usp-s_0"				"這把不會亂叫。又乖又安靜。"
+		"dealer_message_usp-s_1"				"安靜低調。有時候我們之間也會有小祕密。"
+		"dealer_message_usp-s_2"				"他們被打中的時候會感覺到，但不會聽到開槍的聲音。"
+		"dealer_message_usp-s_3"				"這把很靜。"
+		"dealer_message_item_desc_0"			"<!--.25-->這把還有一行小注：<!--.25-->{s:flavor-text}<!--.25-->不管那是什麼意思。"
+		"dealer_message_item_desc_1"			"<!--.25-->這把還有一行小注：<!--.25-->{s:flavor-text}"
+
+		"dealer_message_addition_stattrak_0"	"<!--.25-->……還隨附 StatTrak™。"
+		"dealer_message_addition_stattrak_1"	"<!--.25-->StatTrak™ 模組已預先安裝。"
+		"dealer_message_addition_stattrak_2"	"<!--.25-->隨附 StatTrak™，讓你記錄所有自己造成的亂況。"
+		"dealer_message_addition_stattrak_3"	"<!--.25-->還隨附 StatTrak™。"
+		"dealer_message_addition_stattrak_4"	"<!--.25-->而且還隨附 StatTrak™，這樣就永遠不會忘記自己造就過的慘劇。"
+
+		"dealer_message_addition_factory_new_0"	"<!--.25-->而且是全新出廠的。從未開火。"
+		"dealer_message_addition_factory_new_1"	"<!--.25-->而且是全新出廠的。完好無損。"
+		"dealer_message_addition_factory_new_2"	"<!--.25-->直接從保管庫取出來的。全新出廠。"
+		"dealer_message_addition_factory_new_3"	"<!--.25-->這把是全新出廠。從未開過火。"
+
+		"system_dealer_left_chat_0"				"軍火商已離開聊天。"
+		"system_dealer_join_chat_0"				"{s:collection}軍火交易報價。<!--1.25-->軍火商已連線"
+		"system_user_reject_offer_0"			"{s:user-name} 已拒絕報價。"
+		
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Retakes
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
