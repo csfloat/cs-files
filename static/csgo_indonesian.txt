@@ -404,7 +404,6 @@
 		"LoadingProgress_SignonLocal"		"Menginisialisasi sumber daya..."
 		"LoadingProgress_SignonDataLocal"	"Menginisialisasi data game..."
 		"LoadingProgress_CompilingShaders"	"Mengompilasi shader (%s1/%s2)..."
-
 		"LoadingProgress_BeginConnect"		"Membuat koneksi ke server..."
 		"LoadingProgress_Connecting"		"Menghubungkan ke server..."
 		"LoadingProgress_ProcessServerInfo"	"Mengambil info server..."
@@ -3266,7 +3265,6 @@
 		"CSGO_Collectible_MapTokenDogtown_Desc"			"Memperingati lahirnya Map CS2, \"Dogtown\""
 		"CSGO_Collectible_MapTokenBrewery"				"Koin Map Brewery"
 		"CSGO_Collectible_MapTokenBrewery_Desc"			"Memperingati lahirnya Map CS2, \"Brewery\""
-
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"Lencana Kesetiaan"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"Lencana ini memperingati kesetiaan anggota di dalam komunitas Counter-Strike sebelum pembaruan Zona Bahaya.\n\n<i>Bersatu kita teguh.</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"Koin Veteran 5 Tahun"
@@ -27478,7 +27476,7 @@
 		"keychain_kc_wpn_tknife_crystal"					"Semi-Precious"
 		"keychain_kc_wpn_ctknife_gold"						"Baby Karat AT"
 		"keychain_kc_wpn_tknife_gold"						"Baby Karat T"
-		// Paint Kits
+// Paint Kits
 		"PaintKit_Default"							"Paint Kit Tanpa Nama"
 		"PaintKit_Default_Tag"						"-"//
 
@@ -32749,7 +32747,6 @@
 
 		"SFUI_Store_Market_Link"                    "Lihat Di Pasar"
 		"SFUI_Store_Limit_Offer"                    "Penawaran Waktu Terbatas"
-		"SFUI_Store_Offer_Days_Remaining:p{daysremaining}"	"{d:daysremaining} Hari Tersisa"
 		"SFUI_Store_Last_Chance"                    "Kesempatan Terakhir"
 		"SFUI_Store_Limited_Time_Tagline"           "Untuk Mendapatkan Penawaran Ini"
 		"SFUI_Store_Limited_Bid_Tagline"			"Untuk Mendapatkan Penawaran Ini"
@@ -41698,7 +41695,6 @@
 		"inv_empty_lister"					"Tidak dapat menemukan item apa pun untuk {s:type} di dalam inventarismu."
 		"inv_empty_lister_for_use"			"Tidak dapat menemukan item apa pun untuk digunakan dengan {s:type} di dalam inventarismu."
 		"inv_empty_lister_nocaskets"		"Tidak dapat menemukan Unit Penyimpanan yang bisa menyimpan item-mu.\nUnit Penyimpanan bisa dibeli dari toko dalam game."
-		"inv_empty_lister_for_stattrackswap" "Tidak dapat menemukan item untuk menukar nilai StatTrak™ dengan {s:type} di dalam inventarismu.\nNilai StatTrak™ hanya bisa ditukar antara dua item dengan tipe yang sama."
 		"inv_empty_lister_general"			"Tidak dapat menemukan item untuk kategori yang dipilih di dalam inventarismu."
 		"inv_empty_loadout_slot"			"Tidak ada item yang dipasang di slot ini"
 		"inv_header_rarity"					"Kelangkaan:"
@@ -44623,8 +44619,6 @@
 		"popup_signal_ok" 				"Sinyal Kuat"
 		"laptop_battery_tooltip" 		"Daya Baterai: {d:percent}%"
 		"laptop_original_seal_tooltip" 	"Item apa pun yang dibeli dari Terminal Uplink ini akan dilengkapi dengan Sertifikat Pemilik Asli, yang berlaku selama kamu menjadi pemiliknya."
-		"laptop_zoom_tooltip" 			"Gulir roda mouse untuk memperbesar dan memperkecil."
-		"laptop_pan_tooltip" 			"Tahan tombol \"Shift\" dan seret untuk menggeser kamera."
 		"laptop_pricing_tooltip"		"Harga bersifat global dan disesuaikan secara otomatis berdasarkan permintaan terhadap setiap item dalam koleksi ini."
 
 
@@ -45009,8 +45003,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48605_comment
-// crow_mask_48606_comment
+// crow_mask_48775_comment
+// crow_mask_48776_comment
 }
 
 

@@ -408,7 +408,6 @@
 		"LoadingProgress_SignonLocal"		"正在初始化資源…"
 		"LoadingProgress_SignonDataLocal"	"正在初始化遊戲資料…"
 		"LoadingProgress_CompilingShaders"	"正在編譯著色器（%s1 / %s2）…"
-
 		"LoadingProgress_BeginConnect"		"建立連線到伺服器…"
 		"LoadingProgress_Connecting"		"連線到伺服器…"
 		"LoadingProgress_ProcessServerInfo"	"擷取伺服器資訊…"
@@ -3307,7 +3306,6 @@
 		"CSGO_Collectible_MapTokenDogtown_Desc"			"紀念 CS2 地圖「Dogtown」的創作"
 		"CSGO_Collectible_MapTokenBrewery"				"Brewery 地圖硬幣"
 		"CSGO_Collectible_MapTokenBrewery_Desc"			"紀念 CS2 地圖「Brewery」的創作"
-
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"忠誠勳章"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"本勳章紀念受贈者在絕對武力的危險區域更新前便已加入其社群的忠誠。\n\n<i>忠誠生力量。</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"5 年老兵硬幣"
@@ -28973,7 +28971,7 @@
 		"keychain_kc_wpn_tknife_crystal"					"半寶石"
 		"keychain_kc_wpn_ctknife_gold"						"小小金刀（CT）"
 		"keychain_kc_wpn_tknife_gold"						"小小金刀（T）"
-		// Paint Kits
+// Paint Kits
 		"PaintKit_Default"							"未命名的塗裝套件"
 		"PaintKit_Default_Tag"						"-"//
 
@@ -34244,7 +34242,6 @@
 
 		"SFUI_Store_Market_Link"                    "在市場上檢視"
 		"SFUI_Store_Limit_Offer"                    "限時特惠"
-		"SFUI_Store_Offer_Days_Remaining:p{daysremaining}"	"剩餘 {d:daysremaining} 天#|#剩餘 {d:daysremaining} 天"
 		"SFUI_Store_Last_Chance"                    "最後機會"
 		"SFUI_Store_Limited_Time_Tagline"           "領取此優惠"
 		"SFUI_Store_Limited_Bid_Tagline"			"競標此提案"
@@ -43230,7 +43227,6 @@
 		"inv_empty_lister"					"未在您的物品庫中找到任何{s:type}分類的物品。"
 		"inv_empty_lister_for_use"			"未在您的物品庫中找到任何可以用於 {s:type} 的物品。"
 		"inv_empty_lister_nocaskets"		"找不到任何可儲存物品的儲存單元。\n可在遊戲內商店購買儲存單元。"
-		"inv_empty_lister_for_stattrackswap" "未在您的物品庫中找到任何能交換 StatTrak™ 數值的{s:type}。\n只有相同類型的物品才能交換 StatTrak™ 數值。"
 		"inv_empty_lister_general"			"未在您的物品欄中找到任何所選分類的物品。"
 		"inv_empty_loadout_slot"			"沒有可用於此欄位的物品"
 		"inv_header_rarity"					"稀有度："
@@ -46157,8 +46153,6 @@
 		"popup_signal_ok" 				"訊號強"
 		"laptop_battery_tooltip" 		"電量：{d:percent}%"
 		"laptop_original_seal_tooltip" 	"從這個上行鏈結終端機購買的物品將附有原擁有者證書，身為擁有者時有效。"
-		"laptop_zoom_tooltip" 			"滾動滑鼠滾輪來放大或縮小。"
-		"laptop_pan_tooltip" 			"按住「Shift」鍵並拖動以平移鏡頭。"
 		"laptop_pricing_tooltip"		"價格為全球通用價格，且會根據對此收藏中各項目的需求自動調整。"
 
 
@@ -46543,8 +46537,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"在<b>{s:gamemode}：{s:location}</b> 中贏得 1 回合。#|#在<b>{s:gamemode}：{s:location}</b> 中贏得回合。"
 		"quest_11015_var_ingame:p{mission-points}"		"贏得 1 回合#|#贏得多回合"
 
-// crow_mask_48605_comment
-// crow_mask_48606_comment
+// crow_mask_48775_comment
+// crow_mask_48776_comment
 }
 
 
