@@ -44,6 +44,7 @@
 		"GameUI_CrosshairLength"	"長度"
 		"GameUI_CrosshairDot"		"中心點"
 		"GameUI_IronsightColor"		"瞄準鏡準星使用準星顏色"
+		"GameUI_IronsightScale"		"瞄準鏡準星大小"
 		"GameUI_CrosshairRecoil"	"跟隨後座力"
 		"GameUI_CrosshairRecoil_Desc"	"準星將會跟隨武器後座力的軌跡偏離畫面中央位置。"
 		"GameUI_CrosshairThickness"	"厚度"
@@ -52,6 +53,7 @@
 		"GameUI_CrosshairAlpha"		"Alpha"
 		"GameUI_CrosshairSize"		"準星大小"
 		"GameUI_CrosshairColor"		"準星顏色"
+		"GameUI_SniperCrosshairThickness" "狙擊槍準星厚度"
 		"GameUI_ColorSliders"		"色彩"
 		"GameUI_ColorQuality"		"色彩畫質"
 		"GameUI_ColorGreen"			"綠色"
@@ -408,6 +410,8 @@
 		"LoadingProgress_SignonLocal"		"正在初始化資源…"
 		"LoadingProgress_SignonDataLocal"	"正在初始化遊戲資料…"
 		"LoadingProgress_CompilingShaders"	"正在編譯著色器（%s1 / %s2）…"
+		"LoadingProgress_CompilingShadersRemaining"	"正在編譯 <span class='loading-screen-monospace'>%s1</span> 個著色器…"
+
 		"LoadingProgress_BeginConnect"		"建立連線到伺服器…"
 		"LoadingProgress_Connecting"		"連線到伺服器…"
 		"LoadingProgress_ProcessServerInfo"	"擷取伺服器資訊…"
@@ -1005,6 +1009,7 @@
 		"Cstrike_Auto_Apply_Graffiti"					"快速塗鴉（釋放按鍵後套用）"
 		"Cstrike_Auto_Apply_Graffiti_Info"				"啟用此項時，可以快速按下並放開塗鴉選單鍵來使用塗鴉。\n\n關閉此項時，塗鴉只有在塗鴉選單內時按下「開火」鍵才能使用。"
 		"Cstrike_Delay_Unzoom_Sniper"					"狙擊槍射擊後延遲關鏡"
+		"Cstrike_Show_Inaccuracy_Sniper"				"開鏡時顯示狙擊步槍的失準可能提示"
 		"Cstrike_Auto_Rezoom_Sniper"					"狙擊步槍射擊後自動重開狙擊鏡"
 		"Cstrike_Fiddle_With_Silencers"					"卸下 M4A1-S 和 USP-S 的消音器"
 		"Cstrike_Fiddle_With_Silencers_Desc"			"允許或禁止移除 M4A1-S 和 USP-S 的消音器。"
@@ -3306,6 +3311,16 @@
 		"CSGO_Collectible_MapTokenDogtown_Desc"			"紀念 CS2 地圖「Dogtown」的創作"
 		"CSGO_Collectible_MapTokenBrewery"				"Brewery 地圖硬幣"
 		"CSGO_Collectible_MapTokenBrewery_Desc"			"紀念 CS2 地圖「Brewery」的創作"
+		"CSGO_Collectible_MapTokenPalacio"				"Palacio 地圖硬幣"
+		"CSGO_Collectible_MapTokenPalacio_Desc"			"紀念 CS2 地圖「Palacio」的創作"
+		"CSGO_Collectible_MapTokenGolden"				"Golden 地圖硬幣"
+		"CSGO_Collectible_MapTokenGolden_Desc"			"紀念 CS2 地圖「Golden」的創作"
+		"CSGO_Collectible_MapTokenRooftop"				"Rooftop 地圖硬幣"
+		"CSGO_Collectible_MapTokenRooftop_Desc"			"紀念 CS2 地圖「Rooftop」的創作"
+		"CSGO_Collectible_MapTokenTransit"				"（已刪除）地圖硬幣"
+		"CSGO_Collectible_MapTokenTransit_Desc"			"紀念 CS2 地圖「（已刪除）」的創作"
+
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"忠誠勳章"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"本勳章紀念受贈者在絕對武力的危險區域更新前便已加入其社群的忠誠。\n\n<i>忠誠生力量。</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"5 年老兵硬幣"
@@ -4368,7 +4383,15 @@
 		
 		"CSGO_crate_community_36"				"密封的創世終端機"
 		"CSGO_crate_community_36^volatile"		"啟用的創世終端機"
-		"SprayKit_vcap1_ace_01"		"Ace"
+		"CSGO_crate_keychain_pack_kc_drboom_capsule"	    	"炸彈博士吊飾收藏"
+		"CSGO_crate_keychain_pack_kc_drboom_capsule_desc"		"此收藏包含多種炸彈博士吊飾。"
+		"CSGO_crate_keychain_pack_kc_drboom_capsule_short"	    "炸彈博士吊飾"
+		
+		"CSGO_crate_keychain_pack_kc_ml_community_01_capsule"	    	"串串香腸社群吊飾收藏"
+		"CSGO_crate_keychain_pack_kc_ml_community_01_capsule_desc"		"此收藏包含多種來自工作坊的香腸主題吊飾。"
+		"CSGO_crate_keychain_pack_kc_ml_community_01_capsule_short"	    "串串香腸社群吊飾"
+		
+"SprayKit_vcap1_ace_01"		"Ace"
 "SprayKit_vcap1_banana"		"香蕉"
 "SprayKit_vcap1_cerberus"		"地獄犬"
 "SprayKit_vcap1_clutch_01"		"殘局之王"
@@ -28971,7 +28994,56 @@
 		"keychain_kc_wpn_tknife_crystal"					"半寶石"
 		"keychain_kc_wpn_ctknife_gold"						"小小金刀（CT）"
 		"keychain_kc_wpn_tknife_gold"						"小小金刀（T）"
-// Paint Kits
+		// DR BOOM KEYCHAINS 
+		
+		"keychain_kc_db_biomech"					"生物機械"
+		"keychain_kc_db_terror"						"勇敢無畏"
+		"keychain_kc_db_hellcat"					"地獄貓"
+		"keychain_kc_db_ugly"						"毛茸茸"
+		"keychain_kc_db_wood"						"木頭人"
+		"keychain_kc_db_yinyang"					"小陰陽"
+		"keychain_kc_db_aztec"						"小拉皮"
+		"keychain_kc_db_200iq"						"大腦袋"
+		"keychain_kc_db_eviscerate"					"炸彈簽名"
+		"keychain_kc_db_clown"						"小血丑"
+		"keychain_kc_db_dimsum"						"小籠包"
+		"keychain_kc_db_bombacat"					"小咬咬"
+		"keychain_kc_db_drbrian"					"布萊恩博士"
+		"keychain_kc_db_eco"						"小環保"
+		"keychain_kc_db_dripfade"					"炫光彈"
+		"keychain_kc_db_occult"						"球之眼"
+		"keychain_kc_db_yeti"						"小雪怪"
+		"keychain_kc_db_eyecritter"					"餓鬼百目"
+		"keychain_kc_db_8ball"						"8 球隊長"
+		"keychain_kc_db_flash"						"閃光彈"
+		"keychain_kc_db_incendiary"					"小火球"
+		"keychain_kc_db_lighter"					"瓦斯小弟"
+		// MISSINGLINK COMMUNITY KEYCHAINS 
+		
+		"keychain_kc_missinglink_ancientcurse"			"小詛咒"
+		"keychain_kc_missinglink_babyserpent"			"小毒蛇"
+		"keychain_kc_missinglink_basketball"			"小籃球"
+		"keychain_kc_missinglink_bodybag"				"遺體包"
+		"keychain_kc_missinglink_cactus"				"小仙人掌"
+		"keychain_kc_missinglink_charmburger"			"小漢堡"
+		"keychain_kc_missinglink_cigar"					"小雪茄"
+		"keychain_kc_missinglink_cthulhu"				"小古神"
+		"keychain_kc_missinglink_happy"					"小樂子"
+		"keychain_kc_missinglink_lilhatchling"			"小電子雞"
+		"keychain_kc_missinglink_lilhothead"			"熱岩漿"
+		"keychain_kc_missinglink_lillol"				"小咯咯"
+		"keychain_kc_missinglink_melted"				"水銀"
+		"keychain_kc_missinglink_muteghost"				"小幽靈"
+		"keychain_kc_missinglink_pencil"				"小鉛筆"
+		"keychain_kc_missinglink_pinata"				"皮納塔"
+		"keychain_kc_missinglink_popsicle"				"冰棒碰"
+		"keychain_kc_missinglink_retrovision"			"小留影"
+		"keychain_kc_missinglink_sentai"				"小英雄"
+		"keychain_kc_missinglink_sillyelephant"			"小長牙"
+		"keychain_kc_missinglink_slime"					"小綠泥"
+		"keychain_kc_missinglink_surfsup"				"放輕鬆"
+		"keychain_kc_missinglink_winemaker"				"小瓶塞"
+		// Paint Kits
 		"PaintKit_Default"							"未命名的塗裝套件"
 		"PaintKit_Default_Tag"						"-"//
 
@@ -33869,6 +33941,11 @@
 		"SFUI_Map_de_brewery"		"Brewery"
 		"SFUI_Map_de_dogtown"		"Dogtown"
 
+		"SFUI_Map_de_palacio"		"Palacio"
+		"SFUI_Map_de_golden"		"Golden"
+		"SFUI_Map_de_rooftop"		"Rooftop"
+		"SFUI_Map_de_transit"		"（已刪除）"
+
 		"SFUI_Map_workshop_preview_dust2"	"Dust II 預覽"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient 預覽"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno 預覽"
@@ -34242,6 +34319,11 @@
 
 		"SFUI_Store_Market_Link"                    "在市場上檢視"
 		"SFUI_Store_Limit_Offer"                    "限時特惠"
+		"SFUI_Store_Offer_Days_Remaining:p{daysremaining}"			"剩餘 {d:daysremaining} 天#|#剩餘 {d:daysremaining} 天。"
+		"SFUI_Store_Offer_Days_Remaining_claim:p{daysremaining}"	"剩餘 {d:daysremaining} 天#|#剩餘 {d:daysremaining} 天"
+		"SFUI_Store_Offer_Days_Remaining_bid:p{daysremaining}"		"剩餘 {d:daysremaining} 天可競標此提案#|#剩餘 {d:daysremaining} 天可競標此提案"
+		"SFUI_Store_Offer_Days_Remaining_last_claim"				"領取此優惠的最後機會"
+		"SFUI_Store_Offer_Days_Remaining_last_bid"					"競標此提案的最後機會"
 		"SFUI_Store_Last_Chance"                    "最後機會"
 		"SFUI_Store_Limited_Time_Tagline"           "領取此優惠"
 		"SFUI_Store_Limited_Bid_Tagline"			"競標此提案"
@@ -37443,6 +37525,7 @@
 		"SFUI_MoveLeft"					"向左（橫移）"
 		"SFUI_Previous"					"上次使用的武器"
 		"SFUI_Voice"					"使用麥克風"
+		"SFUI_ToggleOpenMic"			"在開啟麥克風和隨按即說之間切換"
 		"SFUI_Buy"						"購買選單"
 
 		"SFUI_StandardRadio"			"標準無線電訊息"
@@ -38766,6 +38849,7 @@
 		"SFUI_QMM_ERROR_PremierSeasonOver"		"優先權賽季已結束。在下個優先權賽季開始前請稍等。"
 		"SFUI_QMM_ERROR_PremierRatingMissing"		"您團隊中玩家的 CS 評級太高，無法與還未建立 CS 評級的玩家一起進行遊戲配對。"
 		"SFUI_QMM_ERROR_PremierRatingLargeDelta"	"您團隊中玩家的 CS 評級相差太遠，無法一起進行遊戲配對。"
+		"SFUI_QMM_ERROR_PremierRatingLargeDelta5"	"您隊伍中的玩家 CS 評級差距過大，除非您是與一整隊五名玩家進行遊戲，否則無法一起進行配對。"
 		"SFUI_QMM_ERROR_FullTeamRequired" "由於隊伍尚未滿員，因此無法開始遊戲配對。"
 		"SFUI_QMM_ERROR_TournamentTeamAccounts"	"無法進行配對，因為所有的大廳成員必須得是同一比賽隊伍的。"
 		"SFUI_QMM_ERROR_TournamentTeamSize"	"無法進行配對，因為您的比賽隊伍一定得要五位玩家。"
@@ -43204,6 +43288,8 @@
 		"inv_search_placeholder"			"搜尋物品"
 		"inv_search_popular"				"建議"
 		"inv_search_no_results"				"您搜尋的 <span class=\"context-menu-search__no-results__searchtext\">{s:search_text}</span> 未找到任何結果。"
+		"inv_select_item_use_capability"				"選擇要對其使用{s:item-name}的物品"
+		"inv_select_item_stattrack_swap_capability"		"選擇要與{s:item-name}交換 StatTrak™ 數值的物品"
 		"inv_select_item_use"				"選擇搭配使用的物品："
 		"inv_select_item_stattrack_swap"	"選擇要交換 StatTrak™ 數值的物品："
 		"inv_select_item_tostoreincasket"	"選擇一項物品存入"
@@ -43227,6 +43313,7 @@
 		"inv_empty_lister"					"未在您的物品庫中找到任何{s:type}分類的物品。"
 		"inv_empty_lister_for_use"			"未在您的物品庫中找到任何可以用於 {s:type} 的物品。"
 		"inv_empty_lister_nocaskets"		"找不到任何可儲存物品的儲存單元。\n可在遊戲內商店購買儲存單元。"
+		"inv_empty_lister_for_stattrackswap" "未在您的物品庫中找到任何能與<br><b>{s:type}</b>交換 StatTrak™ 數值的物品。<br><br>只有相同類型的物品才能交換 StatTrak™ 數值。"
 		"inv_empty_lister_general"			"未在您的物品欄中找到任何所選分類的物品。"
 		"inv_empty_loadout_slot"			"沒有可用於此欄位的物品"
 		"inv_header_rarity"					"稀有度："
@@ -43704,6 +43791,8 @@
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"準星"
 		"settings_crosshair_info"			"自訂您的準星大小、形狀和顏色。和好友分享您的準星代碼或是嘗試別人的設定。"
+		"settings_snipers_xhair"			"狙擊瞄準"
+		"settings_grenadecrosshair_short"	"手榴彈定位投擲點"
 		"settings_grenadecrosshair"			"手榴彈定位投擲準星"
 		"settings_grenadecrosshair_info"	"定位投擲手榴彈時的輔助用準星"
 		"settings_radar_section"			"雷達"
@@ -46153,6 +46242,8 @@
 		"popup_signal_ok" 				"訊號強"
 		"laptop_battery_tooltip" 		"電量：{d:percent}%"
 		"laptop_original_seal_tooltip" 	"從這個上行鏈結終端機購買的物品將附有原擁有者證書，身為擁有者時有效。"
+		"laptop_zoom_tooltip" 			"滾動滑鼠滾輪來放大或縮小"
+		"laptop_pan_tooltip" 			"按住「Shift」鍵並拖動以平移鏡頭"
 		"laptop_pricing_tooltip"		"價格為全球通用價格，且會根據對此收藏中各項目的需求自動調整。"
 
 
@@ -46537,8 +46628,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"在<b>{s:gamemode}：{s:location}</b> 中贏得 1 回合。#|#在<b>{s:gamemode}：{s:location}</b> 中贏得回合。"
 		"quest_11015_var_ingame:p{mission-points}"		"贏得 1 回合#|#贏得多回合"
 
-// crow_mask_48775_comment
-// crow_mask_48776_comment
+// crow_mask_48780_comment
+// crow_mask_48781_comment
 }
 
 

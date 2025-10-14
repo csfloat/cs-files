@@ -44,6 +44,7 @@
 		"GameUI_CrosshairLength"	"Panjang"
 		"GameUI_CrosshairDot"		"Titik Tengah"
 		"GameUI_IronsightColor"		"Gunakan warna crosshair untuk titik teleskop"
+		"GameUI_IronsightScale"		"Skala titik teleskop"
 		"GameUI_CrosshairRecoil"	"Mengikuti Recoil"
 		"GameUI_CrosshairRecoil_Desc"	"Crosshair akan meninggalkan bagian tengah layar untuk mengikuti pola recoil senjata."
 		"GameUI_CrosshairThickness"	"Ketebalan"
@@ -52,6 +53,7 @@
 		"GameUI_CrosshairAlpha"		"Alpha"
 		"GameUI_CrosshairSize"		"Ukuran Crosshair"
 		"GameUI_CrosshairColor"		"Warna Crosshair"
+		"GameUI_SniperCrosshairThickness" "Ketebalan crosshair Sniper Rifle"
 		"GameUI_ColorSliders"		"Warna"
 		"GameUI_ColorQuality"		"Kualitas Warna"
 		"GameUI_ColorGreen"			"Hijau"
@@ -404,6 +406,8 @@
 		"LoadingProgress_SignonLocal"		"Menginisialisasi sumber daya..."
 		"LoadingProgress_SignonDataLocal"	"Menginisialisasi data game..."
 		"LoadingProgress_CompilingShaders"	"Mengompilasi shader (%s1/%s2)..."
+		"LoadingProgress_CompilingShadersRemaining"	"Mengompilasi <span class='loading-screen-monospace'>%s1</span> shader..."
+
 		"LoadingProgress_BeginConnect"		"Membuat koneksi ke server..."
 		"LoadingProgress_Connecting"		"Menghubungkan ke server..."
 		"LoadingProgress_ProcessServerInfo"	"Mengambil info server..."
@@ -1001,6 +1005,7 @@
 		"Cstrike_Auto_Apply_Graffiti"					"Grafiti Cepat (Semprot dengan Melepas Tombol)"
 		"Cstrike_Auto_Apply_Graffiti_Info"				"Ketika diaktifkan, kamu bisa membuat grafiti secara cepat dengan menekan dan melepas tombol menu grafiti.\n\nKetika di-nonaktifkan, grafiti hanya bisa dibuat ketika tombol \"Tembak\" ditekan saat kamu membuka menu grafiti."
 		"Cstrike_Delay_Unzoom_Sniper"					"Tunda Lepas Bidikan Sniper Rifle setelah Menembak"
+		"Cstrike_Show_Inaccuracy_Sniper"				"Tampilkan Ketidakakuratan Teleskop Sniper Rifle"
 		"Cstrike_Auto_Rezoom_Sniper"					"Langsung Zoom Sniper Rifle setelah Menembak"
 		"Cstrike_Fiddle_With_Silencers"					"Lepaskan Peredam pada M4A1-S dan USP-S"
 		"Cstrike_Fiddle_With_Silencers_Desc"			"Izinkan atau larang pelepasan peredam pada M4A1-S dan USP-S."
@@ -3265,6 +3270,16 @@
 		"CSGO_Collectible_MapTokenDogtown_Desc"			"Memperingati lahirnya Map CS2, \"Dogtown\""
 		"CSGO_Collectible_MapTokenBrewery"				"Koin Map Brewery"
 		"CSGO_Collectible_MapTokenBrewery_Desc"			"Memperingati lahirnya Map CS2, \"Brewery\""
+		"CSGO_Collectible_MapTokenPalacio"				"Koin Map Palacio"
+		"CSGO_Collectible_MapTokenPalacio_Desc"			"Memperingati lahirnya Map CS2, \"Palacio\""
+		"CSGO_Collectible_MapTokenGolden"				"Koin Map Golden"
+		"CSGO_Collectible_MapTokenGolden_Desc"			"Memperingati lahirnya Map CS2, \"Golden\""
+		"CSGO_Collectible_MapTokenRooftop"				"Koin Map Rooftop"
+		"CSGO_Collectible_MapTokenRooftop_Desc"			"Memperingati lahirnya Map CS2, \"Rooftop\""
+		"CSGO_Collectible_MapTokenTransit"				"Koin Map (Dihapus)"
+		"CSGO_Collectible_MapTokenTransit_Desc"			"Memperingati lahirnya Map CS2, \"(Dihapus)\""
+
+
 		"CSGO_CollectibleCoin_FortiusQuoFidelius"	"Lencana Kesetiaan"
 		"CSGO_CollectibleCoin_FortiusQuoFidelius_Desc"	"Lencana ini memperingati kesetiaan anggota di dalam komunitas Counter-Strike sebelum pembaruan Zona Bahaya.\n\n<i>Bersatu kita teguh.</i>"
 		"CSGO_CollectibleCoin_FiveYearService"		"Koin Veteran 5 Tahun"
@@ -4304,7 +4319,15 @@
 		
 		"CSGO_crate_community_36"				"Terminal Genesis Tersegel"
 		"CSGO_crate_community_36^volatile"		"Terminal Genesis Aktif"
-		"SprayKit_vcap1_ace_01"		"Ace"
+		"CSGO_crate_keychain_pack_kc_drboom_capsule"	    	"Koleksi Gantungan Dr. Boom"
+		"CSGO_crate_keychain_pack_kc_drboom_capsule_desc"		"Koleksi ini berisi berbagai gantungan Dr. Boom."
+		"CSGO_crate_keychain_pack_kc_drboom_capsule_short"	    "Gantungan Dr. Boom"
+		
+		"CSGO_crate_keychain_pack_kc_ml_community_01_capsule"	    	"Koleksi Gantungan Komunitas Missing Link"
+		"CSGO_crate_keychain_pack_kc_ml_community_01_capsule_desc"		"Koleksi ini berisi berbagai gantungan bertema sosis dari Workshop Komunitas."
+		"CSGO_crate_keychain_pack_kc_ml_community_01_capsule_short"	    "Gantungan Komunitas Missing Link"
+		
+"SprayKit_vcap1_ace_01"		"Ace"
 "SprayKit_vcap1_banana"		"Banana"
 "SprayKit_vcap1_cerberus"		"Cerberus"
 "SprayKit_vcap1_clutch_01"		"Clutch King"
@@ -27476,7 +27499,56 @@
 		"keychain_kc_wpn_tknife_crystal"					"Semi-Precious"
 		"keychain_kc_wpn_ctknife_gold"						"Baby Karat AT"
 		"keychain_kc_wpn_tknife_gold"						"Baby Karat T"
-// Paint Kits
+		// DR BOOM KEYCHAINS 
+		
+		"keychain_kc_db_biomech"					"Biomech"
+		"keychain_kc_db_terror"						"Gritty"
+		"keychain_kc_db_hellcat"					"Splatter Cat"
+		"keychain_kc_db_ugly"						"Fluffy"
+		"keychain_kc_db_wood"						"Whittle Guy"
+		"keychain_kc_db_yinyang"					"Lil' Zen"
+		"keychain_kc_db_aztec"						"Lil' Facelift"
+		"keychain_kc_db_200iq"						"Big Brain"
+		"keychain_kc_db_eviscerate"					"Bomb Tag"
+		"keychain_kc_db_clown"						"Lil' Bloody"
+		"keychain_kc_db_dimsum"						"Lil' Dumplin'"
+		"keychain_kc_db_bombacat"					"Lil' Chomper"
+		"keychain_kc_db_drbrian"					"Dr. Brian"
+		"keychain_kc_db_eco"						"Lil' Eco"
+		"keychain_kc_db_dripfade"					"Glitter Bomb"
+		"keychain_kc_db_occult"						"Eye of Ball"
+		"keychain_kc_db_yeti"						"Lil' Yeti"
+		"keychain_kc_db_eyecritter"					"Hungry Eyes"
+		"keychain_kc_db_8ball"						"8 Ball IGL"
+		"keychain_kc_db_flash"						"Flash Bomb"
+		"keychain_kc_db_incendiary"					"Lil' Ferno"
+		"keychain_kc_db_lighter"					"Butane Buddy"
+		// MISSINGLINK COMMUNITY KEYCHAINS 
+		
+		"keychain_kc_missinglink_ancientcurse"			"Lil' Curse"
+		"keychain_kc_missinglink_babyserpent"			"Lil' Serpent"
+		"keychain_kc_missinglink_basketball"			"Lil' Baller"
+		"keychain_kc_missinglink_bodybag"				"Dead Weight"
+		"keychain_kc_missinglink_cactus"				"Lil' Prick"
+		"keychain_kc_missinglink_charmburger"			"Lil' Buns"
+		"keychain_kc_missinglink_cigar"					"Lil' Smokey"
+		"keychain_kc_missinglink_cthulhu"				"Lil' Eldritch"
+		"keychain_kc_missinglink_happy"					"Lil' Happy"
+		"keychain_kc_missinglink_lilhatchling"			"Lil' Chirp"
+		"keychain_kc_missinglink_lilhothead"			"Magmatude"
+		"keychain_kc_missinglink_lillol"				"Lil' Cackle"
+		"keychain_kc_missinglink_melted"				"Quick Silver"
+		"keychain_kc_missinglink_muteghost"				"Lil' Boo"
+		"keychain_kc_missinglink_pencil"				"Lil' No. 2"
+		"keychain_kc_missinglink_pinata"				"Piñatita"
+		"keychain_kc_missinglink_popsicle"				"Pocket Pop"
+		"keychain_kc_missinglink_retrovision"			"Lil' Moments"
+		"keychain_kc_missinglink_sentai"				"Lil' Hero"
+		"keychain_kc_missinglink_sillyelephant"			"Lil' Tusk"
+		"keychain_kc_missinglink_slime"					"Lil' Goop"
+		"keychain_kc_missinglink_surfsup"				"Hang Loose"
+		"keychain_kc_missinglink_winemaker"				"Lil' Vino"
+		// Paint Kits
 		"PaintKit_Default"							"Paint Kit Tanpa Nama"
 		"PaintKit_Default_Tag"						"-"//
 
@@ -32374,6 +32446,11 @@
 		"SFUI_Map_de_brewery"		"Brewery"
 		"SFUI_Map_de_dogtown"		"Dogtown"
 
+		"SFUI_Map_de_palacio"		"Palacio"
+		"SFUI_Map_de_golden"		"Golden"
+		"SFUI_Map_de_rooftop"		"Rooftop"
+		"SFUI_Map_de_transit"		"(Dihapus)"
+
 		"SFUI_Map_workshop_preview_dust2"	"Pratinjau Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Pratinjau Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Pratinjau Inferno"
@@ -32747,6 +32824,11 @@
 
 		"SFUI_Store_Market_Link"                    "Lihat Di Pasar"
 		"SFUI_Store_Limit_Offer"                    "Penawaran Waktu Terbatas"
+		"SFUI_Store_Offer_Days_Remaining:p{daysremaining}"			"{d:daysremaining} Hari Tersisa."
+		"SFUI_Store_Offer_Days_Remaining_claim:p{daysremaining}"	"{d:daysremaining} hari tersisa"
+		"SFUI_Store_Offer_Days_Remaining_bid:p{daysremaining}"		"{d:daysremaining} hari tersisa untuk menawar penawaran ini"
+		"SFUI_Store_Offer_Days_Remaining_last_claim"				"Kesempatan terakhir untuk mengeklaim penawaran ini"
+		"SFUI_Store_Offer_Days_Remaining_last_bid"					"Kesempatan terakhir untuk menawar penawaran ini"
 		"SFUI_Store_Last_Chance"                    "Kesempatan Terakhir"
 		"SFUI_Store_Limited_Time_Tagline"           "Untuk Mendapatkan Penawaran Ini"
 		"SFUI_Store_Limited_Bid_Tagline"			"Untuk Mendapatkan Penawaran Ini"
@@ -35920,6 +36002,7 @@
 		"SFUI_MoveLeft"					"Gerak ke Kiri (Strafe)"
 		"SFUI_Previous"					"Senjata Terakhir yang Digunakan"
 		"SFUI_Voice"					"Gunakan Mikrofon"
+		"SFUI_ToggleOpenMic"			"Beralih antara mode Mikrofon Selalu Aktif dan Tekan untuk Bicara"
 		"SFUI_Buy"						"Menu Beli"
 
 		"SFUI_StandardRadio"			"Pesan Radio Standar"
@@ -37243,6 +37326,7 @@
 		"SFUI_QMM_ERROR_PremierSeasonOver"		"Musim Premier telah berakhir. Silakan tunggu sampai musim Premier berikutnya dimulai."
 		"SFUI_QMM_ERROR_PremierRatingMissing"		"Rating CS pemain di party-mu terlalu tinggi untuk ikut berpartisipasi di dalam matchmaking dengan pemain yang belum mendapatkan Rating CS."
 		"SFUI_QMM_ERROR_PremierRatingLargeDelta"	"Rating CS pemain di party-mu memiliki jarak yang terlalu jauh berbeda untuk ikut matchmaking bersama-sama."
+		"SFUI_QMM_ERROR_PremierRatingLargeDelta5"	"CS Rating pemain yang ada dalam party berbeda terlalu jauh untuk dapat mengikuti matchmaking bersama-sama, kecuali kamu bermain dengan tim berisi lima pemain."
 		"SFUI_QMM_ERROR_FullTeamRequired" "Tidak bisa memulai matchmaking karena party matchmaking kamu harus terisi penuh."
 		"SFUI_QMM_ERROR_TournamentTeamAccounts"	"Tidak bisa memulai matchmaking karena semua anggota party haruslah juga anggota dari tim turnamen yang sama."
 		"SFUI_QMM_ERROR_TournamentTeamSize"	"Tidak bisa memulai matchmaking karena tim turnamen kamu harus berisi 5 orang pemain."
@@ -41672,6 +41756,8 @@
 		"inv_search_placeholder"			"Cari Item"
 		"inv_search_popular"				"Disarankan"
 		"inv_search_no_results"				"Pencarian kamu <span class=\"context-menu-search__no-results__searchtext\">{s:search_text}</span> tidak mendapatkan hasil apa pun."
+		"inv_select_item_use_capability"				"Pilih item yang ingin digunakan dengan {s:item-name}"
+		"inv_select_item_stattrack_swap_capability"		"Pilih item yang nilai StatTrak™-nya akan ditukar dengan {s:item-name}"
 		"inv_select_item_use"				"Pilih item yang akan digunakan bersamaan:"
 		"inv_select_item_stattrack_swap"	"Pilih item yang nilai StatTrak™-nya akan ditukar:"
 		"inv_select_item_tostoreincasket"	"Pilih item untuk disimpan"
@@ -41695,6 +41781,7 @@
 		"inv_empty_lister"					"Tidak dapat menemukan item apa pun untuk {s:type} di dalam inventarismu."
 		"inv_empty_lister_for_use"			"Tidak dapat menemukan item apa pun untuk digunakan dengan {s:type} di dalam inventarismu."
 		"inv_empty_lister_nocaskets"		"Tidak dapat menemukan Unit Penyimpanan yang bisa menyimpan item-mu.\nUnit Penyimpanan bisa dibeli dari toko dalam game."
+		"inv_empty_lister_for_stattrackswap" "Tidak dapat menemukan item untuk ditukar nilai StatTrak™-nya dengan <br><b>{s:type}</b> di dalam inventarismu.<br><br>Nilai StatTrak™ hanya dapat ditukar antara dua item dengan tipe yang sama."
 		"inv_empty_lister_general"			"Tidak dapat menemukan item untuk kategori yang dipilih di dalam inventarismu."
 		"inv_empty_loadout_slot"			"Tidak ada item yang dipasang di slot ini"
 		"inv_header_rarity"					"Kelangkaan:"
@@ -42172,6 +42259,8 @@
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"Crosshair"
 		"settings_crosshair_info"			"Kustomisasi ukuran, bentuk, dan warna garis bidik. Bagikan kode crosshair milikmu ke teman atau coba pengaturan crosshair pemain lain."
+		"settings_snipers_xhair"			"Penglihatan Sniper"
+		"settings_grenadecrosshair_short"	"Garis Bidik Granat"
 		"settings_grenadecrosshair"			"Garis Bidik Granat"
 		"settings_grenadecrosshair_info"	"Garis bidik untuk membantumu ketika melempar granat."
 		"settings_radar_section"			"Radar"
@@ -44619,6 +44708,8 @@
 		"popup_signal_ok" 				"Sinyal Kuat"
 		"laptop_battery_tooltip" 		"Daya Baterai: {d:percent}%"
 		"laptop_original_seal_tooltip" 	"Item apa pun yang dibeli dari Terminal Uplink ini akan dilengkapi dengan Sertifikat Pemilik Asli, yang berlaku selama kamu menjadi pemiliknya."
+		"laptop_zoom_tooltip" 			"Gulir roda mouse untuk memperbesar dan memperkecil"
+		"laptop_pan_tooltip" 			"Tahan tombol \"SHIFT\" dan seret untuk menggeser kamera"
 		"laptop_pricing_tooltip"		"Harga bersifat global dan disesuaikan secara otomatis berdasarkan permintaan terhadap setiap item dalam koleksi ini."
 
 
@@ -45003,8 +45094,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48775_comment
-// crow_mask_48776_comment
+// crow_mask_48780_comment
+// crow_mask_48781_comment
 }
 
 
