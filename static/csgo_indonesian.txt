@@ -28928,28 +28928,28 @@
 		"CSGO_Wearable_ct_defaultgloves"			"Sarung Tangan AT Default"
 		"CSGO_Wearable_ct_defaultgloves_Desc"		"Sarung tangan taktis serba guna yang didesain untuk anggota keamanan atau militer."
 		
-		"CSGO_Wearable_t_studdedgloves"				"Bloodhound Gloves"
+		"CSGO_Wearable_t_studdedgloves"				"Sarung Tangan Bloodhound"
 		"CSGO_Wearable_t_studdedgloves_Desc"		"Sarung tangan setengah jari ini memiliki spike besi dan logo Operation Bloodhound."
 		
-		"CSGO_Wearable_v_sporty_glove"				"Sport Gloves"
+		"CSGO_Wearable_v_sporty_glove"				"Sarung Tangan Olahraga"
 		"CSGO_Wearable_v_sporty_glove_Desc"			"Kain sintetis membuat sarung tangan atlet ini lebih tahan lama dan terlihat menarik."
 		
 		"CSGO_Wearable_v_leather_handwrap"			"Hand Wraps"
 		"CSGO_Wearable_v_leather_handwrap_Desc"		"Disukai oleh petarung tangan kosong, gulungan ini melindungi buku jari dan menstabilkan pergelangan tangan ketika memukul."
 
-		"CSGO_Wearable_v_slick_glove"				"Driver Gloves"
+		"CSGO_Wearable_v_slick_glove"				"Sarung Tangan Pengemudi"
 		"CSGO_Wearable_v_slick_glove_Desc"			"Sarung tangan menyetir ini memberikan perlindungan dari berbagai hal sembari tetap mempertahankan sensasi taktilnya."
 		
-		"CSGO_Wearable_v_specialist_glove"			"Specialist Gloves"
+		"CSGO_Wearable_v_specialist_glove"			"Sarung Tangan Spesialis"
 		"CSGO_Wearable_v_specialist_glove_Desc"		"Tahan lama, sejuk, dan stylish. Sarung tangan ini dirancang untuk menahan (dan memberi) pukulan."
 		
-		"CSGO_Wearable_v_motorcycle_glove"			"Moto Gloves"
+		"CSGO_Wearable_v_motorcycle_glove"			"Sarung Tangan Motor"
 		"CSGO_Wearable_v_motorcycle_glove_Desc"		"Sarung tangan dengan knuckle guard yang keras ini mampu melindungi tangan pemakainya dari gesekan pada kecepatan 100 km/jam."
 		
-		"CSGO_Wearable_t_studded_hydra_gloves"				"Hydra Gloves"
+		"CSGO_Wearable_t_studded_hydra_gloves"				"Sarung Tangan Hydra"
 		"CSGO_Wearable_t_studded_hydra_gloves_Desc"		"Sarung tangan tanpa jari ini telah dihiasi dengan spike besi dan logo Operation Hydra."
 		
-		"CSGO_Wearable_t_studded_brokenfang_gloves"			"Broken Fang Gloves"
+		"CSGO_Wearable_t_studded_brokenfang_gloves"			"Sarung Tangan Broken Fang"
 		"CSGO_Wearable_t_studded_brokenfang_gloves_Desc"	"Sarung tangan tanpa jari ini telah dihiasi dengan spike besi dan logo Operation Broken Fang."
 		
 		// END WEARABLES
