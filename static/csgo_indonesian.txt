@@ -81,7 +81,7 @@
 		"GameUI_KeepCrosshairInfo" "Tetap menampilkan crosshair ketika garis bidik granat ditampilkan."
 		"GameUI_GrenadeCrosshairFlash"	"Granat Kejut"
 		"GameUI_GrenadeCrosshairHE"	"Granat HE"
-		"GameUI_GrenadeCrosshairFire"	"Koktail Molotov/Granat Pembakar"
+		"GameUI_GrenadeCrosshairFire"	"Bom Molotov/Granat Pembakar"
 		"GameUI_GrenadeCrosshairSmoke"	"Granat Asap"
 		"GameUI_GrenadeCrosshairDecoy"	"Granat Pengecoh"
 		"GameUI_GrenadeCrosshairInfoTooltipFlash" "Apa kamu ingin menampilkan garis bidik untuk Granat Kejut? Jika ya, berapa lama waktu tunggu untuk menampilkan crosshair setelah pin ditarik?"
@@ -31764,10 +31764,14 @@
 		//Recipes
 		"CSGO_Recipe_TradeUp"						"Kontrak Tukar Tambah"
 		"CSGO_Recipe_TradeUp_Desc"					"Kamu bisa menukarkan 10 item dengan kualitas yang sama menjadi 1 item dengan kualitas setingkat lebih tinggi dari koleksi salah satu item yang kamu tukarkan."
+		"CSGO_Recipe_TradeUpX_Desc"					"Kamu bisa menukarkan beberapa item dengan kualitas yang sama menjadi 1 item dengan kualitas setingkat lebih tinggi dari koleksi salah satu item yang kamu tukarkan."
 		"CSGO_Recipe_TradeUp_Desc_html"				"Tukarkan: <b><font color='#FFFFFF'>10 item dengan kualitas yang sama</font></b>\nDapatkan: <b><font color='#FFFFFF'>1 item dengan satu tingkat kualitas yang lebih tinggi dari koleksi salah satu item yang tersedia</font></b>"
+		"CSGO_Recipe_TradeUpX_Desc_html"			"Tukarkan: <b><font color='#FFFFFF'>Item dengan kualitas yang sama</font></b>\nDapatkan: <b><font color='#FFFFFF'>1 item dengan satu tingkat kualitas yang lebih tinggi dari koleksi salah satu item yang tersedia</font></b>"
 		"CSGO_Recipe_Count_Items_Selected:p{count}"			"<b>{d:count}</b> Item Dipilih"
 		"CSGO_Recipe_Count_Items_Remaining:p{count}"			"<b>{d:count}</b> Item Tersisa"
 		"CSGO_Recipe_TradeUp_Items_Remain:p{count}"			"{d:count} Item Dipilih untuk Ditukar"
+		"CSGO_Recipe_TradeUp_Items_NoSelection"				"Pilih item yang memenuhi syarat dari inventarismu untuk ditukarkan ke item dengan kualitas yang lebih tinggi"
+		"CSGO_Recipe_TradeUp_Items_XofY:p{count}"			"{d:count}/{d:recipecount} Dipilih untuk Ditukar"
 		"CSGO_Recipe_TradeUp_Items_Inv:p{count}"				"{d:count} Item Dapat Ditukar"
 		"CSGO_Recipe_TradeUp_Items_Confirm"			"Siap untuk Ditukar"
 		"CSGO_Swap_Stattrak_Title"					"Alat Tukar StatTrak™"
@@ -32039,6 +32043,8 @@
 		"RI_R5"							"Senjata Rahasia"
 		"RI_R6p"						"Senjata Tersembunyi"
 		"RI_R6"							"Senjata Tersembunyi"
+		"RI_R7p"						"★ Item Langka Spesial ★"
+		"RI_R7"							"★ Item Langka Spesial ★"
 
 
 
@@ -32120,6 +32126,7 @@
 		"SFUI_GameMode_custom"					"Kustom"
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Hari Pelatihan"
+		"SFUI_GameMode_retakes"					"Retake"
 
 		"ForceNewUserTraining_title"			"Hari Pelatihan"
 		"ForceNewUserTraining_text"				"Apa kamu siap untuk melanjutkan ke sesi latihan singkat?"
@@ -34552,7 +34559,7 @@
 		"SFUI_HowToPlay_HUD"							"HUD"
 		"SFUI_HowToPlay_HUDContents"					"<img src = 'hud_crosshairs.png' width='352' height='220'/><br/><font size='24'>CROSSHAIR</font><br/>Crosshair menampilkan akurasimu. Semakin kecil crosshair-nya, semakin akurat tembakanmu. Menembakkan sebuah senjata dengan mode full auto akan membuat akurasimu lebih buruk. Ketika kamu berhenti menembak, akurasimu akan kembali normal.<br/><img src = 'hud_health_armor_flyout.png' width='352' height='220'/><br/><font size='24'>HEALTH DAN ARMOR</font><br/>Ketika Health kamu mencapai 0, kamu akan mati. Begitu Health kamu berkurang, Health tidak akan bertambah lagi sampai kamu respawn. Armor akan mengurangi jumlah damage yang kamu terima, tapi akan berkurang setiap menerima damage. <br/><img src = 'hud_buyzone_money.png' width='352' height='220'/><br/><font size='24'>IKON ZONA BELI</font><br/>Ikon Zona Beli muncul ketika kamu berada di dalam Zona Beli dan masih tersisa waktu untuk membeli peralatan.<br/><img src = 'hud_weapon_panel_ammo.png' width='352' height='220'/><br/><font size='24'>SENJATA DAN AMUNISI</font><br/> Peralatan kamu ditampilkan di sudut kanan bawah layar. Sisi kiri tampilan amunisi menunjukkan jumlah amunisi yang ada di dalam magasin, sementara sisi kanan menunjukkan jumlah amunisi cadangan yang tersedia untuk senjata yang sedang kamu gunakan.<br/><img src = 'hud_radar.png' width='352' height='220'/><br/><font size='24'>RADAR</font><br/> Radar di kiri atas menandakan lokasi rekan satu tim, zona penyelamatan, bombsite, dan musuh yang terlihat olehmu atau salah satu rekan timmu.<br/><img src = 'hud_voice_display.png' width='352' height='220'/><br/><font size='24'>TAMPILAN KOMUNIKASI</font><br/>Tampilan Komunikasi memperlihatkan identitas dan lokasi pemain yang berbicara. Peringatan item khusus akan muncul di sini jika bom atau alat penjinak dijatuhkan. Area HUD ini juga melaporkan peringatan granat yang dilemparkan dan kondisi koneksi pemain.<br/><img src = 'hud_bomb_carrier.png' width='352' height='220'/><br/><font size='24'>IKON PEMBAWA BOM</font><br/> Jika kamu melihat ikon ini, artinya kamu sedang membawa bom. Temukan bombsite dan pasang bomnya!<br/><img src = 'hud_defuse_kit.png' width='352' height='220'/><br/><font size='24'> IKON ALAT PENJINAK</font><br/>Ikon alat penjinak menandakan bahwa kamu sedang membawa alat penjinak.<br/><img src = 'hud_hostage_zone.png' width='352' height='220'/><br/><font size='24'>IKON ZONA PENYELAMATAN</font><br/> Indikator zona penyelamatan muncul saat kamu berada di dalam zona penyelamatan.<br/><img src = 'hud_miniscoreboard.png' width='352' height='220'/><br/><font size='24'>PAPAN SKOR MINI</font><br/>Papan Skor Mini memberikan ringkasan tentang pemain dalam game dan status mereka. Papan skor juga menampilkan jumlah waktu yang tersisa sebelum ronde berakhir.<br/><img src = 'hud_hostage_status.png' width='352' height='220'/><br/><font size='24'>IKON SANDERA </font><br/>Ikon sandera menunjukkan status sandera. Hijau cerah dengan tanda dolar menunjukkan sandera yang diselamatkan. Sosok hijau yang berjalan menunjukkan sandera dalam perjalanan. Sosok hijau berdiri menunjukkan seorang sandera yang menunggu untuk diselamatkan. Garis oranye menunjukkan sandera yang mati.<br/><img src = 'hud_planted_bomb.png' width='352' height='220'/><br/><font size='24'>IKON BOM DIPASANG</font><br/> Ikon Bom Dipasang muncul ketika Teroris telah memasang bom.<br/>"
 		"SFUI_HowToPlay_Tactics"						"Taktik"
-		"SFUI_HowToPlay_TacticsContents"				"<font size='24'>AKURASI</font><br/>Seperti senjata sungguhan, senjata di Counter-Strike juga memiliki recoil ketika menembak. Semakin lama senjata otomatis ditembakkan, maka akan semakin tidak akurat. Akurasinya akan langsung kembali normal begitu kamu berhenti menembak. Bergerak sambil menembak akan mengurangi akurasi tembakanmu, melompat semakin mengurangi akurasi tembakanmu juga.<br/><br/><font size='24'>MENUKAR SENJATA</font><br/>Di kedua mode Klasik, pemain yang mati akan menjatuhkan senjatanya. Untuk menukar senjatamu dengan senjata yang ada di tanah, arahkan ke senjata yang dijatuhkan dan tekan ${+use}. Kamu juga dapat menjatuhkan senjata yang sedang kamu gunakan dengan menekan ${drop} lalu berjalan di atas senjata yang diinginkan.<br/><br/><font size='24'>HEADSHOT</font><br/>Tembakan di kepala menimbulkan lebih banyak damage dibandingkan tembakan ke tubuh. Sering kali, kamu bisa membunuh musuh dengan satu tembakan di kepala.<br/><br/><font size='24'>BEKERJA SAMA DI DALAM TIM</font><br/>Tim yang bekerja sama dengan baik sebagai satu kesatuan akan memperoleh lebih banyak kemenangan. Saat kamu bermain dengan orang lain, gunakan headset untuk berkomunikasi dan berkoordinasi dengan anggota timmu. Tetapkan peran dan tugas masing-masing. Kamu bisa memantau status pemain di layar Papan Skor dan papan skor mini di dalam game. Perhatikan Area Pemberitahuan di pojok kanan atas dan Mini Map di pojok kiri atas layar dengan baik. Area Pemberitahuan akan menampilkan nama pemain yang mati dan siapa yang membunuhnya. Mini Map akan menampilkan secara ringkas di mana rekan satu tim terbunuh.<br/><br/><font size='24'>PELAJARI MAP</font><br/>Jelajahi peta secara offline saat melawan bot. Kenali setiap map dengan baik, termasuk semua rute serta titik penyergapannya. Saat bermain melawan pemain lain, manfaatkan mode Tonton untuk mengamati cara pemain lain menavigasi peta.<br/><br/><font size='24'>GUNAKAN GRANATMU</font><br/>Semua jenis granat sangat berguna. Granat HE dapat menghabisi musuh. Granat Asap dapat membuat perlindungan dari tembakan sniper. Granat Kejut membutakan dan melumpuhkan musuh untuk sementara, sehingga sangat sulit bagi mereka untuk menembakmu dengan akurat. Koktail Molotov dan Granat Pembakar dapat menciptakan api yang berguna sebagai penghalang di titik masuk dan keluar. Granat Pengecoh menghasilkan suara yang mirip dengan tim untuk membingungkan lawan, bahkan memengaruhi tampilan Mini Map musuh.<br/><br/><font size='24'>TERUSLAH BERGERAK</font><br/>Akan sangat sulit untuk menjadikanmu sebagai target jika kamu terus bergerak. Berjongkok dan berjalan akan sangat berguna saat kamu mencoba menyergap musuh atau saat menggunakan sniper rifle.<br/><br/><font size='24'>GUNAKAN TAKTIK YANG BERBEDA</font><br/>Jangan terus memakai taktik yang sama. Jika kamu terus mengulangi taktik yang sama karena taktik itu berhasil dengan baik, korbanmu sebelumnya akan menyadarinya dan menunggumu melakukan taktik yang sama pada ronde berikutnya.<br/><br/><font size='24'>JALANKAN MISI DENGAN BAIK</font><br/>Saat menjinakkan atau memasang bom, atau saat mendekati sandera, pastikan tidak ada musuh di sekitar yang sedang menunggu untuk menyergapmu.<br/><br/><font size='24'>SELALU ISI ULANG</font><br/>Selalu isi ulang senjatamu. Jika kamu kehabisan amunisi di tengah baku tembak, gantilah ke senjatamu yang lain alih-alih mencoba mengisi ulang peluru dan berisiko terkena tembakan.<br/><br/><font size='24'>STEALTH</font><br/>Stealth sangat penting dalam Counter-Strike. Saat seorang pemain berlari, langkah kakinya dapat terdengar. Untuk mencegah hal ini, alihkan ke mode berjalan dengan menekan ${+speed} ketika mencoba menghindari deteksi musuh. Berhati-hatilah juga terhadap pintu dan tangga. Keduanya sering kali mengeluarkan suara yang dapat memberitahukan posisimu.<br/><br/><font size='30'>BERTAHAN HIDUP</font><br/>Masuk ke tengah baku tembak biasanya akan membuat kamu terbunuh. Pemain yang cerdas akan berlindung sesering mungkin, dan memanfaatkan lingkungan sekitar untuk keuntungannya. Bekerja samalah dengan rekan satu timmu untuk mengalahkan musuh.<br/>"
+		"SFUI_HowToPlay_TacticsContents"				"<font size='24'>AKURASI</font><br/>Seperti senjata sungguhan, senjata di Counter-Strike juga memiliki recoil ketika menembak. Semakin lama senjata otomatis ditembakkan, maka akan semakin tidak akurat. Akurasinya akan langsung kembali normal begitu kamu berhenti menembak. Bergerak sambil menembak akan mengurangi akurasi tembakanmu, melompat semakin mengurangi akurasi tembakanmu juga.<br/><br/><font size='24'>MENUKAR SENJATA</font><br/>Di kedua mode Klasik, pemain yang mati akan menjatuhkan senjatanya. Untuk menukar senjatamu dengan senjata yang ada di tanah, arahkan ke senjata yang dijatuhkan dan tekan ${+use}. Kamu juga dapat menjatuhkan senjata yang sedang kamu gunakan dengan menekan ${drop} lalu berjalan di atas senjata yang diinginkan.<br/><br/><font size='24'>HEADSHOT</font><br/>Tembakan di kepala menimbulkan lebih banyak damage dibandingkan tembakan ke tubuh. Sering kali, kamu bisa membunuh musuh dengan satu tembakan di kepala.<br/><br/><font size='24'>BEKERJA SAMA DI DALAM TIM</font><br/>Tim yang bekerja sama dengan baik sebagai satu kesatuan akan memperoleh lebih banyak kemenangan. Saat kamu bermain dengan orang lain, gunakan headset untuk berkomunikasi dan berkoordinasi dengan anggota timmu. Tetapkan peran dan tugas masing-masing. Kamu bisa memantau status pemain di layar Papan Skor dan papan skor mini di dalam game. Perhatikan Area Pemberitahuan di pojok kanan atas dan Mini Map di pojok kiri atas layar dengan baik. Area Pemberitahuan akan menampilkan nama pemain yang mati dan siapa yang membunuhnya. Mini Map akan menampilkan secara ringkas di mana rekan satu tim terbunuh.<br/><br/><font size='24'>PELAJARI MAP</font><br/>Jelajahi peta secara offline saat melawan bot. Kenali setiap map dengan baik, termasuk semua rute serta titik penyergapannya. Saat bermain melawan pemain lain, manfaatkan mode Tonton untuk mengamati cara pemain lain menavigasi peta.<br/><br/><font size='24'>GUNAKAN GRANATMU</font><br/>Semua jenis granat sangat berguna. Granat HE dapat menghabisi musuh. Granat Asap dapat membuat perlindungan dari tembakan sniper. Granat Kejut membutakan dan melumpuhkan musuh untuk sementara, sehingga sangat sulit bagi mereka untuk menembakmu dengan akurat. Bom Molotov dan Granat Pembakar dapat menciptakan api yang berguna sebagai penghalang di titik masuk dan keluar. Granat Pengecoh menghasilkan suara yang mirip dengan tim untuk membingungkan lawan, bahkan memengaruhi tampilan Mini Map musuh.<br/><br/><font size='24'>TERUSLAH BERGERAK</font><br/>Akan sangat sulit untuk menjadikanmu sebagai target jika kamu terus bergerak. Berjongkok dan berjalan akan sangat berguna saat kamu mencoba menyergap musuh atau saat menggunakan sniper rifle.<br/><br/><font size='24'>GUNAKAN TAKTIK YANG BERBEDA</font><br/>Jangan terus memakai taktik yang sama. Jika kamu terus mengulangi taktik yang sama karena taktik itu berhasil dengan baik, korbanmu sebelumnya akan menyadarinya dan menunggumu melakukan taktik yang sama pada ronde berikutnya.<br/><br/><font size='24'>JALANKAN MISI DENGAN BAIK</font><br/>Saat menjinakkan atau memasang bom, atau saat mendekati sandera, pastikan tidak ada musuh di sekitar yang sedang menunggu untuk menyergapmu.<br/><br/><font size='24'>SELALU ISI ULANG</font><br/>Selalu isi ulang senjatamu. Jika kamu kehabisan amunisi di tengah baku tembak, gantilah ke senjatamu yang lain alih-alih mencoba mengisi ulang peluru dan berisiko terkena tembakan.<br/><br/><font size='24'>STEALTH</font><br/>Stealth sangat penting dalam Counter-Strike. Saat seorang pemain berlari, langkah kakinya dapat terdengar. Untuk mencegah hal ini, alihkan ke mode berjalan dengan menekan ${+speed} ketika mencoba menghindari deteksi musuh. Berhati-hatilah juga terhadap pintu dan tangga. Keduanya sering kali mengeluarkan suara yang dapat memberitahukan posisimu.<br/><br/><font size='30'>BERTAHAN HIDUP</font><br/>Masuk ke tengah baku tembak biasanya akan membuat kamu terbunuh. Pemain yang cerdas akan berlindung sesering mungkin, dan memanfaatkan lingkungan sekitar untuk keuntungannya. Bekerja samalah dengan rekan satu timmu untuk mengalahkan musuh.<br/>"
 
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36027,7 +36034,7 @@
 		"SFUI_ControllerZoomSensitivity" "Pengganda Sensitivitas Zoom"
 
 		"SFUI_TaserSlot"				"Zeus x27"
-		"SFUI_MolotovSlot"				"Koktail Molotov / Granat Pembakar"
+		"SFUI_MolotovSlot"				"Bom Molotov/Granat Pembakar"
 		"SFUI_DecoySlot"				"Granat Pengecoh"
 		"SFUI_CycleGrenades"			"Pilih Granat"
 		"SFUI_CycleWeapons"				"Ganti Utama/Cadangan"
@@ -37924,6 +37931,11 @@
 		"SFUI_Lobby_StatusRichPresence_new_user_training_community"		"Latihan Komunitas"
 		"SFUI_Lobby_StatusRichPresence_new_user_training_watch"			"Menonton Latihan"
 		"SFUI_Lobby_StatusRichPresence_new_user_training_review"		"Me-replay Latihan"
+		"SFUI_Lobby_StatusRichPresence_retakes_lobby"					"Dalam Lobi Retake"
+		"SFUI_Lobby_StatusRichPresence_retakes_game"					"Bermain Retake"
+		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Retake Komunitas"
+		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Menonton Retake"
+		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Menonton Ulang Retake"
 		"SFUI_PSNPresence_SinglePlayer"		"Pemain Tunggal"
 		"SFUI_PSNPresence_InLobby"			"Di Lobi"
 		"SFUI_PSNPresence_InGame"			"Game Online"
@@ -39962,6 +39974,8 @@
 		"SFUI_Rules_Survival_Loading"			"· Pilih lokasi mulai.\n· Temukan atau beli peralatan.\n· Kumpulkan informasi dari tabletmu.\n· Hindari zona bahaya yang semakin meluas.\n· Jadilah pemain terakhir yang masih hidup untuk menang!"
 
 		"SFUI_Rules_NewUserTraining_Loading"	"Selamat datang di Counter-Strike!\n\nKamu akan bermain 12 ronde dengan bot.\n\nDi setiap ronde, eliminasi musuh atau selesaikan misi bom."
+
+		"SFUI_Rules_Retakes_Loading"			"Misi Skenario Bom\n\nRonde dimulai dengan bom yang sudah\nterpasang di bombsite acak.\n\nPilih perlengkapan di awal\nmasing-masing ronde.\n\nPengaturan:\n· Friendly fire: NONAKTIF\n· Team collision: NONAKTIF"
 
 		// Team Select Screen
 		"SFUI_Rules_TS_GunGame_Progressive"		"Habisi musuh dan jadilah pemain pertama yang mendapatkan kill dengan Pisau Emas."
@@ -45094,8 +45108,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48780_comment
-// crow_mask_48781_comment
+// crow_mask_48794_comment
+// crow_mask_48795_comment
 }
 
 

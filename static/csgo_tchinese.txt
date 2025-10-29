@@ -33259,10 +33259,14 @@
 		//Recipes
 		"CSGO_Recipe_TradeUp"						"汰換合約"
 		"CSGO_Recipe_TradeUp_Desc"					"10 件品質相同的物品將可換得 1 件品質高一級，且來自隨機一種您提供的物品所屬收藏的物品。"
+		"CSGO_Recipe_TradeUpX_Desc"					"數件品質相同的物品將可換得 1 件品質高一級，且來自隨機一種您提供的物品所屬收藏的物品。"
 		"CSGO_Recipe_TradeUp_Desc_html"				"交換：<b><font color='#FFFFFF'>10 件相同品質的物品</font></b>\n獲得：<b><font color='#FFFFFF'>1 件品質高一級，且來自隨機一種您提供的物品所屬收藏的物品</font></b>"
+		"CSGO_Recipe_TradeUpX_Desc_html"			"汰換：<b><font color='#FFFFFF'>相同品質的物品</font></b>\n獲得：<b><font color='#FFFFFF'>1 件品質高一級，且來自隨機一種您提供的物品所屬收藏的物品</font></b>"
 		"CSGO_Recipe_Count_Items_Selected:p{count}"			"已選擇 <b>{d:count}</b> 項物品#|#已選擇 <b>{d:count}</b> 項物品"
 		"CSGO_Recipe_Count_Items_Remaining:p{count}"			"剩下 <b>{d:count}</b> 項物品#|#剩下 <b>{d:count}</b> 項物品"
 		"CSGO_Recipe_TradeUp_Items_Remain:p{count}"			"已選擇 {d:count} 項物品用於汰換#|#已選擇 {d:count} 項物品用於汰換"
+		"CSGO_Recipe_TradeUp_Items_NoSelection"				"從您的物品庫中選擇可供汰換的物品來換取較高品質的物品"
+		"CSGO_Recipe_TradeUp_Items_XofY:p{count}"			"已選擇 {d:count} / {d:recipecount} 項物品用於汰換#|#已選擇 {d:count} / {d:recipecount} 項物品用於汰換"
 		"CSGO_Recipe_TradeUp_Items_Inv:p{count}"				"{d:count} 項物品可供汰換#|#{d:count} 項物品可供汰換"
 		"CSGO_Recipe_TradeUp_Items_Confirm"			"準備進行汰換"
 		"CSGO_Swap_Stattrak_Title"					"StatTrak™ 交換工具"
@@ -33534,6 +33538,8 @@
 		"RI_R5"							"機密武器"
 		"RI_R6p"						"隱蔽武器"
 		"RI_R6"							"隱蔽武器"
+		"RI_R7p"						"★ 特殊稀有物品 ★"
+		"RI_R7"							"★ 特殊稀有物品 ★"
 
 
 
@@ -33615,6 +33621,7 @@
 		"SFUI_GameMode_custom"					"自訂"
 		"SFUI_GameMode_Workshop"				"工作坊"
 		"SFUI_GameMode_new_user_training"		"訓練日"
+		"SFUI_GameMode_retakes"					"回防"
 
 		"ForceNewUserTraining_title"			"訓練日"
 		"ForceNewUserTraining_text"				"您準備好進行簡短的訓練課程了嗎？"
@@ -39455,6 +39462,11 @@
 		"SFUI_Lobby_StatusRichPresence_new_user_training_community"		"社群訓練"
 		"SFUI_Lobby_StatusRichPresence_new_user_training_watch"			"正在觀看訓練內容"
 		"SFUI_Lobby_StatusRichPresence_new_user_training_review"		"正在重播訓練內容"
+		"SFUI_Lobby_StatusRichPresence_retakes_lobby"					"在回防模式大廳內"
+		"SFUI_Lobby_StatusRichPresence_retakes_game"					"正在玩回防模式"
+		"SFUI_Lobby_StatusRichPresence_retakes_community"				"社群回防模式遊戲"
+		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"正在觀看回防模式"
+		"SFUI_Lobby_StatusRichPresence_retakes_review"					"正在重播回防模式"
 		"SFUI_PSNPresence_SinglePlayer"		"單人遊戲"
 		"SFUI_PSNPresence_InLobby"			"大廳中"
 		"SFUI_PSNPresence_InGame"			"線上遊戲"
@@ -41493,6 +41505,8 @@
 		"SFUI_Rules_Survival_Loading"			"· 選擇起始位置。\n· 尋找或購買武器裝備。\n· 用平板蒐集情報。\n· 避開不斷擴張的危險區域。\n· 成為最後的勝者！"
 
 		"SFUI_Rules_NewUserTraining_Loading"	"歡迎來到絕對武力！\n\n您即將與電腦玩家玩 12 回合。\n\n在每回合中殲滅敵隊或完成炸彈任務。"
+
+		"SFUI_Rules_Retakes_Loading"			"炸彈拆除任務\n\n回合開始時炸彈已設置\n在某隨機地點。\n\n在每回合開始時\n選擇武器裝備。\n\n設定：\n· 關閉友方傷害\n· 關閉隊友碰撞"
 
 		// Team Select Screen
 		"SFUI_Rules_TS_GunGame_Progressive"		"殲滅敵人並成為第一位使用金刀殺敵的玩家。"
@@ -46628,8 +46642,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"在<b>{s:gamemode}：{s:location}</b> 中贏得 1 回合。#|#在<b>{s:gamemode}：{s:location}</b> 中贏得回合。"
 		"quest_11015_var_ingame:p{mission-points}"		"贏得 1 回合#|#贏得多回合"
 
-// crow_mask_48780_comment
-// crow_mask_48781_comment
+// crow_mask_48794_comment
+// crow_mask_48795_comment
 }
 
 
