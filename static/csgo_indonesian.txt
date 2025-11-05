@@ -41799,6 +41799,7 @@
 		"inv_empty_lister_general"			"Tidak dapat menemukan item untuk kategori yang dipilih di dalam inventarismu."
 		"inv_empty_loadout_slot"			"Tidak ada item yang dipasang di slot ini"
 		"inv_header_rarity"					"Kelangkaan:"
+		"inv_header_quality"				"Kualitas:"
 		"inv_header_grade"					"Eksterior:"
 		"inv_header_team"					"Tim:"
 
@@ -45108,8 +45109,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48794_comment
 // crow_mask_48795_comment
+// crow_mask_48796_comment
 }
 
 
