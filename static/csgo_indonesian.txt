@@ -4823,7 +4823,6 @@
 		"CSGO_Tournament_Event_Stage_94"		"Babak III"
 		"CSGO_Tournament_Event_Stage_95"		"Babak III"
 		"CSGO_Tournament_Event_Stage_96"		"Babak III"
-
 		"CSGO_Tournament_Event_Stage_Display_1"			"Inaugurasi"
 		"CSGO_Tournament_Event_Stage_Display_2"			"Babak Grup | Babak Pertama"
 		"CSGO_Tournament_Event_Stage_Display_3"			"BYOC"
@@ -4920,7 +4919,6 @@
 		"CSGO_Tournament_Event_Stage_Display_94"		"Babak III - Pertandingan Eliminasi (1/3)"
 		"CSGO_Tournament_Event_Stage_Display_95"		"Babak III - Pertandingan Eliminasi (2/3)"
 		"CSGO_Tournament_Event_Stage_Display_96"		"Babak III - Pertandingan Eliminasi"
-
 		// Match global stats stage names
 		"CSGO_MatchInfo_Stage_Group"	"Babak Grup"
 		"CSGO_MatchInfo_Stage_GroupStage"	"Babak Grup"
@@ -5124,9 +5122,6 @@
 		"CSGO_TeamID_139"       "Falcons"
 		"CSGO_TeamID_140"       "M80"
 		"CSGO_TeamID_141"       "Metizport"
-
-
-
 		"Place_Name_1st"		"Juara"
 		"Place_Name_2nd"		"Finalis"
 		"Place_Name_3rd-4th"	"Semifinalis"
@@ -26417,7 +26412,11 @@
 		"CSGO_Watch_Loading_Tournament_24"   "Memuat pertandingan BLAST.tv Austin 2025..."
 
 		//
-		// 2025 BLAST.tv Austin 2025 CS2 Major Championship Strings Block End
+//
+//
+//
+	//
+		// 2025 StarLadder Budapest 2025 CS2 Major Championship Strings Block End
 		// ======================================
 
 
@@ -39273,9 +39272,6 @@
 		"SFUI_ProPlayer_zweih" "Ivan Gogin"
 		"SFUI_ProPlayer_br0" "Alexander Bro"
 		"SFUI_ProPlayer_saadzin" "Guilherme Pacheco"
-
-
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Leaderboards
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -45109,8 +45105,8 @@
 		"quest_11015_var_desc:p{mission-points}"	 	"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11015_var_ingame:p{mission-points}"		"Menangkan satu atau beberapa ronde"
 
-// crow_mask_48795_comment
-// crow_mask_48796_comment
+// crow_mask_50556_comment
+// crow_mask_50557_comment
 }
 
 
