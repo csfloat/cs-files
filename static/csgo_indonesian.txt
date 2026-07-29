@@ -36245,14 +36245,15 @@ melawan FaZe."
 
 		"Workshop_Confirm_Download_Popup_Title" "Konfirmasi Unduhan Workshop"
 		"Workshop_Confirm_New_Download" "Unduhan map workshop diperlukan untuk melanjutkan. Kamu belum pernah mengunduh map ini sebelumnya. Apakah kamu ingin mengunduh dan menjalankan map ini?"
-		"Workshop_Subscriptions" "Langganan:"
-		"Workshop_favorites" "Favorit:"
+		"Workshop_Subscriptions" "Langganan"
+		"Workshop_favorites" "Favorit"
 		"Workshop_upvotes" "Upvote"
 		"Workshop_downvotes" "Downvote"
 		"Workshop_score" "Skor"
 		"Workshop_created" "Tanggal Dibuat"
 		"Workshop_size" "Ukuran"
 		"Workshop_View" "Lihat di Workshop"
+		"Workshop_Error" "Eror {d:errorcode}"
 		"Workshop_Allow" "Unduh"
 		"Workshop_Deny" "Batal"
 
@@ -38647,6 +38648,8 @@ melawan FaZe."
 		"xpshop_upsell_mainmenu_1"					"Pas Arsenal"
 		"xpshop_upsell_mainmenu_2"					"Dapatkan akses ke tiga Koleksi Senjata baru, Gantungan, Peti Gallery, dan masih banyak lagi."
 		"xpshop_upsell_mainmenu_2_v2"				"Dapatkan akses ke Koleksi Train, Peti Fever, Gantungan, dan berbagai hal baru lainnya."
+		"xpshop_upsell_mainmenu_2_v3"				"Dapatkan akses ke Koleksi Arabesque dan Spy Tech baru, Peti Fever, dan banyak lagi."
+
 		"xpshop_upsell_btn"							"Dapatkan Pas"
 		"xpshop_upsell_tooltip"						"Pelajari lebih lanjut tentang {s:pass}"
 
@@ -46411,9 +46414,13 @@ melawan FaZe."
 		"CSGO_Workshop_EventTags"					"Call to Arms"
 		"CSGO_Workshop_Event_none"					"Tidak Terdaftar"
 		"CSGO_Workshop_Event_arabesque"				"Daftar untuk Seni Arabes & Mitologi Arab"
-		"CSGO_Workshop_Event_spy_tech"				"Daftar untuk Spy Tech"
-		"CSGO_Workshop_Event_fruit_veg"				"Daftar untuk Buah & Sayuran"
-		"CSGO_Workshop_Event_auto_racing"			"Daftar untuk Balap Otomotif"
+		"CSGO_Workshop_Event_spy_tech"				"Daftar untuk Koleksi Spy Tech"
+		"CSGO_Workshop_Event_fruit_veg"				"Daftar untuk Koleksi Fruits & Vegetables"
+		"CSGO_Workshop_Event_auto_racing"			"Daftar untuk Koleksi Auto Racing"
+		"CSGO_Workshop_Event_cryptids"				"Daftar untuk Koleksi Cryptids"
+		"CSGO_Workshop_Event_pop_art"				"Daftar untuk Koleksi Pop Art"
+		"CSGO_Workshop_Event_fairy_tales"			"Daftar untuk Koleksi Fairy Tales"
+
 		"CSGO_Workshop"								"Workshop"
 		//MatchDraft
 		"matchdraft_phase_0"			"Pilih/Ban Awal"
@@ -49092,8 +49099,8 @@ melawan FaZe."
 		"tooltip_short_viewaddon"			"Lihat Map Kustom"
 		"tooltip_short_kick_player"			"Keluarkan"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

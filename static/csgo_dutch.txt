@@ -37676,14 +37676,15 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"Workshop_Confirm_Download_Popup_Title" "Workshop-download bevestigen"
 		"Workshop_Confirm_New_Download" "Je moet een Workshop-map downloaden om door te gaan. Je hebt deze map niet eerder gedownload. Wil je deze map downloaden en opstarten?"
-		"Workshop_Subscriptions" "Abonnementen:"
-		"Workshop_favorites" "Favorieten:"
+		"Workshop_Subscriptions" "Abonnementen"
+		"Workshop_favorites" "Favorieten"
 		"Workshop_upvotes" "Positieve beoordelingen"
 		"Workshop_downvotes" "Negatieve beoordelingen"
 		"Workshop_score" "Score"
 		"Workshop_created" "Gemaakt op"
 		"Workshop_size" "Grootte"
 		"Workshop_View" "Bekijken in Workshop"
+		"Workshop_Error" "Fout {d:errorcode}"
 		"Workshop_Allow" "Downloaden"
 		"Workshop_Deny" "Annuleren"
 
@@ -47881,6 +47882,10 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"CSGO_Workshop_Event_spy_tech"				"Inschrijven voor 'Spionage/tech'"
 		"CSGO_Workshop_Event_fruit_veg"				"Inschrijven voor 'Groente en fruit'"
 		"CSGO_Workshop_Event_auto_racing"			"inschrijven voor 'Autoraces'"
+		"CSGO_Workshop_Event_cryptids"				"Meld je aan voor cryptiden"
+		"CSGO_Workshop_Event_pop_art"				"Meld je aan voor popart"
+		"CSGO_Workshop_Event_fairy_tales"			"Meld je aan voor sprookjes"
+
 		"CSGO_Workshop"								"Workshop"
 		//MatchDraft
 		"matchdraft_phase_0"			"Starten met kiezen/verbannen"
@@ -50582,8 +50587,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_short_viewaddon"			"Bekijk de aangepaste map"
 		"tooltip_short_kick_player"			"Verwijderen"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

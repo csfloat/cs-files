@@ -37622,14 +37622,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Potvrdit stažení z workshopu"
 		"Workshop_Confirm_New_Download" "Pro pokračování je nutné stáhnout mapu z workshopu. Tuto mapu jsi však nikdy předtím nestahoval. Chceš povolit stažení a spuštění této mapy?"
-		"Workshop_Subscriptions" "Počet odběratelů:"
-		"Workshop_favorites" "Přidání do oblíbených:"
+		"Workshop_Subscriptions" "Odebírané"
+		"Workshop_favorites" "Oblíbené"
 		"Workshop_upvotes" "Kladná hodnocení"
 		"Workshop_downvotes" "Záporná hodnocení"
 		"Workshop_score" "Skóre"
 		"Workshop_created" "Datum vytvoření"
 		"Workshop_size" "Velikost"
 		"Workshop_View" "Zobrazit ve workshopu"
+		"Workshop_Error" "Chyba {d:errorcode}"
 		"Workshop_Allow" "Stáhnout"
 		"Workshop_Deny" "Zrušit"
 
@@ -50528,8 +50529,8 @@
 		"tooltip_short_viewaddon"			"Info o mapě"
 		"tooltip_short_kick_player"			"Vyhození"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

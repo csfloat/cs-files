@@ -38121,14 +38121,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Επιβεβαίωση λήψης Εργαστηρίου"
 		"Workshop_Confirm_New_Download" "Απαιτείται λήψη χάρτη Εργαστηρίου για συνέχεια. Δεν έχετε κάνει λήψη αυτού του χάρτη στο παρελθόν. Θέλετε να κάνετε λήψη και εκτέλεση αυτού του χάρτη;"
-		"Workshop_Subscriptions" "Συνδρομές:"
-		"Workshop_favorites" "Αγαπημένα:"
+		"Workshop_Subscriptions" "Συνδρομές"
+		"Workshop_favorites" "Αγαπημένα"
 		"Workshop_upvotes" "Θετικές ψήφοι"
 		"Workshop_downvotes" "Αρνητικές ψήφοι"
 		"Workshop_score" "Σκορ"
 		"Workshop_created" "Ημ/νία δημιουργίας"
 		"Workshop_size" "Μέγεθος"
 		"Workshop_View" "Προβολή στο Εργαστήρι"
+		"Workshop_Error" "Σφάλμα {d:errorcode}"
 		"Workshop_Allow" "Λήψη"
 		"Workshop_Deny" "Ακύρωση"
 
@@ -48329,6 +48330,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"Υποβολή για «Κατασκοπία/Τεχνολογία»"
 		"CSGO_Workshop_Event_fruit_veg"				"Υποβολή για «Φρούτα και Λαχανικά»"
 		"CSGO_Workshop_Event_auto_racing"			"Υποβολή για «Αγώνες ταχύτητας αυτοκινήτων»"
+		"CSGO_Workshop_Event_cryptids"				"Υποβολή για «Κρυπτίδια»"
+		"CSGO_Workshop_Event_pop_art"				"Υποβολή για «Ποπ αρτ»"
+		"CSGO_Workshop_Event_fairy_tales"			"Υποβολή για «Παραμύθια»"
+
 		"CSGO_Workshop"								"Εργαστήρι"
 		//MatchDraft
 		"matchdraft_phase_0"			"Εναρκτήρια επιλογή/αποκλεισμός"
@@ -51031,8 +51036,8 @@
 		"tooltip_short_viewaddon"			"Προβολή προσαρμοσμένου χάρτη"
 		"tooltip_short_kick_player"			"Αποβολή"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

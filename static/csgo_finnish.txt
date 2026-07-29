@@ -37942,14 +37942,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Vahvista Workshop-lataus"
 		"Workshop_Confirm_New_Download" "Workshop-kartan lataus on pakollinen. Et ole ladannut tätä karttaa ennen. Haluatko ladata ja pelata kartan?"
-		"Workshop_Subscriptions" "Tilaukset:"
-		"Workshop_favorites" "Suosikit:"
+		"Workshop_Subscriptions" "Tilaukset"
+		"Workshop_favorites" "Suosikit"
 		"Workshop_upvotes" "Kannatusäänet"
 		"Workshop_downvotes" "Vastaäänet"
 		"Workshop_score" "Pisteet"
 		"Workshop_created" "Luotu"
 		"Workshop_size" "Koko"
 		"Workshop_View" "Katso Workshopissa"
+		"Workshop_Error" "Virhe {d:errorcode}"
 		"Workshop_Allow" "Lataa"
 		"Workshop_Deny" "Peruuta"
 
@@ -40354,6 +40355,8 @@
 		"xpshop_upsell_mainmenu_1"					"Asevarastopassi"
 		"xpshop_upsell_mainmenu_2"					"Saat käyttöösi kolme uutta asekokoelmaa, riipuksia, Galleria-aselaatikon ja paljon muuta."
 		"xpshop_upsell_mainmenu_2_v2"				"Saat käyttöösi uuden Train-kokoelman, Fever-aselaatikon, riipukset ja paljon muuta sisältöä."
+		"xpshop_upsell_mainmenu_2_v3"				"Saat muun muassa uudet Itämaan ihmeet- ja Huippuvakooja-kokoelmat sekä Fever-aselaatikon."
+
 		"xpshop_upsell_btn"							"Hanki passi"
 		"xpshop_upsell_tooltip"						"Lue lisää aiheesta {s:pass}"
 
@@ -48144,9 +48147,13 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"CSGO_Workshop_EventTags"					"Kilpavarustelu"
 		"CSGO_Workshop_Event_none"					"Ei luokkaa"
 		"CSGO_Workshop_Event_arabesque"				"Luokka: arabialainen taide ja mytologia"
-		"CSGO_Workshop_Event_spy_tech"				"Luokka: vakoiluteknologia"
-		"CSGO_Workshop_Event_fruit_veg"				"Luokka: hedelmät ja vihannekset"
-		"CSGO_Workshop_Event_auto_racing"			"Luokka: kilpa-ajo"
+		"CSGO_Workshop_Event_spy_tech"				"Luokka: Huippuvakooja"
+		"CSGO_Workshop_Event_fruit_veg"				"Luokka: Heviosasto"
+		"CSGO_Workshop_Event_auto_racing"			"Luokka: Talla pohjassa"
+		"CSGO_Workshop_Event_cryptids"				"Luokka: Kryptidit"
+		"CSGO_Workshop_Event_pop_art"				"Luokka: Poptaide"
+		"CSGO_Workshop_Event_fairy_tales"			"Luokka: Sadut"
+
 		"CSGO_Workshop"								"Workshop"
 		//MatchDraft
 		"matchdraft_phase_0"			"Aloitetaan valinta/kielto"
@@ -50834,8 +50841,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_short_viewaddon"			"Näytä mukautettu kartta"
 		"tooltip_short_kick_player"			"Poista"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

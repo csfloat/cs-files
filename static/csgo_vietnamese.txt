@@ -39562,14 +39562,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Xác nhận tải xuống Workshop"
 		"Workshop_Confirm_New_Download" "Yêu cầu tải xuống bản đồ Workshop để tiếp tục chơi. Bạn chưa tải bản đồ này trước đó. Bạn có muốn tải xuống và chơi bản đồ không?"
-		"Workshop_Subscriptions" "Đăng ký:"
-		"Workshop_favorites" "Ưa thích:"
+		"Workshop_Subscriptions" "Đăng ký"
+		"Workshop_favorites" "Ưa thích"
 		"Workshop_upvotes" "Tán thành"
 		"Workshop_downvotes" "Phản đối"
 		"Workshop_score" "Điểm"
 		"Workshop_created" "Ngày tạo"
 		"Workshop_size" "Kích cỡ"
 		"Workshop_View" "Xem trên Workshop"
+		"Workshop_Error" "Lỗi {d:errorcode}"
 		"Workshop_Allow" "Tải xuống"
 		"Workshop_Deny" "Hủy"
 
@@ -49809,6 +49810,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"Tham dự cho \"Gián điệp/Công nghệ\""
 		"CSGO_Workshop_Event_fruit_veg"				"Tham dự cho \"Trái cây và rau củ\""
 		"CSGO_Workshop_Event_auto_racing"			"Tham dự cho \"Đua xe ô tô\""
+		"CSGO_Workshop_Event_cryptids"				"Tham dự cho \"Sinh vật huyền bí (Cryptid)\""
+		"CSGO_Workshop_Event_pop_art"				"Tham dự cho \"Nghệ thuật Pop Art\""
+		"CSGO_Workshop_Event_fairy_tales"			"Tham dự cho \"Truyện cổ tích\""
+
 		"CSGO_Workshop"								"Workshop"
 		"CSGO_Workshop_EmptyString"					""
 
@@ -52561,8 +52566,8 @@
 		"tooltip_short_viewaddon"			"Xem bản đồ tùy biến"
 		"tooltip_short_kick_player"			"Đuổi"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

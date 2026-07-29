@@ -32182,7 +32182,7 @@
 
 		"PaintKit_sp_spitfire_famas_Tag"			"Spitfire"
 
-		"PaintKit_am_zebra"							"Eltérő tükröződésű alumínium- és krómfestékkel zebramintásra festették, majd paradicsom-piros színes lakkozást kapott.\n\n<i>Valeria nem azért fizeti Javier-t, hogy kérdezősködjön... hanem hogy válaszokat csikarjon ki.</i>"
+		"PaintKit_am_zebra"							"Eltérő tükröződésű alumínium- és krómfestékkel zebramintásra festették, majd paradicsom-piros színes lakkozást kapott.\n\n<i>Valeria nem azért fizeti Javiert, hogy kérdezősködjön... hanem hogy válaszokat csikarjon ki.</i>"
 		"PaintKit_am_zebra_Tag"						"Mészárlás"
 
 		"PaintKit_am_zebra_dark"					"Króm alapfestést, és különböző tükrözőképességű faszén-fémes vízcsíkos mintát kapott.\n\n<i>A víz életet ad, de el is veheti azt...</i>"
@@ -37298,14 +37298,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Műhely-letöltés megerősítése"
 		"Workshop_Confirm_New_Download" "A folytatáshoz Műhely-pálya letöltése szükséges. Ezt a pályát korábban még nem töltötted le. Szeretnéd letölteni és futtatni ezt a pályát?"
-		"Workshop_Subscriptions" "Feliratkozások:"
-		"Workshop_favorites" "Kedvencek:"
+		"Workshop_Subscriptions" "Feliratkozások"
+		"Workshop_favorites" "Kedvencek"
 		"Workshop_upvotes" "Támogató szavazat"
 		"Workshop_downvotes" "Leszavazás"
 		"Workshop_score" "Pont"
 		"Workshop_created" "Létrehozás dátuma"
 		"Workshop_size" "Méret"
 		"Workshop_View" "Megnézés a Műhelyben"
+		"Workshop_Error" "Hiba {d:errorcode}"
 		"Workshop_Allow" "Letöltés"
 		"Workshop_Deny" "Mégse"
 
@@ -50199,8 +50200,8 @@
 		"tooltip_short_viewaddon"			"Egyedi pálya megnézése"
 		"tooltip_short_kick_player"			"Kirúgás"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

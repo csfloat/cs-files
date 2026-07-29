@@ -37946,14 +37946,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "ยืนยันการดาวน์โหลดเวิร์กชอป"
 		"Workshop_Confirm_New_Download" "จำเป็นต้องดาวน์โหลดแผนที่เวิร์กช็อปเพื่อดำเนินการต่อ คุณยังไม่เคยดาวน์โหลดแผนที่นี้มาก่อน คุณต้องการดาวน์โหลดและเรียกใช้แผนที่นี้หรือไม่?"
-		"Workshop_Subscriptions" "การสมัครสมาชิก:"
-		"Workshop_favorites" "สิ่งที่ชื่นชอบ:"
+		"Workshop_Subscriptions" "การสมัครสมาชิก"
+		"Workshop_favorites" "สิ่งที่ชื่นชอบ"
 		"Workshop_upvotes" "ถูกใจ"
 		"Workshop_downvotes" "ไม่ถูกใจ"
 		"Workshop_score" "คะแนน"
 		"Workshop_created" "วันที่สร้าง"
 		"Workshop_size" "ขนาด"
 		"Workshop_View" "ดูบนเวิร์กช็อป"
+		"Workshop_Error" "ข้อผิดพลาด {d:errorcode}"
 		"Workshop_Allow" "ดาวน์โหลด"
 		"Workshop_Deny" "ยกเลิก"
 
@@ -48155,6 +48156,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"เข้าร่วมธีมสปาย/เทคโนโลยี"
 		"CSGO_Workshop_Event_fruit_veg"				"เข้าร่วมธีมผักและผลไม้"
 		"CSGO_Workshop_Event_auto_racing"			"เข้าร่วมธีมรถแข่ง"
+		"CSGO_Workshop_Event_cryptids"				"เข้าร่วมธีมสัตว์ลึกลับ"
+		"CSGO_Workshop_Event_pop_art"				"เข้าร่วมธีมป็อปอาร์ต"
+		"CSGO_Workshop_Event_fairy_tales"			"เข้าร่วมธีมเทพนิยาย"
+
 		"CSGO_Workshop"								"เวิร์กชอป"
 		//MatchDraft
 		"matchdraft_phase_0"			"เริ่มเลือก/แบน"
@@ -50855,8 +50860,8 @@
 		"tooltip_short_viewaddon"			"ดูแผนที่แบบกำหนดเอง"
 		"tooltip_short_kick_player"			"เตะ"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

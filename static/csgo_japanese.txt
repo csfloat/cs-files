@@ -36389,14 +36389,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "ワークショップのダウンロードを確定"
 		"Workshop_Confirm_New_Download" "続行するには、ワークショップマップをダウンロードする必要があります。このマップはまだダウンロードしていません。ダウンロードしてこのマップを実行しますか？"
-		"Workshop_Subscriptions" "サブスクリプション:"
-		"Workshop_favorites" "お気に入り:"
+		"Workshop_Subscriptions" "サブスクリプション"
+		"Workshop_favorites" "お気に入り"
 		"Workshop_upvotes" "賛成票"
 		"Workshop_downvotes" "反対票"
 		"Workshop_score" "スコア"
 		"Workshop_created" "作成日時"
 		"Workshop_size" "サイズ"
 		"Workshop_View" "ワークショップを表示"
+		"Workshop_Error" "エラー {d:errorcode}"
 		"Workshop_Allow" "ダウンロード"
 		"Workshop_Deny" "取り消し"
 
@@ -49264,8 +49265,8 @@
 		"tooltip_short_viewaddon"			"カスタムマップを表示する"
 		"tooltip_short_kick_player"			"追放"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

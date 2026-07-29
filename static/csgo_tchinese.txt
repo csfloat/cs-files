@@ -37727,14 +37727,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "確認工作坊下載"
 		"Workshop_Confirm_New_Download" "需要下載工作坊地圖才能繼續。您從未下載過此地圖。要下載並執行此地圖嗎？"
-		"Workshop_Subscriptions" "訂閱："
-		"Workshop_favorites" "我的最愛："
+		"Workshop_Subscriptions" "訂閱項目"
+		"Workshop_favorites" "最愛項目"
 		"Workshop_upvotes" "支持票數"
 		"Workshop_downvotes" "反對票數"
 		"Workshop_score" "分數"
 		"Workshop_created" "建立日期"
 		"Workshop_size" "大小"
 		"Workshop_View" "在工作坊檢視"
+		"Workshop_Error" "錯誤 {d:errorcode}"
 		"Workshop_Allow" "下載"
 		"Workshop_Deny" "取消"
 
@@ -40135,6 +40136,8 @@
 		"xpshop_upsell_mainmenu_1"					"武裝庫通行證"
 		"xpshop_upsell_mainmenu_2"					"得以兌換 3 種全新武器收藏、吊飾、展品武器箱等豐富物品。"
 		"xpshop_upsell_mainmenu_2_v2"				"獲得全新的 Train 收藏、狂熱武器箱、吊飾還有更多。"
+		"xpshop_upsell_mainmenu_2_v3"				"獲得全新的阿拉伯風和間諜科技收藏、狂熱武器箱還有更多。"
+
 		"xpshop_upsell_btn"							"購買通行證"
 		"xpshop_upsell_tooltip"						"深入了解{s:pass}"
 
@@ -40701,8 +40704,8 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"2 號隨身碟已就緒！"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"已回收病毒隨身碟！"	
 
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller}（{puppeteer}）"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller}（{puppeteer}）"
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
+		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"裝備價值"
 		"SFUIHUD_Spectate_TeamMoney"	"隊伍金錢"
 		"SFUIHUD_Spectate_TeamEQValue"	"隊伍總裝備值"
@@ -47931,6 +47934,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"加入間諜 / 科技主題"
 		"CSGO_Workshop_Event_fruit_veg"				"加入蔬菜與水果主題"
 		"CSGO_Workshop_Event_auto_racing"			"加入賽車運動主題"
+		"CSGO_Workshop_Event_cryptids"				"加入神祕生物主題"
+		"CSGO_Workshop_Event_pop_art"				"加入普普藝術主題"
+		"CSGO_Workshop_Event_fairy_tales"			"加入童話故事主題"
+
 		"CSGO_Workshop"								"工作坊"
 		//MatchDraft
 		"matchdraft_phase_0"			"開始挑選 / 禁用"
@@ -50611,8 +50618,8 @@
 		"tooltip_short_viewaddon"			"查看自訂地圖"
 		"tooltip_short_kick_player"			"踢出"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

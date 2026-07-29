@@ -37025,14 +37025,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Confirmar download do Workshop"
 		"Workshop_Confirm_New_Download" "É necessário transferir um mapa do Workshop para continuar. Não transferiste este mapa anteriormente. Queres transferir e abrir este mapa?"
-		"Workshop_Subscriptions" "Subscrições:"
-		"Workshop_favorites" "Favoritos:"
+		"Workshop_Subscriptions" "Subscrições"
+		"Workshop_favorites" "Favoritos"
 		"Workshop_upvotes" "Votos positivos"
 		"Workshop_downvotes" "Votos negativos"
 		"Workshop_score" "Pontos"
 		"Workshop_created" "Data de criação"
 		"Workshop_size" "Tamanho"
 		"Workshop_View" "Ver no Workshop"
+		"Workshop_Error" "Erro {d:errorcode}"
 		"Workshop_Allow" "Transferir"
 		"Workshop_Deny" "Cancelar"
 
@@ -49919,8 +49920,8 @@
 		"tooltip_short_viewaddon"			"Ver mapa não oficial"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

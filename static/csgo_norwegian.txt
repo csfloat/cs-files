@@ -37964,14 +37964,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Bekreft nedlasting fra workshopen"
 		"Workshop_Confirm_New_Download" "Nedlasting av kart fra workshopen er nødvendig for å fortsette. Du har ikke lastet ned dette kartet før. Vil du laste ned og kjøre dette kartet?"
-		"Workshop_Subscriptions" "Abonnementer:"
-		"Workshop_favorites" "Favoritter:"
+		"Workshop_Subscriptions" "Abonnementer"
+		"Workshop_favorites" "Favoritter"
 		"Workshop_upvotes" "Stemmer opp"
 		"Workshop_downvotes" "Stemmer ned"
 		"Workshop_score" "Poeng"
 		"Workshop_created" "Opprettelsesdato"
 		"Workshop_size" "Størrelse"
 		"Workshop_View" "Vis i workshopen"
+		"Workshop_Error" "Feil {d:errorcode}"
 		"Workshop_Allow" "Last ned"
 		"Workshop_Deny" "Avbryt"
 
@@ -50886,8 +50887,8 @@
 		"tooltip_short_viewaddon"			"Vis tilpasset kart"
 		"tooltip_short_kick_player"			"Kast ut"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

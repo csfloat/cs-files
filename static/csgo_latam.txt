@@ -36915,14 +36915,15 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"Workshop_Confirm_Download_Popup_Title" "Confirmar descarga del Workshop"
 		"Workshop_Confirm_New_Download" "Para continuar, es necesario descargar un mapa del Workshop que no has descargado antes. ¿Quieres descargarlo y ejecutarlo?"
-		"Workshop_Subscriptions" "Suscripciones:"
-		"Workshop_favorites" "Favoritos:"
+		"Workshop_Subscriptions" "Suscripciones"
+		"Workshop_favorites" "Favoritos"
 		"Workshop_upvotes" "Votos positivos"
 		"Workshop_downvotes" "Votos negativos"
 		"Workshop_score" "Puntos"
 		"Workshop_created" "Fecha de creación"
 		"Workshop_size" "Tamaño"
 		"Workshop_View" "Ver en el Workshop"
+		"Workshop_Error" "Error {d:errorcode}"
 		"Workshop_Allow" "Descargar"
 		"Workshop_Deny" "Cancelar"
 
@@ -49772,8 +49773,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

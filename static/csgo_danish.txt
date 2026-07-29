@@ -38210,14 +38210,15 @@ bare glem alt om Proseccoen."
 
 		"Workshop_Confirm_Download_Popup_Title" "Bekræft værkstedsdownload"
 		"Workshop_Confirm_New_Download" "Der skal downloades en værkstedsbane for at fortsætte. Du har ikke downloadet denne bane før. Ønsker du at downloade og starte denne bane?"
-		"Workshop_Subscriptions" "Abonnementer:"
-		"Workshop_favorites" "Favoritter:"
+		"Workshop_Subscriptions" "Abonnementer"
+		"Workshop_favorites" "Favoritter"
 		"Workshop_upvotes" "Op-stemmer"
 		"Workshop_downvotes" "Ned-stemmer"
 		"Workshop_score" "Score"
 		"Workshop_created" "Dato oprettet"
 		"Workshop_size" "Størrelse"
 		"Workshop_View" "Vis i værkstedet"
+		"Workshop_Error" "Fejl {d:errorcode}"
 		"Workshop_Allow" "Download"
 		"Workshop_Deny" "Annuller"
 
@@ -48421,6 +48422,10 @@ bare glem alt om Proseccoen."
 		"CSGO_Workshop_Event_spy_tech"				"Tilmeld til spioner og teknologi"
 		"CSGO_Workshop_Event_fruit_veg"				"Tilmeld til frugt og grøntsager"
 		"CSGO_Workshop_Event_auto_racing"			"Tilmeld til bilræs"
+		"CSGO_Workshop_Event_cryptids"				"Tilmeld til kryptider"
+		"CSGO_Workshop_Event_pop_art"				"Tilmeld til popart"
+		"CSGO_Workshop_Event_fairy_tales"			"Tilmeld til eventyr"
+
 		"CSGO_Workshop"								"Værksted"
 		//MatchDraft
 		"matchdraft_phase_0"			"Starter valg/forbud"
@@ -51140,8 +51145,8 @@ bare glem alt om Proseccoen."
 		"tooltip_short_viewaddon"			"Vis tilpasset bane"
 		"tooltip_short_kick_player"			"Smid ud"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

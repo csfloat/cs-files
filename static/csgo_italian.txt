@@ -36918,14 +36918,15 @@ Esca per una doppia uccisione"
 
 		"Workshop_Confirm_Download_Popup_Title" "Conferma download dal Workshop"
 		"Workshop_Confirm_New_Download" "Per procedere è necessario scaricare la mappa del Workshop. Non hai mai scaricato questa mappa prima d'ora. Vuoi scaricare ed eseguire questa mappa?"
-		"Workshop_Subscriptions" "Sottoscrizioni:"
-		"Workshop_favorites" "Preferiti:"
+		"Workshop_Subscriptions" "Sottoscrizioni"
+		"Workshop_favorites" "Preferiti"
 		"Workshop_upvotes" "Voti positivi"
 		"Workshop_downvotes" "Voti negativi"
 		"Workshop_score" "Punteggio"
 		"Workshop_created" "Data di creazione"
 		"Workshop_size" "Dimensioni"
 		"Workshop_View" "Vedi nel Workshop"
+		"Workshop_Error" "Errore {d:errorcode}"
 		"Workshop_Allow" "Scarica"
 		"Workshop_Deny" "Annulla"
 
@@ -49779,8 +49780,8 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_short_viewaddon"			"Vedi mappa personalizzata"
 		"tooltip_short_kick_player"			"Espelli"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

@@ -36923,14 +36923,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Workshop-Download bestätigen"
 		"Workshop_Confirm_New_Download" "Um fortzufahren, müssen Sie eine Workshop-Karte herunterladen. Sie haben diese Karte noch nicht heruntergeladen. Möchten Sie diese Karte herunterladen und ausführen?"
-		"Workshop_Subscriptions" "Abonnements:"
-		"Workshop_favorites" "Favoriten:"
+		"Workshop_Subscriptions" "Abonnements"
+		"Workshop_favorites" "Favoriten"
 		"Workshop_upvotes" "Positive Bewertungen"
 		"Workshop_downvotes" "Negative Bewertungen"
 		"Workshop_score" "Bewertung"
 		"Workshop_created" "Erstellungsdatum"
 		"Workshop_size" "Größe"
 		"Workshop_View" "Im Workshop anzeigen"
+		"Workshop_Error" "Fehler {d:errorcode}"
 		"Workshop_Allow" "Herunterladen"
 		"Workshop_Deny" "Abbrechen"
 
@@ -39327,6 +39328,8 @@
 		"xpshop_upsell_mainmenu_1"					"Der Arsenalpass"
 		"xpshop_upsell_mainmenu_2"					"Erhalten Sie Zugriff auf drei neue Waffenkollektionen, Anhänger, die Waffenkiste „Galerie“ und mehr."
 		"xpshop_upsell_mainmenu_2_v2"				"Erhalten Sie Zugriff auf die neue Train-Kollektion, die Waffenkiste „Fieber“, Anhänger und mehr."
+		"xpshop_upsell_mainmenu_2_v3"				"Erhalten Sie Zugriff auf die neuen Kollektionen „Arabeske Kunst“ sowie „Spionage und Technologie“, die Waffenkiste „Fieber“ und mehr."
+
 		"xpshop_upsell_btn"							"Pass kaufen"
 		"xpshop_upsell_tooltip"						"Weitere Informationen zum {s:pass}"
 
@@ -47094,6 +47097,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"Für Spionage- und Technologiemotive einreichen"
 		"CSGO_Workshop_Event_fruit_veg"				"Für Obst und Gemüse einreichen"
 		"CSGO_Workshop_Event_auto_racing"			"Für Autorennen einreichen"
+		"CSGO_Workshop_Event_cryptids"				"Für Fabelwesen einreichen"
+		"CSGO_Workshop_Event_pop_art"				"Für Pop-Art einreichen"
+		"CSGO_Workshop_Event_fairy_tales"			"Für Märchen einreichen"
+
 		"CSGO_Workshop"								"Workshop"
 		//MatchDraft
 		"matchdraft_phase_0"			"Auswahl-/Bann-Phase beginnt"
@@ -49772,8 +49779,8 @@
 		"tooltip_short_viewaddon"			"Benutzerdefinierte Karte anzeigen"
 		"tooltip_short_kick_player"			"Herauswerfen"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

@@ -36957,14 +36957,15 @@ Colecția Spectrum"
 
 		"Workshop_Confirm_Download_Popup_Title" "Confirmarea descărcării din atelier"
 		"Workshop_Confirm_New_Download" "Este necesară descărcarea unei hărți din atelier pentru a continua. Nu ai descărcat această hartă până acum. Dorești să o descarci și să o rulezi?"
-		"Workshop_Subscriptions" "Abonamente:"
-		"Workshop_favorites" "Preferate:"
+		"Workshop_Subscriptions" "Abonamente"
+		"Workshop_favorites" "Preferate"
 		"Workshop_upvotes" "Voturi pozitive"
 		"Workshop_downvotes" "Voturi negative"
 		"Workshop_score" "Scor"
 		"Workshop_created" "Data creării"
 		"Workshop_size" "Mărime"
 		"Workshop_View" "Vezi în atelier"
+		"Workshop_Error" "Eroare {d:errorcode}"
 		"Workshop_Allow" "Descarcă"
 		"Workshop_Deny" "Anulează"
 
@@ -39366,6 +39367,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"xpshop_upsell_mainmenu_1"					"Biletul de armurărie"
 		"xpshop_upsell_mainmenu_2"					"Obține acces la 3 colecții noi de arme, brelocuri, cutia Gallery și multe altele."
 		"xpshop_upsell_mainmenu_2_v2"				"Obține acces la colecția Train, cutia Fever, brelocuri și multe altele."
+		"xpshop_upsell_mainmenu_2_v3"				"Obține acces la noile colecții Arabesque și Spy Tech, cutia Fever și multe altele."
+
 		"xpshop_upsell_btn"							"Cumpără un bilet"
 		"xpshop_upsell_tooltip"						"Află mai multe despre: {s:pass}"
 
@@ -47133,6 +47136,10 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"CSGO_Workshop_Event_spy_tech"				"Înscriere pentru „Spionaj/tehnologie”"
 		"CSGO_Workshop_Event_fruit_veg"				"Înscriere pentru „Fructe și legume”"
 		"CSGO_Workshop_Event_auto_racing"			"Înscriere pentru „Curse auto”"
+		"CSGO_Workshop_Event_cryptids"				"Înscriere pentru „Cryptids”"
+		"CSGO_Workshop_Event_pop_art"				"Înscriere pentru „Pop art”"
+		"CSGO_Workshop_Event_fairy_tales"			"Înscriere pentru „Fairy Tales”"
+
 		"CSGO_Workshop"								"Atelier"
 		//MatchDraft
 		"matchdraft_phase_0"			"Începe faza de alegere/eliminare"
@@ -49834,8 +49841,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_short_viewaddon"			"Vezi harta personalizată"
 		"tooltip_short_kick_player"			"Exclude"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

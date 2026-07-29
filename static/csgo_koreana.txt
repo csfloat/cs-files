@@ -36918,14 +36918,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "창작마당 다운로드 확인"
 		"Workshop_Confirm_New_Download" "계속 진행하려면 창작마당 맵을 다운로드해야 합니다. 이전에 이 맵을 다운로드한 기록이 없습니다. 맵을 다운로드하여 실행할까요?"
-		"Workshop_Subscriptions" "구독:"
-		"Workshop_favorites" "즐겨찾기:"
+		"Workshop_Subscriptions" "구독"
+		"Workshop_favorites" "즐겨찾기"
 		"Workshop_upvotes" "찬성 투표"
 		"Workshop_downvotes" "반대 투표"
 		"Workshop_score" "점수"
 		"Workshop_created" "만든 날짜"
 		"Workshop_size" "크기"
 		"Workshop_View" "창작마당에서 보기"
+		"Workshop_Error" "오류 {d:errorcode}"
 		"Workshop_Allow" "다운로드"
 		"Workshop_Deny" "취소"
 
@@ -49792,8 +49793,8 @@
 		"tooltip_short_viewaddon"			"맞춤 맵 보기"
 		"tooltip_short_kick_player"			"추방"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

@@ -36914,14 +36914,15 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"Workshop_Confirm_Download_Popup_Title" "Confirmar descarga del Workshop"
 		"Workshop_Confirm_New_Download" "Para continuar, es necesario descargar un mapa del Workshop que no has descargado nunca. ¿Quieres descargarlo y ejecutarlo?"
-		"Workshop_Subscriptions" "Suscripciones:"
-		"Workshop_favorites" "Favoritos:"
+		"Workshop_Subscriptions" "Suscripciones"
+		"Workshop_favorites" "Favoritos"
 		"Workshop_upvotes" "Votos positivos"
 		"Workshop_downvotes" "Votos negativos"
 		"Workshop_score" "Puntuación"
 		"Workshop_created" "Fecha de creación"
 		"Workshop_size" "Tamaño"
 		"Workshop_View" "Ver en el Workshop"
+		"Workshop_Error" "Error {d:errorcode}"
 		"Workshop_Allow" "Descargar"
 		"Workshop_Deny" "Cancelar"
 
@@ -39318,6 +39319,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"xpshop_upsell_mainmenu_1"					"Pase de la armería"
 		"xpshop_upsell_mainmenu_2"					"Accede a 3 nuevas colecciones de armas, colgantes, la caja Galería y mucho más."
 		"xpshop_upsell_mainmenu_2_v2"				"Accede a la nueva colección Train, la caja Fiebre, colgantes y mucho más."
+		"xpshop_upsell_mainmenu_2_v3"				"Accede a las nuevas colecciones Arabesca y Spy Tech, la caja Fiebre y mucho más."
+
 		"xpshop_upsell_btn"							"Conseguir un pase"
 		"xpshop_upsell_tooltip"						"Más información sobre el {s:pass}"
 
@@ -47085,6 +47088,10 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"CSGO_Workshop_Event_spy_tech"				"Alistarse para «Espionaje/tecnología»"
 		"CSGO_Workshop_Event_fruit_veg"				"Alistarse para «Frutas y verduras»"
 		"CSGO_Workshop_Event_auto_racing"			"Alistarse para «Carrera de automóviles»"
+		"CSGO_Workshop_Event_cryptids"				"Alistarse para «Críptidos»"
+		"CSGO_Workshop_Event_pop_art"				"Alistarse para «Arte pop»"
+		"CSGO_Workshop_Event_fairy_tales"			"Alistarse para «Cuentos de hadas»"
+
 		"CSGO_Workshop"								"Workshop"
 		//MatchDraft
 		"matchdraft_phase_0"			"Iniciando la fase de selección/veto"
@@ -49763,8 +49770,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

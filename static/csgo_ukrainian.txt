@@ -39740,14 +39740,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Підтвердити завантаження з майстерні"
 		"Workshop_Confirm_New_Download" "Для продовження слід завантажити мапу з майстерні. Ви раніше не завантажували цю мапу. Бажаєте її завантажити й запустити?"
-		"Workshop_Subscriptions" "Підписки:"
-		"Workshop_favorites" "Улюблене:"
+		"Workshop_Subscriptions" "Підписки"
+		"Workshop_favorites" "Улюблене"
 		"Workshop_upvotes" "Подобається"
 		"Workshop_downvotes" "Не подобається"
 		"Workshop_score" "Очки"
 		"Workshop_created" "Дата створення"
 		"Workshop_size" "Розмір"
 		"Workshop_View" "Дивитися в майстерні"
+		"Workshop_Error" "Помилка {d:errorcode}"
 		"Workshop_Allow" "Завантажити"
 		"Workshop_Deny" "Скасувати"
 
@@ -42156,6 +42157,8 @@
 		"xpshop_upsell_mainmenu_1"					"Арсенальна перепустка"
 		"xpshop_upsell_mainmenu_2"					"Отримайте доступ до трьох нових колекцій зброї, брелоків, футляру «Галерея» та іншого."
 		"xpshop_upsell_mainmenu_2_v2"				"Отримайте доступ до нової колекції «Train», футляру «Лихоманка», брелоків та іншого."
+		"xpshop_upsell_mainmenu_2_v3"				"Отримайте доступ до нових колекцій «Арабське мистецтво та міфологія» і «Шпигунство/технології», футляру «Лихоманка» та багато іншого."
+
 		"xpshop_upsell_mainmenu_3"					""
 		"xpshop_upsell_btn"							"Придбати перепустку"
 		"xpshop_upsell_tooltip"						"Докладніше про «{s:pass}»"
@@ -49986,6 +49989,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"Подати роботу на тему «Шпигунство/технології»"
 		"CSGO_Workshop_Event_fruit_veg"				"Подати роботу на тему «Фрукти та овочі»"
 		"CSGO_Workshop_Event_auto_racing"			"Подати роботу на тему «Автомобільні перегони»"
+		"CSGO_Workshop_Event_cryptids"				"Подати роботу на тему «Криптиди»"
+		"CSGO_Workshop_Event_pop_art"				"Подати роботу на тему «Попарт»"
+		"CSGO_Workshop_Event_fairy_tales"			"Подати роботу на тему «Казки»"
+
 		"CSGO_Workshop"								"Майстерня"
 		"CSGO_Workshop_EmptyString"					""
 
@@ -52738,8 +52745,8 @@
 		"tooltip_short_viewaddon"			"Переглянути нестандартну мапу"
 		"tooltip_short_kick_player"			"Вигнати"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

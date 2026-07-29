@@ -39992,14 +39992,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Потвърждаване на сваляне от работилницата"
 		"Workshop_Confirm_New_Download" "Изисква се сваляне на карта от работилницата, за да продължите. Не сте сваляли тази карта преди. Бихте ли искали да свалите и пуснете тази карта?"
-		"Workshop_Subscriptions" "Абонаменти:"
-		"Workshop_favorites" "Любими:"
+		"Workshop_Subscriptions" "Абонаменти"
+		"Workshop_favorites" "Любими"
 		"Workshop_upvotes" "Одобрявания"
 		"Workshop_downvotes" "Неодобрявания"
 		"Workshop_score" "Резултат"
 		"Workshop_created" "Дата на създаване"
 		"Workshop_size" "Размер"
 		"Workshop_View" "Преглед в работилницата"
+		"Workshop_Error" "Грешка {d:errorcode}"
 		"Workshop_Allow" "Сваляне"
 		"Workshop_Deny" "Отказ"
 
@@ -50430,6 +50431,10 @@ Counter-Strike разполага с четири основни игрални 
 		"CSGO_Workshop_Event_spy_tech"				"Вербуване за шпионаж/технология"
 		"CSGO_Workshop_Event_fruit_veg"				"Вербуване за плодове и зеленчуци"
 		"CSGO_Workshop_Event_auto_racing"			"Вербуване за автомобилни състезания"
+		"CSGO_Workshop_Event_cryptids"				"Вербуване за криптиди"
+		"CSGO_Workshop_Event_pop_art"				"Вербуване за поп арт"
+		"CSGO_Workshop_Event_fairy_tales"			"Вербуване за приказки"
+
 		"CSGO_Workshop"								"Работилница"
 		"CSGO_Workshop_EmptyString"					""
 
@@ -53193,8 +53198,8 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_short_viewaddon"			"Преглед на персонализирана карта"
 		"tooltip_short_kick_player"			"Изритване"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

@@ -36936,14 +36936,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Подтвердите скачивание из мастерской"
 		"Workshop_Confirm_New_Download" "Чтобы продолжить, необходима карта из мастерской, которую вы ещё не скачивали. Хотите скачать и запустить эту карту?"
-		"Workshop_Subscriptions" "Подписки:"
-		"Workshop_favorites" "Избранное:"
+		"Workshop_Subscriptions" "Подписки"
+		"Workshop_favorites" "Избранное"
 		"Workshop_upvotes" "Голоса «за»"
 		"Workshop_downvotes" "Голоса «против»"
 		"Workshop_score" "Счёт"
 		"Workshop_created" "Дата создания"
 		"Workshop_size" "Размер"
 		"Workshop_View" "Открыть в мастерской"
+		"Workshop_Error" "Ошибка {d:errorcode}"
 		"Workshop_Allow" "Скачать"
 		"Workshop_Deny" "Отмена"
 
@@ -49793,8 +49794,8 @@
 		"tooltip_short_viewaddon"			"Просмотреть пользовательскую карту"
 		"tooltip_short_kick_player"			"Выгнать"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

@@ -2758,7 +2758,7 @@
 		"Attrib_ModificationDate"					"Data modyfikacji: %s1"
 		"Attrib_OperationBonusXP"					"Premia z Operacji: +%s1 PD"
 		"Attrib_IssueDate"							"Data wydania: %s1"
-		"Attrib_ExpirationDate"						"Czas wygaśnięcia: %s1"
+		"Attrib_ExpirationDate"						"Data wygaśnięcia: %s1"
 		"Attrib_PurchaserAccountID"					"Ten przedmiot posiada certyfikat oryginalnego właściciela."
 		"Attrib_PurchaserAccountID_title"			"Certyfikat oryginalnego właściciela"
 
@@ -36914,14 +36914,15 @@
 
 		"Workshop_Confirm_Download_Popup_Title" "Potwierdź pobieranie plików z warsztatu"
 		"Workshop_Confirm_New_Download" "Aby kontynuować, wymagane jest pobranie mapy z warsztatu. Ta mapa nie była wcześniej pobierana. Czy chcesz pobrać i uruchomić tę mapę?"
-		"Workshop_Subscriptions" "Subskrypcje:"
-		"Workshop_favorites" "Ulubione:"
+		"Workshop_Subscriptions" "Subskrypcje"
+		"Workshop_favorites" "Ulubione"
 		"Workshop_upvotes" "Głosy pozytywne"
 		"Workshop_downvotes" "Głosy negatywne"
 		"Workshop_score" "Wynik"
 		"Workshop_created" "Data utworzenia"
 		"Workshop_size" "Rozmiar"
 		"Workshop_View" "Zobacz w warsztacie"
+		"Workshop_Error" "Błąd {d:errorcode}"
 		"Workshop_Allow" "Pobierz"
 		"Workshop_Deny" "Anuluj"
 
@@ -39318,6 +39319,8 @@
 		"xpshop_upsell_mainmenu_1"					"Przepustka zbrojowni"
 		"xpshop_upsell_mainmenu_2"					"Uzyskaj dostęp do 3 nowych kolekcji broni, przywieszek, skrzyni Galerii i nie tylko."
 		"xpshop_upsell_mainmenu_2_v2"				"Uzyskaj dostęp do nowej kolekcji Train, skrzyni Gorączki, przywieszek i nie tylko."
+		"xpshop_upsell_mainmenu_2_v3"				"Uzyskaj dostęp do nowych kolekcji Arabeski oraz Technologii szpiegowskiej, skrzyni Gorączki i nie tylko."
+
 		"xpshop_upsell_btn"							"Zdobądź przepustkę"
 		"xpshop_upsell_tooltip"						"Dowiedz się więcej o przepustce zbrojowni"
 
@@ -47085,6 +47088,10 @@
 		"CSGO_Workshop_Event_spy_tech"				"Zgłoś do szpiegostwa i technologii"
 		"CSGO_Workshop_Event_fruit_veg"				"Zgłoś do owoców i warzyw"
 		"CSGO_Workshop_Event_auto_racing"			"Zgłoś do wyścigów samochodowych"
+		"CSGO_Workshop_Event_cryptids"				"Zgłoś do kryptyd"
+		"CSGO_Workshop_Event_pop_art"				"Zgłoś do pop-artu"
+		"CSGO_Workshop_Event_fairy_tales"			"Zgłoś do bajek i baśni"
+
 		"CSGO_Workshop"								"Warsztat"
 		//MatchDraft
 		"matchdraft_phase_0"			"Rozpoczęcie fazy wybierania/banowania"
@@ -49763,8 +49770,8 @@
 		"tooltip_short_viewaddon"			"Zobacz niestandardową mapę"
 		"tooltip_short_kick_player"			"Wyrzuć"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 

@@ -36930,14 +36930,15 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 
 		"Workshop_Confirm_Download_Popup_Title" "Atölye İndirmesini Onayla"
 		"Workshop_Confirm_New_Download" "Devam etmek için bir Atölye haritası indirmen gerekli. Bu haritayı daha önce indirmemişsin. Bu haritayı indirmek ve çalıştırmak istiyor musun?"
-		"Workshop_Subscriptions" "Abonelikler:"
-		"Workshop_favorites" "Favoriler:"
+		"Workshop_Subscriptions" "Abonelikler"
+		"Workshop_favorites" "Favoriler"
 		"Workshop_upvotes" "Olumlu Oylar"
 		"Workshop_downvotes" "Olumsuz Oylar"
 		"Workshop_score" "Skor"
 		"Workshop_created" "Oluşturulma Tarihi"
 		"Workshop_size" "Boyut"
 		"Workshop_View" "Atölye'de Görüntüle"
+		"Workshop_Error" "Hata {d:errorcode}"
 		"Workshop_Allow" "İndir"
 		"Workshop_Deny" "İptal Et"
 
@@ -47110,6 +47111,10 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"CSGO_Workshop_Event_spy_tech"				"Casusluk/Teknoloji için kaydet"
 		"CSGO_Workshop_Event_fruit_veg"				"Meyve ve Sebzeler için kaydet"
 		"CSGO_Workshop_Event_auto_racing"			"Araba Yarışı için kaydet"
+		"CSGO_Workshop_Event_cryptids"				"Kriptidler için kaydet"
+		"CSGO_Workshop_Event_pop_art"				"Pop art için kaydet"
+		"CSGO_Workshop_Event_fairy_tales"			"Peri masalı için kaydet"
+
 		"CSGO_Workshop"								"Atölye"
 		//MatchDraft
 		"matchdraft_phase_0"			"Başlangıç Seçimi/Vetosu"
@@ -49790,8 +49795,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"tooltip_short_viewaddon"			"Özel Haritayı Görüntüle"
 		"tooltip_short_kick_player"			"At"
 
-// crow_mask_53008_comment
 // crow_mask_53009_comment
+// crow_mask_53010_comment
 }
 
 
