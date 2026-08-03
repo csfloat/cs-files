@@ -30909,7 +30909,6 @@
 	"StickerKit_cologne2026_signature_kyousuke_gold_champion" "kyousuke（黃金，冠軍）| Cologne 2026"
 	"StickerKit_desc_cologne2026_signature_kyousuke_gold_champion" "此黃金貼紙印有職業選手 Maksim Lukin 在 IEM Cologne 2026 CS2 特級錦標賽效力於冠軍隊伍 Falcons 時的簽名。"
 
-
 	"keychain_kc_cologne2026"			"Cologne 2026 精彩片段"
 	"keychain_kc_cologne2026_desc"		"此紀念吊飾是 IEM Cologne 2026 CS2 特級錦標賽的紀念品，其中展示一個精彩片段。"
 	"HighlightReel_cologne2026_st1ultimatenukejumpkill"	"ultimate 空中擊殺"
@@ -49701,7 +49700,6 @@
 		"mainmenu_major_hub_no_items" "特級錦標賽中心"
 		"mainmenu_major_hub_visit" "造訪特級錦標賽中心"
 		"mainmenu_major_hub_new_items" "冠軍貼紙和精彩片段"
-
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
 		"pickem_swiss_group_11"									"1:1"
@@ -49729,6 +49727,9 @@
 		"major_store_sort_alphabetical" "按照字母"
 		"major_store_sort_filter"		"過濾器"
 		"major_store_nav_home"			"首頁"
+		"major_store_nav_tab_bookmarked"	"最愛項目"
+		"major_store_nav_tab_champions"		"冠軍"
+		"major_store_nav_tab_charms"		"吊飾"
 		"major_store_nav_teams"			"隊伍"
 		"major_store_nav_players"		"選手"
 		"major_store_nav_bundles"		"組合包"
@@ -49738,7 +49739,6 @@
 		"major_store_banner_hint"		"將物品加入至最愛以便快速存取"
 		"major_store_banner_regions"	"地區隊伍"
 		"major_store_banner_keychains"	"精彩片段吊飾"
-		"major_store_banner_champions" 	"特級錦標賽冠軍貼紙"
 		"major_store_banner_org"		"{s:org-name} 貼紙"
 		"major_store_balance"			"{d:balance} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
 		"major_store_price"				"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
@@ -49760,7 +49760,7 @@
 		"major_store_filter_section_type" "類型"
 		"major_store_filter_section_price_range" "價格範圍"
 		"major_store_filter_section_keychains"	"精彩片段吊飾"
-		"major_store_filter_info_keychains" "僅顯示精彩片段"
+		"major_store_filter_info_keychains" 	"僅顯示精彩片段"
 		"major_store_filter_type_3" 			"紙質"
 		"major_store_filter_type_4" 			"閃亮"
 		"major_store_filter_type_4e" 			"刺繡"
@@ -49768,6 +49768,7 @@
 		"major_store_filter_type_6" 			"黃金"
 		"major_store_filter_type_team_only" 	"僅限隊伍"
 		"major_store_filter_type_player_only" 	"僅限選手"
+		"major_store_filter_type_champions_only" 	"冠軍"
 		"major_store_filter_type_keychains_only" "僅限精彩片段吊飾"
 		"major_store_filter_type_price" 		"範圍：{d:low} - {d:high}"
 		"major_store_filter_type_clear_all" 	"全部清除"
@@ -50618,8 +50619,8 @@
 		"tooltip_short_viewaddon"			"查看自訂地圖"
 		"tooltip_short_kick_player"			"踢出"
 
-// crow_mask_53009_comment
-// crow_mask_53010_comment
+// crow_mask_53607_comment
+// crow_mask_53608_comment
 }
 
 

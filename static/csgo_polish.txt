@@ -30196,7 +30196,6 @@
 	"StickerKit_cologne2026_signature_kyousuke_gold_champion" "kyousuke (złota, mistrz) | Kolonia 2026"
 	"StickerKit_desc_cologne2026_signature_kyousuke_gold_champion" "Na tej złotej naklejce swój autograf zostawił profesjonalny gracz Maksim Łukin z drużyny Falcons, który został mistrzem na Wielkich Mistrzostwach CS2 IEM Cologne 2026."
 
-
 	"keychain_kc_cologne2026"			"Zagranie z IEM Cologne 2026"
 	"keychain_kc_cologne2026_desc"		"Ta przywieszka upamiętnia Wielkie Mistrzostwa CS2 IEM Cologne 2026 i zawiera powtórkę z zagraniem."
 	"HighlightReel_cologne2026_st1ultimatenukejumpkill"	"ultimate – zabójstwo z podskoku"
@@ -48853,7 +48852,6 @@
 		"mainmenu_major_hub_no_items" "CENTRUM WIELKICH MISTRZOSTW"
 		"mainmenu_major_hub_visit" "Odwiedź centrum mistrzostw"
 		"mainmenu_major_hub_new_items" "Naklejki mistrzów i zagrania"
-
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
 		"pickem_swiss_group_11"									"1:1"
@@ -48890,7 +48888,6 @@
 		"major_store_banner_hint"		"Dodaj przedmioty do ulubionych dla szybkiego dostępu"
 		"major_store_banner_regions"	"DRUŻYNY REGIONALNE"
 		"major_store_banner_keychains"	"PRZYWIESZKI Z ZAGRANIAMI"
-		"major_store_banner_champions" 	"NAKLEJKI WIELKICH MISTRZÓW"
 		"major_store_banner_org"		"NAKLEJKI {s:org-name}"
 		"major_store_balance"			"{d:balance} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
 		"major_store_price"				"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
@@ -48912,7 +48909,7 @@
 		"major_store_filter_section_type" "Typ"
 		"major_store_filter_section_price_range" "Zakres cenowy"
 		"major_store_filter_section_keychains"	"Przywieszki z zagraniami"
-		"major_store_filter_info_keychains" "Pokaż same zagrania"
+		"major_store_filter_info_keychains" 	"Pokaż same zagrania"
 		"major_store_filter_type_3" 			"Papierowa"
 		"major_store_filter_type_4" 			"Foliowana"
 		"major_store_filter_type_4e" 			"Haftowana"
@@ -49770,8 +49767,8 @@
 		"tooltip_short_viewaddon"			"Zobacz niestandardową mapę"
 		"tooltip_short_kick_player"			"Wyrzuć"
 
-// crow_mask_53009_comment
-// crow_mask_53010_comment
+// crow_mask_53607_comment
+// crow_mask_53608_comment
 }
 
 

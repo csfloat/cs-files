@@ -30218,7 +30218,6 @@
 	"StickerKit_cologne2026_signature_kyousuke_gold_champion" "kyousuke (золотая, чемпион) | Кёльн-2026"
 	"StickerKit_desc_cologne2026_signature_kyousuke_gold_champion" "Эта золотая наклейка подписана профессиональным игроком по имени Максим Лукин из команды Falcons, чемпиона IEM Cologne Major 2026."
 
-
 	"keychain_kc_cologne2026"			"Яркий момент IEM Cologne Major 2026"
 	"keychain_kc_cologne2026_desc"		"Этот сувенирный брелок посвящён чемпионату IEM Cologne Major 2026 по CS2 и содержит ролик с ярким моментом."
 	"HighlightReel_cologne2026_st1ultimatenukejumpkill"	"ultimate — убийство в прыжке"
@@ -48877,7 +48876,6 @@
 		"mainmenu_major_hub_no_items" "МЕЙДЖОР-ТУРНИР"
 		"mainmenu_major_hub_visit" "Открыть раздел мейджора"
 		"mainmenu_major_hub_new_items" "Наклейки чемпионов и яркие моменты"
-
 		"pickem_swiss_group_00"									"0:0"
 		"pickem_swiss_group_10"									"1:0"
 		"pickem_swiss_group_11"									"1:1"
@@ -48905,6 +48903,7 @@
 		"major_store_sort_alphabetical" "По алфавиту"
 		"major_store_sort_filter"		"Фильтр"
 		"major_store_nav_home"			"Главная"
+		"major_store_nav_tab_charms"		"Брелки"
 		"major_store_nav_teams"			"Команды"
 		"major_store_nav_players"		"Игроки"
 		"major_store_nav_bundles"		"Наборы"
@@ -48914,7 +48913,6 @@
 		"major_store_banner_hint"		"Добавляйте предметы в избранное для удобного доступа"
 		"major_store_banner_regions"	"РЕГИОНАЛЬНЫЕ КОМАНДЫ"
 		"major_store_banner_keychains"	"БРЕЛКИ С ЯРКИМИ МОМЕНТАМИ"
-		"major_store_banner_champions" 	"НАКЛЕЙКИ ЧЕМПИОНОВ МЕЙДЖОРА"
 		"major_store_banner_org"		"НАКЛЕЙКИ {s:org-name}"
 		"major_store_balance"			"{d:balance} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
 		"major_store_price"				"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
@@ -48936,7 +48934,7 @@
 		"major_store_filter_section_type" "Тип"
 		"major_store_filter_section_price_range" "Диапазон цен"
 		"major_store_filter_section_keychains"	"Брелки с яркими моментами"
-		"major_store_filter_info_keychains" "Только с яркими моментами"
+		"major_store_filter_info_keychains" 	"Только с яркими моментами"
 		"major_store_filter_type_3" 			"Бумажная"
 		"major_store_filter_type_4" 			"Металлическая"
 		"major_store_filter_type_4e" 			"Вышитая"
@@ -49794,8 +49792,8 @@
 		"tooltip_short_viewaddon"			"Просмотреть пользовательскую карту"
 		"tooltip_short_kick_player"			"Выгнать"
 
-// crow_mask_53009_comment
-// crow_mask_53010_comment
+// crow_mask_53607_comment
+// crow_mask_53608_comment
 }
 
 
