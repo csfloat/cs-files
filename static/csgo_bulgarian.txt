@@ -51120,6 +51120,7 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_navbar_report_server"	"Докладване на сървър"
 		"tooltip_navbar_stats"			"Прегледайте всичките си статистики за мачовете на едно място"
 		"tooltip_navbar_store"			"Придобивайте игрални артикули"
+		"tooltip_navbar_vacnet"			"Отваряне на VacNet портала за етикиране"
 
 
 		"tooltip_inspect_weapon_model"	"Оглед на оръжейния модел"
@@ -53796,8 +53797,8 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_short_viewaddon"			"Преглед на персонализирана карта"
 		"tooltip_short_kick_player"			"Изритване"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

@@ -48858,6 +48858,7 @@
 		"tooltip_navbar_report_server"	"Rapporter tjener"
 		"tooltip_navbar_stats"			"Se all kampstatistikken din på ett sted"
 		"tooltip_navbar_store"			"Skaff deg gjenstander i spillet"
+		"tooltip_navbar_vacnet"			"Åpne VACNet-merkingsportalen"
 
 
 		"tooltip_inspect_weapon_model"	"Inspiser våpenmodell"
@@ -51485,8 +51486,8 @@
 		"tooltip_short_viewaddon"			"Vis tilpasset kart"
 		"tooltip_short_kick_player"			"Kast ut"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

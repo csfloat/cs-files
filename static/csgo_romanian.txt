@@ -47823,8 +47823,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_navbar_report_server"	"Raportează serverul"
 		"tooltip_navbar_stats"			"Vezi toate statisticile meciurilor tale într-un singur loc"
 		"tooltip_navbar_store"			"Obține obiecte în joc"
-
-
 		"tooltip_inspect_weapon_model"	"Inspectează modelul de armă"
 		"tooltip_inspect_weapon_model_faction"	"Inspectează modelul de jucător"
 		"tooltip_inspect_play_mvp_anthem"	"Redă imnul MVP"
@@ -50439,8 +50437,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_short_viewaddon"			"Vezi harta personalizată"
 		"tooltip_short_kick_player"			"Exclude"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

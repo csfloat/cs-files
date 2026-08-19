@@ -47778,8 +47778,6 @@
 		"tooltip_navbar_report_server"	"Denunciar servidor"
 		"tooltip_navbar_stats"			"Todas as suas estatísticas em um único lugar"
 		"tooltip_navbar_store"			"Adquira itens no jogo"
-
-
 		"tooltip_inspect_weapon_model"	"Inspecionar modelo da arma"
 		"tooltip_inspect_weapon_model_faction"	"Inspecionar modelo do jogador"
 		"tooltip_inspect_play_mvp_anthem"	"Reproduzir hino de destaque"
@@ -50370,8 +50368,8 @@
 		"tooltip_short_viewaddon"			"Acessar mapa"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

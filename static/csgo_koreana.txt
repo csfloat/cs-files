@@ -47794,6 +47794,7 @@
 		"tooltip_navbar_report_server"	"서버 신고"
 		"tooltip_navbar_stats"			"한 곳에서 모든 매치 통계 확인"
 		"tooltip_navbar_store"			"게임 내 아이템 획득"
+		"tooltip_navbar_vacnet"			"VACNet 분류 포털 열기"
 
 
 		"tooltip_inspect_weapon_model"	"무기 모델 관찰"
@@ -50391,8 +50392,8 @@
 		"tooltip_short_viewaddon"			"맞춤 맵 보기"
 		"tooltip_short_kick_player"			"추방"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

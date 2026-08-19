@@ -40264,7 +40264,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_match_abort_match_network_event"	"La partida se ha cancelado debido a una interrupción de la red.\nEsta partida no afectará a tu calificación de habilidad."
 		"SFUI_match_abort_match_vac_live"	"VAC Live anuló la partida porque detectó un tramposo.\nEsta partida no afectará a tu calificación de habilidad."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 y todos los miembros del grupo han recibido suspensiones de VACNET."
+		"SFUI_match_abort_match_abnormal_behavior"	"%s1 y todos los miembros del grupo han recibido suspensiones de VACNet."
 		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET ha detectado juego irregular y ha cancelado la partida."
 
 		"SFUI_match_vac_live_partied_with_cheater"	"No se reconocerá el progreso en esta partida porque un jugador de tu equipo fue bloqueado."
@@ -47775,6 +47775,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_navbar_report_server"	"Denunciar servidor"
 		"tooltip_navbar_stats"			"Mira todas las estadísticas de tus partidas en un mismo lugar"
 		"tooltip_navbar_store"			"Adquirir artículos en el juego"
+		"tooltip_navbar_vacnet"			"Abrir el portal de etiquetado VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Inspeccionar modelo de arma"
@@ -50368,8 +50369,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

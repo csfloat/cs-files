@@ -47765,8 +47765,6 @@
 		"tooltip_navbar_report_server"	"报告服务器"
 		"tooltip_navbar_stats"			"在一个地方查看你所有的比赛数据"
 		"tooltip_navbar_store"			"获取游戏内物品"
-
-
 		"tooltip_inspect_weapon_model"	"检视武器模型"
 		"tooltip_inspect_weapon_model_faction"	"检视人物模型"
 		"tooltip_inspect_play_mvp_anthem"	"播放 MVP 凯歌"
@@ -50361,8 +50359,8 @@
 		"tooltip_short_viewaddon"			"查看自定义地图"
 		"tooltip_short_kick_player"			"踢出"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

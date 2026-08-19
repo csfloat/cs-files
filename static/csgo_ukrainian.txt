@@ -50678,6 +50678,7 @@
 		"tooltip_navbar_report_server"	"Поскаржитися на сервер"
 		"tooltip_navbar_stats"			"Переглядайте всю статистику, зібрану в одному місці"
 		"tooltip_navbar_store"			"Отримуйте внутрішньоігрові предмети"
+		"tooltip_navbar_vacnet"			"Відкрити портал маркування VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Оглянути модель зброї"
@@ -53343,8 +53344,8 @@
 		"tooltip_short_viewaddon"			"Переглянути нестандартну мапу"
 		"tooltip_short_kick_player"			"Вигнати"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

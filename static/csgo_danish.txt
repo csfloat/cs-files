@@ -49109,6 +49109,7 @@ bare glem alt om Proseccoen."
 		"tooltip_navbar_report_server"	"Rapportér server"
 		"tooltip_navbar_stats"			"Se alle dine kampstatistikker samlet ét sted"
 		"tooltip_navbar_store"			"Anskaf genstande i spillet"
+		"tooltip_navbar_vacnet"			"Åbn VACNet-mærkningsportalen"
 
 
 		"tooltip_inspect_weapon_model"	"Inspicer våbenmodel"
@@ -51743,8 +51744,8 @@ bare glem alt om Proseccoen."
 		"tooltip_short_viewaddon"			"Vis tilpasset bane"
 		"tooltip_short_kick_player"			"Smid ud"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

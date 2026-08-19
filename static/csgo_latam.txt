@@ -47782,6 +47782,7 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_navbar_report_server"	"Denunciar servidor"
 		"tooltip_navbar_stats"			"Mira todas las estadísticas de tus partidas en un mismo lugar"
 		"tooltip_navbar_store"			"Adquirir artículos en el juego"
+		"tooltip_navbar_vacnet"			"Abrir el portal de etiquetado de VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Inspeccionar modelo de arma"
@@ -50375,8 +50376,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

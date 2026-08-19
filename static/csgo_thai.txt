@@ -48843,8 +48843,6 @@
 		"tooltip_navbar_report_server"	"รายงานเซิร์ฟเวอร์"
 		"tooltip_navbar_stats"			"ดูสถิติแมตช์ของคุณทั้งหมดในที่เดียว"
 		"tooltip_navbar_store"			"รับไอเท็มในเกม"
-
-
 		"tooltip_inspect_weapon_model"	"ตรวจสอบโมเดลอาวุธ"
 		"tooltip_inspect_weapon_model_faction"	"ตรวจสอบโมเดลผู้เล่น"
 		"tooltip_inspect_play_mvp_anthem"	"เล่นเพลงสรรเสริญ MVP"
@@ -51458,8 +51456,8 @@
 		"tooltip_short_viewaddon"			"ดูแผนที่แบบกำหนดเอง"
 		"tooltip_short_kick_player"			"เตะ"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

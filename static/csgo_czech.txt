@@ -48512,6 +48512,7 @@
 		"tooltip_navbar_report_server"	"Nahlášení serveru"
 		"tooltip_navbar_stats"			"Statistiky zápasů"
 		"tooltip_navbar_store"			"Obchod s herními předměty"
+		"tooltip_navbar_vacnet"			"Otevřít portál ochrany VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Prohlédnout zbraň"
@@ -51127,8 +51128,8 @@
 		"tooltip_short_viewaddon"			"Info o mapě"
 		"tooltip_short_kick_player"			"Vyhození"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

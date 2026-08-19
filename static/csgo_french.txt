@@ -47774,6 +47774,7 @@
 		"tooltip_navbar_report_server"	"Signaler le serveur"
 		"tooltip_navbar_stats"			"Toutes vos statistiques au même endroit"
 		"tooltip_navbar_store"			"Obtenez des items en jeu"
+		"tooltip_navbar_vacnet"			"Ouvrir le portail de classification VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Examiner l'arme"
@@ -50367,8 +50368,8 @@
 		"tooltip_short_viewaddon"			"Voir la carte personnalisée"
 		"tooltip_short_kick_player"			"Exclure"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

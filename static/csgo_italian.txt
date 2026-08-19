@@ -40271,8 +40271,8 @@ Esca per una doppia uccisione"
 		"SFUI_match_abort_match_network_event"	"A causa di un'interruzione di rete, la partita è stata annullata.\nQuesta partita non influenzerà la valutazione delle abilità."
 		"SFUI_match_abort_match_vac_live"	"VAC Live ha rilevato un cheater e ha terminato questa partita.\nQuesta partita non influenzerà la valutazione delle abilità."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 e tutti i membri del gruppo hanno ricevuto sospensioni VACNET."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET ha rilevato delle irregolarità nel gioco e ha annullato la partita."
+		"SFUI_match_abort_match_abnormal_behavior"	"%s1 e tutti i membri del gruppo hanno ricevuto sospensioni VACNet."
+		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNet ha rilevato delle irregolarità nel gioco e ha annullato la partita."
 
 		"SFUI_match_vac_live_partied_with_cheater"	"Non sarà assegnato alcun progresso relativo a questa partita poiché un giocatore nella tua squadra è stato bandito."
 		"SFUI_match_abort_match_missing_player"	"La partita verrà annullata poiché un giocatore non è riuscito a connettersi."
@@ -47785,6 +47785,7 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_navbar_report_server"	"Segnala il server"
 		"tooltip_navbar_stats"			"Visualizza tutte le tue statistiche della partita in un unico posto"
 		"tooltip_navbar_store"			"Ottieni oggetti in gioco"
+		"tooltip_navbar_vacnet"			"Apri il portale di valutazione VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Esamina l'arma"
@@ -50378,8 +50379,8 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_short_viewaddon"			"Vedi mappa personalizzata"
 		"tooltip_short_kick_player"			"Espelli"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

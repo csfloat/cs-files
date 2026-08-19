@@ -47903,6 +47903,7 @@
 		"tooltip_navbar_report_server"	"Denunciar servidor"
 		"tooltip_navbar_stats"			"Vê as estatísticas das tuas partidas num só lugar"
 		"tooltip_navbar_store"			"Adquire itens no jogo"
+		"tooltip_navbar_vacnet"			"Abrir o portal de classificação do VACNet"
 
 
 		"tooltip_inspect_weapon_model"	"Examinar modelo da arma"
@@ -50518,8 +50519,8 @@
 		"tooltip_short_viewaddon"			"Ver mapa não oficial"
 		"tooltip_short_kick_player"			"Expulsar"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 

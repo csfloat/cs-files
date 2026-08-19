@@ -48569,6 +48569,7 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_navbar_report_server"	"Server rapporteren"
 		"tooltip_navbar_stats"			"Alle wedstrijdstatistieken in een oogopslag checken"
 		"tooltip_navbar_store"			"Voorwerpen in de game bemachtigen"
+		"tooltip_navbar_vacnet"			"Open het VACNet-beoordelingsportal"
 
 
 		"tooltip_inspect_weapon_model"	"Wapenmodel bekijken"
@@ -51185,8 +51186,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_short_viewaddon"			"Bekijk de aangepaste map"
 		"tooltip_short_kick_player"			"Verwijderen"
 
-// crow_mask_53607_comment
 // crow_mask_53608_comment
+// crow_mask_53609_comment
 }
 
 
