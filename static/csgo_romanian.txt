@@ -47823,6 +47823,9 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_navbar_report_server"	"Raportează serverul"
 		"tooltip_navbar_stats"			"Vezi toate statisticile meciurilor tale într-un singur loc"
 		"tooltip_navbar_store"			"Obține obiecte în joc"
+		"tooltip_navbar_vacnet"			"Deschide portalul de clasificare VACNet"
+
+
 		"tooltip_inspect_weapon_model"	"Inspectează modelul de armă"
 		"tooltip_inspect_weapon_model_faction"	"Inspectează modelul de jucător"
 		"tooltip_inspect_play_mvp_anthem"	"Redă imnul MVP"
