@@ -4649,7 +4649,7 @@
 		//
 		// Overwatch localized names
 		//
-		"CSGO_Overwatch_TheSuspect"			"Den mistænkte"
+		"CSGO_Overwatch_TheSuspect"			"Individet"
 		"CSGO_FakePlayer_Albatross"			"Albatros"
 		"CSGO_FakePlayer_Alpha"				"Alfa"
 		"CSGO_FakePlayer_Anchor"			"Anker"
