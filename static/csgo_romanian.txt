@@ -15,26 +15,18 @@
 		"GameUI_DisplayMonitor"		"Monitor de calculator"
 		"GameUI_DisplayTV"		"Televizor"
 		"GameUI_Brightness"		"Luminozitate"
-		"GameUI_CrosshairBehavior"		"Tipul țintei"
-		"GameUI_CrosshairBehaviorStatic"	"Statică"
-		"GameUI_CrosshairBehaviorDynamic"	"Dinamică"
 
 		"GameUI_FriendlyWarning"			"Avertizare țintire coechipieri (reticul)"
 		"GameUI_FriendlyWarning_Desc"		"Afișează un avertisment pe reticul atunci când țintești un coechipier."
 
-		"GameUI_CrosshairStyle"			"Modelul țintei"
-		"GameUI_CrosshairStyleDefault"			"Implicită"
-		"GameUI_CrosshairStyleDefaultStatic"	"Statică implicită"
-		"GameUI_CrosshairStyleClassic"			"Clasică"
-		"GameUI_CrosshairStyleClassicDyn"		"Clasică dinamică"
-		"GameUI_CrosshairStyleClassicStatic"	"Clasică statică"
-		"GameUI_CrosshairStyleLegacy"			"Moștenită"
-
+		"GameUI_CrosshairStyle0"	"Cruce dinamică"
+		"GameUI_CrosshairStyle4"	"Cruce statică"
+		"GameUI_CrosshairStyle0_Tooltip"	"Cruce dinamică"
+		"GameUI_CrosshairStyle4_Tooltip"	"Cruce statică"
 		"GameUI_CrosshairStyle_Friendly"		"Avertizare rănire coechipieri"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Întotdeauna oprită"
 		"GameUI_CrosshairFriendlyWarning_Default" "Doar pentru ținta implicită"
 		"GameUI_CrosshairFriendlyWarning_On"	"Întotdeauna pornită"
-
 
 		"GameUI_CrosshairIFF"	"Identificare jucători în tință"
 		"GameUI_CrosshairIFFOn"	"Activată"
@@ -52,7 +44,6 @@
 		"GameUI_CrosshairOutline"	"Contur"
 		"GameUI_CrosshairAlpha"		"Opacitate"
 		"GameUI_CrosshairSize"		"Dimensiunea țintei"
-		"GameUI_CrosshairColor"		"Culoarea țintei"
 		"GameUI_SniperCrosshairThickness" "Grosimea reticulului pentru armele cu lunete"
 		"GameUI_ColorSliders"		"Culori"
 		"GameUI_ColorQuality"		"Calitatea culorilor"
@@ -66,8 +57,6 @@
 		"GameUI_SplitOuterAlpha" 	"Opacitatea țintei exterioare"
 		"GameUI_SplitRatio" 		"Raport dispersie țintă"
 		"GameUI_TStyle" 			"Stilul T"
-		"GameUI_ShowWeaponGap" 		"Spațiere în funcție de arma echipată"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Spațierea țintei se va actualiza dinamic în funcție de arma echipată."
 		"GameUI_ShowObserverCrosshair" 	"Arată țintele jucătorilor"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Afișează ținta celorlalți jucători atunci când îi urmăresc ca spectator."
 		"GameUI_Everyone" 			"Tuturor"
@@ -91,15 +80,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Ar trebui să afișăm reticulul de aliniere pentru grenadele momeală? Dacă da, pentru cât timp ar trebui afișat reticulul după ce este trasă siguranța?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Resetează toate valorile țintei la cele implicite."
-		"GameUI_Xhair_Undo_Tooltip" 		"Anulează modificările anterioare pentru țintă."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Partajează sau importă un cod pentru țintă."
-		"GameUI_Xhair_Code_Popup"			"Distribuie sau importă"
-		"GameUI_Xhair_Code_Invalid"			"Cod de țintă nevalid sau învechit"
-		"GameUI_Xhair_Import_Code"			"Importă"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importă ținta folosită ultima dată când ai jucat CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importă din CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Resetează toate valorile țintei la cele implicite."
+		"GameUI_Xhair_Undo_Tooltip" 			"Anulează modificările anterioare pentru țintă."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Partajează sau importă un cod pentru țintă."
+		"GameUI_Xhair_Code_Popup"				"Distribuie sau importă"
+		"GameUI_Xhair_Code_Invalid"				"Cod de țintă nevalid sau învechit"
+		"GameUI_Xhair_Import_Code"				"Importă"
 		"tooltip_copycrosshair"				"Copiază ținta"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Înlocuiește ținta curentă?"
  
@@ -5994,8 +5980,8 @@ Colecția Spectrum"
 		"musickit_shockone_01_desc"				"Dezlănțuie-te cu melodia drum and bass, plină de energie, de la ShockOne, intitulată „Voices”. Fiind ideal pentru momentele critice, acest pachet muzical oferă un bas puternic care te va ajuta să devii de multe ori un MVP."
 		"coupon_shockone_01"					"Pachet muzical | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Pachet muzical StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -6006,12 +5992,6 @@ Colecția Spectrum"
 		"quest"										"Misiune"
 
 		"quest_commandverb_default"					"Realizează"
-
-		"quest_action_plural_act_kill_human"		"ucideri"
-		"quest_action_singular_act_kill_human"		"o ucidere"
-
-		"quest_action_plural_act_win_round"			"runde câștigate"
-		"quest_action_singular_act_win_round"		"o rundă câștigată"	
 
 		////
 
@@ -37111,7 +37091,6 @@ Colecția Spectrum"
 		"SFUI_GameMode_Workshop"				"Atelier"
 		"SFUI_GameMode_new_user_training"		"Ziua de instrucție"
 		"SFUI_GameMode_retakes"					"Retakes"
-
 		"ForceNewUserTraining_title"			"Ziua de instrucție"
 		"ForceNewUserTraining_text"				"Ești pregătit pentru o scurtă sesiune de instruire?"
 
@@ -37453,7 +37432,6 @@ Colecția Spectrum"
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Dust II (previzualizare)"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient (previzualizare)"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno (previzualizare)"
@@ -40312,9 +40290,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"SFUI_match_abort_match_network_event"	"O întrerupere a rețelei a dus la anularea meciului.\nMeciul acesta nu-ți va afecta grupa valorică."
 		"SFUI_match_abort_match_vac_live"	"VAC Live a detectat un trișor și a încheiat meciul.\nMeciul acesta nu-ți va afecta clasificarea."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 sau mai mulți membrii din grup au primit o penalizare VACNET."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET a detectat un comportament neobișnuit și a anulat meciul."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Niciun progres nu va fi acordat pentru acest meci, deoarece un jucător din grupul tău a primit o interdicție."
 		"SFUI_match_abort_match_missing_player"	" Meciul este anulat, deoarece unul dintre jucători nu s-a putut conecta."
 		"SFUI_match_abort_match_player_abandoned"	" Meciul va fi anulat întrucât un jucător s-a deconectat."
@@ -40497,8 +40472,9 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"USB-ul 2 este pregătit!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"USB-ul cu virus a fost recuperat!"	
 
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
+		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} {puppeteer}"
+		"DecoratedPlayerName_ClanTag:f"						"<span class='decorated-player-name__clan-tag'>[{s:value}]</span>"
 "SFUIHUD_Spectate_Equipment"	"VALOAREA ECHIPAMENTULUI"
 		"SFUIHUD_Spectate_TeamMoney"	"BANII ECHIPEI"
 		"SFUIHUD_Spectate_TeamEQValue"	"VALOAREA ECHIPAMENTULUI ECHIPEI"
@@ -41747,7 +41723,7 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"SFUI_Spectator_Best_Of_Series"			"Serie de tip „cei mai buni din %s1”"
 		"Spectator_Best_Of_Series"				"Serie de tip „cei mai buni din {d:count}”" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
-		"SFUI_Settings_ClanTag_In_Death_Notice"		"Afișează acronimul echipei în notificările pentru deces"
+		"SFUI_Settings_ClanTag_In_Death_Notice"		"Afișează abrevierile echipelor în notificările pentru deces"
 		"SFUI_Settings_Identify_Teammates"		"Afișează ID-ul echipei prin pereți"
 
 		"SFUI_Settings_Radar_Rotate"			"Radarul se rotește"
@@ -41956,9 +41932,13 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Clan
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		"SFUI_Settings_ClanTag_Title"								"Acronimul de clan al grupului Steam"
-		"SFUI_Settings_ClanTag_None"								"Niciun acronim de echipă"
-
+		"SFUI_Settings_ClanTag_Title"								"Abrevierea de clan a grupului Steam"
+		"SFUI_Settings_ClanTag_None"								"Nicio abreviere de echipă"
+		"ClanTag_Lister_Title"										"Alege-ți abrevierea de clan"
+		"ClanTag_Clear_ClanTag"										"Nicio abreviere de clan"
+		"ClanTag_Updating"											"Se actualizează abrevierea de clan..."
+		"ClanTag_Manage_Groups"										"Accesează-ți grupurile Steam"
+ 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46479,7 +46459,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"AddFriend_tooltip"						"Adaugă prieten"
 		"FriendsLobby_tooltip"					"Află mai multe despre lobbyuri"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} lobby } few{{d:lobby_count} lobbyuri} other{{d:lobby_count} de lobbyuri}}"
 
 
@@ -47408,12 +47387,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Țintă"
-		"settings_crosshair_info"			"Personalizează dimensiunea, forma și culoarea reticulului tău. Împărtășește cu prietenii codul țintei tale sau încearcă setările altui jucător."
-		"settings_snipers_xhair"			"Vizor arme cu lunetă"
-		"settings_grenadecrosshair_short"	"Alinierea grenadelor"
-		"settings_grenadecrosshair"			"Reticul pentru alinierea grenadelor"
-		"settings_grenadecrosshair_info"	"Un reticul util pentru alinierea aruncărilor de grenade"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar/Tabletă"
 		"settings_items_section"			"Obiect"
@@ -47823,9 +47796,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_navbar_report_server"	"Raportează serverul"
 		"tooltip_navbar_stats"			"Vezi toate statisticile meciurilor tale într-un singur loc"
 		"tooltip_navbar_store"			"Obține obiecte în joc"
-		"tooltip_navbar_vacnet"			"Deschide portalul de clasificare VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Inspectează modelul de armă"
 		"tooltip_inspect_weapon_model_faction"	"Inspectează modelul de jucător"
 		"tooltip_inspect_play_mvp_anthem"	"Redă imnul MVP"
@@ -47884,7 +47854,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_xp_locked"				"Statutul Prime este necesar pentru a obține puncte de experiență. Cumpără statutul Prime pentru a-ți debloca rangul."
 		"tooltip_join_public_lobby"		"Alătură-te unui lobby public"
 		"tooltip_suggested_lobby"		"Acest lobby este deschis numai membrilor grupului Steam respectiv."
-
 		"tooltip_invite"				"Invită-ți prietenul să joace"
 		"tooltip_disabled_invite"		"Anulează căutarea pentru a invita un prieten"
 		"tooltip_Join"					"Alătură-te prietenului"
@@ -47912,6 +47881,7 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_friend_invited_you"	"<b>Invitație</b> de la <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Vezi toate invitațiile de alăturare la lobbyuri"
+		"tooltip_changeclantag"			"Schimbă-ți apartenența la grupul Steam"
 
 		"tooltip_short_invite"				"Invită"
 		"tooltip_short_Join"				"Alătură-te"
@@ -47936,6 +47906,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_short_canelsearch"			"Anulează căutarea"
 		"tooltip_short_discard_invite"		"Ignoră invitația"
 		"tooltip_short_copycrosshair"		"Copiază ținta"
+		"tooltip_short_changeclantag"		"Abreviere de clan"
+
 		"tooltip_pan_left"					"Rotește camera spre stânga"
 		"tooltip_pan_right"					"Rotește camera spre dreapta"
 
@@ -48428,9 +48400,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} PAUZĂ {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Spectatori: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48552,8 +48521,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 
 		"rankup_redemption_case_warning"							"Necesită o cheie pentru a fi deschisă"
 		"rankup_redemption_store_claimed"							"REVENDICAT"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50370,10 +50337,6 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"mission_segment_tooltip"						"{d:xp-reward} PE"
 
 		"mission_location"								"<b>{s:gamemode}</b> pe <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} few{<b>{d:mission-points}</b> {s:actions}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} few{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Realizează o ucidere cu {s:item1} în <b>{s:gamemode}: {s:location}</b>.} few{Realizează ucideri cu {s:item1} în <b>{s:gamemode}: {s:location}</b>.} other{Realizează ucideri cu {s:item1} în <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"...cu {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Realizează o ucidere cu {s:item1}} few{Realizează ucideri cu {s:item1}} other{Realizează ucideri cu {s:item1}}}"
@@ -50431,7 +50394,7 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Câștigă o rundă în <b>{s:gamemode}: {s:location}</b>.} few{Câștigă runde în <b>{s:gamemode}: {s:location}</b>.} other{Câștigă runde în <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Câștigă o rundă} few{Câștigă runde} other{Câștigă runde}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50439,9 +50402,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_kick_player"			"Elimină jucătorul de pe serverul local"		
 		"tooltip_short_viewaddon"			"Vezi harta personalizată"
 		"tooltip_short_kick_player"			"Exclude"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

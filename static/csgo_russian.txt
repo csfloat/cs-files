@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Монитор"
 		"GameUI_DisplayTV"		"Телевизор"
 		"GameUI_Brightness"		"Яркость"
-		"GameUI_CrosshairBehavior"		"Тип прицела"
-		"GameUI_CrosshairBehaviorStatic"	"Статичный"
-		"GameUI_CrosshairBehaviorDynamic"	"Динамический"
 
 		"GameUI_FriendlyWarning"			"Предупреждение об огне по своим на прицеле"
 		"GameUI_FriendlyWarning_Desc"		"Отображает предупреждение на прицеле при наведении на союзника."
-
-		"GameUI_CrosshairStyle"			"Стиль прицела"
-		"GameUI_CrosshairStyleDefault"			"Стандартный"
-		"GameUI_CrosshairStyleDefaultStatic"	"Стандартный (статичный)"
-		"GameUI_CrosshairStyleClassic"			"Классический"
-		"GameUI_CrosshairStyleClassicDyn"		"Классический (динамический)"
-		"GameUI_CrosshairStyleClassicStatic"	"Классический (статичный)"
-		"GameUI_CrosshairStyleLegacy"			"Традиционный"
 
 		"GameUI_CrosshairStyle_Friendly"		"Предупреждение об огне по своим"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Всегда выключено"
 		"GameUI_CrosshairFriendlyWarning_Default" "Только при стандартном прицеле"
 		"GameUI_CrosshairFriendlyWarning_On"	"Всегда включено"
-
 
 		"GameUI_CrosshairIFF"	"Местоположение ID прицела"
 		"GameUI_CrosshairIFFOn"	"Вкл."
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Обводка"
 		"GameUI_CrosshairAlpha"		"Прозрачность"
 		"GameUI_CrosshairSize"		"Размер прицела"
-		"GameUI_CrosshairColor"		"Цвет прицела"
 		"GameUI_SniperCrosshairThickness" "Толщина снайперского прицела"
 		"GameUI_ColorSliders"		"Цвета"
 		"GameUI_ColorQuality"		"Глубина цвета"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Прозрачность снаружи при разделении"
 		"GameUI_SplitRatio" 		"Соотношение разделяемых элементов"
 		"GameUI_TStyle" 			"Т-образный"
-		"GameUI_ShowWeaponGap" 		"Зазор зависит от оружия"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Зазор в прицеле динамически изменяется в зависимости от выбранного оружия."
 		"GameUI_ShowObserverCrosshair" 	"Показывать чужие прицелы"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Показывать прицелы других игроков во время наблюдения."
 		"GameUI_Everyone" 			"Все"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Показывать специальный прицел для ложных гранат? Если да, то через сколько времени после выдёргивания чеки?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Сбросить все настройки прицела к стандартным."
-		"GameUI_Xhair_Undo_Tooltip" 		"Отменить недавние изменения прицела."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Поделиться или импортировать код прицела."
-		"GameUI_Xhair_Code_Popup"			"Поделиться/импортировать"
-		"GameUI_Xhair_Code_Invalid"			"Недопустимый или устаревший код прицела"
-		"GameUI_Xhair_Import_Code"			"Импорт"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Импортировать прицел из последней сессии игры в CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Импортировать из CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Сбросить все настройки прицела к стандартным."
+		"GameUI_Xhair_Undo_Tooltip" 			"Отменить недавние изменения прицела."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Поделиться или импортировать код прицела."
+		"GameUI_Xhair_Code_Popup"				"Поделиться/импортировать"
+		"GameUI_Xhair_Code_Invalid"				"Недопустимый или устаревший код прицела"
+		"GameUI_Xhair_Import_Code"				"Импорт"
 		"tooltip_copycrosshair"				"Копировать прицел"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Заменить текущий прицел?"
  
@@ -5976,8 +5958,8 @@
 		"musickit_shockone_01_desc"				"Ощутите свободу благодаря Voices — энергичной композиции в жанре драм-н-бейс за авторством ShockOne. Мощные басовые линии этого набора музыки, призванного приводить к успеху в напряжённые моменты, сделают вас лучшим игроком не один раз."
 		"coupon_shockone_01"					"Набор музыки | ShockOne — Voices"
 		"coupon_shockone_01_stattrak"			"StatTrak™ Набор музыки | ShockOne — Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"" // Note: This only supports , and .
 
@@ -5988,12 +5970,6 @@
 		"quest"										"Миссия"
 
 		"quest_commandverb_default"					"Совершите"
-
-		"quest_action_plural_act_kill_human"		"убийств"
-		"quest_action_singular_act_kill_human"		"убийство"
-
-		"quest_action_plural_act_win_round"			"побед в раундах"
-		"quest_action_singular_act_win_round"		"победу в раунде"	
 
 		////
 
@@ -37090,7 +37066,6 @@
 		"SFUI_GameMode_Workshop"				"Мастерская"
 		"SFUI_GameMode_new_user_training"		"Обучение"
 		"SFUI_GameMode_retakes"					"Зачистка"
-
 		"ForceNewUserTraining_title"			"Обучение"
 		"ForceNewUserTraining_text"				"Вы готовы пройти короткое обучение?"
 
@@ -37432,7 +37407,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Предпросмотр Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Предпросмотр Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Предпросмотр Inferno"
@@ -40288,9 +40262,6 @@
 		"SFUI_match_abort_match_network_event"	"Из-за перебоев в работе сети матч завершён.\nОн не повлияет на ваше звание."
 		"SFUI_match_abort_match_vac_live"	"Система VAC Live обнаружила читера и завершила этот матч.\nОн не повлияет на ваше звание."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"Игрок %s1 и все члены его группы получили временную блокировку VACNET."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"Система VACNET обнаружила необычное поведение и отменила матч."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Прогресс этого матча не будет засчитан, так как игрок из вашего лобби был заблокирован."
 		"SFUI_match_abort_match_missing_player"	" Матч отменяется, потому что игрок не смог подключиться."
 		"SFUI_match_abort_match_player_abandoned"	" Матч отменяется, потому что игрок отключился."
@@ -40473,8 +40444,7 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Второй флеш-накопитель готов!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Флеш-накопитель с вирусом у вас!"	
 
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
 "SFUIHUD_Spectate_Equipment"	"СТОИМОСТЬ СНАРЯЖЕНИЯ"
 		"SFUIHUD_Spectate_TeamMoney"	"ДЕНЬГИ КОМАНДЫ"
 		"SFUIHUD_Spectate_TeamEQValue"	"ЦЕННОСТЬ СНАРЯЖЕНИЯ"
@@ -41569,6 +41539,7 @@
 		"SFUI_Settings_Casual_EQ_Tip"		"Применяет этот профиль эквалайзера в обычном режиме"
 
 
+		"SFUI_Settings_Master_Music_Volume"							"Общая громкость музыки"
 		"SFUI_Settings_Menu_Music_Volume"							"Громкость музыки в главном меню"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Громкость музыки в начале раунда"
 		"SFUI_Settings_Action_Round_Music_Volume"					"Громкость музыки в ходе раунда"
@@ -41934,7 +41905,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Тег группы Steam"
 		"SFUI_Settings_ClanTag_None"								"Без тега команды"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46455,7 +46425,6 @@
 		"AddFriend_tooltip"						"Добавить в друзья"
 		"FriendsLobby_tooltip"					"Узнать больше о лобби"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} лобби} few{{d:lobby_count} лобби} many{{d:lobby_count} лобби} other{{d:lobby_count} лобби}}"
 
 
@@ -47354,6 +47323,7 @@
 		"settings_video"			"Изображение"
 		"settings_audio"			"Звук"
 		"settings_new"				"Новое"
+		"settings_updated"			"Обновлено"
 		"settings_about"			"Авторы"
 		"settings_search"			"Поиск"
 		"settings_keyboard_mouse_section"	"Настройки клавиатуры и мыши"
@@ -47384,12 +47354,7 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Прицел"
-		"settings_crosshair_info"			"Настройте размер, форму и цвет перекрестия. Поделитесь своим прицелом с друзьями или попробуйте настройки других игроков."
-		"settings_snipers_xhair"			"Снайперский прицел"
-		"settings_grenadecrosshair_short"	"Прицел для гранаты"
-		"settings_grenadecrosshair"			"Прицел для гранаты"
-		"settings_grenadecrosshair_info"	"Специальный прицел, помогающий при броске гранат"
+		"settings_crosshair_sniper"			"Снайперский прицел"
 		"settings_radar_section"			"Радар"
 		"settings_radarandtablet_section"	"Радар/планшет"
 		"settings_items_section"			"Предмет"
@@ -47799,9 +47764,6 @@
 		"tooltip_navbar_report_server"	"Пожаловаться на сервер"
 		"tooltip_navbar_stats"			"Вся статистика ваших матчей в одном месте"
 		"tooltip_navbar_store"			"Покупайте внутриигровые предметы"
-		"tooltip_navbar_vacnet"			"Открыть портал маркировки VacNet"
-
-
 		"tooltip_inspect_weapon_model"	"Осмотреть оружие"
 		"tooltip_inspect_weapon_model_faction"	"Осмотреть с моделью игрока"
 		"tooltip_inspect_play_mvp_anthem"	"Прослушать гимн СЦИ"
@@ -47860,7 +47822,6 @@
 		"tooltip_xp_locked"				"Для получения опыта необходим прайм-статус. Купите прайм-статус, чтобы разморозить свой ранг."
 		"tooltip_join_public_lobby"		"Присоединиться к открытому лобби"
 		"tooltip_suggested_lobby"		"Лобби открыто только для участников соответствующей группы Steam."
-
 		"tooltip_invite"				"Пригласить"
 		"tooltip_disabled_invite"		"Отмените поиск, чтобы пригласить друга"
 		"tooltip_Join"					"Присоединиться"
@@ -47888,7 +47849,6 @@
 		"tooltip_friend_invited_you"	"<b>Приглашение</b> от <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Все приглашения в лобби"
-
 		"tooltip_short_invite"				"Пригласить"
 		"tooltip_short_Join"				"Войти в матч"
 		"tooltip_short_watch"				"Смотреть"
@@ -48381,9 +48341,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name}: ПАУЗА {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Зрителей: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48505,8 +48462,6 @@
 
 		"rankup_redemption_case_warning"							"Купите ключ, чтобы открыть"
 		"rankup_redemption_store_claimed"							"ПОЛУЧЕНО"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50323,10 +50278,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} ед. опыта"
 
 		"mission_location"								"<b>«{s:gamemode}»</b>, <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} few{<b>{d:mission-points}</b> {s:actions}} many{<b>{d:mission-points}</b> {s:actions}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} few{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}} many{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{{s:item1}: совершите убийство в режиме <b>«{s:gamemode}» ({s:location})</b>.} few{{s:item1}: совершайте убийства в режиме <b>«{s:gamemode}» ({s:location})</b>.} many{{s:item1}: совершайте убийства в режиме <b>«{s:gamemode}» ({s:location})</b>.} other{{s:item1}: совершайте убийства в режиме <b>«{s:gamemode}» ({s:location})</b>.}}"
 		"quest_11000_var_partial:f" 					"Оружие: {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{{s:item1}: совершите убийство.} few{{s:item1}: совершайте убийства.} many{{s:item1}: совершайте убийства.} other{{s:item1}: совершайте убийства.}}"
@@ -50384,7 +50335,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Выиграйте раунд в режиме <b>«{s:gamemode}» ({s:location})</b>.} few{Выигрывайте раунды в режиме <b>«{s:gamemode}» ({s:location})</b>.} many{Выигрывайте раунды в режиме <b>«{s:gamemode}» ({s:location})</b>.} other{Выигрывайте раунды в режиме <b>«{s:gamemode}» ({s:location})</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Выиграйте раунд} few{Выигрывайте раунды} many{Выигрывайте раунды} other{Выигрывайте раунды}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50392,9 +50343,8 @@
 		"tooltip_kick_player"			"Выгнать игрока с локального сервера"		
 		"tooltip_short_viewaddon"			"Просмотреть пользовательскую карту"
 		"tooltip_short_kick_player"			"Выгнать"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

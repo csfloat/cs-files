@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Moniteur d'ordinateur"
 		"GameUI_DisplayTV"		"Téléviseur"
 		"GameUI_Brightness"		"Luminosité"
-		"GameUI_CrosshairBehavior"		"Comportement du viseur"
-		"GameUI_CrosshairBehaviorStatic"	"Statique"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamique"
 
 		"GameUI_FriendlyWarning"			"Avertissement sur le viseur quand vous visez des membres de votre équipe"
 		"GameUI_FriendlyWarning_Desc"		"Afficher un avertissement sur le viseur quand vous visez des membres de votre équipe."
-
-		"GameUI_CrosshairStyle"			"Style du viseur"
-		"GameUI_CrosshairStyleDefault"			"Par défaut"
-		"GameUI_CrosshairStyleDefaultStatic"	"Statique par défaut"
-		"GameUI_CrosshairStyleClassic"			"Classique"
-		"GameUI_CrosshairStyleClassicDyn"		"Classique dynamique"
-		"GameUI_CrosshairStyleClassicStatic"	"Classique statique"
-		"GameUI_CrosshairStyleLegacy"			"CS:GO"
 
 		"GameUI_CrosshairStyle_Friendly"		"Avertissement de tir ami"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Toujours désactivé"
 		"GameUI_CrosshairFriendlyWarning_Default" "Viseur par défaut uniquement"
 		"GameUI_CrosshairFriendlyWarning_On"	"Toujours activé"
-
 
 		"GameUI_CrosshairIFF"	"ID de la cible sur le viseur"
 		"GameUI_CrosshairIFFOn"	"Activée"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Contour"
 		"GameUI_CrosshairAlpha"		"Alpha"
 		"GameUI_CrosshairSize"		"Taille du viseur"
-		"GameUI_CrosshairColor"		"Couleur du viseur"
 		"GameUI_SniperCrosshairThickness" "Épaisseur du viseur des fusils de précision"
 		"GameUI_ColorSliders"		"Couleurs"
 		"GameUI_ColorQuality"		"Qualité de la couleur"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Transparence extérieure séparée"
 		"GameUI_SplitRatio" 		"Ratio de l'écart"
 		"GameUI_TStyle" 			"Style T"
-		"GameUI_ShowWeaponGap" 		"Largeur dynamique du viseur par arme"
-		"GameUI_ShowWeaponGap_Tooltip" 	"La largeur du viseur se mettra automatiquement à jour en fonction de l'arme équipée."
 		"GameUI_ShowObserverCrosshair" 	"Voir les viseurs en mode spectateur"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Voir le viseur des personnes que vous regardez."
 		"GameUI_Everyone" 			"Tout le monde"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Le réticule des grenades doit-il s'afficher pour les grenades leurre ? Si oui, au bout de combien de temps après avoir dégoupillé la grenade ?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Restaurer les valeurs par défaut du viseur."
-		"GameUI_Xhair_Undo_Tooltip" 		"Annuler les récents changements du viseur."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Partager ou importer un code de viseur."
-		"GameUI_Xhair_Code_Popup"			"Partager ou importer"
-		"GameUI_Xhair_Code_Invalid"			"Code de viseur invalide ou obsolète"
-		"GameUI_Xhair_Import_Code"			"Importer"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importez le viseur utilisé lors de votre dernière partie de CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importer depuis CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Restaurer les valeurs par défaut du viseur."
+		"GameUI_Xhair_Undo_Tooltip" 			"Annuler les récents changements du viseur."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Partager ou importer un code de viseur."
+		"GameUI_Xhair_Code_Popup"				"Partager ou importer"
+		"GameUI_Xhair_Code_Invalid"				"Code de viseur invalide ou obsolète"
+		"GameUI_Xhair_Import_Code"				"Importer"
 		"tooltip_copycrosshair"				"Copier le viseur"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Remplacer le viseur actuel ?"
  
@@ -5972,8 +5954,8 @@
 		"musickit_shockone_01_desc"				"Brisez vos chaines avec le morceau de drum and bass effrénée de ShockOne, « Voices ». Quand il n'y a plus que vous pour arracher la victoire, ce kit de musiques vous portera vers beaucoup de titres de MJ avec ses lignes de basse percutantes."
 		"coupon_shockone_01"					"Kit de musiques | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Kit de musiques StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -5984,12 +5966,6 @@
 		"quest"										"Mission"
 
 		"quest_commandverb_default"					"Faites/obtenez"
-
-		"quest_action_plural_act_kill_human"		"victimes"
-		"quest_action_singular_act_kill_human"		"victime"
-
-		"quest_action_plural_act_win_round"			"manches gagnées"
-		"quest_action_singular_act_win_round"		"manche gagnée"	
 
 		////
 
@@ -37067,7 +37043,6 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Jour d'entrainement"
 		"SFUI_GameMode_retakes"					"Reprises de contrôle"
-
 		"ForceNewUserTraining_title"			"Jour d'entrainement"
 		"ForceNewUserTraining_text"				"Voulez-vous faire une courte séance d'entrainement ?"
 
@@ -37409,7 +37384,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Dust II (aperçu)"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient (aperçu)"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno (aperçu)"
@@ -40263,9 +40237,6 @@
 		"SFUI_match_abort_match_network_event"	"Ce match est annulé en raison d'une interruption réseau.\nCe match n'influera pas sur votre grade."
 		"SFUI_match_abort_match_vac_live"	"Le système VAC Live a détecté une personne qui triche et a mis fin au match.\nCe match n'influera pas sur votre grade."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 et les autres membres du groupe ont reçu une pénalité VACnet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet a détecté une activité suspecte et a annulé la partie."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Ce match ne sera pas comptabilisé, car une personne de votre groupe a été bannie."
 		"SFUI_match_abort_match_missing_player"	"Le match a été annulé car personne ne s'est connecté."
 		"SFUI_match_abort_match_player_abandoned"	" Le match a été annulé, car une personne s'est déconnectée."
@@ -40447,9 +40418,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Clé USB retirée.\nInstallation du virus en cours…"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Clé USB n°2 prête !"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virus récupéré !"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"VALEUR TOTALE DES ÉQUIPEMENTS"
 		"SFUIHUD_Spectate_TeamMoney"	"ARGENT DE L'ÉQUIPE"
 		"SFUIHUD_Spectate_TeamEQValue"	"VALEUR DE L'ÉQUIPEMENT"
@@ -41909,7 +41877,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag de groupe Steam"
 		"SFUI_Settings_ClanTag_None"								"Pas de tag de groupe"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46430,7 +46397,6 @@
 		"AddFriend_tooltip"						"Ajouter à la liste de contacts"
 		"FriendsLobby_tooltip"					"En savoir plus sur les salles d'attente"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} salle d'attente} other{{d:lobby_count} salles d'attente}}"
 
 
@@ -47359,12 +47325,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Viseur"
-		"settings_crosshair_info"			"Personnalisez la taille, la forme et la couleur de votre viseur. Partagez votre code de viseur avec vos contacts ou essayez les paramètres de quelqu'un d'autre."
-		"settings_snipers_xhair"			"Lunettes des fusils de précision"
-		"settings_grenadecrosshair_short"	"Réticule des grenades"
-		"settings_grenadecrosshair"			"Réticule de grenade"
-		"settings_grenadecrosshair_info"	"Un réticule qui permet d'aligner les lancers de grenades."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablette"
 		"settings_items_section"			"Objets"
@@ -47774,9 +47734,6 @@
 		"tooltip_navbar_report_server"	"Signaler le serveur"
 		"tooltip_navbar_stats"			"Toutes vos statistiques au même endroit"
 		"tooltip_navbar_store"			"Obtenez des items en jeu"
-		"tooltip_navbar_vacnet"			"Ouvrir le portail de classification VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Examiner l'arme"
 		"tooltip_inspect_weapon_model_faction"	"Examiner le modèle de l'agent"
 		"tooltip_inspect_play_mvp_anthem"	"Écouter la musique spéciale de MJ"
@@ -47835,7 +47792,6 @@
 		"tooltip_xp_locked"				"Le statut Prime est nécessaire pour gagner de l'XP. Achetez la mise à niveau du statut Prime pour débloquer votre rang."
 		"tooltip_join_public_lobby"		"Rejoindre cette salle d'attente publique"
 		"tooltip_suggested_lobby"		"Cette salle d'attente est réservée aux membres du groupe Steam associé."
-
 		"tooltip_invite"				"Inviter à jouer"
 		"tooltip_disabled_invite"		"Annuler la recherche pour inviter un contact"
 		"tooltip_Join"					"Rejoindre"
@@ -47863,7 +47819,6 @@
 		"tooltip_friend_invited_you"	"<b>Invitation</b> envoyée par <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Voir toutes les invitations aux salles d'attente"
-
 		"tooltip_short_invite"				"Inviter"
 		"tooltip_short_Join"				"Rejoindre"
 		"tooltip_short_watch"				"Regarder"
@@ -48356,9 +48311,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} À {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Spectateurs : {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48480,8 +48432,6 @@
 
 		"rankup_redemption_case_warning"							"Nécessite l'achat d'une clé pour l'ouvrir"
 		"rankup_redemption_store_claimed"							"OBTENU"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50298,10 +50248,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> sur <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Faites une victime en mode <b>{s:gamemode} sur {s:location}</b> avec l'arme suivante : {s:item1}.} other{Faites des victimes en mode <b>{s:gamemode} sur {s:location}</b> avec l'arme suivante : {s:item1}.}}"
 		"quest_11000_var_partial:f" 					"…avec : {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Faites une victime avec l'arme suivante : {s:item1}.} other{Faites des victimes avec l'arme suivante : {s:item1}.}}"
@@ -50359,7 +50305,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Gagnez une manche en mode <b>{s:gamemode} sur {s:location}</b>.} other{Gagnez des manches en mode <b>{s:gamemode} sur {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Gagnez une manche.} other{Gagnez des manches.}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50367,9 +50313,8 @@
 		"tooltip_kick_player"			"Exclure cette personne du serveur local"		
 		"tooltip_short_viewaddon"			"Voir la carte personnalisée"
 		"tooltip_short_kick_player"			"Exclure"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Монитор"
 		"GameUI_DisplayTV"		"Телевизор"
 		"GameUI_Brightness"		"Яркост"
-		"GameUI_CrosshairBehavior"		"Поведение на мерника"
-		"GameUI_CrosshairBehaviorStatic"	"Статичен"
-		"GameUI_CrosshairBehaviorDynamic"	"Динамичен"
 
 		"GameUI_FriendlyWarning"			"Предупреждение за приятелска стрелба върху мерника"
 		"GameUI_FriendlyWarning_Desc"		"Изобразяване на предупреждение върху мерника, когато се прицелвате към приятел."
-
-		"GameUI_CrosshairStyle"			"Стил на мерника"
-		"GameUI_CrosshairStyleDefault"			"По подразбиране"
-		"GameUI_CrosshairStyleDefaultStatic"	"По подразбиране статичен"
-		"GameUI_CrosshairStyleClassic"			"Класически"
-		"GameUI_CrosshairStyleClassicDyn"		"Класически динамичен"
-		"GameUI_CrosshairStyleClassicStatic"	"Класически статичен"
-		"GameUI_CrosshairStyleLegacy"			"Наследствен"
 
 		"GameUI_CrosshairStyle_Friendly"		"Предупреждение за приятелска стрелба"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Винаги изкл."
 		"GameUI_CrosshairFriendlyWarning_Default" "Само върху мерника по подразбиране"
 		"GameUI_CrosshairFriendlyWarning_On"	"Винаги вкл."
-
 
 		"GameUI_CrosshairIFF"	"Идентификация на целта в мерника"
 		"GameUI_CrosshairIFFOn"	"Вкл."
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Очертание"
 		"GameUI_CrosshairAlpha"		"Прозрачност"
 		"GameUI_CrosshairSize"		"Размер на мерника"
-		"GameUI_CrosshairColor"		"Цвят на мерника"
 		"GameUI_SniperCrosshairThickness" "Дебелина за мерника на снайпера"
 		"GameUI_ColorSliders"		"Цветове"
 		"GameUI_ColorQuality"		"Качество на цветовете"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Прозрачност на външното разделение"
 		"GameUI_SplitRatio" 		"Съотношение за размера на разделение"
 		"GameUI_TStyle" 			"Т-образно"
-		"GameUI_ShowWeaponGap" 		"Пролука спрямо мобилизирано оръжие"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Пролуката в мерника ще се обновява динамично спрямо това кое оръжие е екипирано понастоящем."
 		"GameUI_ShowObserverCrosshair" 	"Показване на мерниците за играчите"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Показване на мерниците на другите играчи, докато наблюдавате."
 		"GameUI_Everyone" 			"Всички"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Да показваме ли мерника за подравняване на гранати-примамки? Ако трябва, колко време да изчакваме след издърпването на щифта, преди да го покажем."
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Нулиране на всички стойности към тези по подразбиране."
-		"GameUI_Xhair_Undo_Tooltip" 		"Отмяна на скорошните промени по мерника."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Споделяне или внасяне на код за мерник."
-		"GameUI_Xhair_Code_Popup"			"Споделяне или внасяне"
-		"GameUI_Xhair_Code_Invalid"			"Невалиден или стар код за мерник"
-		"GameUI_Xhair_Import_Code"			"Внасяне"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Внасяне на мерник от последния път, когато сте играли CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Внасяне от CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Нулиране на всички стойности към тези по подразбиране."
+		"GameUI_Xhair_Undo_Tooltip" 			"Отмяна на скорошните промени по мерника."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Споделяне или внасяне на код за мерник."
+		"GameUI_Xhair_Code_Popup"				"Споделяне или внасяне"
+		"GameUI_Xhair_Code_Invalid"				"Невалиден или стар код за мерник"
+		"GameUI_Xhair_Import_Code"				"Внасяне"
 		"tooltip_copycrosshair"				"Копиране на мерник"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Замяна на текущия мерник?"
  
@@ -6366,8 +6348,8 @@
 		"musickit_shockone_01_desc"				"<b><font color='#F2A93E'>ShockOne, Voices</font></b>\n \nОтприщете се свободно с енергичния дръм енд бейс сингъл „Voices“ на ShockOne. Подбуждащ решаващи проигравания в критични схватки, този музикален комплект включва слисващи басови партии, които ще Ви пренесат до много титли за НЦИ."
 		"coupon_shockone_01"					"Музикален комплект | ShockOne — Voices"
 		"coupon_shockone_01_stattrak"			"StatTrak™ музикален комплект | ShockOne — Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -6380,12 +6362,6 @@
 		"quest_desc"								""
 
 		"quest_commandverb_default"					"Направете"
-
-		"quest_action_plural_act_kill_human"		"убийства"
-		"quest_action_singular_act_kill_human"		"убийство"
-
-		"quest_action_plural_act_win_round"			"спечелени рундове"
-		"quest_action_singular_act_win_round"		"спечелен рунд"	
 
 		"emptystring"								""
 
@@ -40138,7 +40114,6 @@
 		"SFUI_GameMode_Workshop"				"Работилница"
 		"SFUI_GameMode_new_user_training"		"Тренировъчен ден"
 		"SFUI_GameMode_retakes"					"Повторно превземане"
-
 		"ForceNewUserTraining_title"			"Тренировъчен ден"
 		"ForceNewUserTraining_text"				"Готови ли сте да преминете към кратка тренировъчна сесия?"
 
@@ -40483,7 +40458,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Dust II (преглед)"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient (преглед)"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno (преглед)"
@@ -43560,9 +43534,6 @@ Counter-Strike разполага с четири основни игрални 
 		"SFUI_match_abort_match_network_event"	"Мрежово прекъсване доведе до отмяна на мача.\nТози мач няма да повлияе върху рейтинга Ви на умение."
 		"SFUI_match_abort_match_vac_live"	"VAC Live засече измамник и прекрати мача.\nТози мач няма да повлияе върху рейтинга Ви на умение."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 и всякакви дружинни членове получиха време за изчакване от VACNET."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET засече необичайно игрално преживяване и отмени мача."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"За този мач няма да бъде присъден напредък, защото на играч от Вашата дружина е била наложена забрана."
 		"SFUI_match_abort_match_missing_player"	"Мачът се отменя, защото един играч не се свърза."
 		"SFUI_match_abort_match_player_abandoned"	" Мачът бива отказан, защото даден играч се разкачи."
@@ -43751,9 +43722,6 @@ Counter-Strike разполага с четири основни игрални 
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Флашката е набавена.\nВирусът се инсталира!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Флашка 2 е готова!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Флашката с вируса е набавена!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//HUD: Spectator
@@ -45221,7 +45189,6 @@ Counter-Strike разполага с четири основни игрални 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Клан таг от Steam група"
 		"SFUI_Settings_ClanTag_None"								"Без отборен таг"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49770,7 +49737,6 @@ Counter-Strike разполага с четири основни игрални 
 		"AddFriend_tooltip"						"Добавяне на приятел"
 		"FriendsLobby_tooltip"					"Научете още относно лобитата"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} лоби} other{{d:lobby_count} лобита}}"
 
 
@@ -50703,12 +50669,6 @@ Counter-Strike разполага с четири основни игрални 
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Мерник"
-		"settings_crosshair_info"			"Персонализирайте размера, формата и цвета на своя мерник. Споделете своя код за него с приятели или опитайте нечии други настройки."
-		"settings_snipers_xhair"			"Снайперистка оптика"
-		"settings_grenadecrosshair_short"	"Подравняване на гранати"
-		"settings_grenadecrosshair"			"Мерник за подравняване на гранати"
-		"settings_grenadecrosshair_info"	"Помощен мерник за подравняване на гранати при хвърлянето им."
 		"settings_radar_section"			"Радар"
 		"settings_radarandtablet_section"	"Радар/Таблет"
 		"settings_items_section"			"Артикул"
@@ -51120,9 +51080,6 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_navbar_report_server"	"Докладване на сървър"
 		"tooltip_navbar_stats"			"Прегледайте всичките си статистики за мачовете на едно място"
 		"tooltip_navbar_store"			"Придобивайте игрални артикули"
-		"tooltip_navbar_vacnet"			"Отваряне на VacNet портала за етикиране"
-
-
 		"tooltip_inspect_weapon_model"	"Оглед на оръжейния модел"
 		"tooltip_inspect_weapon_model_faction"	"Оглед на модела за играча"
 		"tooltip_inspect_play_mvp_anthem"	"Пускане на НЦИ химна"
@@ -51181,7 +51138,6 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_xp_locked"				"Първостепенният статус се изисква, за да печелите опит. Купете подобрението до първостепенен статус, така че да размразите своя ранг."
 		"tooltip_join_public_lobby"		"Присъединяване към публично лоби"
 		"tooltip_suggested_lobby"		"Това лоби е отворено само за членовете на неговата Steam група."
-
 		"tooltip_invite"				"Поканете приятел за игра"
 		"tooltip_disabled_invite"		"Отказване на търсенето за канене на приятел"
 		"tooltip_Join"					"Присъединяване към приятел"
@@ -51209,7 +51165,6 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_friend_invited_you"	"<b>Покана</b> от <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Преглед на всички покани към лобита"
-
 		"tooltip_short_invite"				"Покана"
 		"tooltip_short_Join"				"Присъединяване"
 		"tooltip_short_watch"				"Гледане"
@@ -51741,9 +51696,6 @@ Counter-Strike разполага с четири основни игрални 
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} — ПОЧИВКА {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Зрители: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -51867,8 +51819,6 @@ Counter-Strike разполага с четири основни игрални 
 
 		"rankup_redemption_case_warning"							"Изисква се закупен ключ, за да бъде отворен"
 		"rankup_redemption_store_claimed"							"ЗАЯВЕНО"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -53716,10 +53666,6 @@ Counter-Strike разполага с четири основни игрални 
 		"mission_segment_tooltip"						"{d:xp-reward} опит"
 
 		"mission_location"								"<b>{s:gamemode}</b> на <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Направете убийство с {s:item1} в <b>„{s:gamemode}“ — {s:location}</b>.} other{Направете убийства с {s:item1} в <b>„{s:gamemode}“ — {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"… с {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Направете убийство с {s:item1}.} other{Направете убийства с {s:item1}.}}"
@@ -53788,7 +53734,7 @@ Counter-Strike разполага с четири основни игрални 
 		"quest_11016_var_partial:f" 					""
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Спечелете рунд.} other{Спечелете рундове.}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -53796,9 +53742,8 @@ Counter-Strike разполага с четири основни игрални 
 		"tooltip_kick_player"			"Изритване на играч от локалния сървър"		
 		"tooltip_short_viewaddon"			"Преглед на персонализирана карта"
 		"tooltip_short_kick_player"			"Изритване"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

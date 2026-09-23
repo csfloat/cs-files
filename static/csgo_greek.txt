@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"ΟΘΟΝΗ ΥΠΟΛΟΓΙΣΤΗ"
 		"GameUI_DisplayTV"		"ΤΗΛΕΟΡΑΣΗ"
 		"GameUI_Brightness"		"Φωτεινότητα"
-		"GameUI_CrosshairBehavior"		"Συμπεριφορά στόχαστρου"
-		"GameUI_CrosshairBehaviorStatic"	"Στατική"
-		"GameUI_CrosshairBehaviorDynamic"	"Δυναμική"
 
 		"GameUI_FriendlyWarning"			"Ειδοποίηση φίλιων πυρών στο στόχαστρο"
 		"GameUI_FriendlyWarning_Desc"		"Εμφάνιση μιας ειδοποίησης στο στόχαστρο όταν στοχεύετε ένα σύμμαχο."
-
-		"GameUI_CrosshairStyle"			"Τύπος στόχαστρου"
-		"GameUI_CrosshairStyleDefault"			"Προεπιλογή"
-		"GameUI_CrosshairStyleDefaultStatic"	"Προεπιλεγμένο στατικό"
-		"GameUI_CrosshairStyleClassic"			"Κλασικό"
-		"GameUI_CrosshairStyleClassicDyn"		"Κλασικό δυναμικό"
-		"GameUI_CrosshairStyleClassicStatic"	"Κλασικό στατικό"
-		"GameUI_CrosshairStyleLegacy"			"Παλαιού τύπου"
 
 		"GameUI_CrosshairStyle_Friendly"		"Προειδοποίηση φίλιων πυρών"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Πάντα ανενεργό"
 		"GameUI_CrosshairFriendlyWarning_Default" "Μόνο στο προεπιλεγμένο στόχαστρο"
 		"GameUI_CrosshairFriendlyWarning_On"	"Πάντα ενεργό"
-
 
 		"GameUI_CrosshairIFF"	"Όνομα στόχου σε στόχαστρο"
 		"GameUI_CrosshairIFFOn"	"ΕΝΕΡΓΟ"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Εξωτ. γραμμή"
 		"GameUI_CrosshairAlpha"		"Άλφα"
 		"GameUI_CrosshairSize"		"Μέγεθος στόχαστρου"
-		"GameUI_CrosshairColor"		"Χρώμα στόχαστρου"
 		"GameUI_SniperCrosshairThickness" "Πάχος στόχαστρου τουφεκιού ακροβολιστή"
 		"GameUI_ColorSliders"		"Χρώματα"
 		"GameUI_ColorQuality"		"Ποιότητα χρωμάτων"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Άλφα εξωτερικής διάσπασης"
 		"GameUI_SplitRatio" 		"Αναλογία μεγέθους διάσπασης"
 		"GameUI_TStyle" 			"Στιλ Τ"
-		"GameUI_ShowWeaponGap" 		"Κενό επιλεγμένου όπλου"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Το κενό του στόχαστρου θα ενημερώνεται δυναμικά με βάση ποιο όπλο είναι εξοπλισμένο κάθε στιγμή."
 		"GameUI_ShowObserverCrosshair" 	"Εμφάνιση στοχάστρων παικτών"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Εμφάνιση των στοχάστρων άλλων παικτών ενώ παρακολουθείτε."
 		"GameUI_Everyone" 			"Όλοι"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Θέλετε να εμφανίζουμε το στόχαστρο ευθυγράμμισης χειροβομβίδας για χειροβομβίδες παραπλάνησης; Αν ναι, πόσο θέλετε να περιμένουμε για να το δείξουμε, μετά την αφαίρεση της περόνης;"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Επαναφορά όλων των τιμών στοχάστρου στις προεπιλογές."
-		"GameUI_Xhair_Undo_Tooltip" 		"Αναίρεση πρόσφατων αλλαγών στο στόχαστρο."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Κοινοποίηση ή εισαγωγή ενός κωδικού στόχαστρου."
-		"GameUI_Xhair_Code_Popup"			"Μοίρασμα ή εισαγωγή"
-		"GameUI_Xhair_Code_Invalid"			"Μη έγκυρος ή παλιός κωδικός στόχαστρου"
-		"GameUI_Xhair_Import_Code"			"Εισαγωγή"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Εισαγωγή του στοχάστρου από την τελευταία φορά που παίξατε CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Εισαγωγή από το CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Επαναφορά όλων των τιμών στοχάστρου στις προεπιλογές."
+		"GameUI_Xhair_Undo_Tooltip" 			"Αναίρεση πρόσφατων αλλαγών στο στόχαστρο."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Κοινοποίηση ή εισαγωγή ενός κωδικού στόχαστρου."
+		"GameUI_Xhair_Code_Popup"				"Μοίρασμα ή εισαγωγή"
+		"GameUI_Xhair_Code_Invalid"				"Μη έγκυρος ή παλιός κωδικός στόχαστρου"
+		"GameUI_Xhair_Import_Code"				"Εισαγωγή"
 		"tooltip_copycrosshair"				"Αντιγραφή στόχαστρου"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Αντικατάσταση τρέχοντος στόχαστρου;"
  
@@ -6174,8 +6156,8 @@
 		"musickit_shockone_01_desc"				"Απελευθερωθείτε με τα ανεβαστικά ντραμς και μπάσα του δίσκου «Voices» από τον ShockOne. Αυτό το μουσικό κουτί είναι ό,τι πρέπει για δυνατά κλατσαρίσματα και θα σας οδηγήσει σε πολλά βραβεία MVP με τα δυνατά μπάσα του."
 		"coupon_shockone_01"					"Μουσικό κουτί | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Μουσικό κουτί StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -6188,12 +6170,6 @@
 		"quest_desc"								" "
 
 		"quest_commandverb_default"					"Κατορθώστε"
-
-		"quest_action_plural_act_kill_human"		"σκοτωμούς"
-		"quest_action_singular_act_kill_human"		"σκοτωμό"
-
-		"quest_action_plural_act_win_round"			"νίκες γύρων"
-		"quest_action_singular_act_win_round"		"νίκη γύρου"	
 
 		////
 
@@ -38275,7 +38251,6 @@
 		"SFUI_GameMode_Workshop"				"Εργαστήρι"
 		"SFUI_GameMode_new_user_training"		"Ημέρα εκπαίδευσης"
 		"SFUI_GameMode_retakes"					"Ανακαταλήψεις"
-
 		"ForceNewUserTraining_title"			"Ημέρα εκπαίδευσης"
 		"ForceNewUserTraining_text"				"Είστε έτοιμοι να αρχίσετε μια σύντομη συνεδρία εκπαίδευσης;"
 
@@ -38617,7 +38592,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Προεπισκόπηση Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Προεπισκόπηση Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Προεπισκόπηση Inferno"
@@ -41488,9 +41462,6 @@
 		"SFUI_match_abort_match_network_event"	"Μια διακοπή δικτύου είχε ως αποτέλεσμα ακύρωση του αγώνα.\nΑυτός ο αγώνας δεν θα επηρεάσει το επίπεδο ικανοτήτων σας."
 		"SFUI_match_abort_match_vac_live"	"Το VAC Live εντόπισε έναν παραβάτη και τερμάτισε τον αγώνα.\nΑυτός ο αγώνας δεν θα επηρεάσει το επίπεδο ικανοτήτων σας."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"O/H %s1 και τυχόν μέλη της παρέας έχουν λάβει χρονικές ποινές VACNET."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"Το VACNET εντόπισε ασυνήθιστη συμπεριφορά παιχνιδιού και ακύρωσε τον αγώνα."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Δεν θα αποδοθεί καθόλου πρόοδος για αυτόν τον αγώνα επειδή ένας παίκτης στην παρέα σας αποκλείστηκε."
 		"SFUI_match_abort_match_missing_player"	"Ο αγώνας ακυρώνεται επειδή ένας παίκτης δε συνδέθηκε."
 		"SFUI_match_abort_match_player_abandoned"	" Αυτός ο αγώνας ακυρώνεται επειδή ένας παίκτης αποσυνδέθηκε."
@@ -41679,9 +41650,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Η συσκευή αποθήκευσης έχει ανακτηθεί.\nΓίνεται εγκατάσταση του ιού!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Συσκευή αποθήκευσης 2 έτοιμη!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Ο αποθηκευμένος ιός ανακτήθηκε!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"ΑΞΙΑ ΕΞΟΠΛΙΣΜΟΥ"
 		"SFUIHUD_Spectate_TeamMoney"	"ΧΡΗΜΑΤΑ ΟΜΑΔΑΣ"
 		"SFUIHUD_Spectate_TeamEQValue"	"ΑΞΙΑ ΕΞΟΠΛΙΣΜΟΥ ΟΜΑΔΑΣ"
@@ -43141,7 +43109,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Ετικέτα συμμαχίας ομάδας Steam"
 		"SFUI_Settings_ClanTag_None"								"Χωρίς ετικέτα"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47672,7 +47639,6 @@
 		"AddFriend_tooltip"						"Προσθήκη φίλου"
 		"FriendsLobby_tooltip"					"Μάθετε περισσότερα για τα λόμπι"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} Λόμπι } other{{d:lobby_count} Λόμπι}}"
 
 
@@ -48602,12 +48568,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Στόχαστρο"
-		"settings_crosshair_info"			"Προσαρμόστε το μέγεθος, σχήμα και χρώμα. Μοιραστείτε το κωδικό του στόχαστρού σας με φίλους ή δοκιμάστε τη ρύθμιση κάποιου άλλου."
-		"settings_snipers_xhair"			"Σκοπευτικά τουφεκιού ακροβολιστή"
-		"settings_grenadecrosshair_short"	"Στόχαστρο ευθυγράμμισης χειροβομβίδας"
-		"settings_grenadecrosshair"			"Στόχαστρο ευθυγράμμισης χειροβομβίδας"
-		"settings_grenadecrosshair_info"	"Ένα βοηθητικό στόχαστρο για την ευθυγράμμιση ρίψεων χειροβομβίδας"
 		"settings_radar_section"			"Ραντάρ"
 		"settings_radarandtablet_section"	"Ραντάρ / Τάμπλετ"
 		"settings_items_section"			"Αντικείμενο"
@@ -49017,9 +48977,6 @@
 		"tooltip_navbar_report_server"	"Αναφορά διακομιστή"
 		"tooltip_navbar_stats"			"Δείτε όλα τα στατιστικά αγώνων σας σε ένα μέρος"
 		"tooltip_navbar_store"			"Αποκτήστε αντικείμενα εντός παιχνιδιού"
-		"tooltip_navbar_vacnet"			"Άνοιγμα της πύλης επισήμανσης VacNet"
-
-
 		"tooltip_inspect_weapon_model"	"Επιθεώρηση μοντέλου όπλου"
 		"tooltip_inspect_weapon_model_faction"	"Επιθεώρηση μοντέλου παίκτη"
 		"tooltip_inspect_play_mvp_anthem"	"Αναπαραγωγή ύμνου MVP"
@@ -49078,7 +49035,6 @@
 		"tooltip_xp_locked"				"Απαιτείται κατάσταση Prime για να κερδίσετε εμπειρία. Αγοράστε την αναβάθμιση κατάστασης Prime για να ξεπαγώσετε το βαθμό σας."
 		"tooltip_join_public_lobby"		"Συνδεθείτε σε δημόσιο λόμπι"
 		"tooltip_suggested_lobby"		"Αυτό το λόμπι είναι προσβάσιμο μόνο στα μέλη της ομάδας Steam."
-
 		"tooltip_invite"				"Προσκαλέστε τον φίλο σας για να παίξετε"
 		"tooltip_disabled_invite"		"Ακύρωση αναζήτησης για πρόσκληση φίλου"
 		"tooltip_Join"					"Σύνδεση σε φίλο"
@@ -49106,7 +49062,6 @@
 		"tooltip_friend_invited_you"	"<b>Πρόσκληση </b> από <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Προβολή όλων των προσκλήσεων σε λόμπι"
-
 		"tooltip_short_invite"				"Πρόσκληση"
 		"tooltip_short_Join"				"Σύνδεση"
 		"tooltip_short_watch"				"Παρακολούθηση"
@@ -49623,9 +49578,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} ΠΑΥΣΗ {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Θεατές: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -49747,8 +49699,6 @@
 
 		"rankup_redemption_case_warning"							"Απαιτείται αγορασμένο κλειδί για άνοιγμα"
 		"rankup_redemption_store_claimed"							"ΑΠΟΚΤΗΘΗΚΕ"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -51565,10 +51515,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} εμπ."
 
 		"mission_location"								"<b>{s:gamemode}</b> σε <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Κατορθώστε σκοτωμό με {s:item1} σε <b>{s:gamemode}: {s:location}</b>.} other{Κατορθώστε σκοτωμούς με {s:item1} σε <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"...με {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Κατορθώστε σκοτωμό με {s:item1}.} other{Κατορθώστε σκοτωμούς με {s:item1}.}}"
@@ -51626,7 +51572,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Κερδίστε έναν γύρο σε <b>{s:gamemode}: {s:location}</b>.} other{Κερδίστε γύρους σε <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Κερδίστε έναν γύρο} other{Κερδίστε γύρους}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -51634,9 +51580,8 @@
 		"tooltip_kick_player"			"Αποβολή παίκτη από τοπικό διακομιστή"		
 		"tooltip_short_viewaddon"			"Προβολή προσαρμοσμένου χάρτη"
 		"tooltip_short_kick_player"			"Αποβολή"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

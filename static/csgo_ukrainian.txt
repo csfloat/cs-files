@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Монітор комп’ютера"
 		"GameUI_DisplayTV"		"Телевізор"
 		"GameUI_Brightness"		"Яскравість"
-		"GameUI_CrosshairBehavior"		"Поведінка перехрестя"
-		"GameUI_CrosshairBehaviorStatic"	"Статична"
-		"GameUI_CrosshairBehaviorDynamic"	"Динамічна"
 
 		"GameUI_FriendlyWarning"			"Попередження про враження своїх на прицілі"
 		"GameUI_FriendlyWarning_Desc"		"Показує попередження на прицілі при наведенні на союзника."
-
-		"GameUI_CrosshairStyle"			"Вигляд перехрестя"
-		"GameUI_CrosshairStyleDefault"			"Стандартний"
-		"GameUI_CrosshairStyleDefaultStatic"	"Стандартний статичний"
-		"GameUI_CrosshairStyleClassic"			"Класичний"
-		"GameUI_CrosshairStyleClassicDyn"		"Класичний динамічний"
-		"GameUI_CrosshairStyleClassicStatic"	"Класичний статичний"
-		"GameUI_CrosshairStyleLegacy"			"Традиційний"
 
 		"GameUI_CrosshairStyle_Friendly"		"Попередження про враження своїх"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Завжди вимкнено"
 		"GameUI_CrosshairFriendlyWarning_Default" "Лише на стандартному перехресті"
 		"GameUI_CrosshairFriendlyWarning_On"	"Завжди ввімкнено"
-
 
 		"GameUI_CrosshairIFF"	"Перехрестя «свій-чужий»"
 		"GameUI_CrosshairIFFOn"	"Увімкнено"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Контур"
 		"GameUI_CrosshairAlpha"		"Альфа"
 		"GameUI_CrosshairSize"		"Розмір перехрестя"
-		"GameUI_CrosshairColor"		"Колір перехрестя"
 		"GameUI_SniperCrosshairThickness" "Товщина снайперського перехрестя"
 		"GameUI_ColorSliders"		"Кольори"
 		"GameUI_ColorQuality"		"Глибина кольору"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Альфа зовнішнього розходження"
 		"GameUI_SplitRatio" 		"Коефіцієнт розходження елементів"
 		"GameUI_TStyle" 			"Т-подібне"
-		"GameUI_ShowWeaponGap" 		"Зазор залежить від зброї"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Зазор перехрестя динамічно оновлюватиметься залежно від спорядженої зброї."
 		"GameUI_ShowObserverCrosshair" 	"Показувати перехрестя інших гравців"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Показувати перехрестя інших гравців під час спостереження."
 		"GameUI_Everyone" 			"Усі"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Показувати особливий приціл для імітаційних гранат? Якщо так, то через який час після виймання чеки?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Скинути всі значення перехрестя прицілу до стандартних."
-		"GameUI_Xhair_Undo_Tooltip" 		"Скасувати нещодавні зміни перехрестя."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Поділитися або імпортувати код перехрестя."
-		"GameUI_Xhair_Code_Popup"			"Поділитися або імпортувати"
-		"GameUI_Xhair_Code_Invalid"			"Недійсний або старий код перехрестя"
-		"GameUI_Xhair_Import_Code"			"Імпортувати"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Імпортувати перехрестя з останньої вашої гри в CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Імпортувати з CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Скинути всі значення перехрестя прицілу до стандартних."
+		"GameUI_Xhair_Undo_Tooltip" 			"Скасувати нещодавні зміни перехрестя."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Поділитися або імпортувати код перехрестя."
+		"GameUI_Xhair_Code_Popup"				"Поділитися або імпортувати"
+		"GameUI_Xhair_Code_Invalid"				"Недійсний або старий код перехрестя"
+		"GameUI_Xhair_Import_Code"				"Імпортувати"
 		"tooltip_copycrosshair"				"Копіювати перехрестя"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Замінити поточне перехрестя?"
  
@@ -6356,8 +6338,8 @@
 		"musickit_shockone_01_desc"				"Вирвіться на свободу з енергійним драм-енд-бейс у записі «Voices» від ShockOne. Їхні потужні баси допоможуть знайти вихід зі складних ситуацій і принесуть чимало перемог."
 		"coupon_shockone_01"					"Музичний альбом | ShockOne — «Voices»"
 		"coupon_shockone_01_stattrak"			"Музичний альбом зі СтатТрек™ | ShockOne — «Voices»"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -6370,12 +6352,6 @@
 		"quest_desc"								""
 
 		"quest_commandverb_default"					"Отримайте"
-
-		"quest_action_plural_act_kill_human"		"убивств"
-		"quest_action_singular_act_kill_human"		"вбивство"
-
-		"quest_action_plural_act_win_round"			"перемог у раундах"
-		"quest_action_singular_act_win_round"		"перемогу в раунді"	
 
 		"emptystring"								""
 
@@ -39886,7 +39862,6 @@
 		"SFUI_GameMode_Workshop"				"Майстерня"
 		"SFUI_GameMode_new_user_training"		"Тренувальний день"
 		"SFUI_GameMode_retakes"					"Перехоплення"
-
 		"ForceNewUserTraining_title"			"Тренувальний день"
 		"ForceNewUserTraining_text"				"Готові пройти коротке навчання?"
 
@@ -40231,7 +40206,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Огляд Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Огляд Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Огляд Inferno"
@@ -43118,9 +43092,6 @@
 		"SFUI_match_abort_match_network_event"	"Збій у мережі призвів до скасування матчу.\nЦей матч не вплине на ваше звання."
 		"SFUI_match_abort_match_vac_live"	"VAC Live виявив чітера й закінчив матч.\nЦей матч не вплине на ваше звання."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 та всі учасники групи отримали блокування VACnet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet виявив нетипову ігрову поведінку і скасував матч."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Прогрес за цей матч не зарахується, бо гравця з вашої групи було заблоковано."
 		"SFUI_match_abort_match_missing_player"	" Матч скасовується, бо гравець так і не підключився."
 		"SFUI_match_abort_match_player_abandoned"	" Матч скасовано через від’єднання гравця."
@@ -43309,9 +43280,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Флеш-накопичувач від’єднано.\nІнсталювання віруса!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Другий флеш-накопичувач готовий!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Флеш-накопичувач з вірусом від’єднано!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//HUD: Spectator
@@ -44779,7 +44747,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Позначка кланової групи Steam"
 		"SFUI_Settings_ClanTag_None"								"Без команди"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49328,7 +49295,6 @@
 		"AddFriend_tooltip"						"Додати до друзів"
 		"FriendsLobby_tooltip"					"Докладніше про лобі"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} лобі} few{{d:lobby_count} лобі} many{{d:lobby_count} лобі} other{{d:lobby_count} лобі}}"
 
 
@@ -50261,12 +50227,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Перехрестя"
-		"settings_crosshair_info"			"Налаштуйте розмір, форму й колір перехрестя. Поділіться кодом на нього з друзями або скористайтеся чужими налаштуваннями."
-		"settings_snipers_xhair"			"Снайперський приціл"
-		"settings_grenadecrosshair_short"	"Приціл для гранати"
-		"settings_grenadecrosshair"			"Приціл для гранати"
-		"settings_grenadecrosshair_info"	"Додатковий приціл для кидання гранати."
 		"settings_radar_section"			"Радар"
 		"settings_radarandtablet_section"	"Радар / Планшет"
 		"settings_items_section"			"Предмет"
@@ -50678,9 +50638,6 @@
 		"tooltip_navbar_report_server"	"Поскаржитися на сервер"
 		"tooltip_navbar_stats"			"Переглядайте всю статистику, зібрану в одному місці"
 		"tooltip_navbar_store"			"Отримуйте внутрішньоігрові предмети"
-		"tooltip_navbar_vacnet"			"Відкрити портал маркування VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Оглянути модель зброї"
 		"tooltip_inspect_weapon_model_faction"	"Оглянути модель гравця"
 		"tooltip_inspect_play_mvp_anthem"	"Грати гімн найкращого гравця"
@@ -50739,7 +50696,6 @@
 		"tooltip_xp_locked"				"Прайм статус потрібен для отримання очок досвіду. Придбайте покращення до прайм-статусу, щоби розморозити поступ отримання звання."
 		"tooltip_join_public_lobby"		"Долучитися до публічного лобі"
 		"tooltip_suggested_lobby"		"Це лобі відкрите для учасників групи Steam."
-
 		"tooltip_invite"				"Запросити друга зіграти"
 		"tooltip_disabled_invite"		"Скасувати пошук, щоби запросити друга"
 		"tooltip_Join"					"Приєднатися до друга"
@@ -50767,7 +50723,6 @@
 		"tooltip_friend_invited_you"	"<b>Запрошення</b> від <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Дивитися всі запрошення до лобі"
-
 		"tooltip_short_invite"				"Запросити"
 		"tooltip_short_Join"				"Долучитися"
 		"tooltip_short_watch"				"Дивитися"
@@ -51299,9 +51254,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} ДО {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Глядачів: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -51425,8 +51377,6 @@
 
 		"rankup_redemption_case_warning"							"Щоби відкрити, потрібен ключ"
 		"rankup_redemption_store_claimed"							"ОТРИМАНО"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -53274,10 +53224,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} ОД"
 
 		"mission_location"								"<b>{s:location}</b>: <b>{s:gamemode}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} few{<b>{d:mission-points}</b> {s:actions}} many{<b>{d:mission-points}</b> {s:actions}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} few{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}} many{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Здійсніть убивство в режимі <b>«{s:gamemode}» на мапі {s:location}</b> зі зброї: {s:item1}.} few{Здійсніть убивства в режимі <b>«{s:gamemode}» на мапі {s:location}</b> зі зброї: {s:item1}.} many{Здійсніть убивства в режимі <b>«{s:gamemode}» на мапі {s:location}</b> зі зброї: {s:item1}.} other{Здійсніть убивства в режимі <b>«{s:gamemode}» на мапі {s:location}</b> зі зброї: {s:item1}.}}"
 		"quest_11000_var_partial:f" 					"…Зброя: {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Здійсніть убивство зі зброї: {s:item1}} few{Здійсніть убивства зі зброї: {s:item1}} many{Здійсніть убивства зі зброї: {s:item1}} other{Здійсніть убивства зі зброї: {s:item1}.}}"
@@ -53335,7 +53281,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Виграйте раунд у режимі <b>«{s:gamemode}» на мапі {s:location}</b>.} few{Виграйте раунди в режимі <b>«{s:gamemode}» на мапі {s:location}</b>.} many{Виграйте раунди в режимі <b>«{s:gamemode}» на мапі {s:location}</b>.} other{Виграйте раунди в режимі <b>«{s:gamemode}» на мапі {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Виграйте раунд} few{Виграйте раунди} many{Виграйте раунди} other{Виграйте раунди}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -53343,9 +53289,8 @@
 		"tooltip_kick_player"			"Вигнати гравця з локального сервера"		
 		"tooltip_short_viewaddon"			"Переглянути нестандартну мапу"
 		"tooltip_short_kick_player"			"Вигнати"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

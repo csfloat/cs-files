@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Monitor de ordenador"
 		"GameUI_DisplayTV"		"Televisión"
 		"GameUI_Brightness"		"Brillo"
-		"GameUI_CrosshairBehavior"		"Comportamiento del p. de mira"
-		"GameUI_CrosshairBehaviorStatic"	"Estático"
-		"GameUI_CrosshairBehaviorDynamic"	"Dinámico"
 
 		"GameUI_FriendlyWarning"			"Advertencia de fuego amigo en la mira"
 		"GameUI_FriendlyWarning_Desc"		"Se muestra una advertencia en la mira cuando apuntas a un compañero."
-
-		"GameUI_CrosshairStyle"			"Estilo del punto de mira"
-		"GameUI_CrosshairStyleDefault"			"Predeterminado"
-		"GameUI_CrosshairStyleDefaultStatic"	"Estático (predeterminado)"
-		"GameUI_CrosshairStyleClassic"			"Clásico"
-		"GameUI_CrosshairStyleClassicDyn"		"Dinámico (clásico)"
-		"GameUI_CrosshairStyleClassicStatic"	"Estático (clásico)"
-		"GameUI_CrosshairStyleLegacy"			"Tradicional"
 
 		"GameUI_CrosshairStyle_Friendly"		"Advertencia de fuego amigo"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Siempre desactivada"
 		"GameUI_CrosshairFriendlyWarning_Default" "Solo con la mira predeterminada"
 		"GameUI_CrosshairFriendlyWarning_On"	"Siempre activada"
-
 
 		"GameUI_CrosshairIFF"	"Id. de objetivo en p. de mira"
 		"GameUI_CrosshairIFFOn"	"Activado"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Contorno"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Tamaño del punto de mira"
-		"GameUI_CrosshairColor"		"Color del punto de mira"
 		"GameUI_SniperCrosshairThickness" "Grosor de la mira de francotirador"
 		"GameUI_ColorSliders"		"Colores"
 		"GameUI_ColorQuality"		"Calidad del color"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Alfa de la dispersión exterior"
 		"GameUI_SplitRatio" 		"Proporción de la dispersión"
 		"GameUI_TStyle" 			"Estilo T"
-		"GameUI_ShowWeaponGap" 		"Abertura de la mira del arma en uso"
-		"GameUI_ShowWeaponGap_Tooltip" 	"La abertura de la mira se actualizará dinámicamente en función del arma en uso."
 		"GameUI_ShowObserverCrosshair" 	"Mostrar miras de los jugadores"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Muestra las miras de los otros jugadores mientras los ves como espectador."
 		"GameUI_Everyone" 			"Todos"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Determina si se muestra la mira de alineación de granadas para las granadas señuelo. En caso afirmativo, determina el tiempo que espera para aparecer después de tirar de la anilla."
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Restaura todos los parámetros de la mira a sus valores predeterminados."
-		"GameUI_Xhair_Undo_Tooltip" 		"Deshace los cambios recientes en la mira."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Comparte o importa un código de mira."
-		"GameUI_Xhair_Code_Popup"			"Compartir o importar"
-		"GameUI_Xhair_Code_Invalid"			"Código de mira no válido o antiguo"
-		"GameUI_Xhair_Import_Code"			"Importar"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importar el punto de mira de la última sesión de juego en CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importar desde CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Restaura todos los parámetros de la mira a sus valores predeterminados."
+		"GameUI_Xhair_Undo_Tooltip" 			"Deshace los cambios recientes en la mira."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Comparte o importa un código de mira."
+		"GameUI_Xhair_Code_Popup"				"Compartir o importar"
+		"GameUI_Xhair_Code_Invalid"				"Código de mira no válido o antiguo"
+		"GameUI_Xhair_Import_Code"				"Importar"
 		"tooltip_copycrosshair"				"Copiar mira"
 		"GameUI_Xhair_Copy_Code_Confirm"		"¿Sustituir mira actual?"
  
@@ -5977,8 +5959,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"musickit_shockone_01_desc"				"Suéltate con el electrizante álbum de drum and bass de ShockOne, «Voices». Ideal para los momentos decisivos, este kit de música incluye líneas de bajo que te convertirán en el JMV de muchas partidas."
 		"coupon_shockone_01"					"Kit de música | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Kit de música de StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -5989,12 +5971,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"quest"										"Misión"
 
 		"quest_commandverb_default"					"Consigue"
-
-		"quest_action_plural_act_kill_human"		"víctimas"
-		"quest_action_singular_act_kill_human"		"víctima"
-
-		"quest_action_plural_act_win_round"			"rondas ganadas"
-		"quest_action_singular_act_win_round"		"ronda ganada"	
 
 		////
 
@@ -37068,7 +37044,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Jornada de entrenamiento"
 		"SFUI_GameMode_retakes"					"Recaptura"
-
 		"ForceNewUserTraining_title"			"Jornada de entrenamiento"
 		"ForceNewUserTraining_text"				"¿Quieres empezar una breve sesión de entrenamiento?"
 
@@ -37410,7 +37385,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Vista previa de Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Vista previa de Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Vista previa de Inferno"
@@ -40264,9 +40238,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_match_abort_match_network_event"	"La partida se ha cancelado debido a una interrupción de la red.\nEsta partida no afectará a tu calificación de habilidad."
 		"SFUI_match_abort_match_vac_live"	"VAC Live anuló la partida porque detectó un tramposo.\nEsta partida no afectará a tu calificación de habilidad."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 y todos los miembros del grupo han recibido suspensiones de VACNet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET ha detectado juego irregular y ha cancelado la partida."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"No se reconocerá el progreso en esta partida porque un jugador de tu equipo fue bloqueado."
 		"SFUI_match_abort_match_missing_player"	" Se cancela la partida porque uno de los jugadores no se ha conectado."
 		"SFUI_match_abort_match_player_abandoned"	" Se cancela la partida porque uno de los jugadores se ha desconectado."
@@ -40448,9 +40419,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Memoria USB extraída.\nInstalando virus."
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Memoria USB 2 lista."
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Memoria USB con virus extraída."	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"VALOR DEL EQUIPAMIENTO"
 		"SFUIHUD_Spectate_TeamMoney"	"DINERO DEL EQUIPO"
 		"SFUIHUD_Spectate_TeamEQValue"	"VALOR DEL EQUIPAMIENTO"
@@ -41910,7 +41878,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag de clan del grupo de Steam"
 		"SFUI_Settings_ClanTag_None"								"Sin tag de equipo"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46431,7 +46398,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"AddFriend_tooltip"						"Añadir amigo/a"
 		"FriendsLobby_tooltip"					"Más información sobre las salas"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} sala } other{{d:lobby_count} salas}}"
 
 
@@ -47360,12 +47326,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Mira"
-		"settings_crosshair_info"			"Personaliza el tamaño, la forma y el color de la mira. Comparte tu código de mira con tus amigos o prueba los ajustes de otra persona."
-		"settings_snipers_xhair"			"Miras de francotirador"
-		"settings_grenadecrosshair_short"	"Alineación de granadas"
-		"settings_grenadecrosshair"			"Mira de alineación de granadas"
-		"settings_grenadecrosshair_info"	"Una mira que ayuda a alinear los lanzamientos de granadas"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tableta"
 		"settings_items_section"			"Objetos"
@@ -47775,9 +47735,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_navbar_report_server"	"Denunciar servidor"
 		"tooltip_navbar_stats"			"Mira todas las estadísticas de tus partidas en un mismo lugar"
 		"tooltip_navbar_store"			"Adquirir artículos en el juego"
-		"tooltip_navbar_vacnet"			"Abrir el portal de etiquetado VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Inspeccionar modelo de arma"
 		"tooltip_inspect_weapon_model_faction"	"Inspeccionar modelo de jugador"
 		"tooltip_inspect_play_mvp_anthem"	"Reproducir el himno de JMV"
@@ -47836,7 +47793,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_xp_locked"				"El estatus Prime es necesario para obtener EXP. Compra la actualización a estatus Prime para descongelar tu rango."
 		"tooltip_join_public_lobby"		"Unirse a sala pública"
 		"tooltip_suggested_lobby"		"Esta sala solo está abierta a miembros de su grupo de Steam."
-
 		"tooltip_invite"				"Invitar amigo a jugar"
 		"tooltip_disabled_invite"		"Cancelar la búsqueda para invitar a un amigo"
 		"tooltip_Join"					"Unirse a la partida"
@@ -47864,7 +47820,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_friend_invited_you"	"<b>Invitación</b> de <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Ver todas las invitaciones a salas"
-
 		"tooltip_short_invite"				"Invitar"
 		"tooltip_short_Join"				"Unirse"
 		"tooltip_short_watch"				"Ver"
@@ -48357,9 +48312,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} TIEMPO MUERTO {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Espectadores: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48481,8 +48433,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"rankup_redemption_case_warning"							"Es necesario comprar una llave para abrirla"
 		"rankup_redemption_store_claimed"							"RECLAMADO"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50299,10 +50249,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"mission_segment_tooltip"						"{d:xp-reward} EXP"
 
 		"mission_location"								"<b>{s:gamemode}</b> en <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Consigue una víctima con el arma {s:item1} en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.} other{Consigue varias víctimas con el arma {s:item1} en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.}}"
 		"quest_11000_var_partial:f" 					"... con el arma: {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Consigue una víctima con el arma {s:item1}.} other{Consigue varias víctimas con el arma {s:item1}.}}"
@@ -50360,7 +50306,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Gana una ronda en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.} other{Gana varias rondas en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Gana una ronda.} other{Gana varias rondas.}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50368,9 +50314,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_kick_player"			"Expulsar al jugador del servidor local"		
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

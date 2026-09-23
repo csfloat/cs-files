@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Computermonitor"
 		"GameUI_DisplayTV"		"Televisie"
 		"GameUI_Brightness"		"Helderheid"
-		"GameUI_CrosshairBehavior"		"Gedrag richtkruis"
-		"GameUI_CrosshairBehaviorStatic"	"Statisch"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamisch"
 
 		"GameUI_FriendlyWarning"			"Waarschuwing op richtkruis bij friendly fire"
 		"GameUI_FriendlyWarning_Desc"		"Toon een waarschuwing op het richtkruis als je op een teamgenoot richt."
-
-		"GameUI_CrosshairStyle"			"Stijl richtkruis"
-		"GameUI_CrosshairStyleDefault"			"Standaard"
-		"GameUI_CrosshairStyleDefaultStatic"	"Standaard, statisch"
-		"GameUI_CrosshairStyleClassic"			"Klassiek"
-		"GameUI_CrosshairStyleClassicDyn"		"Klassiek, dynamisch"
-		"GameUI_CrosshairStyleClassicStatic"	"Klassiek, statisch"
-		"GameUI_CrosshairStyleLegacy"			"Traditioneel"
 
 		"GameUI_CrosshairStyle_Friendly"		"Waarschuwing bij friendly fire"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Altijd uit"
 		"GameUI_CrosshairFriendlyWarning_Default" "Alleen op standaardrichtkruis"
 		"GameUI_CrosshairFriendlyWarning_On"	"Altijd aan"
-
 
 		"GameUI_CrosshairIFF"	"Doelwitidentificatie op richtkruis"
 		"GameUI_CrosshairIFFOn"	"Aan"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Omtrek"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Grootte richtkruis"
-		"GameUI_CrosshairColor"		"Kleur richtkruis"
 		"GameUI_SniperCrosshairThickness" "Dikte sniperrichtkruis"
 		"GameUI_ColorSliders"		"Kleuren"
 		"GameUI_ColorQuality"		"Kleurkwaliteit"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Buitenste splitsing: alfa"
 		"GameUI_SplitRatio" 		"Ratio splitsingsgrootte"
 		"GameUI_TStyle" 			"T-stijl"
-		"GameUI_ShowWeaponGap" 		"Opening uitgerust wapen"
-		"GameUI_ShowWeaponGap_Tooltip" 	"De opening van het richtkruis past zich dynamisch aan op basis van het wapen waarmee je bent uitgerust."
 		"GameUI_ShowObserverCrosshair" 	"Richtkruizen van spelers tonen"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Toont de richtkruizen van andere spelers als je toeschouwer bent."
 		"GameUI_Everyone" 			"Iedereen"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Richtkruis tonen voor afleidingsgranaten? Zo ja, hoelang na het verwijderen van de pin?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Herstel de standaardinstellingen voor het richtkruis."
-		"GameUI_Xhair_Undo_Tooltip" 		"Draai recente wijzigingen aan het richkruis terug."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Deel of importeer een richtkruiscode."
-		"GameUI_Xhair_Code_Popup"			"Delen of importeren"
-		"GameUI_Xhair_Code_Invalid"			"Ongeldige of verouderde richtkruiscode"
-		"GameUI_Xhair_Import_Code"			"Importeren"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importeer het richtkruis van je laatste CS:GO-sessie."
-		"GameUI_Xhair_ImportCSGO"			"Importeren uit CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Herstel de standaardinstellingen voor het richtkruis."
+		"GameUI_Xhair_Undo_Tooltip" 			"Draai recente wijzigingen aan het richkruis terug."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Deel of importeer een richtkruiscode."
+		"GameUI_Xhair_Code_Popup"				"Delen of importeren"
+		"GameUI_Xhair_Code_Invalid"				"Ongeldige of verouderde richtkruiscode"
+		"GameUI_Xhair_Import_Code"				"Importeren"
 		"tooltip_copycrosshair"				"Richtkruis kopiëren"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Huidig richtkruis vervangen?"
  
@@ -6089,8 +6071,8 @@
 		"musickit_shockone_01_desc"				"Ontketen jezelf met de energieke drum-'n-bass van Voices, een nummer van ShockOne. Met deze lekkere baslijnen op de achtergrond is elke clutch voor jou en word je telkens weer de MVP."
 		"coupon_shockone_01"					"Muziekset | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"StatTrak™-muziekset | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -6103,12 +6085,6 @@
 		"quest_desc"								" "
 
 		"quest_commandverb_default"					"Behaal"
-
-		"quest_action_plural_act_kill_human"		"kills"
-		"quest_action_singular_act_kill_human"		"kill"
-
-		"quest_action_plural_act_win_round"			"ronden gewonnen"
-		"quest_action_singular_act_win_round"		"ronde gewonnen"	
 
 		////
 
@@ -37830,7 +37806,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Trainingsdag"
 		"SFUI_GameMode_retakes"					"Retakes"
-
 		"ForceNewUserTraining_title"			"Trainingsdag"
 		"ForceNewUserTraining_text"				"Ben je klaar voor een korte trainingssessie?"
 
@@ -38172,7 +38147,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Voorbeeld Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Voorbeeld Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Voorbeeld Inferno"
@@ -41044,9 +41018,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"SFUI_match_abort_match_network_event"	"Door een netwerkonderbreking is de wedstrijd geannuleerd.\nDeze wedstrijd heeft geen invloed op je vaardigheidsbeoordeling."
 		"SFUI_match_abort_match_vac_live"	"VAC Live heeft een valsspeler gedetecteerd en heeft de wedstrijd beëindigd.\nDeze wedstrijd telt niet mee voor je vaardigheidsbeoordeling."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 en mogelijke groepsleden hebben VACNet-cooldowns ontvangen."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNet heeft afwijkende gameplay gedetecteerd en daarom de wedstrijd geannuleerd."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Deze wedstrijd levert geen voortgang op omdat een speler uit je groep is verbannen."
 		"SFUI_match_abort_match_missing_player"	" De wedstrijd wordt afgebroken omdat een speler nooit is verbonden."
 		"SFUI_match_abort_match_player_abandoned"	" De wedstrijd wordt geannuleerd omdat de verbinding met een van de spelers is verbroken."
@@ -41235,9 +41206,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"USB-stick opgehaald.\nHet virus wordt geïnstalleerd!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"USB-stick 2 gereed!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"USB-stick met virus opgehaald!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"UITRUSTINGSWAARDE"
 		"SFUIHUD_Spectate_TeamMoney"	"TEAMGELD"
 		"SFUIHUD_Spectate_TeamEQValue"	"UITRUSTINGSWAARDE TEAM"
@@ -42697,7 +42665,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Clantag Steam-groep"
 		"SFUI_Settings_ClanTag_None"								"Geen teamtag"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47225,7 +47192,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"AddFriend_tooltip"						"Vriend toevoegen"
 		"FriendsLobby_tooltip"					"Meer informatie over lobby's"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} lobby } other{{d:lobby_count} lobby's}}"
 
 
@@ -48154,12 +48120,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Richtkruis"
-		"settings_crosshair_info"			"Pas de grootte, vorm en kleur van je richtkruis aan. Deel je richtkruiscode met vrienden of probeer de instellingen van iemand anders."
-		"settings_snipers_xhair"			"Snipervizier"
-		"settings_grenadecrosshair_short"	"Granaatboog"
-		"settings_grenadecrosshair"			"Speciaal richtkruis voor granaten"
-		"settings_grenadecrosshair_info"	"Een hulpmiddel om beter te richten bij het gooien van granaten"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / tablet"
 		"settings_items_section"			"Voorwerp"
@@ -48569,9 +48529,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_navbar_report_server"	"Server rapporteren"
 		"tooltip_navbar_stats"			"Alle wedstrijdstatistieken in een oogopslag checken"
 		"tooltip_navbar_store"			"Voorwerpen in de game bemachtigen"
-		"tooltip_navbar_vacnet"			"Open de VACNet-beoordelingsportal"
-
-
 		"tooltip_inspect_weapon_model"	"Wapenmodel bekijken"
 		"tooltip_inspect_weapon_model_faction"	"Spelermodel bekijken"
 		"tooltip_inspect_play_mvp_anthem"	"Overwinningsthema van de beste speler afspelen"
@@ -48630,7 +48587,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_xp_locked"				"De Prime-status is vereist om XP te verdienen. Koop de Prime-statusupgrade om de blokkering van je rang op te heffen."
 		"tooltip_join_public_lobby"		"Aan openbare lobby deelnemen"
 		"tooltip_suggested_lobby"		"Deze lobby is alleen toegankelijk voor leden van de bijbehorende Steam-groep."
-
 		"tooltip_invite"				"Vriend uitnodigen om te spelen"
 		"tooltip_disabled_invite"		"Zoeken annuleren om een vriend uit te nodigen"
 		"tooltip_Join"					"Met vriend meespelen"
@@ -48658,7 +48614,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_friend_invited_you"	"<b>Uitnodiging</b> van <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Alle uitnodigingen voor lobby's tonen"
-
 		"tooltip_short_invite"				"Uitnodigen"
 		"tooltip_short_Join"				"MEEDOEN"
 		"tooltip_short_watch"				"Kijken"
@@ -49174,9 +49129,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} TO {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Kijkers: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -49298,8 +49250,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"rankup_redemption_case_warning"							"Koop een sleutel om dit te openen"
 		"rankup_redemption_store_claimed"							"OPGEËIST"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -51116,10 +51066,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> op <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Maak een kill met een {s:item1} in <b>{s:gamemode}: {s:location}</b>.} other{Maak kills met een {s:item1} in <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"...met een {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Maak een kill met een {s:item1}.} other{Maak kills met een {s:item1}.}}"
@@ -51177,7 +51123,7 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Win een ronde in <b>{s:gamemode}: {s:location}</b>.} other{Win ronden in <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Win een ronde} other{Win ronden}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -51185,9 +51131,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_kick_player"			"Verwijder de speler van de lokale server"		
 		"tooltip_short_viewaddon"			"Bekijk de aangepaste map"
 		"tooltip_short_kick_player"			"Verwijderen"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

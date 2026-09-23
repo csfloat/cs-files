@@ -15,26 +15,16 @@
 		"GameUI_DisplayMonitor"		"Monitor de equipo"
 		"GameUI_DisplayTV"		"Televisión"
 		"GameUI_Brightness"		"Brillo"
-		"GameUI_CrosshairBehavior"		"Comportamiento de la mira"
-		"GameUI_CrosshairBehaviorStatic"	"Estática"
-		"GameUI_CrosshairBehaviorDynamic"	"Dinámica"
 
 		"GameUI_FriendlyWarning"			"Advertencia de fuego amistoso en la mira"
 		"GameUI_FriendlyWarning_Desc"		"Muestra una advertencia en la mira cuando apuntas a un compañero."
 
-		"GameUI_CrosshairStyle"			"Estilo de la mira"
-		"GameUI_CrosshairStyleDefault"			"Predeterminada"
-		"GameUI_CrosshairStyleDefaultStatic"	"Estática (predeterminada)"
-		"GameUI_CrosshairStyleClassic"			"Clásica"
-		"GameUI_CrosshairStyleClassicDyn"		"Dinámica (clásica)"
-		"GameUI_CrosshairStyleClassicStatic"	"Estática (clásica)"
-		"GameUI_CrosshairStyleLegacy"			"Configuración clásica"
+		"GameUI_CrosshairStyle"					"Estilo"
 
 		"GameUI_CrosshairStyle_Friendly"		"Advertencia de fuego amistoso"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Siempre desactivado"
 		"GameUI_CrosshairFriendlyWarning_Default" "Solo con la mira predeterminada"
 		"GameUI_CrosshairFriendlyWarning_On"	"Siempre activado"
-
 
 		"GameUI_CrosshairIFF"	"Id. de objetivo en p. de mira"
 		"GameUI_CrosshairIFFOn"	"Activado"
@@ -52,7 +42,6 @@
 		"GameUI_CrosshairOutline"	"Contorno"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Tamaño de la mira"
-		"GameUI_CrosshairColor"		"Color de la mira"
 		"GameUI_SniperCrosshairThickness" "Grosor de la mira de francotirador"
 		"GameUI_ColorSliders"		"Colores"
 		"GameUI_ColorQuality"		"Calidad del color"
@@ -66,8 +55,6 @@
 		"GameUI_SplitOuterAlpha" 	"Alfa de la dispersión exterior"
 		"GameUI_SplitRatio" 		"Proporción de la dispersión"
 		"GameUI_TStyle" 			"Estilo T"
-		"GameUI_ShowWeaponGap" 		"Abertura de la mira del arma en uso"
-		"GameUI_ShowWeaponGap_Tooltip" 	"El movimiento de la abertura dinámica de la mira variará según el arma equipada."
 		"GameUI_ShowObserverCrosshair" 	"Mostrar la mira de los jugadores"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Muestra la mira de otros jugadores cuando seas espectador."
 		"GameUI_Everyone" 			"Todos"
@@ -91,20 +78,20 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Determina si se muestra la retícula de alineación de granadas para las granadas señuelo. En caso afirmativo, determina el tiempo de espera para aparecer después de tirar de la argolla."
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Restaura todos los parámetros de la mira a sus valores predeterminados."
-		"GameUI_Xhair_Undo_Tooltip" 		"Deshacer los cambios recientes de la mira."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Compartir o importar un código de mira."
-		"GameUI_Xhair_Code_Popup"			"Compartir o importar"
-		"GameUI_Xhair_Code_Invalid"			"Código de mira no válido o antiguo"
-		"GameUI_Xhair_Import_Code"			"Importar"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importar mira de tu última sesión de juego en CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importar desde CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Restaura todos los parámetros de la mira a sus valores predeterminados."
+		"GameUI_Xhair_Undo_Tooltip" 			"Deshacer los cambios recientes de la mira."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Compartir o importar un código de mira."
+		"GameUI_Xhair_Code_Popup"				"Compartir o importar"
+		"GameUI_Xhair_Code_Invalid"				"Código de mira no válido o antiguo"
+		"GameUI_Xhair_Import_Code"				"Importar"
 		"tooltip_copycrosshair"				"Copiar mira"
 		"GameUI_Xhair_Copy_Code_Confirm"		"¿Sustituir mira actual?"
  
 		"GameUI_Confirm_Write_Setting_Title"	"Solicitud de cambio de configuración"
 		"GameUI_Confirm_Write_Setting_Text"		"El mapa \"{s:mapname}\" del Workshop desea cambiar tu configuración. Esto puede incluir cambios en la mira, el radar, el sonido y otros elementos. ¿Deseas permitir estos cambios?"
+
+		"GameUI_ColorPicker_New"				"Nuevo"
+		"GameUI_ColorPicker_Current"			"Actual"
 
 		"settings_damage_prediction"			"Predicción del daño"
 		"settings_damage_prediction_info"		"Reproduce inmediatamente los efectos audiovisuales al infligir daño sin esperar la confirmación del servidor.
@@ -5977,8 +5964,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"musickit_shockone_01_desc"				"Suéltate con el electrizante álbum de drum and bass de ShockOne, \"Voices\". Ideal para los momentos decisivos, este kit de música incluye líneas de bajo que te convertirán en el JMV de muchas partidas."
 		"coupon_shockone_01"					"Kit de música | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Kit de música de StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -5989,12 +5976,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"quest"										"Misión"
 
 		"quest_commandverb_default"					"Consigue"
-
-		"quest_action_plural_act_kill_human"		"víctimas"
-		"quest_action_singular_act_kill_human"		"víctima"
-
-		"quest_action_plural_act_win_round"			"rondas ganadas"
-		"quest_action_singular_act_win_round"		"ronda ganada"	
 
 		////
 
@@ -37073,7 +37054,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Día de entrenamiento"
 		"SFUI_GameMode_retakes"					"Recapturas"
-
 		"ForceNewUserTraining_title"			"Día de entrenamiento"
 		"ForceNewUserTraining_text"				"¿Estás listo para una breve sesión de entrenamiento?"
 
@@ -37415,7 +37395,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
+		"SFUI_MAP_pet_photo_park"	"Pícnic"
 		"SFUI_Map_workshop_preview_dust2"	"Vista previa de Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Vista previa de Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Vista previa de Inferno"
@@ -40269,9 +40249,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_match_abort_match_network_event"	"La partida se canceló debido a una interrupción de la red.\nEsta partida no afectará a tu calificación de habilidad."
 		"SFUI_match_abort_match_vac_live"	"VAC Live detectó a alguien haciendo trampas y finalizó la partida.\nTu grupo de habilidad no se verá afectado."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 y todos los miembros del grupo recibieron suspensiones de VACNET."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET detectó un juego irregular y canceló la partida."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"No obtendrás experiencia por esta partida, ya que un jugador de tu grupo fue vetado."
 		"SFUI_match_abort_match_missing_player"	" Se cancela la partida porque uno de los jugadores no se ha conectado."
 		"SFUI_match_abort_match_player_abandoned"	" Se cancela la partida porque uno de los jugadores se ha desconectado."
@@ -40454,8 +40431,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Memoria USB 2 lista."
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Memoria USB con virus extraída."	
 
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
 "SFUIHUD_Spectate_Equipment"	"VALOR DEL EQUIPAMIENTO"
 		"SFUIHUD_Spectate_TeamMoney"	"DINERO DEL EQUIPO"
 		"SFUIHUD_Spectate_TeamEQValue"	"VALOR DEL EQ. DEL EQUIPO"
@@ -41550,6 +41526,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_Settings_Casual_EQ_Tip"		"Aplica este perfil de EQ mientras juegas en modo Casual"
 
 
+		"SFUI_Settings_Master_Music_Volume"							"Volumen general de la música"
 		"SFUI_Settings_Menu_Music_Volume"							"Volumen del menú principal"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Volumen de inicio de ronda"
 		"SFUI_Settings_Action_Round_Music_Volume"					"Volumen de acción de ronda"
@@ -41915,7 +41892,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag de clan del grupo de Steam"
 		"SFUI_Settings_ClanTag_None"								"Sin tag de equipo"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46438,7 +46414,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"AddFriend_tooltip"						"Agregar amigo"
 		"FriendsLobby_tooltip"					"Más información sobre las salas"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} Sala } other{{d:lobby_count} Salas}}"
 
 
@@ -47367,12 +47342,9 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Mira"
-		"settings_crosshair_info"			"Personaliza el tamaño, la forma y el color de la mira. Comparte tu código de mira con tus amigos o prueba el de alguien más."
-		"settings_snipers_xhair"			"Miras de francotirador"
-		"settings_grenadecrosshair_short"	"Alineación de granadas"
-		"settings_grenadecrosshair"			"Retícula de alineación de granadas"
-		"settings_grenadecrosshair_info"	"Una retícula que ayuda a alinear el lanzamiento de granadas."
+		"settings_crosshair"				"Mira/Mira telescópica"
+		"settings_crosshair_sniper"			"Miras de francotirador"
+		"settings_crosshair_grenade"		"Alineación de granadas"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tableta"
 		"settings_items_section"			"Objeto"
@@ -47782,9 +47754,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_navbar_report_server"	"Denunciar servidor"
 		"tooltip_navbar_stats"			"Mira todas las estadísticas de tus partidas en un mismo lugar"
 		"tooltip_navbar_store"			"Adquirir artículos en el juego"
-		"tooltip_navbar_vacnet"			"Abrir el portal de etiquetado de VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Inspeccionar modelo de arma"
 		"tooltip_inspect_weapon_model_faction"	"Examinar modelo de jugador"
 		"tooltip_inspect_play_mvp_anthem"	"Reproducir himno de MJ"
@@ -47843,7 +47812,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_xp_locked"				"El estatus Prime es necesario para obtener EXP. Compra la actualización a estatus Prime para descongelar tu rango."
 		"tooltip_join_public_lobby"		"Unirse a sala pública"
 		"tooltip_suggested_lobby"		"Esta sala solo está abierta a miembros de su grupo de Steam."
-
 		"tooltip_invite"				"Invitar amigo a jugar"
 		"tooltip_disabled_invite"		"Cancelar la búsqueda para invitar a un amigo"
 		"tooltip_Join"					"Unirse a la partida"
@@ -47871,7 +47839,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_friend_invited_you"	"<b>Invitación</b> de <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Ver invitaciones a todas las salas"
-
 		"tooltip_short_invite"				"Invitar"
 		"tooltip_short_Join"				"Unirse"
 		"tooltip_short_watch"				"Ver"
@@ -48364,9 +48331,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} TIEMPO MUERTO {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Espectadores: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48488,8 +48452,9 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 
 		"rankup_redemption_case_warning"							"Es necesario comprar una llave para abrirla."
 		"rankup_redemption_store_claimed"							"RECLAMADO"	
+		"rankup_redemption_store_expired"							"CADUCADO"	
 
-
+		"expired_itemdef"											"Caducado"
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50306,10 +50271,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"mission_segment_tooltip"						"{d:xp-reward} EXP"
 
 		"mission_location"								"<b>{s:gamemode}</b> en <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Obtén una víctima con el arma {s:item1} en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.} other{Obtén varias víctimas con el arma {s:item1} en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.}}"
 		"quest_11000_var_partial:f" 					"...con el arma: {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Obtén una víctima con el arma {s:item1}.} other{Obtén víctimas con el arma {s:item1}.}}"
@@ -50367,7 +50328,7 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Gana una ronda en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.} other{Gana varias rondas en <b>{s:location}</b> jugando en el modo <b>{s:gamemode}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Gana una ronda} other{Gana rondas}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50375,9 +50336,28 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"tooltip_kick_player"			"Expulsar al jugador del servidor local"		
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+"pet_photo_booth_zoom_mid"			"Medio"
+		"pet_photo_booth_adjust_exposure"	"Expuesto"
+		"pet_photo_booth_adjust_brightness"	"Brillo"
+		"pet_photo_booth_adjust_bloom"		"Brillante"
+		"pet_photo_booth_headwear_helmet"	"Casco"
+		"pet_photo_booth_headwear_banana"	"Banana"
+		"pet_photo_booth_filter_normal"		"Normal"
+		"pet_photo_booth_filter_crisp"		"Nítido"
+		// Keyed by the snapshot animation id, which is what a photo records. Button order, not numeric.
+		"pet_photo_booth_pose_0"			"Solo"
+		"pet_photo_booth_activity_jump"		"Saltar"
+		"pet_photo_booth_activity_kick"		"Expulsar"
+		"pet_photo_booth_effect_fire"		"Fuego"
+		"pet_photo_booth_reset"				"Restablecer"
+		"pet_photo_booth_setting_filters" 			"Filtros"
+		"pet_photo_booth_setting_stickers" 			"Calcomanías"
+		"pet_photo_booth_setting_team" 				"Equipo"
+"pet_photo_caption_filter"				"Filtro"
+		"pet_photo_caption_zoom"				"Zoom"
+		"pet_book_page_brave_report_title_status"	 "ESTADO:"
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Computermonitor"
 		"GameUI_DisplayTV"		"Fernseher"
 		"GameUI_Brightness"		"Helligkeit"
-		"GameUI_CrosshairBehavior"		"Fadenkreuz-Verhalten"
-		"GameUI_CrosshairBehaviorStatic"	"Statisch"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamisch"
 
 		"GameUI_FriendlyWarning"			"Eigenbeschuss-Warnung am Fadenkreuz"
 		"GameUI_FriendlyWarning_Desc"		"Warnung auf dem Fadenkreuz anzeigen, wenn auf einen Freund gezielt wird."
-
-		"GameUI_CrosshairStyle"			"Fadenkreuz-Stil"
-		"GameUI_CrosshairStyleDefault"			"Standard"
-		"GameUI_CrosshairStyleDefaultStatic"	"Standard (statisch)"
-		"GameUI_CrosshairStyleClassic"			"Klassisch"
-		"GameUI_CrosshairStyleClassicDyn"		"Klassisch (dynamisch)"
-		"GameUI_CrosshairStyleClassicStatic"	"Klassisch (statisch)"
-		"GameUI_CrosshairStyleLegacy"			"Traditionell"
 
 		"GameUI_CrosshairStyle_Friendly"		"Eigenbeschuss-Warnung"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Immer aus"
 		"GameUI_CrosshairFriendlyWarning_Default" "Nur bei Standard-Fadenkreuz"
 		"GameUI_CrosshairFriendlyWarning_On"	"Immer an"
-
 
 		"GameUI_CrosshairIFF"	"Fadenkreuz-Ziel-ID"
 		"GameUI_CrosshairIFFOn"	"An"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Kontur"
 		"GameUI_CrosshairAlpha"		"Transparenz"
 		"GameUI_CrosshairSize"		"Fadenkreuzgröße"
-		"GameUI_CrosshairColor"		"Fadenkreuzfarbe"
 		"GameUI_SniperCrosshairThickness" "Fadenkreuzdicke für Scharfschützengewehre"
 		"GameUI_ColorSliders"		"Farben"
 		"GameUI_ColorQuality"		"Farbqualität"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Transparenz nach Teilung (außen)"
 		"GameUI_SplitRatio" 		"Größenverhältnis der Teilung"
 		"GameUI_TStyle" 			"T-Stil"
-		"GameUI_ShowWeaponGap" 		"Waffenspezifischer Abstand"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Fadenkreuzabstand passt sich der aktuell ausgerüsteten Waffe dynamisch an."
 		"GameUI_ShowObserverCrosshair" 	"Spielerfadenkreuze anzeigen"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Fadenkreuz anderer Spieler beim Zuschauen anzeigen."
 		"GameUI_Everyone" 			"Alle"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Soll die Ausrichtungshilfe zum Werfen von Ködergranaten verwendet werden? Falls ja, wie lang soll die Wartezeit zum Einblenden nach dem Ziehen des Sicherungsstiftes sein?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Alle Fadenkreuzwerte auf Standardwerte zurücksetzen."
-		"GameUI_Xhair_Undo_Tooltip" 		"Kürzliche Änderungen am Fadenkreuz verwerfen."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Fadenkreuzcode teilen oder importieren."
-		"GameUI_Xhair_Code_Popup"			"Teilen oder importieren"
-		"GameUI_Xhair_Code_Invalid"			"Fadenkreuzcode ungültig oder veraltet"
-		"GameUI_Xhair_Import_Code"			"Importieren"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Fadenkreuz der letzten CS:GO-Sitzung importieren."
-		"GameUI_Xhair_ImportCSGO"			"Aus CS:GO importieren"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Alle Fadenkreuzwerte auf Standardwerte zurücksetzen."
+		"GameUI_Xhair_Undo_Tooltip" 			"Kürzliche Änderungen am Fadenkreuz verwerfen."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Fadenkreuzcode teilen oder importieren."
+		"GameUI_Xhair_Code_Popup"				"Teilen oder importieren"
+		"GameUI_Xhair_Code_Invalid"				"Fadenkreuzcode ungültig oder veraltet"
+		"GameUI_Xhair_Import_Code"				"Importieren"
 		"tooltip_copycrosshair"				"Fadenkreuz kopieren"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Aktuelles Fadenkreuz ersetzen?"
  
@@ -5973,8 +5955,8 @@
 		"musickit_shockone_01_desc"				"Lasst euch von ShockOnes energiegeladener Drum-and-Bass-Platte „Voices“ mitreißen. Dieses Musikkit ist wie geschaffen für entscheidende Momente und bietet kraftvolle Basslines, die euch zu vielen Auszeichnungen zum besten Spieler verhelfen wird."
 		"coupon_shockone_01"					"Musikkit | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"StatTrak™-Musikkit | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -5985,12 +5967,6 @@
 		"quest"										"Mission"
 
 		"quest_commandverb_default"					"Erzielen Sie"
-
-		"quest_action_plural_act_kill_human"		"Kills"
-		"quest_action_singular_act_kill_human"		"Kill"
-
-		"quest_action_plural_act_win_round"			"Rundensiege"
-		"quest_action_singular_act_win_round"		"Rundensieg"	
 
 		////
 
@@ -37077,7 +37053,6 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Trainingslager"
 		"SFUI_GameMode_retakes"					"Rückeroberung"
-
 		"ForceNewUserTraining_title"			"Trainingslager"
 		"ForceNewUserTraining_text"				"Sind Sie bereit für eine kurze Trainingseinheit?"
 
@@ -37419,7 +37394,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Vorschau: Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Vorschau: Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Vorschau: Inferno"
@@ -40273,9 +40247,6 @@
 		"SFUI_match_abort_match_network_event"	"Eine Netzwerkunterbrechung führte zum Abbruch des Spiels.\nDieses Spiel hat keinen Einfluss auf Ihre CS-Wertung/Skill-Gruppe."
 		"SFUI_match_abort_match_vac_live"	"VAC Live hat einen Betrüger erkannt und die Partie abgebrochen.\nDiese Partie hat keinen Einfluss auf Ihre Skill-Gruppe oder CS-Wertung."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 und alle Gruppenmitglieder haben eine VACNET-Strafzeit erhalten."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET hat ein auffälliges Spielverhalten festgestellt und das Spiel abgebrochen."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Für diese Partie wird kein Fortschritt vergeben, da ein Spieler Ihrer Seite vom Spiel ausgeschlossen wurde."
 		"SFUI_match_abort_match_missing_player"	"Das Spiel wird abgebrochen, da ein Spieler keine Verbindung herstellen konnte."
 		"SFUI_match_abort_match_player_abandoned"	" Das Spiel wird abgebrochen, da ein Spieler die Verbindung getrennt hat."
@@ -40457,9 +40428,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Stick abgerufen.\nVirus wird installiert!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Stick 2 bereit!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virus-Stick abgerufen!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"AUSRÜSTUNGSWERT"
 		"SFUIHUD_Spectate_TeamMoney"	"TEAMGELD"
 		"SFUIHUD_Spectate_TeamEQValue"	"WERT DES TEAMS"
@@ -41919,7 +41887,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Steam-Gruppenkürzel"
 		"SFUI_Settings_ClanTag_None"								"Kein Teamkürzel"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46440,7 +46407,6 @@
 		"AddFriend_tooltip"						"Freund hinzufügen"
 		"FriendsLobby_tooltip"					"Mehr über Lobbys erfahren"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} Lobby } other{{d:lobby_count} Lobbys}}"
 
 
@@ -47369,12 +47335,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Fadenkreuz"
-		"settings_crosshair_info"			"Passen Sie die Größe, Form und Farbe Ihres Fadenkreuzes an. Teilen Sie Ihren Fadenkreuzcode mit Ihren Freunden oder versuchen Sie es mit den Einstellungen eines anderen Spielers."
-		"settings_snipers_xhair"			"Zielfernrohr"
-		"settings_grenadecrosshair_short"	"Granatenausrichtungshilfe"
-		"settings_grenadecrosshair"			"Ausrichtungshilfe zum Werfen von Granaten"
-		"settings_grenadecrosshair_info"	"Eine Ausrichtungshilfe, um Granaten präzise werfen zu können."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Gegenstand"
@@ -47784,9 +47744,6 @@
 		"tooltip_navbar_report_server"	"Server melden"
 		"tooltip_navbar_stats"			"All Ihre Spielstatistiken an einem Ort anzeigen"
 		"tooltip_navbar_store"			"Spielgegenstände erwerben"
-		"tooltip_navbar_vacnet"			"VACNet-Beurteilungsportal öffnen"
-
-
 		"tooltip_inspect_weapon_model"	"Waffenmodell untersuchen"
 		"tooltip_inspect_weapon_model_faction"	"Spielermodell untersuchen"
 		"tooltip_inspect_play_mvp_anthem"	"Hymne des besten Spielers abspielen"
@@ -47845,7 +47802,6 @@
 		"tooltip_xp_locked"				"Prime-Status ist erforderlich, um EP verdienen zu können. Kaufen Sie das Prime-Status-Upgrade, um Ihren Rang freizuschalten."
 		"tooltip_join_public_lobby"		"Öffentlicher Lobby beitreten"
 		"tooltip_suggested_lobby"		"Diese Lobby ist nur für Steam-Gruppenmitglieder offen."
-
 		"tooltip_invite"				"Freund zum Spielen einladen"
 		"tooltip_disabled_invite"		"Suche abbrechen, um einen Freund einzuladen"
 		"tooltip_Join"					"Freund beitreten"
@@ -47873,7 +47829,6 @@
 		"tooltip_friend_invited_you"	"<b>Einladung</b> von <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Alle Einladungen anzeigen"
-
 		"tooltip_short_invite"				"Einladen"
 		"tooltip_short_Join"				"Beitreten"
 		"tooltip_short_watch"				"Zuschauen"
@@ -48366,9 +48321,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} AZ {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Zuschauer: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48490,8 +48442,6 @@
 
 		"rankup_redemption_case_warning"							"Zum Öffnen ist ein gekaufter Schlüssel erforderlich"
 		"rankup_redemption_store_claimed"							"EINGELÖST"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50308,10 +50258,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} EP"
 
 		"mission_location"								"<b>{s:gamemode}</b> auf <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Erzielen Sie einen Kill mit der Waffe {s:item1} im Spielmodus <b>{s:gamemode}</b> auf <b>{s:location}</b>.} other{Erzielen Sie Kills mit der Waffe {s:item1} im Spielmodus <b>{s:gamemode}</b> auf <b>{s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"… mit der Waffe {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Erzielen Sie einen Kill mit der Waffe {s:item1}.} other{Erzielen Sie Kills mit der Waffe {s:item1}.}}"
@@ -50369,7 +50315,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Gewinnen Sie eine Runde im Spielmodus <b>{s:gamemode}</b> auf <b>{s:location}</b>.} other{Gewinnen Sie Runden im Spielmodus <b>{s:gamemode}</b> auf <b>{s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Gewinnen Sie eine Runde.} other{Gewinnen Sie Runden.}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50377,9 +50323,8 @@
 		"tooltip_kick_player"			"Spieler vom lokalem Server werfen"		
 		"tooltip_short_viewaddon"			"Benutzerdefinierte Karte anzeigen"
 		"tooltip_short_kick_player"			"Herauswerfen"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Monitor komputerowy"
 		"GameUI_DisplayTV"		"Telewizor"
 		"GameUI_Brightness"		"Jasność"
-		"GameUI_CrosshairBehavior"		"Rodzaj celownika"
-		"GameUI_CrosshairBehaviorStatic"	"Statyczny"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamiczny"
 
 		"GameUI_FriendlyWarning"			"Ostrzeżenie przed ogniem przyjacielskim na celowniku"
 		"GameUI_FriendlyWarning_Desc"		"Wyświetl ostrzeżenie na celowniku podczas celowania w sojusznika."
-
-		"GameUI_CrosshairStyle"			"Styl celownika"
-		"GameUI_CrosshairStyleDefault"			"Domyślny"
-		"GameUI_CrosshairStyleDefaultStatic"	"Domyślny statyczny"
-		"GameUI_CrosshairStyleClassic"			"Klasyczny"
-		"GameUI_CrosshairStyleClassicDyn"		"Klasyczny dynamiczny"
-		"GameUI_CrosshairStyleClassicStatic"	"Klasyczny statyczny"
-		"GameUI_CrosshairStyleLegacy"			"Oryginalny"
 
 		"GameUI_CrosshairStyle_Friendly"		"Ostrzeżenie przed ogniem przyjacielskim"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Zawsze wył."
 		"GameUI_CrosshairFriendlyWarning_Default" "Tylko na domyślnym celowniku"
 		"GameUI_CrosshairFriendlyWarning_On"	"Zawsze wł."
-
 
 		"GameUI_CrosshairIFF"	"Identyfikacja celów pod celownikiem"
 		"GameUI_CrosshairIFFOn"	"Włączone"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Obwódka"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Rozmiar celownika"
-		"GameUI_CrosshairColor"		"Kolor celownika"
 		"GameUI_SniperCrosshairThickness" "Grubość kresek w lunetach"
 		"GameUI_ColorSliders"		"Kolory"
 		"GameUI_ColorQuality"		"Jakość kolorów"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Alfa zewnętrznej części"
 		"GameUI_SplitRatio" 		"Współczynnik podziału części"
 		"GameUI_TStyle" 			"Kształt litery T"
-		"GameUI_ShowWeaponGap" 		"Odstęp używanej broni"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Odstęp celownika będzie aktualizowany dynamicznie na podstawie obecnie używanej broni."
 		"GameUI_ShowObserverCrosshair" 	"Pokaż celowniki graczy"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Pokazuj celowniki innych graczy podczas oglądania ich."
 		"GameUI_Everyone" 			"Wszyscy"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Czy powinniśmy wyświetlać siatkę celowniczą dla wabików? Jeśli tak, po jakim czasie pokazać je od momentu wyciągnięcia zawleczki?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Zresetuj wszystkie wartości celownika do domyślnych."
-		"GameUI_Xhair_Undo_Tooltip" 		"Cofnij ostatnie zmiany w celowniku."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Udostępnij lub importuj kod celownika."
-		"GameUI_Xhair_Code_Popup"			"Udostępnij lub importuj"
-		"GameUI_Xhair_Code_Invalid"			"Nieprawidłowy lub stary kod celownika"
-		"GameUI_Xhair_Import_Code"			"Importuj"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importuje celownik z ostatniego uruchomienia CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importuj z CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Zresetuj wszystkie wartości celownika do domyślnych."
+		"GameUI_Xhair_Undo_Tooltip" 			"Cofnij ostatnie zmiany w celowniku."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Udostępnij lub importuj kod celownika."
+		"GameUI_Xhair_Code_Popup"				"Udostępnij lub importuj"
+		"GameUI_Xhair_Code_Invalid"				"Nieprawidłowy lub stary kod celownika"
+		"GameUI_Xhair_Import_Code"				"Importuj"
 		"tooltip_copycrosshair"				"Kopiuj celownik"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Zastąpić obecny celownik?"
  
@@ -5976,8 +5958,8 @@
 		"musickit_shockone_01_desc"				"Wyzwól się z pełnym energii utworem drum and bass „Voices” od ShockOne. Ten wręcz stworzony pod ugrywanie każdej desperackiej sytuacji zestaw zawiera mocne linie basowe, które poprowadzą cię do zdobycia wielu tytułów MVP."
 		"coupon_shockone_01"					"Zestaw utworów | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Zestaw utworów (StatTrak™) | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -5988,12 +5970,6 @@
 		"quest"										"Misja"
 
 		"quest_commandverb_default"					"Zabij"
-
-		"quest_action_plural_act_kill_human"		"zabójstwa"
-		"quest_action_singular_act_kill_human"		"zabójstwo"
-
-		"quest_action_plural_act_win_round"			"zwycięstwa w rundach"
-		"quest_action_singular_act_win_round"		"zwycięstwo w rundach"	
 
 		////
 
@@ -37068,7 +37044,6 @@
 		"SFUI_GameMode_Workshop"				"Warsztat"
 		"SFUI_GameMode_new_user_training"		"Dzień treningu"
 		"SFUI_GameMode_retakes"					"Odbijanie"
-
 		"ForceNewUserTraining_title"			"Dzień treningu"
 		"ForceNewUserTraining_text"				"Gotów, by przejść do krótkiej sesji treningowej?"
 
@@ -37410,7 +37385,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Podgląd mapy Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Podgląd mapy Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Podgląd mapy Inferno"
@@ -40264,9 +40238,6 @@
 		"SFUI_match_abort_match_network_event"	"Z powodu zakłoceń w sieci mecz został anulowany.\nTen mecz nie wpłynie na ocenę twoich umiejętności."
 		"SFUI_match_abort_match_vac_live"	"System VAC Live wykrył oszusta i zakończył mecz.\nTen mecz nie wpłynie na twoją ocenę umiejętności."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"Użytkownik %s1 oraz członkowie jego drużyny otrzymali blokadę VACnet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet wykrył nieregularną rozgrywkę i anulował mecz."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Twój postęp dla tego meczu nie zostanie zarejestrowany, ponieważ gracz w Twoim zespole został zablokowany."
 		"SFUI_match_abort_match_missing_player"	" Mecz zostaje anulowany, ponieważ gracz nigdy się nie połączył."
 		"SFUI_match_abort_match_player_abandoned"	" Mecz zostaje anulowany, ponieważ jeden z graczy rozłączył się."
@@ -40448,9 +40419,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Nośnik wyjęty.\nInstalowanie wirusa!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Nośnik 2 gotowy!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Wyjęto nośnik z wirusem!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"WARTOŚĆ WYPOSAŻENIA"
 		"SFUIHUD_Spectate_TeamMoney"	"SALDO DRUŻYNY"
 		"SFUIHUD_Spectate_TeamEQValue"	"WARTOŚĆ WYPOSAŻENIA DRUŻYNY"
@@ -41910,7 +41878,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag klanu grupy Steam"
 		"SFUI_Settings_ClanTag_None"								"Brak tagu drużyny"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46431,7 +46398,6 @@
 		"AddFriend_tooltip"						"Dodaj znajomego"
 		"FriendsLobby_tooltip"					"Dowiedz się więcej o poczekalniach"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} poczekalnia} few{{d:lobby_count} poczekalnie} many{{d:lobby_count} poczekalni} other{{d:lobby_count} poczekalni}}"
 
 
@@ -47360,12 +47326,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Celownik"
-		"settings_crosshair_info"			"Dostosuj rozmiar, kształt i kolor swojego celownika oraz podziel się jego kodem ze znajomymi lub wypróbuj ustawienia innych."
-		"settings_snipers_xhair"			"Luneta snajperska"
-		"settings_grenadecrosshair_short"	"Siatka celownicza dla granatów"
-		"settings_grenadecrosshair"			"Siatka celownicza dla granatów"
-		"settings_grenadecrosshair_info"	"Pomocnicza siatka dla precyzowania rzucanymi granatami."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Przedmiot"
@@ -47775,9 +47735,6 @@
 		"tooltip_navbar_report_server"	"Zgłoś serwer"
 		"tooltip_navbar_stats"			"Zobacz wszystkie swoje statystyki meczów w jednym miejscu"
 		"tooltip_navbar_store"			"Zdobądź przedmioty w grze"
-		"tooltip_navbar_vacnet"			"Otwórz portal oznaczania dla VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Zbadaj model broni"
 		"tooltip_inspect_weapon_model_faction"	"Zbadaj model gracza"
 		"tooltip_inspect_play_mvp_anthem"	"Odtwórz hymn MVP"
@@ -47836,7 +47793,6 @@
 		"tooltip_xp_locked"				"Do zdobywania PD potrzebny jest status Prime. Zakup ulepszenie do statusu Prime, by odblokować swój stopień."
 		"tooltip_join_public_lobby"		"Dołącz do publicznej poczekalni"
 		"tooltip_suggested_lobby"		"Ta poczekalnia jest dostępna tylko dla członków jej grupy Steam."
-
 		"tooltip_invite"				"Zaproś znajomego do gry"
 		"tooltip_disabled_invite"		"Anuluj wyszukiwanie, by zaprosić znajomego"
 		"tooltip_Join"					"Dołącz do znajomego"
@@ -47864,7 +47820,6 @@
 		"tooltip_friend_invited_you"	"<b>Zaproszenie</b> od gracza <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Zobacz wszystkie zaproszenia do poczekalni"
-
 		"tooltip_short_invite"				"Zaproś"
 		"tooltip_short_Join"				"Dołącz"
 		"tooltip_short_watch"				"Oglądaj"
@@ -48357,9 +48312,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} – PRZERWA: {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Widzowie: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48481,8 +48433,6 @@
 
 		"rankup_redemption_case_warning"							"Do otwarcia wymagany jest zakupiony klucz"
 		"rankup_redemption_store_claimed"							"ODEBRANO"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50299,10 +50249,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} PD"
 
 		"mission_location"								"<b>{s:gamemode}</b> na <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} few{<b>{d:mission-points}</b> {s:actions}} many{<b>{d:mission-points}</b> {s:actions}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} few{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}} many{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Zabij wroga, używając: {s:item1}. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>.} few{Zabij wrogów, używając: {s:item1}. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>.} many{Zabij wrogów, używając: {s:item1}. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>.} other{Zabij wrogów, używając: {s:item1}. <b>Tryb: {s:gamemode}. Mapa: {s:location}.}}"
 		"quest_11000_var_partial:f" 					"...z użyciem: {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Zabij wroga, używając: {s:item1}.} few{Zabij wrogów, używając: {s:item1}.} many{Zabij wrogów, używając: {s:item1}.} other{Zabij wrogów, używając: {s:item1}.}}"
@@ -50360,7 +50306,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Wygraj rundę. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>} few{Wygraj rundy. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>} many{Wygraj rundy. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>} other{Wygraj rundy. <b>Tryb: {s:gamemode}. Mapa: {s:location}.</b>}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Wygraj rundę.} few{Wygraj rundy.} many{Wygraj rundy.} other{Wygraj rundy.}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50368,9 +50314,8 @@
 		"tooltip_kick_player"			"Wyrzuć gracza z serwera lokalnego"		
 		"tooltip_short_viewaddon"			"Zobacz niestandardową mapę"
 		"tooltip_short_kick_player"			"Wyrzuć"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

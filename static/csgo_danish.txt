@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Computerskærm"
 		"GameUI_DisplayTV"		"Fjernsyn"
 		"GameUI_Brightness"		"Lysstyrke"
-		"GameUI_CrosshairBehavior"		"Sigtekornsadfærd"
-		"GameUI_CrosshairBehaviorStatic"	"Statisk"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamisk"
 
 		"GameUI_FriendlyWarning"			"Advarsel om egenbeskydning på sigtekornet"
 		"GameUI_FriendlyWarning_Desc"		"Vis en advarsel på sigtekornet, når du sigter på en allieret."
-
-		"GameUI_CrosshairStyle"			"Sigtekornstype"
-		"GameUI_CrosshairStyleDefault"			"Standard"
-		"GameUI_CrosshairStyleDefaultStatic"	"Standard statisk"
-		"GameUI_CrosshairStyleClassic"			"Klassisk"
-		"GameUI_CrosshairStyleClassicDyn"		"Klassisk dynamisk"
-		"GameUI_CrosshairStyleClassicStatic"	"Klassisk statisk"
-		"GameUI_CrosshairStyleLegacy"			"Oprindelig"
 
 		"GameUI_CrosshairStyle_Friendly"		"Advarsel om egenbeskydning"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Altid fra"
 		"GameUI_CrosshairFriendlyWarning_Default" "Kun på standardsigtekorn"
 		"GameUI_CrosshairFriendlyWarning_On"	"Altid til"
-
 
 		"GameUI_CrosshairIFF"	"Mål-ID på sigtekorn"
 		"GameUI_CrosshairIFFOn"	"Til"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Omrids"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Sigtekornsstørrelse"
-		"GameUI_CrosshairColor"		"Sigtekornsfarve"
 		"GameUI_SniperCrosshairThickness" "Linjetykkelse i sigte"
 		"GameUI_ColorSliders"		"Farver"
 		"GameUI_ColorQuality"		"Farvekvalitet"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Alfa på ydre del"
 		"GameUI_SplitRatio" 		"Størrelsesforhold på opdelt skærm"
 		"GameUI_TStyle" 			"T-stil"
-		"GameUI_ShowWeaponGap" 		"Våben i brug påvirker afstand"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Mellemrummet i sigtekornet opdateres dynamisk baseret på det aktuelt udstyrede våben."
 		"GameUI_ShowObserverCrosshair" 	"Vis spillersigtekorn"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Vis andre spilleres sigtekorn, mens du er tilskuer."
 		"GameUI_Everyone" 			"Alle"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Skal vi vise hjælpesigtekornet for lokkegranater? Hvis ja, hvor længe skal vi vente, efter splitten trækkes ud, før vi viser det?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Nulstil alle sigtekornsværdier til standardindstillingerne."
-		"GameUI_Xhair_Undo_Tooltip" 		"Fortryd nylige ændringer til sigtekorn."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Del eller importer sigtekornskode."
-		"GameUI_Xhair_Code_Popup"			"Del eller importer"
-		"GameUI_Xhair_Code_Invalid"			"Ugyldig eller gammel sigtekornskode"
-		"GameUI_Xhair_Import_Code"			"Importer"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importer sigtekornet fra sidst, du spillede CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importer fra CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Nulstil alle sigtekornsværdier til standardindstillingerne."
+		"GameUI_Xhair_Undo_Tooltip" 			"Fortryd nylige ændringer til sigtekorn."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Del eller importer sigtekornskode."
+		"GameUI_Xhair_Code_Popup"				"Del eller importer"
+		"GameUI_Xhair_Code_Invalid"				"Ugyldig eller gammel sigtekornskode"
+		"GameUI_Xhair_Import_Code"				"Importer"
 		"tooltip_copycrosshair"				"Kopier sigtekorn"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Erstat nuværende sigtekorn?"
  
@@ -6202,8 +6184,8 @@
 		"musickit_shockone_01_desc"				"Slå dig løs med ShockOnes energiske tromme- og basnummer \"Voices\". Musikken gør dig klar til at levere i de afgørende øjeblikke, med slagkraftige basgange, som tager dig helt til MVP."
 		"coupon_shockone_01"					"Musiksæt | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"StatTrak™-musiksæt | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -6216,12 +6198,6 @@
 		"quest_desc"								" "
 
 		"quest_commandverb_default"					"Få"
-
-		"quest_action_plural_act_kill_human"		"drab"
-		"quest_action_singular_act_kill_human"		"drab"
-
-		"quest_action_plural_act_win_round"			"rundesejre"
-		"quest_action_singular_act_win_round"		"rundesejr"	
 
 		////
 
@@ -38364,7 +38340,6 @@ bare glem alt om Proseccoen."
 		"SFUI_GameMode_Workshop"				"Værksted"
 		"SFUI_GameMode_new_user_training"		"Træningsdag"
 		"SFUI_GameMode_retakes"					"Retakes"
-
 		"ForceNewUserTraining_title"			"Træningsdag"
 		"ForceNewUserTraining_text"				"Er du klar til en kort træningssession?"
 
@@ -38706,7 +38681,6 @@ bare glem alt om Proseccoen."
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Dust II – forhåndsvisning"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient – forhåndsvisning"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno – forhåndsvisning"
@@ -41578,9 +41552,6 @@ bare glem alt om Proseccoen."
 		"SFUI_match_abort_match_network_event"	"En netværksafbrydelse har medført, at kampen annulleres.\nKampen påvirker ikke dit færdighedsniveau."
 		"SFUI_match_abort_match_vac_live"	"VAC Live har registreret en snyder og afsluttet kampen.\nDenne kamp påvirker ikke din færdighedsgruppe."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 og eventuelle gruppemedlemmer har fået en VACNET-nedkøling."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET har registreret uregelmæssigt gameplay, og kampen er blevet annulleret."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Ingen fremskridt vil blive tildelt for denne kamp, fordi en spiller i din gruppe blev udelukket."
 		"SFUI_match_abort_match_missing_player"	" Denne kamp annulleres, da en spiller aldrig tilsluttede."
 		"SFUI_match_abort_match_player_abandoned"	" Denne kamp annulleres, da en spiller forlod spillet."
@@ -41769,9 +41740,6 @@ bare glem alt om Proseccoen."
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"USB-stik hentet.\nInstallerer virus nu!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"USB-stik 2 klar!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virus-stik hentet!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"UDSTYRSVÆRDI"
 		"SFUIHUD_Spectate_TeamMoney"	"HOLDPENGE"
 		"SFUIHUD_Spectate_TeamEQValue"	"UDSTYRSVÆRDI FOR HOLD"
@@ -43231,7 +43199,6 @@ bare glem alt om Proseccoen."
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Klan-tag fra Steam-gruppe"
 		"SFUI_Settings_ClanTag_None"								"Intet hold-tag"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47761,7 +47728,6 @@ bare glem alt om Proseccoen."
 		"AddFriend_tooltip"						"Tilføj ven"
 		"FriendsLobby_tooltip"					"Lær mere om lobbyer"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} lobby} other{{d:lobby_count} lobbyer}}"
 
 
@@ -48694,12 +48660,6 @@ bare glem alt om Proseccoen."
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Sigtekorn"
-		"settings_crosshair_info"			"Tilpas størrelsen, formen og farven på dit sigtekorn. Del sigtekornskoden med venner, eller prøv en andens indstillinger."
-		"settings_snipers_xhair"			"Kikkertsigter"
-		"settings_grenadecrosshair_short"	"Granatsigte"
-		"settings_grenadecrosshair"			"Hjælpesigtekorn til granater"
-		"settings_grenadecrosshair_info"	"Et hjælpesigtekorn til at line granatkast op"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Genstand"
@@ -49109,9 +49069,6 @@ bare glem alt om Proseccoen."
 		"tooltip_navbar_report_server"	"Rapportér server"
 		"tooltip_navbar_stats"			"Se alle dine kampstatistikker samlet ét sted"
 		"tooltip_navbar_store"			"Anskaf genstande i spillet"
-		"tooltip_navbar_vacnet"			"Åbn VACNet-mærkningsportalen"
-
-
 		"tooltip_inspect_weapon_model"	"Inspicer våbenmodel"
 		"tooltip_inspect_weapon_model_faction"	"Inspicer spillermodel"
 		"tooltip_inspect_play_mvp_anthem"	"Afspil MVP-slagsang"
@@ -49170,7 +49127,6 @@ bare glem alt om Proseccoen."
 		"tooltip_xp_locked"				"Prime-status kræves for at tjene XP. Køb Prime-statusopgraderingen for at låse op for din rang."
 		"tooltip_join_public_lobby"		"Tilslut offentlig lobby"
 		"tooltip_suggested_lobby"		"Denne lobby er kun åben for dens Steam-gruppemedlemmer."
-
 		"tooltip_invite"				"Inviter ven til at spille"
 		"tooltip_disabled_invite"		"Annuller søgning efter ven"
 		"tooltip_Join"					"Tilslut ven"
@@ -49198,7 +49154,6 @@ bare glem alt om Proseccoen."
 		"tooltip_friend_invited_you"	"<b>Invitation</b> fra <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Se alle lobbyinvitationer"
-
 		"tooltip_short_invite"				"Inviter"
 		"tooltip_short_Join"				"Deltag"
 		"tooltip_short_watch"				"Se på"
@@ -49718,9 +49673,6 @@ bare glem alt om Proseccoen."
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} TIL {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Seere: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -49843,8 +49795,6 @@ bare glem alt om Proseccoen."
 
 		"rankup_redemption_case_warning"							"Kræver en købt nøgle for at åbne"
 		"rankup_redemption_store_claimed"							"INDLØST"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -51674,10 +51624,6 @@ bare glem alt om Proseccoen."
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> i <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Dræb en fjende med {s:item1} i <b>{s:gamemode}: {s:location}</b>.} other{Dræb fjender med {s:item1} i <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"...med {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Dræb en fjende med {s:item1}.} other{Dræb fjender med {s:item1}.}}"
@@ -51735,7 +51681,7 @@ bare glem alt om Proseccoen."
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Vind en runde i <b>{s:gamemode}: {s:location}</b>.} other{Vind runder i <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Vind en runde} other{Vind runder}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -51743,9 +51689,8 @@ bare glem alt om Proseccoen."
 		"tooltip_kick_player"			"Smid spiller ud fra lokal server"		
 		"tooltip_short_viewaddon"			"Vis tilpasset bane"
 		"tooltip_short_kick_player"			"Smid ud"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

@@ -15,26 +15,19 @@
 		"GameUI_DisplayMonitor"		"Dataskjerm"
 		"GameUI_DisplayTV"		"TV"
 		"GameUI_Brightness"		"Lysstyrke"
-		"GameUI_CrosshairBehavior"		"Trådkorsets oppførsel"
-		"GameUI_CrosshairBehaviorStatic"	"Statisk"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamisk"
 
 		"GameUI_FriendlyWarning"			"Advarsel om vennlig ild på trådkorset"
 		"GameUI_FriendlyWarning_Desc"		"Vis et advarsel på trådkorset når du sikter på en alliert."
 
-		"GameUI_CrosshairStyle"			"Trådkorsets stil"
-		"GameUI_CrosshairStyleDefault"			"Standard"
-		"GameUI_CrosshairStyleDefaultStatic"	"Standard statisk"
-		"GameUI_CrosshairStyleClassic"			"Klassisk"
-		"GameUI_CrosshairStyleClassicDyn"		"Klassisk dynamisk"
-		"GameUI_CrosshairStyleClassicStatic"	"Klassisk statisk"
-		"GameUI_CrosshairStyleLegacy"			"Tradisjonelt"
+		"GameUI_CrosshairStyle"					"Stil"
 
+		"GameUI_CrosshairStyle4"	"Statisk kryss"
+		"GameUI_CrosshairStyle0_Tooltip"	"Dynamisk kryss"
+		"GameUI_CrosshairStyle4_Tooltip"	"Statisk kryss"
 		"GameUI_CrosshairStyle_Friendly"		"Advarsel om vennlig ild"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Alltid av"
 		"GameUI_CrosshairFriendlyWarning_Default" "Kun på standard trådkors"
 		"GameUI_CrosshairFriendlyWarning_On"	"Alltid på"
-
 
 		"GameUI_CrosshairIFF"	"Trådkorsets mål-ID"
 		"GameUI_CrosshairIFFOn"	"På"
@@ -49,10 +42,11 @@
 		"GameUI_CrosshairRecoil_Desc"	"Trådkorset forlater midten av skjermen for å følge våpenets rekylmønster."
 		"GameUI_CrosshairThickness"	"Tykkelse"
 		"GameUI_CrosshairGap"		"Avstand"
+		"GameUI_CrosshairUpdated_Style"	"Nye trådkorsstiler lagt til."
 		"GameUI_CrosshairOutline"	"Omriss"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Trådkorsets størrelse"
-		"GameUI_CrosshairColor"		"Trådkorsets farge"
+		"GameUI_CrosshairColor"		"Farge og gjennomsiktighet"
 		"GameUI_SniperCrosshairThickness" "Linjetykkelse i sikte"
 		"GameUI_ColorSliders"		"Farger"
 		"GameUI_ColorQuality"		"Fargekvalitet"
@@ -65,9 +59,9 @@
 		"GameUI_SplitInnerAlpha" 	"Alfa på indre del"
 		"GameUI_SplitOuterAlpha" 	"Alfa på ytre del"
 		"GameUI_SplitRatio" 		"Skillets størrelsesforhold"
+		"GameUI_DynamicSpreadDistanceLimit" "Dynamisk spredningsgrense"
+		"GameUI_DynamicSpreadDistanceLimit_Tooltip" "Dynamisk spredningsgrense"
 		"GameUI_TStyle" 			"T-stil"
-		"GameUI_ShowWeaponGap" 		"Våpen i bruk påvirker avstand"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Avstanden i trådkorset oppdateres dynamisk basert på hvilket våpen som er i bruk."
 		"GameUI_ShowObserverCrosshair" 	"Vis spilleres trådkors"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Vis andre spilleres trådkors mens du er tilskuer."
 		"GameUI_Everyone" 			"Alle"
@@ -91,20 +85,24 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Skal peilekorset vises for lokkegranater? I så fall, hvor lang tid skal det gå før det vises etter at splinten trekkes ut."
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Tilbakestill alle trådkors-verdier til standard."
-		"GameUI_Xhair_Undo_Tooltip" 		"Angre nylige endringer av trådkorset."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Del eller importer en trådkorskode."
-		"GameUI_Xhair_Code_Popup"			"Del eller importer"
-		"GameUI_Xhair_Code_Invalid"			"Ugyldig eller gammel trådkorskode"
-		"GameUI_Xhair_Import_Code"			"Importer"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importer trådkorset fra forrige gang du spilte CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importer fra CS:GO"
+		"GameUI_Xhair_Reset_Tooltip" 			"Tilbakestill alle trådkors-verdier til standard."
+		"GameUI_Xhair_Undo_Tooltip" 			"Angre nylige endringer av trådkorset."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Del eller importer en trådkorskode."
+		"GameUI_Xhair_Code_Popup"				"Del eller importer"
+		"GameUI_Xhair_Code_Invalid"				"Ugyldig eller gammel trådkorskode"
+		"GameUI_Xhair_Import_Code"				"Importer"
+		"GameUI_Xhair_DynamicPreview_Tooltip"			"Slå av/på dynamisk forhåndsvisning av trådkorset."
+		"GameUI_Xhair_DynamicPreview_Enabled"	"Stopp dynamisk forhåndsvisning"
+		"GameUI_Xhair_DynamicPreview_Disabled"	"Start dynamisk forhåndsvisning"
 
 		"tooltip_copycrosshair"				"Kopier trådkors"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Erstatte gjeldende trådkors?"
  
 		"GameUI_Confirm_Write_Setting_Title"	"Forespørsel om å endre innstillinger"
 		"GameUI_Confirm_Write_Setting_Text"		"Dette workshopkartet, «{s:mapname}», vil endre innstillingene dine. Dette kan omfatte endringer av trådkors, radar, lyd og annet. Vil du tillate disse endringene?"
+
+		"GameUI_ColorPicker_New"				"Ny"
+		"GameUI_ColorPicker_Current"			"Gjeldende"
 
 		"settings_damage_prediction"			"Skadeforutsigelse"
 		"settings_damage_prediction_info"		"Spiller umiddelbart av de lydlige/visuelle effektene av skade uten å vente på bekreftelse fra tjeneren. Skadeforutsigelse kan få skyting til å føles mye mer responsiv, men kan medføre feil (f.eks. på grunn av rykning eller sakking ved treff eller dødsfall som klienten ikke er klar over enda). Skadeforutsigelse er ikke aktiv når man har høy ping."
@@ -2795,6 +2793,8 @@
 		"Attrib_SprayTintValue_18"					"Krigsgriserosa"
 		"Attrib_SprayTintValue_19"					"Haihvit"
 
+		"Attrib_HatchDate"							"Klekkedato: %s1"
+
 		//-------------------------------------------------------------------------------------------
 
 		"CSGO_Operation_Scorecard_Title"			"Konkurransepoengtavle"
@@ -2980,6 +2980,8 @@
 		//
 
 		"CSGO_official_leaderboard_mission_embedded"	"Oppdragsledertavler"
+
+		"CSGO_official_leaderboard_rush_solo"		"Venners ledertavle"
 
 		"CSGO_official_leaderboard_survival_solo"	"Solo – Venneledertavler"
 		"CSGO_official_leaderboard_survival_solo_next"		"Vis tropper"
@@ -6163,8 +6165,9 @@
 		"musickit_shockone_01_desc"				"Slå deg løs med ShockOnes energiske drum and bass-plate «Voices». Denne musikken gjør deg klar til å levere når det virkelig gjelder, med slagkraftige basslinjer som fører deg til mang en MVP."
 		"coupon_shockone_01"					"Musikksett | ShockOne – Voices"
 		"coupon_shockone_01_stattrak"			"Musikksett (StatTrak™) | ShockOne – Voices"
-
-//////////////////
+		
+		"musickit_starjunk95_01"				"Starjunk 95 – Industrial Sunset Memories"
+		//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -6177,12 +6180,6 @@
 		"quest_desc"								""
 
 		"quest_commandverb_default"					"Få"
-
-		"quest_action_plural_act_kill_human"		"drap"
-		"quest_action_singular_act_kill_human"		"drap"
-
-		"quest_action_plural_act_win_round"			"rundeseiere"
-		"quest_action_singular_act_win_round"		"rundeseier"	
 
 		////
 
@@ -37817,7 +37814,7 @@
 		"Store_Misc"			"DIVERSE"
 		"Store_Bundles"			"PAKKER"
 
-		"Store_Price_New"		"NY!"
+		"Store_Price_New"		"NYTT!"
 		"Store_Not_Released"	"KOMMER SNART"
 		"Store_Sealed"			"FORSEGLET"
 		"Store_Price_Sale"		"SALG!"
@@ -38118,7 +38115,6 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Treningsdag"
 		"SFUI_GameMode_retakes"					"Motangrep"
-
 		"ForceNewUserTraining_title"			"Treningsdag"
 		"ForceNewUserTraining_text"				"Er du klar for en kort treningsøkt?"
 
@@ -38460,7 +38456,7 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
+		"SFUI_MAP_pet_photo_park"	"Picnic"
 		"SFUI_Map_workshop_preview_dust2"	"Dust II – forhåndsvisning"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient – forhåndsvisning"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno – forhåndsvisning"
@@ -39011,7 +39007,7 @@
 		"SFUI_Missions_Title_Global_Active"	    "Aktivt Blitz-oppdrag"
 		"SFUI_Missions_Title_Global_Time_Left"	"Slutter om %s1 minutter"
 		"SFUI_Missions_Title_Global_Upcoming"	"Kommende Blitz-oppdrag"
-		"SFUI_Missions_New"	                    "NY!"
+		"SFUI_Missions_New"	                    "NYTT!"
 		"SFUI_Missions_Hint_Get_More"	        "Oppdrag slippes på slutten av kamper. Spill for å få oppdrag."
 		"SFUI_Missions_Hint_Mission_Full"	    "Fullfør tilordnede oppdrag for å tjene nevnte belønninger."
 		"SFUI_Missions_Delete"                  "Slett oppdrag"
@@ -41328,9 +41324,6 @@
 		"SFUI_match_abort_match_network_event"	"Et nettverksavbrudd har ført til at kampen er blitt avbrutt.\nDenne kampen kommer ikke til å påvirke ferdighetsratingen."
 		"SFUI_match_abort_match_vac_live"	"VAC Live har oppdaget en juksemaker og avsluttet kampen.\nDenne kampen kommer ikke til å påvirke ferdighetsratingen din."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 og eventuelle gruppemedlemmer har fått VACNET-nedkjølinger."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET har oppdaget uregelmessig spilling og har avbrutt kampen."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Du får ingen fremdrift fra denne kampen ettersom en spiller i gruppen din ble utestengt."
 		"SFUI_match_abort_match_missing_player"	" Denne kampen blir avbrutt fordi en spiller aldri koblet til."
 		"SFUI_match_abort_match_player_abandoned"	" Kampen avbrytes fordi en spiller koblet fra."
@@ -41520,8 +41513,7 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Minnepinne 2 er klar!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virus-minnepinne hentet!"	
 
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
 "SFUIHUD_Spectate_Equipment"	"UTSTYRSVERDI"
 		"SFUIHUD_Spectate_TeamMoney"	"LAGPENGER"
 		"SFUIHUD_Spectate_TeamEQValue"	"LAGETS UTSTYRSVERDI"
@@ -42981,7 +42973,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Klantagg fra Steam-gruppe"
 		"SFUI_Settings_ClanTag_None"								"Ingen lagtagg"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47511,7 +47502,6 @@
 		"AddFriend_tooltip"						"Legg til venn"
 		"FriendsLobby_tooltip"					"Les mer om lobbyer"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} lobby} other{{d:lobby_count} lobbyer}}"
 
 
@@ -48413,6 +48403,7 @@
 		"settings_video"			"Video"
 		"settings_audio"			"Lyd"
 		"settings_new"				"Nytt"
+		"settings_updated"			"Oppdatert"
 		"settings_about"			"Medvirkende"
 		"settings_search"			"Søk"
 		"settings_keyboard_mouse_section"	"Tastatur- og museinnstillinger"
@@ -48443,12 +48434,7 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Trådkors"
-		"settings_crosshair_info"			"Tilpass trådkorsets størrelse, form og farge. Del trådkorskoden med venner eller prøv noen andres innstillinger."
-		"settings_snipers_xhair"			"Kikkertsikter"
-		"settings_grenadecrosshair_short"	"Granatsikte"
-		"settings_grenadecrosshair"			"Peilekors for granater"
-		"settings_grenadecrosshair_info"	"Et trådkors for å peile og stille opp granatkast."
+		"settings_crosshair_sniper"			"Kikkertsikter"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / nettbrett"
 		"settings_items_section"			"Gjenstand"
@@ -48858,9 +48844,6 @@
 		"tooltip_navbar_report_server"	"Rapporter tjener"
 		"tooltip_navbar_stats"			"Se all kampstatistikken din på ett sted"
 		"tooltip_navbar_store"			"Skaff deg gjenstander i spillet"
-		"tooltip_navbar_vacnet"			"Åpne VACNet-merkingsportalen"
-
-
 		"tooltip_inspect_weapon_model"	"Inspiser våpenmodell"
 		"tooltip_inspect_weapon_model_faction"	"Inspiser spillermodell"
 		"tooltip_inspect_play_mvp_anthem"	"Spill av MVP-sangen"
@@ -48919,7 +48902,6 @@
 		"tooltip_xp_locked"				"Prime-status kreves for å få XP. Kjøp Prime-oppgraderingen for å låse opp rangen."
 		"tooltip_join_public_lobby"		"Bli med i offentlig lobby"
 		"tooltip_suggested_lobby"		"Denne lobbyen er kun åpen for dens Steam-gruppemedlemmer."
-
 		"tooltip_invite"				"Inviter venn til å spille"
 		"tooltip_disabled_invite"		"Avbryt søk etter venn"
 		"tooltip_Join"					"Bli med venn"
@@ -48947,7 +48929,6 @@
 		"tooltip_friend_invited_you"	"<b>Invitasjon</b> fra <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Se alle lobbyinvitasjoner"
-
 		"tooltip_short_invite"				"Inviter"
 		"tooltip_short_Join"				"Bli med"
 		"tooltip_short_watch"				"Se på"
@@ -49468,9 +49449,6 @@
 
 		"Scoreboard_Time_Timeout"						"PAUSE {s:team_name} ({s:s_gametime_time})"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Seere: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -49593,8 +49571,9 @@
 
 		"rankup_redemption_case_warning"							"Du trenger en kjøpt nøkkel for å åpne"
 		"rankup_redemption_store_claimed"							"MOTTATT"	
+		"rankup_redemption_store_expired"							"UTLØPT"	
 
-
+		"expired_itemdef"											"Utløpt"
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -51416,10 +51395,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}:</b> <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{<b>{s:gamemode}: {s:location}</b> – drep en fiende med {s:item1}.} other{<b>{s:gamemode}: {s:location}</b> – drep fiender med {s:item1}.}}"
 		"quest_11000_var_partial:f" 					"… med {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Drep en fiende med {s:item1}} other{Drep fiender med {s:item1}}}"
@@ -51477,7 +51452,7 @@
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{<b>{s:gamemode}: {s:location}</b> – vinn en runde.} other{<b>{s:gamemode}: {s:location}</b> – vinn runder.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Vinn en runde} other{Vinn runder}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -51485,9 +51460,14 @@
 		"tooltip_kick_player"			"Kast spiller ut fra lokal tjener"		
 		"tooltip_short_viewaddon"			"Vis tilpasset kart"
 		"tooltip_short_kick_player"			"Kast ut"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+"pet_photo_booth_adjust_brightness"	"Lysstyrke"
+"pet_photo_booth_reset"				"Tilbakestill"
+		"pet_photo_booth_setting_filters" 			"Filtre"
+		"pet_photo_booth_setting_stickers" 			"Klistremerker"
+		"pet_photo_booth_setting_team" 				"Lag"
+"pet_photo_caption_filter"				"Filter"
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

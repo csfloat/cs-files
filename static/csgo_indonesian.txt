@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Monitor"
 		"GameUI_DisplayTV"		"Televisi"
 		"GameUI_Brightness"		"Kecerahan"
-		"GameUI_CrosshairBehavior"		"Perilaku Crosshair"
-		"GameUI_CrosshairBehaviorStatic"	"Statis"
-		"GameUI_CrosshairBehaviorDynamic"	"Dinamis"
 
 		"GameUI_FriendlyWarning"			"Peringatan Friendly Fire pada Crosshair"
 		"GameUI_FriendlyWarning_Desc"		"Tampilkan peringatan pada garis bidik saat membidik teman."
-
-		"GameUI_CrosshairStyle"			"Jenis Crosshair"
-		"GameUI_CrosshairStyleDefault"			"Default"
-		"GameUI_CrosshairStyleDefaultStatic"	"Statis (Default)"
-		"GameUI_CrosshairStyleClassic"			"Klasik"
-		"GameUI_CrosshairStyleClassicDyn"		"Dinamis (Klasik)"
-		"GameUI_CrosshairStyleClassicStatic"	"Statis (Klasik)"
-		"GameUI_CrosshairStyleLegacy"			"Orisinal"
 
 		"GameUI_CrosshairStyle_Friendly"		"Peringatan Friendly Fire"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Selalu Mati"
 		"GameUI_CrosshairFriendlyWarning_Default" "Hanya di Crosshair Default"
 		"GameUI_CrosshairFriendlyWarning_On"	"Selalu Nyala"
-
 
 		"GameUI_CrosshairIFF"	"ID Target Crosshair"
 		"GameUI_CrosshairIFFOn"	"Nyala"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Garis"
 		"GameUI_CrosshairAlpha"		"Alpha"
 		"GameUI_CrosshairSize"		"Ukuran Crosshair"
-		"GameUI_CrosshairColor"		"Warna Crosshair"
 		"GameUI_SniperCrosshairThickness" "Ketebalan crosshair Sniper Rifle"
 		"GameUI_ColorSliders"		"Warna"
 		"GameUI_ColorQuality"		"Kualitas Warna"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Transparansi Split (Luar)"
 		"GameUI_SplitRatio" 		"Rasio Ukuran Split"
 		"GameUI_TStyle" 			"Jenis T"
-		"GameUI_ShowWeaponGap" 		"Jarak Crosshair Senjata"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Jarak crosshair akan berubah berdasarkan senjata yang sedang digunakan."
 		"GameUI_ShowObserverCrosshair" 	"Tampilkan Crosshair Pemain"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Tampilkan crosshair pemain lain saat menonton."
 		"GameUI_Everyone" 			"Semua"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Apa kamu ingin menampilkan garis bidik untuk Granat Pengecoh? Jika ya, berapa lama waktu tunggu untuk menampilkan garis bidik setelah pin ditarik?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Reset semua pengaturan crosshair ke default."
-		"GameUI_Xhair_Undo_Tooltip" 		"Batalkan perubahan terakhir pada crosshair."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Bagikan atau impor kode crosshair."
-		"GameUI_Xhair_Code_Popup"			"Bagikan atau Impor"
-		"GameUI_Xhair_Code_Invalid"			"Kode crosshair tidak valid"
-		"GameUI_Xhair_Import_Code"			"Impor"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Impor crosshair dari terakhir kali kamu bermain CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Impor dari CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Reset semua pengaturan crosshair ke default."
+		"GameUI_Xhair_Undo_Tooltip" 			"Batalkan perubahan terakhir pada crosshair."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Bagikan atau impor kode crosshair."
+		"GameUI_Xhair_Code_Popup"				"Bagikan atau Impor"
+		"GameUI_Xhair_Code_Invalid"				"Kode crosshair tidak valid"
+		"GameUI_Xhair_Import_Code"				"Impor"
 		"tooltip_copycrosshair"				"Salin Crosshair"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Ganti crosshair saat ini?"
  
@@ -5969,8 +5951,8 @@
 		"musickit_shockone_01_desc"				"Lepaskanlah dirimu dengan irama drum dan bass berenergi tinggi dari ShockOne, \"Voices.\" Musik ini siap membantumu memberikan performa terbaik di saat-saat genting dengan membawa irama bass yang menghentak, yang akan membawakanmu lebih banyak gelar MVP."
 		"coupon_shockone_01"					"Kit Musik | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Kit Musik StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -5981,12 +5963,6 @@
 		"quest"										"Misi"
 
 		"quest_commandverb_default"					"Dapatkan"
-
-		"quest_action_plural_act_kill_human"		"kill"
-		"quest_action_singular_act_kill_human"		"kill"
-
-		"quest_action_plural_act_win_round"			"ronde dimenangkan"
-		"quest_action_singular_act_win_round"		"ronde dimenangkan"	
 
 		////
 
@@ -36399,7 +36375,6 @@ melawan FaZe."
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Hari Pelatihan"
 		"SFUI_GameMode_retakes"					"Retake"
-
 		"ForceNewUserTraining_title"			"Hari Pelatihan"
 		"ForceNewUserTraining_text"				"Apa kamu siap untuk melanjutkan ke sesi latihan singkat?"
 
@@ -36741,7 +36716,6 @@ melawan FaZe."
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Pratinjau Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Pratinjau Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Pratinjau Inferno"
@@ -39593,9 +39567,6 @@ melawan FaZe."
 		"SFUI_match_abort_match_network_event"	"Interupsi pada jaringan mengakibatkan pertandingan dibatalkan.\nPertandingan ini tidak akan mempengaruhi Rating Skill kamu."
 		"SFUI_match_abort_match_vac_live"	"VAC Live mendeteksi adanya cheater dan mengakhiri pertandingan.\nPertandingan ini tidak akan memengaruhi Kelasmu."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 dan anggota party lainnya telah menerima penalti VACnet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet mendeteksi adanya permainan yang tidak biasa dan telah membatalkan pertandingan."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Tidak ada progres yang akan diberikan untuk pertandingan ini karena pemain di party-mu terkena ban."
 		"SFUI_match_abort_match_missing_player"	" Pertandingan dibatalkan karena ada pemain yang tidak dapat terhubung."
 		"SFUI_match_abort_match_player_abandoned"	" Pertandingan dibatalkan karena ada pemain yang terputus."
@@ -39777,9 +39748,6 @@ melawan FaZe."
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"USB diambil.\nMenginstall virus!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"USB 2 siap!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"USB virus diambil!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"NILAI PERALATAN"
 		"SFUIHUD_Spectate_TeamMoney"	"UANG TIM"
 		"SFUIHUD_Spectate_TeamEQValue"	"NILAI EQ TIM"
@@ -41239,7 +41207,6 @@ melawan FaZe."
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag Klan Grup Steam"
 		"SFUI_Settings_ClanTag_None"								"Tidak ada tag tim"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -45760,7 +45727,6 @@ melawan FaZe."
 		"AddFriend_tooltip"						"Tambah Teman"
 		"FriendsLobby_tooltip"					"Pelajari lebih lanjut tentang lobi"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{d:lobby_count} Lobi "
 
 
@@ -46689,12 +46655,6 @@ melawan FaZe."
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Crosshair"
-		"settings_crosshair_info"			"Kustomisasi ukuran, bentuk, dan warna garis bidik. Bagikan kode crosshair milikmu ke teman atau coba pengaturan crosshair pemain lain."
-		"settings_snipers_xhair"			"Penglihatan Sniper"
-		"settings_grenadecrosshair_short"	"Garis Bidik Granat"
-		"settings_grenadecrosshair"			"Garis Bidik Granat"
-		"settings_grenadecrosshair_info"	"Garis bidik untuk membantumu ketika melempar granat."
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Item"
@@ -47104,9 +47064,6 @@ melawan FaZe."
 		"tooltip_navbar_report_server"	"Laporkan server"
 		"tooltip_navbar_stats"			"Lihat semua statistik pertandinganmu di satu tempat"
 		"tooltip_navbar_store"			"Dapatkan semua item dalam game"
-		"tooltip_navbar_vacnet"			"Buka portal pelabelan VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Periksa model senjata"
 		"tooltip_inspect_weapon_model_faction"	"Periksa model pemain"
 		"tooltip_inspect_play_mvp_anthem"	"Mainkan musik MVP"
@@ -47165,7 +47122,6 @@ melawan FaZe."
 		"tooltip_xp_locked"				"Status Prime diperlukan untuk mendapatkan XP. Beli Upgrade Status Prime untuk membuka Ranking."
 		"tooltip_join_public_lobby"		"Gabung ke lobi publik"
 		"tooltip_suggested_lobby"		"Lobi ini hanya terbuka untuk anggota Grup Steam-nya."
-
 		"tooltip_invite"				"Undang teman untuk bermain"
 		"tooltip_disabled_invite"		"Batalkan pencarian untuk mengundang teman"
 		"tooltip_Join"					"Gabung dengan teman"
@@ -47193,7 +47149,6 @@ melawan FaZe."
 		"tooltip_friend_invited_you"	"<b>Undang</b> dari <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Lihat semua undangan lobi"
-
 		"tooltip_short_invite"				"Undang"
 		"tooltip_short_Join"				"Gabung"
 		"tooltip_short_watch"				"Tonton"
@@ -47686,9 +47641,6 @@ melawan FaZe."
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} TO {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Penonton: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -47810,8 +47762,6 @@ melawan FaZe."
 
 		"rankup_redemption_case_warning"							"Membutuhkan kunci yang dibeli untuk membukanya"
 		"rankup_redemption_store_claimed"							"DIAMBIL"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -49628,10 +49578,6 @@ melawan FaZe."
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> di <b>{s:location}</b>"
-		"mission_directive:f"							"<b>{d:mission-points}</b> {s:action}"
- 		"mission_directive_progress:f"					"{d:mission-progress}/<b>{d:mission-points}</b> {s:action}"
-
-
 		"quest_11000_var_desc:f"	  					"Dapatkan satu atau beberapa kill dengan {s:item1} di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11000_var_partial:f" 					"...menggunakan {s:item1}."
 		"quest_11000_var_ingame:f"	  					"Dapatkan satu atau beberapa kill dengan {s:item1}."
@@ -49689,7 +49635,7 @@ melawan FaZe."
 		"quest_11016_var_desc:f"	 					"Menangkan satu atau beberapa ronde di mode <b>{s:gamemode}: {s:location}</b>."
 		"quest_11016_var_ingame:f"						"Menangkan satu atau beberapa ronde"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -49697,9 +49643,8 @@ melawan FaZe."
 		"tooltip_kick_player"			"Keluarkan pemain dari server lokal"		
 		"tooltip_short_viewaddon"			"Lihat Map Kustom"
 		"tooltip_short_kick_player"			"Keluarkan"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

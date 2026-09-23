@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Màn hình máy tính"
 		"GameUI_DisplayTV"		"Tivi"
 		"GameUI_Brightness"		"Độ sáng"
-		"GameUI_CrosshairBehavior"		"Độ dãn tâm ngắm"
-		"GameUI_CrosshairBehaviorStatic"	"Cố định"
-		"GameUI_CrosshairBehaviorDynamic"	"Linh động"
 
 		"GameUI_FriendlyWarning"			"Hồng tâm cảnh báo bắn đồng đội"
 		"GameUI_FriendlyWarning_Desc"		"Hiện cảnh báo trên hồng tâm khi nhắm vào đồng đội."
-
-		"GameUI_CrosshairStyle"			"Kiểu tâm ngắm"
-		"GameUI_CrosshairStyleDefault"			"Mặc định"
-		"GameUI_CrosshairStyleDefaultStatic"	"Mặc định tĩnh"
-		"GameUI_CrosshairStyleClassic"			"Cổ điển"
-		"GameUI_CrosshairStyleClassicDyn"		"Cổ điển động"
-		"GameUI_CrosshairStyleClassicStatic"	"Cổ điển tĩnh"
-		"GameUI_CrosshairStyleLegacy"			"Kiểu cũ"
 
 		"GameUI_CrosshairStyle_Friendly"		"Cảnh báo bắn đồng đội"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Luôn tắt"
 		"GameUI_CrosshairFriendlyWarning_Default" "Chỉ trên hồng tâm mặc định"
 		"GameUI_CrosshairFriendlyWarning_On"	"Luôn bật"
-
 
 		"GameUI_CrosshairIFF"	"Tên đối tượng tâm ngắm"
 		"GameUI_CrosshairIFFOn"	"Bật"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Viền ngoài"
 		"GameUI_CrosshairAlpha"		"Độ trong suốt"
 		"GameUI_CrosshairSize"		"Kích thước tâm ngắm"
-		"GameUI_CrosshairColor"		"Màu tâm ngắm"
 		"GameUI_SniperCrosshairThickness" "Độ dày tâm ống ngắm bắn tỉa"
 		"GameUI_ColorSliders"		"Màu sắc"
 		"GameUI_ColorQuality"		"Chất lượng màu"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Độ trong suốt khoảng chia (ngoài)"
 		"GameUI_SplitRatio" 		"Tỉ lệ chia tâm"
 		"GameUI_TStyle" 			"Kiểu chữ T"
-		"GameUI_ShowWeaponGap" 		"Độ rộng tâm ngắm tùy vũ khí"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Độ rộng tâm ngắm sẽ cập nhật linh động dựa theo vũ khí đang được sử dụng."
 		"GameUI_ShowObserverCrosshair" 	"Hiện tâm ngắm của người chơi"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Hiện tâm ngắm của người chơi khác trong chế độ khán giả."
 		"GameUI_Everyone" 			"Mọi người"
@@ -91,20 +76,20 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Nên hiển thị đường tâm ngắm lựu đạn cho lựu đạn mồi? Nếu có, thì nên chờ bao lâu sau khi rút chốt để hiện lên."
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Đưa mọi giá trị của tâm ngắm về mặc định."
-		"GameUI_Xhair_Undo_Tooltip" 		"Hoàn tác những thay đổi gần đây trên hồng tâm."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Chia sẻ hoặc nhập một mã hồng tâm."
-		"GameUI_Xhair_Code_Popup"			"Chia sẻ/Nhập vào"
-		"GameUI_Xhair_Code_Invalid"			"Mã tâm súng đã cũ/không hợp lệ"
-		"GameUI_Xhair_Import_Code"			"Nhập"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Nhập tâm ngắm từ lần cuối cùng bạn chơi CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Nhập từ CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Đưa mọi giá trị của tâm ngắm về mặc định."
+		"GameUI_Xhair_Undo_Tooltip" 			"Hoàn tác những thay đổi gần đây trên hồng tâm."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Chia sẻ hoặc nhập một mã hồng tâm."
+		"GameUI_Xhair_Code_Popup"				"Chia sẻ/Nhập vào"
+		"GameUI_Xhair_Code_Invalid"				"Mã tâm súng đã cũ/không hợp lệ"
+		"GameUI_Xhair_Import_Code"				"Nhập"
 		"tooltip_copycrosshair"				"Chép tâm ngắm"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Thay thế tâm ngắm hiện tại?"
  
 		"GameUI_Confirm_Write_Setting_Title"	"Yêu cầu thay đổi thiết lập"
 		"GameUI_Confirm_Write_Setting_Text"		"Bản đồ Workshop ({s:mapname}) muốn thay đổi thiết lập của bạn. Quá trình này có thể bao gồm thay đổi về tâm ngắm, radar, âm thanh và những thiết lập khác. Bạn có cho phép thực hiện thay đổi hay không?"
+
+		"GameUI_ColorPicker_New"				"Mới"
+		"GameUI_ColorPicker_Current"			"Hiện tại"
 
 		"settings_damage_prediction"			"Dự đoán sát thương"
 		"settings_damage_prediction_info"		"Phát ngay lập tức hiệu ứng hình ảnh/âm thanh khi gây sát thương mà không cần chờ máy chủ xác nhận. Dự đoán sát thương cải thiện đáng kể độ nhạy của cảm nhận trải nghiệm bắn, nhưng đi kèm nguy cơ đôi khi sai sót (vd: do trúng đòn, dính đạn, hoặc chết mà phần mềm trò chơi chưa nhận thức được). Dự đoán sát thương sẽ không kích hoạt nếu bạn có ping cao."
@@ -6349,8 +6334,8 @@
 		"musickit_shockone_01_desc"				"Bứt phá với những tiếng trống và bass tràn đầy năng lượng của ShockOne trong \"Voices\". Lý tưởng cho những pha gánh tạ lật kèo, gói âm thanh mang đến những dải bass uy lực và đưa bạn tới nhiều danh hiệu MVP."
 		"coupon_shockone_01"					"Gói âm thanh | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Gói âm thanh StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -6363,12 +6348,6 @@
 		"quest_desc"								" "
 
 		"quest_commandverb_default"					"Đạt"
-
-		"quest_action_plural_act_kill_human"		"lần giết"
-		"quest_action_singular_act_kill_human"		"lần giết"
-
-		"quest_action_plural_act_win_round"			"ván thắng"
-		"quest_action_singular_act_win_round"		"ván thắng"	
 
 		"emptystring"								""
 
@@ -39708,7 +39687,6 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Ngày huấn luyện"
 		"SFUI_GameMode_retakes"					"Retake"
-
 		"ForceNewUserTraining_title"			"Ngày huấn luyện"
 		"ForceNewUserTraining_text"				"Bạn có sẵn sàng tham gia một phiên huấn luyện ngắn không?"
 
@@ -40053,7 +40031,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Xem trước Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Xem trước Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Xem trước Inferno"
@@ -42939,9 +42916,6 @@
 		"SFUI_match_abort_match_network_event"	"Lỗi gián đoạn mạng đã khiến trận đấu bị hủy bỏ.\nTrận đấu này sẽ không ảnh hưởng tới nhóm kỹ năng của bạn."
 		"SFUI_match_abort_match_vac_live"	"VAC Live đã phát hiện người chơi gian lận và kết thúc trận đấu.\nTrận đấu này sẽ không ảnh hưởng nhóm kỹ năng của bạn."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 và bất kỳ thành viên trong nhóm đó đã nhận lệnh tạm nghỉ VACnet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet phát hiện hành vi chơi bất thường và đã hủy trận đấu."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Sẽ không tính bất kỳ tiến độ nào cho trận này vì một người chơi trong nhóm của bạn đã bị cấm."
 		"SFUI_match_abort_match_missing_player"	" Trận đấu đang được hủy do một người chơi không kết nối được."
 		"SFUI_match_abort_match_player_abandoned"	" Trận đấu bị hủy vì một người chơi mất kết nối."
@@ -43130,9 +43104,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Nhận được ổ USB.\nBắt đầu cài đặt virus!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Ổ USB 2 đã sẵn sàng!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Nhận được ổ USB virus!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//HUD: Spectator
@@ -44600,7 +44571,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Nhãn đội Steam"
 		"SFUI_Settings_ClanTag_None"								"Không có nhãn đội"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49149,7 +49119,6 @@
 		"AddFriend_tooltip"						"Thêm bạn"
 		"FriendsLobby_tooltip"					"Tìm hiểu thêm về phòng"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{d:lobby_count} phòng chơi"
 
 
@@ -50082,12 +50051,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Tâm ngắm"
-		"settings_crosshair_info"			"Tùy chỉnh kích thước, hình dạng và màu sắc của bạn. Chia sẻ mã tâm ngắm của bạn với bạn bè hoặc thử sử dụng cài đặt của người khác."
-		"settings_snipers_xhair"			"Tâm ngắm bắn tỉa"
-		"settings_grenadecrosshair_short"	"Vạch ném lựu đạn"
-		"settings_grenadecrosshair"			"Tâm ngắm lựu đạn"
-		"settings_grenadecrosshair_info"	"Đường tâm ngắm giúp bạn có thể canh ném lựu đạn"
 		"settings_radar_section"			"Rađa"
 		"settings_radarandtablet_section"	"Radar / Máy tính bảng"
 		"settings_items_section"			"Vật phẩm"
@@ -50499,9 +50462,6 @@
 		"tooltip_navbar_report_server"	"Tố cáo máy chủ"
 		"tooltip_navbar_stats"			"Xem thông số mọi trận của mình chỉ tại một nơi"
 		"tooltip_navbar_store"			"Nhận vật phẩm trong trò chơi"
-		"tooltip_navbar_vacnet"			"Mở trang gán nhãn hành vi VACnet"
-
-
 		"tooltip_inspect_weapon_model"	"Kiểm tra mô hình vũ khí"
 		"tooltip_inspect_weapon_model_faction"	"Kiểm tra mô hình nhân vật"
 		"tooltip_inspect_play_mvp_anthem"	"Phát nhạc MVP"
@@ -50560,7 +50520,6 @@
 		"tooltip_xp_locked"				"Cần có Prime để nhận điểm kinh nghiệm. Mua gói nâng cấp trạng thái Prime để bỏ khóa cấp của bạn."
 		"tooltip_join_public_lobby"		"Tham gia phòng công khai"
 		"tooltip_suggested_lobby"		"Phòng này chỉ mở cho thành viên nhóm Steam của nó."
-
 		"tooltip_invite"				"Mời bạn bè chơi"
 		"tooltip_disabled_invite"		"Hủy tìm kiếm để mời bạn bè"
 		"tooltip_Join"					"Tham gia bạn bè"
@@ -50588,7 +50547,6 @@
 		"tooltip_friend_invited_you"	"<b>Lời mời</b> từ <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Xem tất cả lời mời phòng chơi"
-
 		"tooltip_short_invite"				"Mời"
 		"tooltip_short_Join"				"Vào"
 		"tooltip_short_watch"				"Xem"
@@ -51120,9 +51078,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} NGỪNG {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Người xem: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -51246,8 +51201,6 @@
 
 		"rankup_redemption_case_warning"							"Bắt buộc cần chìa khóa để mở"
 		"rankup_redemption_store_claimed"							"ĐÃ NHẬN"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -53095,10 +53048,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> — <b>{s:location}</b>"
-		"mission_directive:f"							"<b>{d:mission-points}</b> {s:action}"
- 		"mission_directive_progress:f"					"{d:mission-progress}/<b>{d:mission-points}</b> {s:action}"
-
-
 		"quest_11000_var_desc:f"	  					"Giết bằng {s:item1} trong <b>{s:gamemode}: {s:location}</b>."
 		"quest_11000_var_partial:f" 					"... bằng {s:item1}."
 		"quest_11000_var_ingame:f"	  					"Giết bằng {s:item1}."
@@ -53156,7 +53105,7 @@
 		"quest_11016_var_desc:f"	 					"Thắng ván đấu trong <b>{s:gamemode}: {s:location}</b>."
 		"quest_11016_var_ingame:f"						"Thắng ván đấu"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -53164,9 +53113,8 @@
 		"tooltip_kick_player"			"Đuổi người chơi khỏi máy chủ cục bộ"		
 		"tooltip_short_viewaddon"			"Xem bản đồ tùy biến"
 		"tooltip_short_kick_player"			"Đuổi"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

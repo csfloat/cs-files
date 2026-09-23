@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Datorskärm"
 		"GameUI_DisplayTV"		"TV"
 		"GameUI_Brightness"		"Ljusstyrka"
-		"GameUI_CrosshairBehavior"		"Hårkorsets beteende"
-		"GameUI_CrosshairBehaviorStatic"	"Statiskt"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynamiskt"
 
 		"GameUI_FriendlyWarning"			"Varning i hårkorset om Friendly Fire"
 		"GameUI_FriendlyWarning_Desc"		"Visa en varning i hårkorset när du siktar på en kamrat."
-
-		"GameUI_CrosshairStyle"			"Hårkorsets stil"
-		"GameUI_CrosshairStyleDefault"			"Standard"
-		"GameUI_CrosshairStyleDefaultStatic"	"Standard statisk"
-		"GameUI_CrosshairStyleClassic"			"Klassisk"
-		"GameUI_CrosshairStyleClassicDyn"		"Klassisk dynamisk"
-		"GameUI_CrosshairStyleClassicStatic"	"Klassisk statisk"
-		"GameUI_CrosshairStyleLegacy"			"Originalet"
 
 		"GameUI_CrosshairStyle_Friendly"		"Friendly Fire-varning"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Alltid av"
 		"GameUI_CrosshairFriendlyWarning_Default" "Endast på standardhårkorset"
 		"GameUI_CrosshairFriendlyWarning_On"	"Alltid på"
-
 
 		"GameUI_CrosshairIFF"	"Hårkors-mål-ID"
 		"GameUI_CrosshairIFFOn"	"På"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Kontur"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Hårkorsets storlek"
-		"GameUI_CrosshairColor"		"Hårkorsets färg"
 		"GameUI_SniperCrosshairThickness" "Hårkorstjocklek för prickskyttegevär"
 		"GameUI_ColorSliders"		"Färger"
 		"GameUI_ColorQuality"		"Färgkvalitet"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Alfa på yttre delen"
 		"GameUI_SplitRatio" 		"Storleksförhållande för delad skärm"
 		"GameUI_TStyle" 			"T-stil"
-		"GameUI_ShowWeaponGap" 		"Vapenspecifikt avstånd"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Hårkorsets mellanrum uppdateras dynamiskt beroende på vilket vapen som används."
 		"GameUI_ShowObserverCrosshair" 	"Visa spelarens hårkors"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Visa andra spelares hårkors när du åskådar."
 		"GameUI_Everyone" 			"Alla"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Ska vi visa hjälphårkorset för lockgranater? Om så är fallet, hur länge ska vi vänta efter att ha dragit ur sprinten innan det visas?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Återställ alla hårkorsvärden till standard."
-		"GameUI_Xhair_Undo_Tooltip" 		"Ångra nyliga ändringar av hårkorset."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Dela eller importera en hårkorskod."
-		"GameUI_Xhair_Code_Popup"			"Dela eller importera"
-		"GameUI_Xhair_Code_Invalid"			"Ogiltig eller gammal hårkorskod"
-		"GameUI_Xhair_Import_Code"			"Importera"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importera hårkors från förra gången du spelade CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importera från CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Återställ alla hårkorsvärden till standard."
+		"GameUI_Xhair_Undo_Tooltip" 			"Ångra nyliga ändringar av hårkorset."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Dela eller importera en hårkorskod."
+		"GameUI_Xhair_Code_Popup"				"Dela eller importera"
+		"GameUI_Xhair_Code_Invalid"				"Ogiltig eller gammal hårkorskod"
+		"GameUI_Xhair_Import_Code"				"Importera"
 		"tooltip_copycrosshair"				"Kopiera hårkors"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Ersätt nuvarande hårkors?"
  
@@ -5978,8 +5960,8 @@
 		"musickit_shockone_01_desc"				"Bryt loss med ShockOnes högenergiska drum and bass-skiva Voices. Detta musikpaket innehåller slagkraftiga basgångar som tar dig till MVP, perfekt för att leverera i avgörande ögonblick."
 		"coupon_shockone_01"					"Musikpaket | ShockOne – Voices"
 		"coupon_shockone_01_stattrak"			"Musikpaket (StatTrak™) | ShockOne – Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			" " // Note: This only supports , and .
 
@@ -5990,12 +5972,6 @@
 		"quest"										"Uppdrag"
 
 		"quest_commandverb_default"					"Få"
-
-		"quest_action_plural_act_kill_human"		"dödade"
-		"quest_action_singular_act_kill_human"		"dödad"
-
-		"quest_action_plural_act_win_round"			"rundvinster"
-		"quest_action_singular_act_win_round"		"rundvinst"	
 
 		////
 
@@ -37122,7 +37098,6 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Träningsdag"
 		"SFUI_GameMode_retakes"					"Retakes"
-
 		"ForceNewUserTraining_title"			"Träningsdag"
 		"ForceNewUserTraining_text"				"Är du redo att gå vidare till en kort träningssession?"
 
@@ -37464,7 +37439,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Dust II – förhandsvisning"
 		"SFUI_Map_workshop_preview_ancient"	"Ancient – förhandsvisning"
 		"SFUI_Map_workshop_preview_inferno"	"Inferno – förhandsvisning"
@@ -40325,9 +40299,6 @@
 		"SFUI_match_abort_match_network_event"	"Ett nätverksavbrott har resulterat i att matchen avbröts.\nDen här matchen påverkar inte din skicklighetsnivå."
 		"SFUI_match_abort_match_vac_live"	"VAC Live har upptäckt en fuskare och avslutat matchen.\nDen här matchen påverkar inte din skicklighetsnivå."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 och eventuella gruppmedlemmar har fått en VACNET-cooldown."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNET har upptäckt oregelmässigt spelande och har avbrutit matchen."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Du får inga framsteg från den här matchen eftersom en spelare i din grupp blev avstängd."
 		"SFUI_match_abort_match_missing_player"	" Matchen avbryts för att en spelare inte har anslutit."
 		"SFUI_match_abort_match_player_abandoned"	" Matchen avbryts eftersom en spelare är frånkopplad."
@@ -40516,9 +40487,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Enheten togs tillbaka.\nInstallerar virus nu!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Enhet 2 redo!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virus-enheten togs tillbaka!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"UTRUSTNINGSVÄRDE"
 		"SFUIHUD_Spectate_TeamMoney"	"LAGPENGAR"
 		"SFUIHUD_Spectate_TeamEQValue"	"LAGETS UTRUSTNINGSVÄRDE"
@@ -41978,7 +41946,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Klantagg (Steam-grupp)"
 		"SFUI_Settings_ClanTag_None"								"Ingen lagtagg"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46501,7 +46468,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"AddFriend_tooltip"						"Lägg till vän"
 		"FriendsLobby_tooltip"					"Läs mer om lobbyer"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} lobby} other{{d:lobby_count} lobbyer}}"
 
 
@@ -47430,12 +47396,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Hårkors"
-		"settings_crosshair_info"			"Anpassa ditt hårkors storlek, form, och färg. Dela din hårkorskod med vänner eller prova någon annans inställningar."
-		"settings_snipers_xhair"			"Kikarsikten"
-		"settings_grenadecrosshair_short"	"Granatsikte"
-		"settings_grenadecrosshair"			"Hjälphårkors för granater"
-		"settings_grenadecrosshair_info"	"Ett hjälphårkors för granatkast"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar/platta"
 		"settings_items_section"			"Föremål"
@@ -47845,9 +47805,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_navbar_report_server"	"Anmäl servern"
 		"tooltip_navbar_stats"			"Se all din matchstatistik på en plats"
 		"tooltip_navbar_store"			"Skaffa föremål i spelet"
-		"tooltip_navbar_vacnet"			"Öppna VacNet-märkningsportalen"
-
-
 		"tooltip_inspect_weapon_model"	"Inspektera vapenmodell"
 		"tooltip_inspect_weapon_model_faction"	"Inspektera spelarmodell"
 		"tooltip_inspect_play_mvp_anthem"	"Spela MVP-musik"
@@ -47906,7 +47863,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_xp_locked"				"Prime-status krävs för att tjäna XP. Köp Prime-uppgraderingen för att låsa upp din rankning."
 		"tooltip_join_public_lobby"		"Gå med offentlig lobby"
 		"tooltip_suggested_lobby"		"Denna lobby är endast öppen för medlemmar i deras Steam-grupp."
-
 		"tooltip_invite"				"Bjud in en vän för att spela"
 		"tooltip_disabled_invite"		"Avbryt sökning efter vän"
 		"tooltip_Join"					"Gå med vän"
@@ -47934,7 +47890,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_friend_invited_you"	"<b>Inbjudan</b> från <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Visa alla lobbyinbjudningar"
-
 		"tooltip_short_invite"				"Bjud in"
 		"tooltip_short_Join"				"GÅ MED"
 		"tooltip_short_watch"				"Titta"
@@ -48449,9 +48404,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} TO {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Åskådare: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48573,8 +48525,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 
 		"rankup_redemption_case_warning"							"En köpt nyckel krävs för att öppna"
 		"rankup_redemption_store_claimed"							"HÄMTAT"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50393,10 +50343,6 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> på <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Döda en fiende med {s:item1} i <b>{s:gamemode}: {s:location}</b>.} other{Döda fiender med {s:item1} i <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"... med {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Döda en fiende med {s:item1}.} other{Döda fiender med {s:item1}.}}"
@@ -50454,7 +50400,7 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Vinn en runda i <b>{s:gamemode}: {s:location}</b>.} other{Vinn rundor i <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Vinn en runda} other{Vinn rundor}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50462,9 +50408,8 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_kick_player"			"Sparka ut spelare från lokal server"		
 		"tooltip_short_viewaddon"			"Visa anpassad bana"
 		"tooltip_short_kick_player"			"Sparka ut"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

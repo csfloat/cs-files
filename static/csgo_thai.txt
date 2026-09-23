@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"หน้าจอคอมพิวเตอร์"
 		"GameUI_DisplayTV"		"โทรทัศน์"
 		"GameUI_Brightness"		"ความสว่าง"
-		"GameUI_CrosshairBehavior"		"การแสดงผลของเป้าเล็ง"
-		"GameUI_CrosshairBehaviorStatic"	"คงที่"
-		"GameUI_CrosshairBehaviorDynamic"	"ไดนามิก"
 
 		"GameUI_FriendlyWarning"			"คำเตือนเส้นเป้าเล็งการยิงฝ่ายเดียวกัน"
 		"GameUI_FriendlyWarning_Desc"		"แสดงคำเตือนเมื่อเส้นเป้าเล็งได้ทำการเล็งไปที่ฝ่ายเดียวกัน"
-
-		"GameUI_CrosshairStyle"			"รูปแบบเป้าเล็ง"
-		"GameUI_CrosshairStyleDefault"			"ค่าเริ่มต้น"
-		"GameUI_CrosshairStyleDefaultStatic"	"คงที่แบบค่าเริ่มต้น"
-		"GameUI_CrosshairStyleClassic"			"คลาสสิก"
-		"GameUI_CrosshairStyleClassicDyn"		"ไดนามิกแบบคลาสสิก"
-		"GameUI_CrosshairStyleClassicStatic"	"คงที่แบบคลาสสิก"
-		"GameUI_CrosshairStyleLegacy"			"ดั้งเดิม"
 
 		"GameUI_CrosshairStyle_Friendly"		"คำเตือนการยิงฝ่ายเดียวกัน"
 		"GameUI_CrosshairFriendlyWarning_Off"	"ปิดเสมอ"
 		"GameUI_CrosshairFriendlyWarning_Default" "แสดงเฉพาะตอนเป็นเป้าเล็งแบบค่าเริ่มต้น"
 		"GameUI_CrosshairFriendlyWarning_On"	"เปิดเสมอ"
-
 
 		"GameUI_CrosshairIFF"	"ไอดีเป้าหมายของเป้าเล็ง"
 		"GameUI_CrosshairIFFOn"	"เปิด"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"เส้นขอบ"
 		"GameUI_CrosshairAlpha"		"ความโปร่งแสง"
 		"GameUI_CrosshairSize"		"ขนาดของเป้าเล็ง"
-		"GameUI_CrosshairColor"		"สีของเป้าเล็ง"
 		"GameUI_SniperCrosshairThickness" "ความหนาเส้นเล็งของปืนสไนเปอร์"
 		"GameUI_ColorSliders"		"สี"
 		"GameUI_ColorQuality"		"คุณภาพสี"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"ความโปร่งแสงรอยแยกเป้าเล็งภายนอก"
 		"GameUI_SplitRatio" 		"อัตราส่วนขนาดรอยแยกเป้าเล็ง"
 		"GameUI_TStyle" 			"รูปแบบ T"
-		"GameUI_ShowWeaponGap" 		"แสดงความห่างเป้าเล็งอาวุธที่ใช้อยู่"
-		"GameUI_ShowWeaponGap_Tooltip" 	"ความห่างของเป้าเล็งจะถูกอัปเดตแบบไดนามิกตามอาวุธที่กำลังสวมใส่อยู่ในปัจจุบัน"
 		"GameUI_ShowObserverCrosshair" 	"แสดงเป้าเล็งของผู้เล่น"
 		"GameUI_ShowObserverCrosshair_Tooltip" "แสดงเป้าเล็งของผู้เล่นอื่นขณะกำลังสังเกตการณ์"
 		"GameUI_Everyone" 			"ทุกคน"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "เราควรแสดงแนวเส้นเป้าเล็งระเบิดลวงหรือไม่? หากให้แสดง เราควรรอนานแค่ไหนถึงจะแสดงหลังจากดึงสลักระเบิดแล้ว"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"รีเซ็ตค่าเป้าเล็งทั้งหมดเป็นค่าเริ่มต้น"
-		"GameUI_Xhair_Undo_Tooltip" 		"ยกเลิกการเปลี่ยนแปลงเป้าเล็งล่าสุด"
-		"GameUI_Xhair_CopyCode_Tooltip"		"แบ่งปันหรือนำเข้ารหัสเป้าเล็ง"
-		"GameUI_Xhair_Code_Popup"			"แบ่งปันหรือนำเข้า"
-		"GameUI_Xhair_Code_Invalid"			"รหัสเป้าเล็งไม่ถูกต้องหรือเก่าไป"
-		"GameUI_Xhair_Import_Code"			"นำเข้า"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"นำเข้าเป้ายิงจาก CS:GO ที่คุณเล่นครั้งล่าสุด"
-		"GameUI_Xhair_ImportCSGO"			"นำเข้าจาก CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"รีเซ็ตค่าเป้าเล็งทั้งหมดเป็นค่าเริ่มต้น"
+		"GameUI_Xhair_Undo_Tooltip" 			"ยกเลิกการเปลี่ยนแปลงเป้าเล็งล่าสุด"
+		"GameUI_Xhair_CopyCode_Tooltip"			"แบ่งปันหรือนำเข้ารหัสเป้าเล็ง"
+		"GameUI_Xhair_Code_Popup"				"แบ่งปันหรือนำเข้า"
+		"GameUI_Xhair_Code_Invalid"				"รหัสเป้าเล็งไม่ถูกต้องหรือเก่าไป"
+		"GameUI_Xhair_Import_Code"				"นำเข้า"
 		"tooltip_copycrosshair"				"คัดลอกเป้าเล็ง"
 		"GameUI_Xhair_Copy_Code_Confirm"		"แทนที่เป้าเล็งปัจจุบันหรือไม่?"
  
@@ -6169,8 +6151,8 @@
 		"musickit_shockone_01_desc"				"ปลดปล่อยตัวตนด้วยเพลง \"Voices\" พร้อมเสียงกลองและเบสสุดมันส์ของ ShockOne ที่ถูกจัดเตรียมมาให้คุณพร้อมลุยในช่วงเวลาคลัตช์ ชุดอุปกรณ์เพลงนี้นำเสนอเสียงเบสที่หนักแน่นซึ่งจะช่วยผลักดันให้คุณคว้าตำแหน่ง MVP มาครองได้นับครั้งไม่ถ้วน"
 		"coupon_shockone_01"					"ชุดอุปกรณ์เพลง | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"ชุดอุปกรณ์เพลง StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -6183,12 +6165,6 @@
 		"quest_desc"								" "
 
 		"quest_commandverb_default"					"ทำ"
-
-		"quest_action_plural_act_kill_human"		"การสังหาร"
-		"quest_action_singular_act_kill_human"		"การสังหาร"
-
-		"quest_action_plural_act_win_round"			"การชนะรอบ"
-		"quest_action_singular_act_win_round"		"การชนะรอบ"	
 
 		////
 
@@ -38100,7 +38076,6 @@
 		"SFUI_GameMode_Workshop"				"เวิร์กชอป"
 		"SFUI_GameMode_new_user_training"		"วันฝึกซ้อม"
 		"SFUI_GameMode_retakes"					"โหมดยึดคืน"
-
 		"ForceNewUserTraining_title"			"วันฝึกซ้อม"
 		"ForceNewUserTraining_text"				"คุณพร้อมที่จะเข้าสู่เซสชันการฝึกอบรมสั้น ๆ แล้วหรือไม่?"
 
@@ -38442,7 +38417,6 @@
 		"SFUI_Map_cs_shelter"		"แผนที่ Shelter"
 		"SFUI_Map_de_debris"		"แผนที่ Debris"
 		"SFUI_Map_de_eldorado"		"แผนที่ El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"ตัวอย่าง Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"ตัวอย่าง Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"ตัวอย่าง Inferno"
@@ -41316,9 +41290,6 @@
 		"SFUI_match_abort_match_network_event"	"เครือข่ายหยุดชะงักส่งผลให้แมตช์ถูกยกเลิก\nแมตช์นี้จะไม่ส่งผลต่อเรตติ้งทักษะของคุณ"
 		"SFUI_match_abort_match_vac_live"	"VAC Live ตรวจพบคนโกงและจบแมตช์\nแมตช์นี้จะไม่ส่งผลต่อการจัดแรงก์ทักษะของคุณ"
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 และสมาชิกในปาร์ตี้คนอื่น ๆ ได้ถูกคูลดาวน์จาก VACnet"
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet ตรวจพบเกมเพลย์ที่ผิดปกติและได้ยกเลิกแมตช์แล้ว"
-
 		"SFUI_match_vac_live_partied_with_cheater"	"แมตช์นี้จะไม่ได้รับรางวัลความคืบหน้าเนื่องจากผู้เล่นในปาร์ตี้ของคุณถูกแบน"
 		"SFUI_match_abort_match_missing_player"	" แมตช์กำลังถูกยกเลิกเพราะไม่มีผู้เล่นเชื่อมต่อ"
 		"SFUI_match_abort_match_player_abandoned"	" แมตช์ได้ถูกยกเลิกแล้ว เนื่องจากผู้เล่นถูกตัดการเชื่อมต่อ"
@@ -41507,9 +41478,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"ได้รับทัมสติกแล้ว \nขณะนี้กำลังติดตั้งไวรัส!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"ทัมสติก 2 พร้อม!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"ได้รับทัมสติกไวรัสแล้ว!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"มูลค่าอุปกรณ์"
 		"SFUIHUD_Spectate_TeamMoney"	"เงินทีม"
 		"SFUIHUD_Spectate_TeamEQValue"	"มูลค่าอุปกรณ์อาวุธทีม"
@@ -42969,7 +42937,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"แท็กแคลนของกลุ่ม Steam"
 		"SFUI_Settings_ClanTag_None"								"ไม่มีแท็กทีม"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47499,7 +47466,6 @@
 		"AddFriend_tooltip"						"เพิ่มเพื่อน"
 		"FriendsLobby_tooltip"					"เรียนรู้เพิ่มเติมเกี่ยวกับล็อบบี้"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{d:lobby_count} ล็อบบี้"
 
 
@@ -48428,12 +48394,6 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"เป้าเล็ง"
-		"settings_crosshair_info"			"ปรับแต่งขนาดเส้นเป้าเล็ง รูปร่าง และสีของคุณ แบ่งปันรหัสเป้าเล็งของคุณกับเพื่อนหรือลองใช้การตั้งค่าของคนอื่นดูได้"
-		"settings_snipers_xhair"			"ศูนย์เล็งปืนสไนเปอร์"
-		"settings_grenadecrosshair_short"	"แนวเส้นวิถีระเบิด"
-		"settings_grenadecrosshair"			"แนวเส้นเป้าเล็งระเบิด"
-		"settings_grenadecrosshair_info"	"เส้นเป้าเล็งจะช่วยแสดงแนววิถีการโยนระเบิด"
 		"settings_radar_section"			"เรดาร์"
 		"settings_radarandtablet_section"	"เรดาร์ / แท็บเล็ต"
 		"settings_items_section"			"ไอเท็ม"
@@ -48843,9 +48803,6 @@
 		"tooltip_navbar_report_server"	"รายงานเซิร์ฟเวอร์"
 		"tooltip_navbar_stats"			"ดูสถิติแมตช์ของคุณทั้งหมดในที่เดียว"
 		"tooltip_navbar_store"			"รับไอเท็มในเกม"
-		"tooltip_navbar_vacnet"			"เปิดพอร์ทัลการติดป้าย VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"ตรวจสอบโมเดลอาวุธ"
 		"tooltip_inspect_weapon_model_faction"	"ตรวจสอบโมเดลผู้เล่น"
 		"tooltip_inspect_play_mvp_anthem"	"เล่นเพลงสรรเสริญ MVP"
@@ -48904,7 +48861,6 @@
 		"tooltip_xp_locked"				"คุณจำเป็นต้องมีสถานะไพรม์เพื่อรับ XP สั่งซื้อ Prime Status Upgrade เพื่อปลดระดับของคุณ"
 		"tooltip_join_public_lobby"		"เข้าร่วมล็อบบี้สาธารณะ"
 		"tooltip_suggested_lobby"		"ล็อบบี้นี้เปิดให้เฉพาะสมาชิกกลุ่ม Steam เท่านั้น"
-
 		"tooltip_invite"				"เชิญเพื่อนเพื่อเล่น"
 		"tooltip_disabled_invite"		"ยกเลิกการค้นหาเพื่อเชิญเพื่อน"
 		"tooltip_Join"					"เข้าร่วมกับเพื่อน"
@@ -48932,7 +48888,6 @@
 		"tooltip_friend_invited_you"	"<b>คำเชิญ</b>จาก <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"ดูคำเชิญล็อบบี้ทั้งหมด"
-
 		"tooltip_short_invite"				"เชิญ"
 		"tooltip_short_Join"				"เข้าร่วม"
 		"tooltip_short_watch"				"รับชม"
@@ -49447,9 +49402,6 @@
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} ถึง {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"ผู้ชม: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -49571,8 +49523,6 @@
 
 		"rankup_redemption_case_warning"							"จำเป็นต้องใช้กุญแจที่ซื้อมาเพื่อเปิด"
 		"rankup_redemption_store_claimed"							"รับแล้ว"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -51389,10 +51339,6 @@
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> ใน <b>{s:location}</b>"
-		"mission_directive:f"							"<b>{d:mission-points}</b> {s:action}"
- 		"mission_directive_progress:f"					"{d:mission-progress}/<b>{d:mission-points}</b> {s:action}"
-
-
 		"quest_11000_var_desc:f"	  					"ทำการสังหารด้วย {s:item1} ในโหมด <b>{s:gamemode}: {s:location}</b>"
 		"quest_11000_var_partial:f" 					"...ด้วย {s:item1}"
 		"quest_11000_var_ingame:f"	  					"ทำการสังหารด้วย {s:item1}"
@@ -51450,7 +51396,7 @@
 		"quest_11016_var_desc:f"	 					"ชนะรอบในโหมด <b>{s:gamemode}: {s:location}</b>"
 		"quest_11016_var_ingame:f"						"ชนะรอบ"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -51458,9 +51404,8 @@
 		"tooltip_kick_player"			"เตะผู้เล่นออกจากเซิร์ฟเวอร์ท้องถิ่น"		
 		"tooltip_short_viewaddon"			"ดูแผนที่แบบกำหนดเอง"
 		"tooltip_short_kick_player"			"เตะ"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

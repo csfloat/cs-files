@@ -15,26 +15,14 @@
 		"GameUI_DisplayMonitor"		"Tietokonenäyttö"
 		"GameUI_DisplayTV"		"Televisio"
 		"GameUI_Brightness"		"Kirkkaus"
-		"GameUI_CrosshairBehavior"		"Tähtäimen käyttäytyminen"
-		"GameUI_CrosshairBehaviorStatic"	"Muuttumaton"
-		"GameUI_CrosshairBehaviorDynamic"	"Dynaaminen"
 
 		"GameUI_FriendlyWarning"			"Omien tulituksen tähtäinvaroitus"
 		"GameUI_FriendlyWarning_Desc"		"Näytä tähtäimessä varoitus, kun tähtäät omaa tiimiä."
-
-		"GameUI_CrosshairStyle"			"Tähtäimen tyyli"
-		"GameUI_CrosshairStyleDefault"			"Oletus"
-		"GameUI_CrosshairStyleDefaultStatic"	"Oletus muuttumaton"
-		"GameUI_CrosshairStyleClassic"			"Klassinen"
-		"GameUI_CrosshairStyleClassicDyn"		"Klassinen muuttuva"
-		"GameUI_CrosshairStyleClassicStatic"	"Klassinen muuttumaton"
-		"GameUI_CrosshairStyleLegacy"			"Perinteinen"
 
 		"GameUI_CrosshairStyle_Friendly"		"Omien tulituksen varoitus"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Aina pois päältä"
 		"GameUI_CrosshairFriendlyWarning_Default" "Vain oletustähtäimessä"
 		"GameUI_CrosshairFriendlyWarning_On"	"Aina päällä"
-
 
 		"GameUI_CrosshairIFF"	"Tähtäimen lisätiedot"
 		"GameUI_CrosshairIFFOn"	"Päällä"
@@ -52,7 +40,6 @@
 		"GameUI_CrosshairOutline"	"Ääriviiva"
 		"GameUI_CrosshairAlpha"		"Läpinäkyvyys"
 		"GameUI_CrosshairSize"		"Tähtäimen koko"
-		"GameUI_CrosshairColor"		"Tähtäimen väri"
 		"GameUI_SniperCrosshairThickness" "Tarkkuuskiväärin tähtäimen paksuus"
 		"GameUI_ColorSliders"		"Värit"
 		"GameUI_ColorQuality"		"Värien laatu"
@@ -66,8 +53,6 @@
 		"GameUI_SplitOuterAlpha" 	"Ulkoinen hajonta: Alfa"
 		"GameUI_SplitRatio" 		"Hajonnan kokosuhde"
 		"GameUI_TStyle" 			"T-tyyli"
-		"GameUI_ShowWeaponGap" 		"Käyttöön otetun aseen tähtäimen väli"
-		"GameUI_ShowWeaponGap_Tooltip" 	"Tähtäimen väli päivittyy dynaamisesti sen mukaan, mikä aseista on parhaillaan varustettuna."
 		"GameUI_ShowObserverCrosshair" 	"Näytä pelaajien tähtäimet"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Näytä muiden pelaajien tähtäin, kun katselet heitä."
 		"GameUI_Everyone" 			"Kaikki"
@@ -91,15 +76,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Pitäisikö harhautuskranaateille näyttää tähtäinristikko? Jos pitäisi, kauanko pitäisi kulua sokan vedosta, ennen kuin ristikko näytetään?"
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Palauta kaikki tähtäimen oletusarvot."
-		"GameUI_Xhair_Undo_Tooltip" 		"Kumoa tähtäimen viimeisimmät muutokset."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Jaa tai tuo tähtäimen koodi."
-		"GameUI_Xhair_Code_Popup"			"Jaa tai tuo"
-		"GameUI_Xhair_Code_Invalid"			"Epäkelpo tai vanha tähtäimen koodi"
-		"GameUI_Xhair_Import_Code"			"Tuo"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Tuo tähtäin viimeisestä CS2-pelisessiostasi."
-		"GameUI_Xhair_ImportCSGO"			"Tuo CS:GO-pelistä"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Palauta kaikki tähtäimen oletusarvot."
+		"GameUI_Xhair_Undo_Tooltip" 			"Kumoa tähtäimen viimeisimmät muutokset."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Jaa tai tuo tähtäimen koodi."
+		"GameUI_Xhair_Code_Popup"				"Jaa tai tuo"
+		"GameUI_Xhair_Code_Invalid"				"Epäkelpo tai vanha tähtäimen koodi"
+		"GameUI_Xhair_Import_Code"				"Tuo"
 		"tooltip_copycrosshair"				"Kopioi tähtäin"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Korvaa nykyinen tähtäin?"
  
@@ -6166,8 +6148,8 @@
 		"musickit_shockone_01_desc"				"ShockOnen nopeatempoinen ja tiukkoihin tilanteisiin sopiva drum and bass -kappale on täynnä raskaita bassolinjoja, joiden innoittamana tähtipelaajan titteli on melkein taattu."
 		"coupon_shockone_01"					"Musiikkipakkaus | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"StatTrak™ -musiikkipakkaus | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -6180,12 +6162,6 @@
 		"quest_desc"								"&nbsp;"
 
 		"quest_commandverb_default"					"Hanki"
-
-		"quest_action_plural_act_kill_human"		"tappoa"
-		"quest_action_singular_act_kill_human"		"tappo"
-
-		"quest_action_plural_act_win_round"			"erävoittoa"
-		"quest_action_singular_act_win_round"		"erävoitto"	
 
 		////
 
@@ -38096,7 +38072,6 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Peruskurssi"
 		"SFUI_GameMode_retakes"					"Uudelleenvaltaus"
-
 		"ForceNewUserTraining_title"			"Peruskurssi"
 		"ForceNewUserTraining_text"				"Oletko valmis aloittamaan lyhyen harjoituspelin?"
 
@@ -38438,7 +38413,6 @@
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
 		"SFUI_Map_workshop_preview_dust2"	"Dust II:n esikatselu"
 		"SFUI_Map_workshop_preview_ancient"	"Ancientin esikatselu"
 		"SFUI_Map_workshop_preview_inferno"	"Infernon esikatselu"
@@ -41306,9 +41280,6 @@
 		"SFUI_match_abort_match_network_event"	"Verkkokatkos johti ottelun perumiseen.\nOttelu ei vaikuta taitotasoosi."
 		"SFUI_match_abort_match_vac_live"	"VAC Live on havainnut huijarin ja päättänyt ottelun.\nOttelu ei vaikuta taitotasoosi."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 ja kaikki muut ryhmän jäsenet, joille ei ole asetettu VACNET-jäähyä."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACnet on havainnut poikkeavaa pelitoimintaa ja perunut ottelun."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Ottelusta ei myönnetä edistymistä, koska joukkueesi pelaaja sai porttikiellon."
 		"SFUI_match_abort_match_missing_player"	" Ottelu peruutetaan, koska osa pelaajista ei yhdistänyt ajoissa."
 		"SFUI_match_abort_match_player_abandoned"	" Ottelu perutaan, koska pelaaja on poistunut palvelimelta."
@@ -41497,9 +41468,6 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Muistitikku noudettu.\nAsennetaan virusta!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Muistitikku 2 valmiina!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virusmuistitikku noudettu!"	
-
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
 "SFUIHUD_Spectate_Equipment"	"VARUSTUSTEN ARVO"
 		"SFUIHUD_Spectate_TeamMoney"	"TIIMIN RAHAT"
 		"SFUIHUD_Spectate_TeamEQValue"	"TIIMIN VARUSTEIDEN ARVO"
@@ -42959,7 +42927,6 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Steam-ryhmän tunnus"
 		"SFUI_Settings_ClanTag_None"								"Ei tiimitunnusta"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47493,7 +47460,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"AddFriend_tooltip"						"Lisää kaveri"
 		"FriendsLobby_tooltip"					"Lue lisää auloista"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} peliaula } other{{d:lobby_count} peliaulaa}}"
 
 
@@ -48422,12 +48388,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Tähtäin"
-		"settings_crosshair_info"			"Muokkaa tähtäinristikon kokoa, muotoa ja väriä. Jaa tähtäimesi kavereidesi kanssa tai kokeile jonkun muun asetuksia."
-		"settings_snipers_xhair"			"Tarkkuuskiväärin tähtäin"
-		"settings_grenadecrosshair_short"	"Kranaatin tähtäin"
-		"settings_grenadecrosshair"			"Kranaattien tähtäinristikko"
-		"settings_grenadecrosshair_info"	"Aputähtäinristikko kranaatinheittojen linjaukseen"
 		"settings_radar_section"			"Tutka"
 		"settings_radarandtablet_section"	"Tutka / Tabletti"
 		"settings_items_section"			"Esine"
@@ -48837,9 +48797,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_navbar_report_server"	"Ilmianna palvelin"
 		"tooltip_navbar_stats"			"Tarkastele otteluiden tilastoja yhdessä paikassa"
 		"tooltip_navbar_store"			"Osta pelinsisäisiä esineitä"
-		"tooltip_navbar_vacnet"			"Avaa VACNet-arviointiportaali"
-
-
 		"tooltip_inspect_weapon_model"	"Tarkastele asemallia"
 		"tooltip_inspect_weapon_model_faction"	"Tarkastele pelaajan mallia"
 		"tooltip_inspect_play_mvp_anthem"	"Toista MVP-melodia"
@@ -48898,7 +48855,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_xp_locked"				"Prime-tila vaaditaan kokemuspisteiden ansaitsemiseen. Osta Prime-tilapäivitys aktivoidaksesi tasosi."
 		"tooltip_join_public_lobby"		"Liity julkiseen aulaan"
 		"tooltip_suggested_lobby"		"Tämä aula on avoinna vain sen Steam-ryhmän jäsenille."
-
 		"tooltip_invite"				"Kutsu kaveri pelaamaan"
 		"tooltip_disabled_invite"		"Peruuta kutsuttavan kaverin haku"
 		"tooltip_Join"					"Liity kaverin peliin"
@@ -48926,7 +48882,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_friend_invited_you"	"<b>Kutsu</b> käyttäjältä <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Näytä kaikki aulakutsut"
-
 		"tooltip_short_invite"				"Kutsu"
 		"tooltip_short_Join"				"Liity"
 		"tooltip_short_watch"				"Katso"
@@ -49428,9 +49383,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"Scoreboard_Time_Timeout"						"JOUKKUEEN {s:team_name} PELIAIKA {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Katsojia: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -49552,8 +49504,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"rankup_redemption_case_warning"							"Avaamiseen vaaditaan ostettu avain"
 		"rankup_redemption_store_claimed"							"LUNASTETTU"	
-
-
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -51370,10 +51320,6 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"mission_segment_tooltip"						"{d:xp-reward} XP"
 
 		"mission_location"								"<b>{s:gamemode}</b> kohteessa <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Hanki tappo aseella {s:item1} pelitilassa <b>{s:gamemode} ja kartalla {s:location}</b>.} other{Hanki tappoja aseella {s:item1} pelitilassa <b>{s:gamemode} ja kartalla {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"...aseella {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Hanki tappo aseella {s:item1}.} other{Hanki tappoja aseella {s:item1}.}}"
@@ -51431,7 +51377,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Voita erä pelitilassa <b>{s:gamemode} kartalla {s:location}</b>.} other{Voita eriä pelitilassa <b>{s:gamemode} kartalla {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Voita erä} other{Voita eriä}}"
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -51439,9 +51385,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_kick_player"			"Poista pelaaja paikalliselta palvelimelta"		
 		"tooltip_short_viewaddon"			"Näytä mukautettu kartta"
 		"tooltip_short_kick_player"			"Poista"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 

@@ -15,26 +15,20 @@
 		"GameUI_DisplayMonitor"		"Schermo del computer"
 		"GameUI_DisplayTV"		"Televisione"
 		"GameUI_Brightness"		"Luminosità"
-		"GameUI_CrosshairBehavior"		"Comportamento del mirino"
-		"GameUI_CrosshairBehaviorStatic"	"Statico"
-		"GameUI_CrosshairBehaviorDynamic"	"Dinamico"
 
 		"GameUI_FriendlyWarning"			"Avviso di fuoco amico nel reticolo"
 		"GameUI_FriendlyWarning_Desc"		"Mostra un avvertimento quando miri a un compagno di squadra."
 
-		"GameUI_CrosshairStyle"			"Stile del mirino"
-		"GameUI_CrosshairStyleDefault"			"Predefinito"
-		"GameUI_CrosshairStyleDefaultStatic"	"Statico predefinito"
-		"GameUI_CrosshairStyleClassic"			"Classico"
-		"GameUI_CrosshairStyleClassicDyn"		"Dinamico classico"
-		"GameUI_CrosshairStyleClassicStatic"	"Statico classico"
-		"GameUI_CrosshairStyleLegacy"			"Originale"
+		"GameUI_CrosshairStyle"					"Stile"
 
+		"GameUI_CrosshairStyle0"	"Croce dinamica"
+		"GameUI_CrosshairStyle4"	"Croce statica"
+		"GameUI_CrosshairStyle0_Tooltip"	"Croce dinamica"
+		"GameUI_CrosshairStyle4_Tooltip"	"Croce statica"
 		"GameUI_CrosshairStyle_Friendly"		"Avviso di fuoco amico"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Sempre disattivato"
 		"GameUI_CrosshairFriendlyWarning_Default" "Solo sul mirino predefinito"
 		"GameUI_CrosshairFriendlyWarning_On"	"Sempre attivo"
-
 
 		"GameUI_CrosshairIFF"	"ID del bersaglio sul mirino"
 		"GameUI_CrosshairIFFOn"	"Attivato"
@@ -52,7 +46,6 @@
 		"GameUI_CrosshairOutline"	"Contorno"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Dimensioni del mirino"
-		"GameUI_CrosshairColor"		"Colore del mirino"
 		"GameUI_SniperCrosshairThickness" "Spessore del mirino da cecchino"
 		"GameUI_ColorSliders"		"Colori"
 		"GameUI_ColorQuality"		"Profondità di colore"
@@ -66,8 +59,6 @@
 		"GameUI_SplitOuterAlpha" 	"Alfa dispersione esterna"
 		"GameUI_SplitRatio" 		"Proporzione della dispersione"
 		"GameUI_TStyle" 			"Forma a T"
-		"GameUI_ShowWeaponGap" 		"Apertura del mirino in base all'arma"
-		"GameUI_ShowWeaponGap_Tooltip" 	"L'apertura del mirino cambierà automaticamente in base all'arma attualmente equipaggiata."
 		"GameUI_ShowObserverCrosshair" 	"Mostra il mirino dei giocatori"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Mostra il mirino degli altri giocatori mentre si assiste ad una partita."
 		"GameUI_Everyone" 			"Tutti"
@@ -91,15 +82,12 @@
 		"GameUI_GrenadeCrosshairInfoTooltipDecoy" "Visualizzare il reticolo di allineamento per le granate diversive? Se sì, quanto tempo dobbiamo aspettare dopo aver tirato la spoletta per visualizzarlo."
 
 
-		"GameUI_Xhair_Reset_Tooltip" 		"Ripristina tutti i valori del mirino."
-		"GameUI_Xhair_Undo_Tooltip" 		"Annulla le ultime modifiche al mirino."
-		"GameUI_Xhair_CopyCode_Tooltip"		"Condividi o importa un codice mirino."
-		"GameUI_Xhair_Code_Popup"			"Condividi o importa"
-		"GameUI_Xhair_Code_Invalid"			"Codice mirino non valido o scaduto"
-		"GameUI_Xhair_Import_Code"			"Importa"
-		"GameUI_Xhair_ImportCSGO_Tooltip"	"Importa il mirino dall'ultima volta che hai giocato a CS:GO."
-		"GameUI_Xhair_ImportCSGO"			"Importa da CS:GO"
-
+		"GameUI_Xhair_Reset_Tooltip" 			"Ripristina tutti i valori del mirino."
+		"GameUI_Xhair_Undo_Tooltip" 			"Annulla le ultime modifiche al mirino."
+		"GameUI_Xhair_CopyCode_Tooltip"			"Condividi o importa un codice mirino."
+		"GameUI_Xhair_Code_Popup"				"Condividi o importa"
+		"GameUI_Xhair_Code_Invalid"				"Codice mirino non valido o scaduto"
+		"GameUI_Xhair_Import_Code"				"Importa"
 		"tooltip_copycrosshair"				"Copia mirino"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Sostituire il mirino attuale?"
  
@@ -1418,7 +1406,7 @@
 		"AbovePit"		"Pozzo superiore"
 		"Pit"			"Pozzo"
 		"APlatform"		"Piattaforma A"
-		"LongA"			"Zona lunga A"
+		"LongA"			"Corridoio lungo A"
 		"ARamp"			"Rampa A"
 		"BackofA"		"Retro di A"
 		"Bricks"		"Mattoni"
@@ -1685,7 +1673,7 @@
 		"Chat_SavePlayer_Saved"					"  %s1 ti ha appena salvato uccidendo %s2!"
 		"Chat_SavePlayer_Spectator"				"  %s1 ha appena salvato %s2 uccidendo %s3!"
 
-		"Pet_Killed"							"La tua gallina è stata uccisa. È stata tua per %s1 secondi."
+		"Pet_Killed"							"Il tuo pollo è stato ucciso. È stato tuo per %s1 secondi."
 
 		"Cstrike_game_join_spectators"	" %s1 si unisce agli Spettatori.\n"
 		"Cstrike_game_join_terrorist"	" %s1 si unisce ai Terroristi.\n"
@@ -3243,7 +3231,7 @@
 		"CSGO_Collectible_CommunitySeasonTen2020_PlusStars100_Desc"	"Questo miglioramento acquistabile dell'Operazione fornisce <b>100 Stelle dell'Operazione</b> al momento dell'attivazione."
 
    		"CSGO_Ticket_CommunitySeasonEleven2021"					"Pass Premium Operazione Riptide"
-		"CSGO_Ticket_CommunitySeasonEleven2021_Desc"				"Il Pass Premium dell'Operazione Riptide include un gettone commemorativo e migliorabile dell'Operazione Riptide, missioni settimanali e l'accesso esclusivo agli oggetti del Negozio dell'Operazione."
+		"CSGO_Ticket_CommunitySeasonEleven2021_Desc"				"Il Pass Premium dell'Operazione Riptide include un gettone commemorativo e migliorabile dell'Operazione Riptide, missioni settimanali e l'accesso esclusivo agli oggetti del negozio dell'Operazione."
 		"CSGO_Collectible_CommunitySeasonEleven2021_Coin1"			"Gettone Sfida dell'Operazione Riptide"
 		"CSGO_Collectible_CommunitySeasonEleven2021_Coin1_Desc"	"Ha partecipato all'Operazione Riptide."
 		"CSGO_Collectible_CommunitySeasonEleven2021_Coin2"			"Gettone d'argento dell'Operazione Riptide"
@@ -3842,7 +3830,7 @@
 		"csgo_item_usage_desc_ak47"											"• La macchina da guerra classica: accurato e preciso.<br>• Consideralo nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF4040\">★★★★</font></i>"
 		"csgo_item_usage_desc_m4a1"											"• Una buona precisione e una buona quantità di munizioni.<br>• Consideralo nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_m4a1_silencer"								"• Preciso, silenzioso e in grado di disorientare.<br>• Consideralo nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
-		"csgo_item_usage_desc_aug"											"• Una mira telescopica per una precisione eccezionale.<br>• Consideralo nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
+		"csgo_item_usage_desc_aug"											"• Un'ottica telescopica per una precisione eccezionale.<br>• Consideralo nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_sg556"										"• Un'arma letale, resa ancora più pericolosa grazie al mirino.<br>• Considerala nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_awp"											"• Potenza devastante per il tiratore scelto che sa quello che fa.<br>• Consideralo nei round di acquisto libero.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
 		"csgo_item_usage_desc_g3sg1"										"• Fucile di precisione automatico dall'elevato tasso di rischio/ricompensa.<br>• Consideralo solo in circostanze speciali.<br><i>• Difficoltà: <font color=\"#BF9240\">★★★</font></i>"
@@ -3884,11 +3872,11 @@
 		"CSGO_Item_Desc_MP9"												"Fabbricato in Svizzera, l'innovativo mitra MP9 è un'arma ergonomica in polimeri prediletta dalle aziende di sicurezza private."
 		"CSGO_Item_Desc_P90"												"Facilmente riconoscibile per la sua configurazione bullpup, la P90 è un'arma ottima per sparare in movimento grazie al caricatore ad alta capacità e al basso rinculo."
 		"CSGO_Item_Desc_UMP45"												"Figlio incompreso di mezzo nella famiglia dei mitra, l'UMP45 è dotato di un caricatore piccolo, unico neo di un'arma automatica altrimenti versatile che eccelle in scontri ravvicinati."
-		"CSGO_Item_Desc_Aug"												"Potente e preciso, l'AUG, dotato di mirino di precisione, compensa i suoi lunghi tempi di ricarica con una dispersione ridotta ed un'alta cadenza di tiro."
+		"CSGO_Item_Desc_Aug"												"Potente e preciso, l'AUG, dotato di ottica di precisione, compensa i suoi lunghi tempi di ricarica con una dispersione ridotta ed un'alta cadenza di tiro."
 		"CSGO_Item_Desc_GalilAR"											"Una scelta meno costosa tra i fucili esclusivi ai Terroristi, il Galil AR è un'arma utile nel combattimento a distanza medio-lunga."
 		"CSGO_Item_Desc_Famas"												"Una scelta economica per i giocatori rimasti a tasche vuote, il FAMAS colma lo spazio che si trova tra i fucili più costosi e i mitra meno efficaci."
 		"CSGO_Item_Desc_M4A4"												"Più preciso ma dotato di una potenza di fuoco inferiore rispetto al corrispettivo AK-47, l'M4A4 è il fucile d'assalto d'ordinanza completamente automatico per gli AT."
-		"CSGO_Item_Desc_SG553"												"L'SG553, esclusivo per i Terroristi, è una versione maggiorata dell'AK-47 dotata di un mirino di precisione, efficace negli scontri a lungo raggio."
+		"CSGO_Item_Desc_SG553"												"L'SG553, esclusivo per i terroristi, è una versione maggiorata dell'AK-47 dotata di un mirino di precisione, efficace negli scontri a lungo raggio."
 		"CSGO_Item_Desc_AWP"												"Il famigerato AWP, rischioso da usare ma molto utile, è riconoscibile per il suo tratto distintivo: un colpo, un morto."
 		"CSGO_Item_Desc_G3SG1"												"Il costoso G3SG1 riduce la velocità di movimento considerevolmente ma compensa con una cadenza di tiro più alta rispetto a ogni altro fucile di precisione."
 		"CSGO_Item_Desc_SCAR20"												"Lo SCAR-20 è un fucile di precisione semiautomatico che offre un'alta cadenza di tiro e una grande potenza di fuoco a lunga gittata al prezzo di un ingombro notevole e di un costo impressionante."
@@ -5978,8 +5966,8 @@
 		"musickit_shockone_01_desc"				"Libera la tua energia con il brano di basso e batteria ad alta energia di ShockOne \"Voices\". Perfetto per i momenti decisivi, questo tema musicale presenta linee di basso potenti che ti faranno ottenere molti MVP."
 		"coupon_shockone_01"					"Tema musicale | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Tema musicale StatTrak™ | ShockOne, Voices"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -5990,12 +5978,6 @@
 		"quest"										"Missione"
 
 		"quest_commandverb_default"					"Ottieni"
-
-		"quest_action_plural_act_kill_human"		"uccisioni"
-		"quest_action_singular_act_kill_human"		"uccisione"
-
-		"quest_action_plural_act_win_round"			"round vinti"
-		"quest_action_singular_act_win_round"		"round vinto"	
 
 		////
 
@@ -7338,7 +7320,7 @@ Certo che no, cazzo."
 		"coupon_hamster_hawk"					"Adesivo | Punkriceto"	
 		
 		"StickerKit_comm02_headless_chicken"		"Gallina senza testa"
-		"coupon_headless_chicken"				"Adesivo | Gallina senza testa"	
+		"coupon_headless_chicken"				"Adesivo | Pollo senza testa"	
 
 		"StickerKit_comm02_blood_broiler"			"Sangue bollito"
 		"coupon_blood_broiler"					"Adesivo | Sangue bollito"	
@@ -30958,8 +30940,8 @@ Esca per una doppia uccisione"
 		"StickerKit_comm02_pieceofcake"			"Gioco da ragazzi"
 		"coupon_pieceofcake"					"Adesivo | Gioco da ragazzi"	
 		
-		"StickerKit_comm02_saschicken"			"Gallina dei SAS"
-		"coupon_saschicken"					"Adesivo | Gallina dei SAS"	
+		"StickerKit_comm02_saschicken"			"Pollo dei SAS"
+		"coupon_saschicken"					"Adesivo | Pollo dei SAS"	
 		
 		"StickerKit_comm02_thuglife"			"Vita di strada"
 		"coupon_thuglife"					"Adesivo | Vita di strada"	
@@ -31004,9 +30986,9 @@ Esca per una doppia uccisione"
 		"StickerKit_slid3_dontworryigotcha"			"Non preoccuparti"
 		"StickerKit_slid3_dontworryigotcha_holo"			"Non ti preoccupare (Olografico)"
 		"StickerKit_slid3_dontworryigotcha_foil"			"Non ti preoccupare (Foil)"
-		"StickerKit_slid3_hardclucklife"			"La dura vita di una gallina"
-		"StickerKit_slid3_hardclucklife_holo"			"La dura vita di una gallina (Olografico)"
-		"StickerKit_slid3_hardclucklife_foil"			"La dura vita di una gallina (Foil)"
+		"StickerKit_slid3_hardclucklife"			"Hard Cluck Life"
+		"StickerKit_slid3_hardclucklife_holo"			"Hard Cluck Life (Olografico)"
+		"StickerKit_slid3_hardclucklife_foil"			"Hard Cluck Life (Foil)"
 		"StickerKit_slid3_moveit"			"Muoviti"
 		"StickerKit_slid3_moveit_holo"			"Muoviti (Olografico)"
 		"StickerKit_slid3_moveit_foil"			"Muoviti (Foil)"
@@ -36824,8 +36806,8 @@ Esca per una doppia uccisione"
 		"StoreCheckout_Canceling"		"Annullamento..."
 
 		"StoreScaleform_Title"				"Negozio di Counter-Strike"
-		"StoreUpdate_Loading"				"Caricamento del Negozio..."
-		"StoreUpdate_NoGCResponse"			"Il Negozio è attualmente chiuso."
+		"StoreUpdate_Loading"				"Caricamento del negozio..."
+		"StoreUpdate_NoGCResponse"			"Il negozio è attualmente chiuso."
 		"StoreUpdate_NewPriceSheetLoaded"	"L'elenco dei prodotti è stato aggiornato all'ultima versione."
 		"StoreUpdate_PriceLimitExceeded"	"Il prezzo totale di tutti gli oggetti nel tuo carrello supera il limite per l'acquisto. Riduci il numero di oggetti nel tuo carrello e riprova."
 		"StoreUpdate_ContactSupport"		"Contatta l'assistenza clienti per la configurazione del tuo Portafoglio di Steam."
@@ -36833,7 +36815,7 @@ Esca per una doppia uccisione"
 		"StoreUpdate_SteamRequired"			"È necessario essere connessi a Steam per utilizzare il Negozio."
 		"StoreUpdate_PurchaseConfirmation_PW"	"Autorizza Counter-Strike a utilizzare il saldo del tuo account di Perfect World."
 
-		"StoreCheckout_Fail"				"Il Negozio è attualmente chiuso."
+		"StoreCheckout_Fail"				"Il negozio è attualmente chiuso."
 		"StoreCheckout_InvalidParam"		"Qualche programmatore ha commesso un errore! Al coordinatore del gioco è stato trasmesso un parametro non valido. Ritenta l'acquisto."
 		"StoreCheckout_InternalError"		"Sembra che si sia verificato un errore durante l'avvio o l'aggiornamento della transazione. Attendi un minuto e riprova, oppure contatta l'assistenza."
 		"StoreCheckout_ContactSupport"		"Si è verificato un errore durante la transazione. Contatta l'assistenza."
@@ -36841,7 +36823,7 @@ Esca per una doppia uccisione"
 		"StoreCheckout_NotLoggedin"			"Devi aver effettuato l'accesso a Steam per poter completare l'acquisto."
 		"StoreCheckout_WrongCurrency"		"La valuta di questa transazione non corrisponde a quella del tuo Portafoglio."
 		"StoreCheckout_WrongCurrency_PW"	"Questa transazione richiede una valuta diversa. Ti invitiamo a contattare l'assistenza."
-		"StoreCheckout_DisabledInBeta_PW"	"Il Negozio non è disponibile nella beta di Perfect World Counter-Strike."
+		"StoreCheckout_DisabledInBeta_PW"	"Il negozio non è disponibile nella beta di Perfect World Counter-Strike."
 		"StoreCheckout_NoAccount"			"Il tuo account di Steam non è attualmente disponibile. Ritenta l'acquisto più tardi."
 		"StoreCheckout_InsufficientFunds"	"Non hai fondi sufficienti per completare l'acquisto."
 		"StoreCheckout_InsufficientFunds_PW"	"Il tuo acquisto non può essere completato perché non disponi di fondi sufficienti.\n\nVerrai reindirizzato al sito di Perfect World in modo da poter aggiungere altri fondi."
@@ -37072,6 +37054,7 @@ Esca per una doppia uccisione"
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Giornata di addestramento"
 		"SFUI_GameMode_retakes"					"Riconquiste"
+		"SFUI_GameMode_rush"					"Rush"
 
 		"ForceNewUserTraining_title"			"Giornata di addestramento"
 		"ForceNewUserTraining_text"				"Tutto pronto per una breve sessione di addestramento?"
@@ -37414,7 +37397,7 @@ Esca per una doppia uccisione"
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
-
+		"SFUI_MAP_pet_photo_park"	"Picnic"
 		"SFUI_Map_workshop_preview_dust2"	"Anteprima di Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Anteprima di Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Anteprima di Inferno"
@@ -38977,7 +38960,7 @@ Esca per una doppia uccisione"
 		"major_hub_store_desc_2" 	"Ora disponibili: adesivi dei campioni e ciondoli dei momenti salienti"
 		"major_hub_store_desc_3" 	"La serie di adesivi Classificati"
 		"major_hub_make_souvenir_title"  "Crea souvenir"
-		"major_hub_visit_shop"  "Visita il Negozio"
+		"major_hub_visit_shop"  "Visita il negozio"
 		"major_hub_make_souvenir"		"Trasforma una qualsiasi delle tue armi in un cimelio autografato."
 		"major_hub_make_souvenir_desc"	"Clicca su qualsiasi partita terminata qui sotto per creare il tuo souvenir."
 		
@@ -40271,9 +40254,6 @@ Esca per una doppia uccisione"
 		"SFUI_match_abort_match_network_event"	"A causa di un'interruzione di rete, la partita è stata annullata.\nQuesta partita non influenzerà la valutazione delle abilità."
 		"SFUI_match_abort_match_vac_live"	"VAC Live ha rilevato un cheater e ha terminato questa partita.\nQuesta partita non influenzerà la valutazione delle abilità."
 		
-		"SFUI_match_abort_match_abnormal_behavior"	"%s1 e tutti i membri del gruppo hanno ricevuto sospensioni VACNet."
-		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNet ha rilevato delle irregolarità nel gioco e ha annullato la partita."
-
 		"SFUI_match_vac_live_partied_with_cheater"	"Non sarà assegnato alcun progresso relativo a questa partita poiché un giocatore nella tua squadra è stato bandito."
 		"SFUI_match_abort_match_missing_player"	"La partita verrà annullata poiché un giocatore non è riuscito a connettersi."
 		"SFUI_match_abort_match_player_abandoned"	" La partita verrà annullata poiché un giocatore si è disconnesso."
@@ -40456,8 +40436,7 @@ Esca per una doppia uccisione"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Seconda USB pronta!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"USB con virus rimossa!"	
 
-		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} ({puppeteer})"
-		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} ({puppeteer})"
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
 "SFUIHUD_Spectate_Equipment"	"VALORE DELL'EQUIPAGGIAMENTO"
 		"SFUIHUD_Spectate_TeamMoney"	"DENARO DELLA SQUADRA"
 		"SFUIHUD_Spectate_TeamEQValue"	"VALORE EQUIPAGGIAMENTO"
@@ -41552,6 +41531,7 @@ Esca per una doppia uccisione"
 		"SFUI_Settings_Casual_EQ_Tip"		"Applica questo profilo di equalizzazione per tutta la durata in Leggera"
 
 
+		"SFUI_Settings_Master_Music_Volume"							"Volume principale della musica"
 		"SFUI_Settings_Menu_Music_Volume"							"Volume del menu principale"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Volume dell'inizio del round"
 		"SFUI_Settings_Action_Round_Music_Volume"					"Volume dell'azione del round"
@@ -41917,7 +41897,6 @@ Esca per una doppia uccisione"
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag del clan (Gruppo di Steam)"
 		"SFUI_Settings_ClanTag_None"								"Nessuna tag di squadra"
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46441,7 +46420,6 @@ Vuoi attivare il tuo pass ora?"
 		"AddFriend_tooltip"						"Aggiungi un amico"
 		"FriendsLobby_tooltip"					"Ulteriori informazioni sulle lobby"
 		"friends_lobby_count"					"+ {s:lobby_count}"
-
 		"contextmenu_lobby-count:f"				"{d:lobby_count} {lobby_count, plural, one{lobby} other{lobby}}"
 
 
@@ -47185,13 +47163,13 @@ Vuoi attivare il tuo pass ora?"
 		"op11_name"							"Riptide"
 		"op_stars_needed"					"<b>{d:stars_needed}</b>: Stelle necessarie per la prossima ricompensa"
 		"op_stars_max_upsell"				"Ottieni fino a {d:max_stars} Stelle dalle missioni dell'Operazione"
-		"op_stars_shop_open"				"Apri il Negozio dell'Operazione"
+		"op_stars_shop_open"				"Apri il negozio dell'Operazione"
 		"op_stars_shop_title"				"Negozio dell'Operazione"
 		"op_stars_shop_operation_over"		"Non puoi ottenere altre Stelle dell'Operazione perché questa Operazione è terminata."
 		"op_stars_shop_desc"				"Usa le tue Stelle per ottenere le ricompense che preferisci."
 		"op_stars_earned"					"Le tue Stelle: <b>{d:your_stars}</b>"
-		"op_stars_earned_reminder"			"Il Negozio dell'Operazione è aperto fino al <b>15 maggio</b>, puoi ancora usare <b>{d:your_stars}</b>"
-		"op_stars_earned_reminder_10"		"Il Negozio dell'Operazione è aperto fino al <b>27 marzo</b>, puoi ancora usare <b>{d:your_stars}</b>"
+		"op_stars_earned_reminder"			"Il negozio dell'Operazione è aperto fino al <b>15 maggio</b>, puoi ancora usare <b>{d:your_stars}</b>"
+		"op_stars_earned_reminder_10"		"Il negozio dell'Operazione è aperto fino al <b>27 marzo</b>, puoi ancora usare <b>{d:your_stars}</b>"
 		"op_stars_earned_missions"			"{d:mission_stars} Stelle ottenute dalle missioni"
 		"op_coin_get_reward_item"			"Ottieni una ricompensa da <b>{s:item_name}</b>"
 		"op_coin_get_reward_case"			"Ottieni <b>{s:item_name}</b>"
@@ -47262,7 +47240,7 @@ Vuoi attivare il tuo pass ora?"
 		"op_rewards_pass_tooltip"			"Ti serve il Pass Operazione per riscuotere le ricompense."
 		"op_rewards_locked_tooltip"			"Ottieni le Stelle acquistandole o completando le missioni. Le Stelle sbloccano delle ricompense."
 		"op_missions_tooltip"				"Completa le missioni per ottenere delle Stelle. Ogni settimana è possibile ottenere soltanto un certo numero di Stelle.<br><br>Riceverai la ricompensa successiva quando avrai abbastanza Stelle.<br><br>Completa le missioni per far progredire il tuo Gettone dell'Operazione e ottenere bonus di ESP.<br><br>Le missioni vengono rivelate di settimana in settimana."
-		"op_missions_tooltip_op10"			"Completa le missioni per ottenere Stelle e bonus ESP. Ogni settimana è possibile ottenere solo un certo numero di Stelle.<br><br>Nel Negozio dell'Operazione puoi scambiare le Stelle in cambio di ricompense.<br><br>Ottieni le Stelle per migliorare il tuo Gettone dell'Operazione.<br><br>Le missioni vengono rivelate di settimana in settimana."
+		"op_missions_tooltip_op10"			"Completa le missioni per ottenere Stelle e bonus ESP. Ogni settimana è possibile ottenere solo un certo numero di Stelle.<br><br>Nel negozio dell'Operazione puoi scambiare le Stelle in cambio di ricompense.<br><br>Ottieni le Stelle per migliorare il tuo Gettone dell'Operazione.<br><br>Le missioni vengono rivelate di settimana in settimana."
 		"op_misson_sequential_tooltip"		"Completa gli obiettivi della missione in sequenza."
 		"op_misson_checklist_tooltip"		"Completa gli obiettivi della missione in qualunque ordine."
 
@@ -47340,6 +47318,7 @@ Vuoi attivare il tuo pass ora?"
 		"settings_video"			"Impostazioni video"
 		"settings_audio"			"Impostazioni audio"
 		"settings_new"				"Novità"
+		"settings_updated"			"Novità"
 		"settings_about"			"Crediti"
 		"settings_search"			"Cerca"
 		"settings_keyboard_mouse_section"	"Impostazioni di tastiera e mouse"
@@ -47370,12 +47349,8 @@ Vuoi attivare il tuo pass ora?"
 
 
 		"settings_account_conn_section"		"Twitch.tv"
-		"settings_crosshair"				"Mirino"
-		"settings_crosshair_info"			"Personalizza la dimensione, la forma e il colore del reticolo del mirino. Condividi il codice del tuo mirino con i tuoi amici oppure prova le impostazioni di un altro giocatore."
-		"settings_snipers_xhair"			"Mirini con armi di precisione"
-		"settings_grenadecrosshair_short"	"Allineamento delle granate"
-		"settings_grenadecrosshair"			"Reticolo di allineamento delle granate"
-		"settings_grenadecrosshair_info"	"Un reticolo che aiuta ad allineare i lanci delle granate."
+		"settings_crosshair_sniper"			"Mirini con armi di precisione"
+		"settings_crosshair_grenade"		"Allineamento delle granate"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Oggetti"
@@ -47785,9 +47760,6 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_navbar_report_server"	"Segnala il server"
 		"tooltip_navbar_stats"			"Visualizza tutte le tue statistiche della partita in un unico posto"
 		"tooltip_navbar_store"			"Ottieni oggetti in gioco"
-		"tooltip_navbar_vacnet"			"Apri il portale di valutazione VACNet"
-
-
 		"tooltip_inspect_weapon_model"	"Esamina l'arma"
 		"tooltip_inspect_weapon_model_faction"	"Esamina il modello del giocatore"
 		"tooltip_inspect_play_mvp_anthem"	"Riproduci fanfara MVP"
@@ -47846,7 +47818,6 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_xp_locked"				"Lo stato Prime è necessario per ottenere ESP. Acquista l'aggiornamento allo stato Prime per sbloccare il tuo grado."
 		"tooltip_join_public_lobby"		"Unisciti alla lobby pubblica"
 		"tooltip_suggested_lobby"		"Questa lobby è aperta solo ai membri del rispettivo gruppo di Steam."
-
 		"tooltip_invite"				"Invita un amico a giocare"
 		"tooltip_disabled_invite"		"Annulla la ricerca per invitare un amico"
 		"tooltip_Join"					"Unisciti a un amico"
@@ -47874,7 +47845,6 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_friend_invited_you"	"<b>Invito</b> da <b>{s:friendname}</b>"
 		"tooltip_lobby_leader_name"		"{s:friendname}"
 		"tooltip_lobby_count"			"Mostra tutte le lobby"
-
 		"tooltip_short_invite"				"Invita"
 		"tooltip_short_Join"				"Unisciti"
 		"tooltip_short_watch"				"Guarda"
@@ -48367,9 +48337,6 @@ Vuoi attivare il tuo pass ora?"
 
 		"Scoreboard_Time_Timeout"						"{s:team_name} A {s:s_gametime_time}"
 
-		"Scoreboard_Player_Name"						"<span class=\"sb-player-name--\">{s:player_name}</span>"
-		"Scoreboard_Player_Name_Clan"					"<span class=\"sb-clantag\">{s:player_clan}</span> <span class=\"sb-player-name--\">{s:player_name}</span>"
-
 		"Scoreboard_Viewers"							"Spettatori: {d:viewers}"
 
 		"Time_Clean"									"{s:s_gametime_time}"
@@ -48491,8 +48458,7 @@ Vuoi attivare il tuo pass ora?"
 
 		"rankup_redemption_case_warning"							"Richiede l'acquisto di una chiave per l'apertura"
 		"rankup_redemption_store_claimed"							"RISCATTATA"	
-
-
+		"expired_itemdef"											"Scaduto"
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -50309,10 +50275,6 @@ Vuoi attivare il tuo pass ora?"
 		"mission_segment_tooltip"						"{d:xp-reward} punti ESP"
 
 		"mission_location"								"<b>{s:gamemode}</b> in <b>{s:location}</b>"
-		"mission_directive:f"							"{mission-points, plural, one{<b>{d:mission-points}</b> {s:action}} other{<b>{d:mission-points}</b> {s:actions}}}"
- 		"mission_directive_progress:f"					"{mission-points, plural, one{{d:mission-progress}/<b>{d:mission-points}</b> {s:action}} other{{d:mission-progress}/<b>{d:mission-points}</b> {s:actions}}}"
-
-
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{Ottieni un'uccisione con {s:item1} in <b>{s:gamemode}: {s:location}</b>.} other{Ottieni uccisioni con {s:item1} in <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11000_var_partial:f" 					"...con: {s:item1}."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{Ottieni un'uccisione con {s:item1}.} other{Ottieni uccisioni con {s:item1}.}}"
@@ -50370,7 +50332,7 @@ Vuoi attivare il tuo pass ora?"
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{Vinci un round in <b>{s:gamemode}: {s:location}</b>.} other{Vinci dei round in <b>{s:gamemode}: {s:location}</b>.}}"
 		"quest_11016_var_ingame:f"						"Vinci {mission-points, plural, one{un round} other{dei round}}."
 
-// ---------------------------------------------------------------------------------------------
+		// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50378,9 +50340,29 @@ Vuoi attivare il tuo pass ora?"
 		"tooltip_kick_player"			"Espelli giocatore dal server locale"		
 		"tooltip_short_viewaddon"			"Vedi mappa personalizzata"
 		"tooltip_short_kick_player"			"Espelli"
-
-// crow_mask_53608_comment
-// crow_mask_53609_comment
+"pet_photo_booth_zoom_mid"			"Mid"
+		"pet_photo_booth_adjust_brightness"	"Luminosità"
+		"pet_photo_booth_adjust_bloom"		"Bloom"
+		"pet_photo_booth_headwear_helmet"	"Elmetto"
+		"pet_photo_booth_headwear_banana"	"Banana"
+		"pet_photo_booth_filter_normal"		"Normale"
+		"pet_photo_booth_filter_crisp"		"Nitido"
+		// Keyed by the snapshot animation id, which is what a photo records. Button order, not numeric.
+		"pet_photo_booth_pose_0"			"In solitaria"
+		"pet_photo_booth_effect_fire"		"Fuoco"
+		"pet_photo_booth_reset"				"Ripristina"
+		"pet_photo_booth_setting_filters" 			"Filtri"
+		"pet_photo_booth_setting_stickers" 			"Adesivi"
+		"pet_photo_booth_setting_team" 				"Squadra"
+"pet_photo_caption_zoom"				"Zoom"
+		"pet_book_page_brave_report_title_status"	 "STATO:"
+// ---------------------------------------------------------------------------------------------
+// Rush
+// ---------------------------------------------------------------------------------------------
+		"SFUI_GameModeRush"					"Rush"
+"SFUI_Mapgroup_rush"					"Rush"
+		// crow_mask_54084_comment
+// crow_mask_54085_comment
 }
 
 
