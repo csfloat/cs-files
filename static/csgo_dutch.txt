@@ -51131,8 +51131,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_kick_player"			"Verwijder de speler van de lokale server"		
 		"tooltip_short_viewaddon"			"Bekijk de aangepaste map"
 		"tooltip_short_kick_player"			"Verwijderen"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

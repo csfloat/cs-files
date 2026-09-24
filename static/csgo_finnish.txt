@@ -19,6 +19,7 @@
 		"GameUI_FriendlyWarning"			"Omien tulituksen tähtäinvaroitus"
 		"GameUI_FriendlyWarning_Desc"		"Näytä tähtäimessä varoitus, kun tähtäät omaa tiimiä."
 
+		"GameUI_CrosshairStyle7"	"Dynaaminen neliympyrä"
 		"GameUI_CrosshairStyle_Friendly"		"Omien tulituksen varoitus"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Aina pois päältä"
 		"GameUI_CrosshairFriendlyWarning_Default" "Vain oletustähtäimessä"
@@ -48388,6 +48389,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 
 		"settings_account_conn_section"		"Twitch.tv"
+		"settings_crosshair"				"Tähtäin"
 		"settings_radar_section"			"Tutka"
 		"settings_radarandtablet_section"	"Tutka / Tabletti"
 		"settings_items_section"			"Esine"
@@ -51385,8 +51387,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_kick_player"			"Poista pelaaja paikalliselta palvelimelta"		
 		"tooltip_short_viewaddon"			"Näytä mukautettu kartta"
 		"tooltip_short_kick_player"			"Poista"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

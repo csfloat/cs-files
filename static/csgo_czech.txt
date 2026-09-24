@@ -29,7 +29,6 @@
 		"GameUI_CrosshairStyle5"	"Dynamický křížek (zastaralý / s reakcí na střelbu)"
 		"GameUI_CrosshairStyle6"	"Pouze tečka"
 		"GameUI_CrosshairStyle7"	"Dynamické kvadranty"
-
 		"GameUI_CrosshairStyle0_Tooltip"	"Dynamický křížek"
 		"GameUI_CrosshairStyle1_Tooltip"	"Dynamický kroužek"
 		"GameUI_CrosshairStyle2_Tooltip"	"Dynamický křížek (klasický)"
@@ -38,7 +37,6 @@
 		"GameUI_CrosshairStyle5_Tooltip"	"Dynamický křížek (zastaralý)"
 		"GameUI_CrosshairStyle6_Tooltip"	"Pouze tečka"
 		"GameUI_CrosshairStyle7_Tooltip"	"Dynamické kvadranty"
-
 		"GameUI_CrosshairStyle_Friendly"		"Upozornění na střelbu do vlastních"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Pro žádný zaměřovač"
 		"GameUI_CrosshairFriendlyWarning_Default" "Pouze pro výchozí zaměřovač"
@@ -42465,7 +42463,7 @@
 		"SFUI_Spectator_Best_Of_Series"			"Nejlepší ze %s1"
 		"Spectator_Best_Of_Series"				"Na {d:numtowin} výhry" // {d:numtowin} can be used for a "2 To Win" style string in place of "Best of 3"
 
-		"SFUI_Settings_ClanTag_In_Death_Notice"		"Týmové označení u oznámení smrti"
+		"SFUI_Settings_ClanTag_In_Death_Notice"		"Tagy týmů/klanů v oznámeních smrti"
 		"SFUI_Settings_Identify_Teammates"		"Informace o spoluhráčích přes zdi"
 
 		"SFUI_Settings_Radar_Rotate"			"Otáčení radaru"
@@ -50084,7 +50082,7 @@
 		"prdr_health_removed"					"{d:health_removed} v {d:num_hits}"
 		"prdr_return_health_removed"				"{d:return_health_removed} v {d:return_num_hits}"
 
-		"season_stat_title_wins"		"VÝHRY"
+		"season_stat_title_wins"		"Výhry"
         "season_stat_title_ties"		"REMÍZY"
         "season_stat_title_losses"		"PROHRY"
         "season_stat_title_rounds"		"KOLA"
@@ -51310,7 +51308,7 @@
 		"pet_photo_booth_headwear_armor"	"Vojenská helma"
 		"pet_photo_booth_headwear_alien"	"Mimozemšťan"
 		"pet_photo_booth_headwear_banana"	"Banán"
-		"pet_photo_booth_headwear_glasses"	"Brýle"
+		"pet_photo_booth_headwear_glasses"	"Cool brýle"
 		"pet_photo_booth_headwear_nose_glasses"	"Srandovní brýle"
 		"pet_photo_booth_headwear_party"	"Party čepička"
 		"pet_photo_booth_headwear_sprout"	"Výhonek"
@@ -51337,6 +51335,7 @@
 		"pet_photo_booth_pose_5"			"Velké objetí"
 		"pet_photo_booth_pose_6"			"Nad hlavou"
 		"pet_photo_booth_pose_1"			"Na rameni"
+		"pet_photo_booth_pose_3"			"Jestřáb"
 		"pet_photo_booth_pose_7"			"Na hlavě"
 
 		"pet_photo_booth_activity_sit"		"Hačnutí"
@@ -51392,12 +51391,14 @@
 		"pet_photo_booth_hint_orbit" 			"Shift + tažení pro otáčení"
 
 		"pet_book_title" 						"Fotoalbum"
+		"pet_book_subtitle" 					"{s:pet_name} a její život"
 		"pet_book_open"							"Otevřít album"
 		"pet_book_open_booth"					"Zpět do fotokoutku"
 		"pet_book_the_end"						"Konec"
 		"pet_book_library"						"Fotografie"
 		"pet_book_drag_hint"					"Fotografie můžeš přidávat a odebírat tažením."
 		"pet_book_name_placeholder"				"Jméno tvé slepice"
+		"pet_book_hatch_due"					"Vylíhne se {s:hatch_day}"
 		"pet_book_page_counter"					"{d:page} / {d:total}"
 		"pet_book_chapter_chick"				"Kuře"
 		"pet_book_chapter_pullet"				"Slepička"
@@ -51434,9 +51435,17 @@
 		"pet_book_hint_chick_feet_zoom"			"v dálce"
 		"pet_book_hint_chick_and_you"			"Tvoje {s:growth} {s:pose}."
 		"pet_book_hint_chick_and_you_pose"		"ve tvých rukách"
+		"pet_book_hint_chick_park"				"{s:stage}, kde jsi nechyběl ty ani tvoje {s:growth}."
+		"pet_book_hint_adolescent_intro"		"{s:stage}. Tvoje {s:growth} je radostí bez sebe."
+		"pet_book_hint_adolescent_road_trip"	"{s:stage}. Tvoje {s:growth} už se těší, až tam pojedete znovu."
+		"pet_book_hint_birthday"				"Tvoje {s:growth} {s:activity} a {s:headwear}. Klidně přidej konfety a jiskry."
 		"pet_book_hint_birthday_headwear"		"s party čepičkou"
 		"pet_book_hint_birthday_activity"		"v letu"
+		"pet_book_hint_adult_perch"				"Tvoje {s:growth} {s:pose}. {s:filter} filtr."
+		"pet_book_hint_adult_perch_pose"		"na tvojí hlavě"
+		"pet_book_hint_adult_tricks"			"Tvoje {s:growth} {s:activity}. Nasvícení necháme na tobě."
 		"pet_book_hint_adult_tricks_activity"	"při výkopu nebo v letu"
+		"pet_book_hint_adult_close"				"Tvoje {s:growth} {s:pose}."
 		"pet_book_hint_adult_close_pose"		"ve tvých rukách nebo tváří v zobák"
 		"pet_book_hint_free"					"Tvoje {s:growth} na nějaké hezké fotografii."
 
@@ -51481,6 +51490,7 @@
 		"pet_book_page_adolescent_road_trip_6"	"Tvoje první mise. Už po tobě bylo stříleno ve dvou různých zemích, což je o dvě více, než kolika se může pochlubit běžná slepice. Něco pro vnoučata!"
 		"pet_book_page_adolescent_road_trip_7"	"Nová místa, stejná slepice. Prozkoumala jsi každou bednu, ignorovala každé varování, a stejně ses domů vrátila celá. Štěstí začátečníka se tomu říká."
 		"pet_book_page_adult_perch_0"			"NAPOSLEDY VIDĚNA VE VÝŠCE RAMEN"
+		"pet_book_page_adult_perch_1"			"A JÁ JSEM VEDENÝ JAKO SPOLUPACHATEL"
 		"pet_book_page_adult_perch_2"			"POPIS: MALÁ, OZBROJENÁ A NEBOJÁCNÁ"
 		"pet_book_page_adult_perch_3"			"ZLOČINY: NĚKOLIK; VÝČITKY: NULA"
 		"pet_book_page_adult_perch_4"			"ODMĚNA BY NEPOKRYLA ANI TVOJE KRMENÍ"
@@ -51488,6 +51498,7 @@
 		"pet_book_page_adult_perch_6"			"POSLEDNÍ ZNÁMÁ ADRESA: MOJE HLAVA"
 		"pet_book_page_adult_perch_7"			"V PŘÍPADĚ NÁLEZU NEVRACET. VŠAK TY TREFÍŠ"
 		"pet_book_page_adult_tricks_0"			"Už máš svoje názory a pařáty, které je podpoří."
+		"pet_book_page_adult_tricks_1"			"Není to tak dávno, co sis ani nezvládla sama zavázat tkaničky."
 		"pet_book_page_adult_tricks_2"			"Výkop v celé své kráse. Viděl jsem, jak jsi ho použila na bednu, a ta bedna prohrála."
 		"pet_book_page_adult_tricks_3"			"Technicky vzato let. Zapojila se gravitace, ale záměr byl silnější."
 		"pet_book_page_adult_tricks_4"			"Ať už je to cokoli, nacvičovala sis to. A to mě znepokojuje."
@@ -51506,6 +51517,7 @@
 		"pet_book_page_adult_tricks_billing_0"	"PŘEDSTAVUJE SE {s:pet_name_3}"
 		"pet_book_page_adult_tricks_billing_1"	"A <span class=\"pb-page__name\">{s:pet_name_3}</span> JAKO PĚST"
 		"pet_book_page_adult_tricks_billing_2"	"V HLAVNÍ ROLI <span class=\"pb-page__name\">{s:pet_name_3}</span> A BEDNA"
+		"pet_book_page_adult_tricks_billing_3"	"<span class=\"pb-page__name\">{s:pet_name_3}</span> V ROLI, PRO KTEROU SE VYLÍHNULA"
 		"pet_book_page_adult_tricks_credits_0"	"PRODUKCE, REŽIE A CATERING: JÁ. DRUHÁ JEDNOTKA: TAKY JÁ."
 		"pet_book_page_adult_tricks_credits_1"	"NATOČENO NA DVORKU. NEBYLY UŠETŘENY ŽÁDNÉ BEDNY."
 		"pet_book_page_adult_tricks_credits_2"	"OHODNOCENO S JAKO PRO SLEPICE. DÉLKA: JEDNO ODPOLEDNE."
@@ -51534,6 +51546,8 @@
 		"pet_book_page_brave_fire_cause"			"OTEVŘENÝ OHEŇ"
 		"pet_book_page_brave_fire_casualties"		"SLEPICE (EXTRA KŘUPAVÁ)"
 
+		"pet_book_page_brave_taser_0"			"{s:pet_name} schytala plnou dávku elektřiny. Jauvajs!"
+		"pet_book_page_brave_c4_0"				"{s:pet_name} byla při tom, když vybuchla bomba. A nadosmrti se tím bude chlubit."
 		"tooltip_pet_egg"						"Tvoje vejce ještě není připravené k vylíhnutí. K vylíhnutí dojde přibližně za týden od chvíle, kdy vejce dostaneš."
 
 		// books paragraphs
@@ -51582,8 +51596,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Stiskni [{s:bind_use}] pro aktivaci vysílače.</font>"
 
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

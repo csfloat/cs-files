@@ -29,6 +29,7 @@
 		"GameUI_CrosshairStyle5"	"Cruz dinâmica (antiga / disparo responsivo)"
 		"GameUI_CrosshairStyle6"	"Apenas ponto"
 		"GameUI_CrosshairStyle7"	"Círculo vazado dinâmico"
+		"GameUI_CrosshairStyle8"	"Quadrado estático"
 
 		"GameUI_CrosshairStyle0_Tooltip"	"Cruz dinâmica"
 		"GameUI_CrosshairStyle1_Tooltip"	"Círculo dinâmico"
@@ -38,6 +39,7 @@
 		"GameUI_CrosshairStyle5_Tooltip"	"Cruz dinâmica (antiga)"
 		"GameUI_CrosshairStyle6_Tooltip"	"Apenas ponto"
 		"GameUI_CrosshairStyle7_Tooltip"	"Círculo vazado dinâmico"
+		"GameUI_CrosshairStyle8_Tooltip"	"Quadrado estático."
 
 		"GameUI_CrosshairStyle_Friendly"		"Aviso de fogo amigo"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Nunca"
@@ -60,6 +62,9 @@
 		"GameUI_CrosshairUpdated_Info"	"A escala desta configuração foi alterada. Você pode querer ajustá-la ao seu gosto."
 		"GameUI_CrosshairUpdated_Style"	"Adição de novos estilos de mira."
 		"GameUI_CrosshairOutline"	"Contorno"
+		"GameUI_CrosshairOutline_Full"	"Contorno completo"
+		"GameUI_CrosshairOutline_Half"	"Meio contorno"
+		"GameUI_CrosshairOutline_None"	"Sem contorno"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Tamanho da mira"
 		"GameUI_CrosshairColor"		"Cor e transparência"
@@ -50841,8 +50846,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pressione [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

@@ -51689,8 +51689,8 @@ bare glem alt om Proseccoen."
 		"tooltip_kick_player"			"Smid spiller ud fra lokal server"		
 		"tooltip_short_viewaddon"			"Vis tilpasset bane"
 		"tooltip_short_kick_player"			"Smid ud"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

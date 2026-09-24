@@ -33,7 +33,7 @@
 		"GameUI_CrosshairCode"		"Código de mira:"
 		"GameUI_CrosshairLength"	"Longitud"
 		"GameUI_CrosshairDot"		"Punto central"
-		"GameUI_IronsightColor"		"Usar el color de la mira para el punto de la mira telescópica"
+		"GameUI_IronsightColor"		"Usar el color de la mira para la mira telescópica"
 		"GameUI_IronsightScale"		"Escala del punto de la mira"
 		"GameUI_CrosshairRecoil"	"Seguir el culatazo"
 		"GameUI_CrosshairRecoil_Desc"	"La mira deja el centro de la pantalla para seguir el patrón de retroceso del arma."
@@ -50356,8 +50356,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 "pet_photo_caption_filter"				"Filtro"
 		"pet_photo_caption_zoom"				"Zoom"
 		"pet_book_page_brave_report_title_status"	 "ESTADO:"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

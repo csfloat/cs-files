@@ -50408,8 +50408,8 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_kick_player"			"Sparka ut spelare från lokal server"		
 		"tooltip_short_viewaddon"			"Visa anpassad bana"
 		"tooltip_short_kick_player"			"Sparka ut"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

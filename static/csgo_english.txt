@@ -1680,6 +1680,27 @@
 		"Tents"			"Tents"
 		"Dock"			"Dock"
 
+		// Rush Map Names
+		"room_101"			"Spire"
+		"room_102"			"Wallbang"
+		"room_103"			"Big Box"
+		"room_104"			"Madhouse"
+		"room_201"			"Sewer"
+		"room_202"			"Dogleg"
+		"room_203"			"Trainyard"
+		"room_204"			"Crane"
+		"room_205"			"Bloc"
+		"room_206"			"Hydro"
+		"room_207"			"Atomic"
+		"room_208"			"Medusa"
+		"room_209"			"Bear"
+		"room_210"			"Steel"
+		"room_211"			"Container"
+		"room_212"			"Drop"
+		"room_301"			"CT Castle"
+		"room_401"			"T Castle"
+		"convoy"			"Convoy"
+
 		"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [CT] %s1﹫%s3: %s2"
@@ -42078,6 +42099,7 @@
 		"major_hub_souvenir_package_desc"	"Click on any finished match below to claim a souvenir or purchase one for <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span>"
 		"major_hub_souvenir_package_desc_no_price"	"Click on any finished match below to claim a souvenir."
 		"major_hub_store_title_event" 	"{s:tournament_name} Major Shop"
+		"major_hub_store_title_hud_store" 	"{s:tournament_name} Major Hub & Shop"
 		"major_hub_store_desc" 	"Get your favorite team and player autograph stickers"
 		"major_hub_store_desc_2" 	"Now Available - Champions Stickers and Highlight Charms"
 		"major_hub_store_desc_3" 	"The Ranked Series Stickers"
@@ -54056,7 +54078,7 @@
 // ---------------------------------------------------------------------------------------------
 		"SFUI_GameModeRush"					"Rush"
 
-		"SFUI_Rules_Rush_Loading"			"Rush everything, shoot everything, try not to die, good luck and have fun!"
+		"SFUI_Rules_Rush_Loading"			"Advance through a gauntlet of battle arenas.\n\nTo win the match, capture the enemy's castle or win 8 rounds.\n\nTo win a round, control the tower when time expires.\n\nSettings:\n· Armor is purchasable\n· Team collision is ON\n· Friendly fire is ON"
 
 		"SFUI_Lobby_StatusRichPresence_rush_lobby"		"In Rush Lobby"
 		"SFUI_Lobby_StatusRichPresence_rush_game"		"Playing Rush"

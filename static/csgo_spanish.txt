@@ -50314,8 +50314,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_kick_player"			"Expulsar al jugador del servidor local"		
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

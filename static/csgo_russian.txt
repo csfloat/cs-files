@@ -52,6 +52,7 @@
 		"GameUI_SplitInnerAlpha" 	"Прозрачность внутри при разделении"
 		"GameUI_SplitOuterAlpha" 	"Прозрачность снаружи при разделении"
 		"GameUI_SplitRatio" 		"Соотношение разделяемых элементов"
+		"GameUI_DynamicSpreadDistanceLimit" "Максимальное динамическое расхождение"
 		"GameUI_TStyle" 			"Т-образный"
 		"GameUI_ShowObserverCrosshair" 	"Показывать чужие прицелы"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Показывать прицелы других игроков во время наблюдения."
@@ -87,6 +88,8 @@
  
 		"GameUI_Confirm_Write_Setting_Title"	"Запрос на изменение настроек"
 		"GameUI_Confirm_Write_Setting_Text"		"Карта {s:mapname} из мастерской хочет изменить ваши настройки. Изменения могут коснуться прицела, радара, звуков и прочего. Разрешить?"
+
+		"GameUI_ColorPicker_Current"			"Текущий"
 
 		"settings_damage_prediction"			"Прогнозирование урона"
 		"settings_damage_prediction_info"		"Позволяет воспроизводить звуковые и графические эффекты нанесения урона незамедлительно, без подтверждения от сервера. Стрельба может стать гораздо более отзывчивой, но появляется риск совершения ошибки (например, если ваш клиент ещё не получил информацию о сбитии прицела, получении урона или смерти игрока). Прогнозирование отключается, когда у вас высокая задержка до сервера."
@@ -47354,6 +47357,7 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
+		"settings_crosshair"				"Прицел"
 		"settings_crosshair_sniper"			"Снайперский прицел"
 		"settings_radar_section"			"Радар"
 		"settings_radarandtablet_section"	"Радар/планшет"
@@ -50343,8 +50347,8 @@
 		"tooltip_kick_player"			"Выгнать игрока с локального сервера"		
 		"tooltip_short_viewaddon"			"Просмотреть пользовательскую карту"
 		"tooltip_short_kick_player"			"Выгнать"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

@@ -50402,8 +50402,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"tooltip_kick_player"			"Elimină jucătorul de pe serverul local"		
 		"tooltip_short_viewaddon"			"Vezi harta personalizată"
 		"tooltip_short_kick_player"			"Exclude"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 

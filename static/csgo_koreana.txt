@@ -52,6 +52,7 @@
 		"GameUI_SplitInnerAlpha" 	"내부 분할 투명도"
 		"GameUI_SplitOuterAlpha" 	"외부 분할 투명도"
 		"GameUI_SplitRatio" 		"분할 크기 비율"
+		"GameUI_DynamicSpreadDistanceLimit" "동적 총탄 분산 제한"
 		"GameUI_TStyle" 			"T자형"
 		"GameUI_ShowObserverCrosshair" 	"플레이어 조준선 표시"
 		"GameUI_ShowObserverCrosshair_Tooltip" "관전 시 다른 플레이어의 조준선을 표시합니다."
@@ -50337,8 +50338,8 @@
 		"tooltip_kick_player"			"로컬 서버에서 플레이어를 추방합니다."		
 		"tooltip_short_viewaddon"			"맞춤 맵 보기"
 		"tooltip_short_kick_player"			"추방"
-// crow_mask_54084_comment
-// crow_mask_54085_comment
+// crow_mask_54089_comment
+// crow_mask_54090_comment
 }
 
 
