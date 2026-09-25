@@ -1641,8 +1641,7 @@
 		"Forest"		"Hutan"
 		"Tents"			"Tenda"
 		"Dock"			"Dermaga"
-
-		"Game_radio"                        " %s4%s1: %s2"
+"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [AT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -49643,8 +49642,8 @@ melawan FaZe."
 		"tooltip_kick_player"			"Keluarkan pemain dari server lokal"		
 		"tooltip_short_viewaddon"			"Lihat Map Kustom"
 		"tooltip_short_kick_player"			"Keluarkan"
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

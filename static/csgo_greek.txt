@@ -1637,8 +1637,7 @@
 		"Forest"		"Δάσος"
 		"Tents"			"Αντίσκηνα"
 		"Dock"			"Dock"
-
-		"Game_radio"                        " %s4%s1: %s2"
+"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [ΑΤ] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [Τ] %s1﹫%s3: %s2"
@@ -51580,8 +51579,8 @@
 		"tooltip_kick_player"			"Αποβολή παίκτη από τοπικό διακομιστή"		
 		"tooltip_short_viewaddon"			"Προβολή προσαρμοσμένου χάρτη"
 		"tooltip_short_kick_player"			"Αποβολή"
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

@@ -19,6 +19,7 @@
 		"GameUI_FriendlyWarning"			"Hồng tâm cảnh báo bắn đồng đội"
 		"GameUI_FriendlyWarning_Desc"		"Hiện cảnh báo trên hồng tâm khi nhắm vào đồng đội."
 
+		"GameUI_CrosshairStyle7"	"Linh động - 4 bên"
 		"GameUI_CrosshairStyle_Friendly"		"Cảnh báo bắn đồng đội"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Luôn tắt"
 		"GameUI_CrosshairFriendlyWarning_Default" "Chỉ trên hồng tâm mặc định"
@@ -1640,8 +1641,7 @@
 		"Forest"		"Rừng"
 		"Tents"			"Lều"
 		"Dock"			"Bến tàu"
-
-		"Game_radio"                        " %s4%s1: %s2"
+"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [CT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -53115,8 +53115,8 @@
 		"tooltip_short_kick_player"			"Đuổi"
 "pet_photo_booth_headwear_none"		"Không"
 		"pet_photo_booth_headwear_helmet"	"Mũ bảo hiểm"
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

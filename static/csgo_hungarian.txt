@@ -1671,7 +1671,8 @@
 		"Forest"		"Erdő"
 		"Tents"			"Sátrak"
 		"Dock"			"Kikötő"
-
+"room_301"			"T-E vár"
+		"room_401"			"T vár"
 		"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [T-E] %s1﹫%s3: %s2"
@@ -51071,6 +51072,7 @@
 		"pet_book_library"						"Könyvtár"
 		"pet_book_drag_hint"					"Fényképek hozzáadása és eltávolítása húzással és elengedéssel."
 		"pet_book_name_placeholder"				"Ide írd a kisállatod nevét"
+		"pet_book_hatch_due"					"Kikelés napja: {s:hatch_day}"
 		"pet_book_page_counter"					"{d:page} / {d:total}"
 		"pet_book_chapter_chick"				"Csibe"
 		"pet_book_chapter_pullet"				"Jérce"
@@ -51227,8 +51229,6 @@
 // ---------------------------------------------------------------------------------------------
 		"SFUI_GameModeRush"					"Roham"
 
-		"SFUI_Rules_Rush_Loading"			"Rohanj le mindent, lőj le mindent, igyekezz nem meghalni, sok szerencsét és jó szórakozást!"
-
 		"SFUI_Lobby_StatusRichPresence_rush_lobby"		"Roham váróban"
 		"SFUI_Lobby_StatusRichPresence_rush_game"		"Roham játékban"
 		"SFUI_Lobby_StatusRichPresence_rush_community"	"Közösségi Roham"
@@ -51258,8 +51258,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Nyomd meg a(z) [{s:bind_use}] billentyűt a torony aktiválásához.</font>"
 
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

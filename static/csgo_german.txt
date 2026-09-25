@@ -1637,8 +1637,7 @@
 		"Forest"		"Wald"
 		"Tents"			"Zelte"
 		"Dock"			"Dock"
-
-		"Game_radio"                        " %s4%s1: %s2"
+"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [AT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -50323,8 +50322,9 @@
 		"tooltip_kick_player"			"Spieler vom lokalem Server werfen"		
 		"tooltip_short_viewaddon"			"Benutzerdefinierte Karte anzeigen"
 		"tooltip_short_kick_player"			"Herauswerfen"
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+"pet_book_hatch_due"					"Schlüpft: {s:hatch_day}"
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

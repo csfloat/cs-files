@@ -1637,8 +1637,7 @@
 		"Forest"		"Skov"
 		"Tents"			"Telte"
 		"Dock"			"Havn"
-
-		"Game_radio"                        " %s4%s1: %s2"
+"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [CT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -38340,6 +38339,8 @@ bare glem alt om Proseccoen."
 		"SFUI_GameMode_Workshop"				"Værksted"
 		"SFUI_GameMode_new_user_training"		"Træningsdag"
 		"SFUI_GameMode_retakes"					"Retakes"
+		"SFUI_GameMode_rush"					"Rush"
+
 		"ForceNewUserTraining_title"			"Træningsdag"
 		"ForceNewUserTraining_text"				"Er du klar til en kort træningssession?"
 
@@ -51689,8 +51690,9 @@ bare glem alt om Proseccoen."
 		"tooltip_kick_player"			"Smid spiller ud fra lokal server"		
 		"tooltip_short_viewaddon"			"Vis tilpasset bane"
 		"tooltip_short_kick_player"			"Smid ud"
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+"pet_photo_booth_zoom_mid"			"Midten"
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

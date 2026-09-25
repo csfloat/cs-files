@@ -1678,8 +1678,7 @@
 		"Forest"		"Foresta"
 		"Tents"			"Tende"
 		"Dock"			"Porto"
-
-		"Game_radio"                        " %s4%s1: %s2"
+"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [AT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -50736,7 +50735,9 @@ Vuoi attivare il tuo pass ora?"
 		"pet_book_page_adolescent_intro_4"		"La lanugine è andata via, chissà dove. Al suo posto: piume, opinioni e stazza appena sufficiente perché nessuno si chieda più come mai ci sia un pollo nell'area di attesa."
 		"pet_book_page_adolescent_intro_5"		"Ti hanno lasciato entrare nel deposito. Nessuno ha dato l'autorizzazione e nessuno si è opposto, e in meno di un minuto avevi già rivendicato la cassa più alta della stanza come tua."
 		"pet_book_page_adolescent_intro_6"		"Ora sei ufficialmente abbastanza grande per farti sparare addosso. Voglio che risulti agli atti che non è stata una mia idea, e che sembri sinceramente felice di questa notizia."
+		"pet_book_page_adolescent_intro_7"		"Finalmente abbastanza grande per il campo. Tutto questo equipaggiamento durerà più a lungo di noi due, e tu hai deciso che la cosa migliore di tutta questa roba è proprio l’odore."
 		"pet_book_page_adolescent_road_trip_0"	"Il tuo primo viaggio. Sei riuscito perlopiù a evitare i proiettili vaganti, e hai visto cose che nessun uccello dovrebbe mai vedere. Ricorda, il trauma forma il carattere! Vai a beccare qualche razione e scuoti via lo shock da bombardamento."
+		"pet_book_page_adolescent_road_trip_1"	"La tua prima partita in trasferta. Hai visto piazzare una bomba e non hai battuto ciglio: la cosa mi preoccupa ancora di più di quanto avrebbe fatto una tua reazione. Tutto perfettamente normale! Vai a goderti il sole finché non ti passa."
 		"pet_book_page_adolescent_road_trip_2"	"Finalmente fuori dal deposito. Hai visto la luce del giorno, gli spari, e un uomo adulto ricaricare ad occhi chiusi. Fa tutto parte dell'esperienza! Prendi un po' di cibo, te lo sei meritato."
 		"pet_book_page_adolescent_road_trip_3"	"Il tuo primo vero viaggio. Qualcuno ha lanciato una granata e tu ci sei corso dritto contro, perché ovviamente dovevi farlo. Ci lavoreremo su. Vai a sederti da qualche parte tranquillo per un po'."
 		"pet_book_page_adolescent_road_trip_4"	"Due fermate, un passeggero molto piccolo. Hai dormito per gran parte della sparatoria e ti sei svegliato per le parti importanti. Ottimo istinto! Vai a cercare un po' d'ombra e qualche insetto."
@@ -50752,6 +50753,7 @@ Vuoi attivare il tuo pass ora?"
 		"pet_book_page_adult_perch_6"			"ULTIMO INDIRIZZO NOTO: SU DI ME"
 		"pet_book_page_adult_perch_7"			"SE TROVATO, NON RESTITUIRE. CONOSCI GIÀ LA STRADA"
 		"pet_book_page_adult_tricks_0"			"Ora hai delle opinioni, e i passi giusti per sostenerle."
+		"pet_book_page_adult_tricks_1"			"Fino a poco tempo fa non riuscivi neanche a sciogliere i lacci delle scarpe."
 		"pet_book_page_adult_tricks_2"			"Il calcio è reale. L'ho visto colpire una cassa, e ho visto la cassa perdere."
 		"pet_book_page_adult_tricks_3"			"Volo, tecnicamente. C'era la gravità, ma c'era anche l'intenzione."
 		"pet_book_page_adult_tricks_4"			"Qualunque cosa sia, ti sei esercitato. Ed è questo l'aspetto inquietante."
@@ -50801,6 +50803,8 @@ Vuoi attivare il tuo pass ora?"
 
 		"pet_book_page_brave_taser_0"			"{s:pet_name} ha preso una scarica bella forte e ne è uscito ancora più voluminoso."
 		"pet_book_page_brave_c4_0"				"{s:pet_name} c'era quando la bomba è esplosa. Diritto di vantarsi: per sempre."
+		"tooltip_pet_egg"						"Il tuo uovo non è ancora pronto per la schiusa. Si schiuderà circa una settimana dopo averlo ottenuto."
+
 		// books paragraphs
 		"pet_book_page_birthday_0"		"Non sono del tutto sicuro di come l'età dei polli si traduca in anni umani, ma oggi sei ufficialmente un veterano. Attacca un adesivo di compleanno sul tuo piumaggio, e andiamo a creare qualche ricordo."
 		"pet_book_page_birthday_1"		"Non ho la minima idea di come funzioni l'età del pollame, ma tu di sicuro sei salito di livello. Un brindisi al diventare più vecchi, sopravvivendo ai pessimi lanci di flashbang dei nostri compagni di squadra."
@@ -50816,7 +50820,7 @@ Vuoi attivare il tuo pass ora?"
 // ---------------------------------------------------------------------------------------------
 		"SFUI_GameModeRush"					"Rush"
 
-		"SFUI_Rules_Rush_Loading"			"Precipitati su tutto, spara a tutto, cerca di non morire, buona fortuna e divertiti!"
+		"SFUI_Rules_Rush_Loading"			"Avanza attraverso una serie di ardue arene di battaglia.\n\nPer vincere la partita, conquista il castello nemico o vinci 8 round.\n\nPer vincere un round, controlla la torre quando il tempo scade.\n\nImpostazioni:\n· L'armatura è acquistabile.\n· Collisione tra compagni di squadra attivata.\n· Fuoco amico attivato."
 
 		"SFUI_Lobby_StatusRichPresence_rush_lobby"		"Nella lobby - Rush"
 		"SFUI_Lobby_StatusRichPresence_rush_game"		"In gioco - Rush"
@@ -50847,8 +50851,8 @@ Vuoi attivare il tuo pass ora?"
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Premi [{s:bind_use}] per attivare la torre.</font>"
 
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 

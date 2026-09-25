@@ -1644,8 +1644,7 @@
 		"Forest"		"森林"
 		"Tents"			"帳篷"
 		"Dock"			"Dock"
-
-		"Game_radio"                        " %s4%s1：%s2"
+"Game_radio"                        " %s4%s1：%s2"
 		"Game_radio_location"               " %s4%s1﹫%s2：%s3"
 		"Cstrike_Chat_CT_Loc"               " [反恐小組] %s1﹫%s3：%s2"
 		"Cstrike_Chat_T_Loc"                " [恐怖份子] %s1﹫%s3：%s2"
@@ -42302,7 +42301,7 @@
 
 		"SFUI_Settings_FollowGrenade_LeftAlt"		"左邊 Alt 按鍵"
 		"SFUI_Settings_FollowGrenade_LeftShift"		"左邊 Shift 按鍵"
-		"SFUI_Settings_FollowGrenade_ReloadKey"		"重新裝彈鍵"
+		"SFUI_Settings_FollowGrenade_ReloadKey"		"換彈匣鍵"
 
 		"SFUI_Settings_BuyWheelDonateKey"				"購買選單捐贈鍵"
 		"SFUI_Settings_BuyWheelDonateKey_Info"			"設定直接從購買選單贈送武器的按鍵。"
@@ -48174,6 +48173,7 @@
 
 
 		"settings_account_conn_section"		"Twitch.tv"
+		"settings_crosshair"				"準星 / 瞄準鏡"
 		"settings_radar_section"			"雷達"
 		"settings_radarandtablet_section"	"雷達 / 平板電腦"
 		"settings_items_section"			"物品"
@@ -51164,8 +51164,8 @@
 		"tooltip_kick_player"			"從本機伺服器踢出玩家"		
 		"tooltip_short_viewaddon"			"查看自訂地圖"
 		"tooltip_short_kick_player"			"踢出"
-// crow_mask_54089_comment
-// crow_mask_54090_comment
+// crow_mask_54111_comment
+// crow_mask_54112_comment
 }
 
 
