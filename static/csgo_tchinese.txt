@@ -19,6 +19,8 @@
 		"GameUI_FriendlyWarning"			"友方傷害警告"
 		"GameUI_FriendlyWarning_Desc"		"當準心指向友方時顯示警告。"
 
+		"GameUI_CrosshairStyle8"	"靜態方形"
+
 		"GameUI_CrosshairStyle_Friendly"		"友方傷害警告"
 		"GameUI_CrosshairFriendlyWarning_Off"	"總是關閉"
 		"GameUI_CrosshairFriendlyWarning_Default" "僅在預設準心開啟"
@@ -41257,6 +41259,8 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"已回收隨身碟。\n安裝病毒中！"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"2 號隨身碟已就緒！"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"已回收病毒隨身碟！"	
+
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
 "SFUIHUD_Spectate_Equipment"	"裝備價值"
 		"SFUIHUD_Spectate_TeamMoney"	"隊伍金錢"
 		"SFUIHUD_Spectate_TeamEQValue"	"隊伍總裝備值"
@@ -51164,8 +51168,8 @@
 		"tooltip_kick_player"			"從本機伺服器踢出玩家"		
 		"tooltip_short_viewaddon"			"查看自訂地圖"
 		"tooltip_short_kick_player"			"踢出"
-// crow_mask_54111_comment
-// crow_mask_54112_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 

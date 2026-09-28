@@ -19,6 +19,7 @@
 		"GameUI_FriendlyWarning"			"Varning i hårkorset om Friendly Fire"
 		"GameUI_FriendlyWarning_Desc"		"Visa en varning i hårkorset när du siktar på en kamrat."
 
+		"GameUI_CrosshairStyle7"	"Dynamisk kvadrant"
 		"GameUI_CrosshairStyle_Friendly"		"Friendly Fire-varning"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Alltid av"
 		"GameUI_CrosshairFriendlyWarning_Default" "Endast på standardhårkorset"
@@ -47395,6 +47396,7 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 
 
 		"settings_account_conn_section"		"Twitch.tv"
+		"settings_crosshair"				"Hårkors/kikarsikte"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar/platta"
 		"settings_items_section"			"Föremål"
@@ -50407,8 +50409,8 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_kick_player"			"Sparka ut spelare från lokal server"		
 		"tooltip_short_viewaddon"			"Visa anpassad bana"
 		"tooltip_short_kick_player"			"Sparka ut"
-// crow_mask_54111_comment
-// crow_mask_54112_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 

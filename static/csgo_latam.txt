@@ -50355,8 +50355,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 "pet_photo_caption_filter"				"Filtro"
 		"pet_photo_caption_zoom"				"Zoom"
 		"pet_book_page_brave_report_title_status"	 "ESTADO:"
-// crow_mask_54111_comment
-// crow_mask_54112_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 

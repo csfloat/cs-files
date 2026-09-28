@@ -19,6 +19,9 @@
 		"GameUI_FriendlyWarning"			"Ειδοποίηση φίλιων πυρών στο στόχαστρο"
 		"GameUI_FriendlyWarning_Desc"		"Εμφάνιση μιας ειδοποίησης στο στόχαστρο όταν στοχεύετε ένα σύμμαχο."
 
+		"GameUI_CrosshairStyle0"	"Δυναμικός σταυρός"
+		"GameUI_CrosshairStyle4"	"Στατικός σταυρός"
+		"GameUI_CrosshairStyle4_Tooltip"	"Στατικός σταυρός"
 		"GameUI_CrosshairStyle_Friendly"		"Προειδοποίηση φίλιων πυρών"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Πάντα ανενεργό"
 		"GameUI_CrosshairFriendlyWarning_Default" "Μόνο στο προεπιλεγμένο στόχαστρο"
@@ -51579,8 +51582,8 @@
 		"tooltip_kick_player"			"Αποβολή παίκτη από τοπικό διακομιστή"		
 		"tooltip_short_viewaddon"			"Προβολή προσαρμοσμένου χάρτη"
 		"tooltip_short_kick_player"			"Αποβολή"
-// crow_mask_54111_comment
-// crow_mask_54112_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 

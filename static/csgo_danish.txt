@@ -51691,8 +51691,8 @@ bare glem alt om Proseccoen."
 		"tooltip_short_viewaddon"			"Vis tilpasset bane"
 		"tooltip_short_kick_player"			"Smid ud"
 "pet_photo_booth_zoom_mid"			"Midten"
-// crow_mask_54111_comment
-// crow_mask_54112_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 
