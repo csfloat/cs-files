@@ -51172,8 +51172,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_short_kick_player"			"Verwijderen"
 "pet_book_menu_retired"					"{s:hatch_date}"
 "SFUI_Rules_Rush_Loading"			"Overleef een reeks gevechtsarena's.\n\nWin de wedstrijd door de vesting van de vijand te veroveren of 8 ronden te winnen.\n\nWin een ronde door de toren in bezit te hebben als de tijd om is.\n\nInstellingen:\n· Pantser verkrijgbaar\n· Botsen met teamgenoten staat UIT\n· Friendly fire staat AAN"
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 

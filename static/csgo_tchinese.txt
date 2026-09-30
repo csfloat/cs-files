@@ -51168,8 +51168,8 @@
 		"tooltip_kick_player"			"從本機伺服器踢出玩家"		
 		"tooltip_short_viewaddon"			"查看自訂地圖"
 		"tooltip_short_kick_player"			"踢出"
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 

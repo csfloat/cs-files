@@ -50509,8 +50509,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Appuyez sur [{s:bind_use}] pour activer la tour.</font>"
 
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+// crow_mask_54117_comment
+// crow_mask_54118_comment
 }
 
 
