@@ -50445,8 +50445,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 // ---------------------------------------------------------------------------------------------
 		"SFUI_GameModeRush"					"Rush"
 "SFUI_Mapgroup_rush"					"Rush"
-		// crow_mask_54117_comment
-// crow_mask_54118_comment
+		// crow_mask_54120_comment
+// crow_mask_54121_comment
 }
 
 

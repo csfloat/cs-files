@@ -50391,6 +50391,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 // ---------------------------------------------------------------------------------------------
 		"SFUI_GameModeRush"					"Baskın"
 
+		"SFUI_Rules_Rush_Loading"			"Farklı savaş arenalarından oluşan bir seride ilerle.\n\nMaçı kazanmak için düşmanın kalesini ele geçir veya 8 raunt kazan.\n\nBir raundu kazanmak için süre bittiğinde kuleyi kontrol et.\n\nAyarlar:\n· Zırh satın alınabilir.\n· Takım üyelerine çarpma AÇIK\n· Dost ateşi AÇIK"
+
 		"SFUI_Lobby_StatusRichPresence_rush_lobby"		"Baskın Lobisinde"
 		"SFUI_Lobby_StatusRichPresence_rush_game"		"Baskın Oynuyor"
 		"SFUI_Lobby_StatusRichPresence_rush_watch"		"Baskın İzliyor"
@@ -50413,8 +50415,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"rush_countdown_capture_t"			"Teröristler kuleyi ele geçirmeli."
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Kuleyi etkinleştirmek için [{s:bind_use}] tuşuna bas.</font>"
 
-// crow_mask_54117_comment
-// crow_mask_54118_comment
+// crow_mask_54120_comment
+// crow_mask_54121_comment
 }
 
 

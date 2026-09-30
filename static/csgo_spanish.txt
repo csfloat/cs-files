@@ -19,6 +19,28 @@
 		"GameUI_FriendlyWarning"			"Advertencia de fuego amigo en la mira"
 		"GameUI_FriendlyWarning_Desc"		"Se muestra una advertencia en la mira cuando apuntas a un compañero."
 
+		"GameUI_CrosshairStyle"					"Estilo"
+
+		"GameUI_CrosshairStyle0"	"Cruz dinámica"
+		"GameUI_CrosshairStyle1"	"Círculo dinámico"
+		"GameUI_CrosshairStyle2"	"Cruz dinámica (clásica)"
+		"GameUI_CrosshairStyle3"	"Círculo estático"
+		"GameUI_CrosshairStyle4"	"Cruz estática"
+		"GameUI_CrosshairStyle5"	"Cruz dinámica (tradicional/respuesta de disparo)"
+		"GameUI_CrosshairStyle6"	"Solo el punto"
+		"GameUI_CrosshairStyle7"	"Cuádruple dinámico"
+		"GameUI_CrosshairStyle8"	"Cuadrado estático"
+
+		"GameUI_CrosshairStyle0_Tooltip"	"Cruz dinámica"
+		"GameUI_CrosshairStyle1_Tooltip"	"Círculo dinámico"
+		"GameUI_CrosshairStyle2_Tooltip"	"Cruz dinámica (clásica)"
+		"GameUI_CrosshairStyle3_Tooltip"	"Círculo estático"
+		"GameUI_CrosshairStyle4_Tooltip"	"Cruz estática"
+		"GameUI_CrosshairStyle5_Tooltip"	"Cruz dinámica (tradicional)"
+		"GameUI_CrosshairStyle6_Tooltip"	"Solo el punto"
+		"GameUI_CrosshairStyle7_Tooltip"	"Cuádruple dinámico"
+		"GameUI_CrosshairStyle8_Tooltip"	"Cuadrado estático"
+
 		"GameUI_CrosshairStyle_Friendly"		"Advertencia de fuego amigo"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Siempre desactivada"
 		"GameUI_CrosshairFriendlyWarning_Default" "Solo con la mira predeterminada"
@@ -37,9 +59,15 @@
 		"GameUI_CrosshairRecoil_Desc"	"El punto de mira abandona el centro de la pantalla para seguir el patrón de retroceso del arma."
 		"GameUI_CrosshairThickness"	"Grosor"
 		"GameUI_CrosshairGap"		"Abertura"
+		"GameUI_CrosshairUpdated_Info"	"La escala de este ajuste ha cambiado. Es posible que quieras modificarla a tu gusto."
+		"GameUI_CrosshairUpdated_Style"	"Se han añadido nuevos estilos de la mira."
 		"GameUI_CrosshairOutline"	"Contorno"
+		"GameUI_CrosshairOutline_Full"	"Todo el contorno"
+		"GameUI_CrosshairOutline_Half"	"Mitad del contorno"
+		"GameUI_CrosshairOutline_None"	"Sin contorno"
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Tamaño del punto de mira"
+		"GameUI_CrosshairColor"		"Color y transparencia"
 		"GameUI_SniperCrosshairThickness" "Grosor de la mira de francotirador"
 		"GameUI_ColorSliders"		"Colores"
 		"GameUI_ColorQuality"		"Calidad del color"
@@ -52,6 +80,7 @@
 		"GameUI_SplitInnerAlpha" 	"Alfa de la dispersión interior"
 		"GameUI_SplitOuterAlpha" 	"Alfa de la dispersión exterior"
 		"GameUI_SplitRatio" 		"Proporción de la dispersión"
+		"GameUI_DynamicSpreadDistanceLimit_Tooltip" "Límite de la dispersión dinámica"
 		"GameUI_TStyle" 			"Estilo T"
 		"GameUI_ShowObserverCrosshair" 	"Mostrar miras de los jugadores"
 		"GameUI_ShowObserverCrosshair_Tooltip" "Muestra las miras de los otros jugadores mientras los ves como espectador."
@@ -82,11 +111,18 @@
 		"GameUI_Xhair_Code_Popup"				"Compartir o importar"
 		"GameUI_Xhair_Code_Invalid"				"Código de mira no válido o antiguo"
 		"GameUI_Xhair_Import_Code"				"Importar"
+		"GameUI_Xhair_DynamicPreview_Tooltip"			"Activa o desactiva la vista previa dinámica de la mira."
+		"GameUI_Xhair_DynamicPreview_Enabled"	"Detener la vista previa dinámica"
+		"GameUI_Xhair_DynamicPreview_Disabled"	"Iniciar la vista previa dinámica"
+
 		"tooltip_copycrosshair"				"Copiar mira"
 		"GameUI_Xhair_Copy_Code_Confirm"		"¿Sustituir mira actual?"
  
 		"GameUI_Confirm_Write_Setting_Title"	"Solicitud de cambio de ajustes"
 		"GameUI_Confirm_Write_Setting_Text"		"El mapa «{s:mapname}» quiere cambiar tus ajustes. Esto puede incluir cambios en el punto de mira, el radar, el sonido, etc. ¿Quieres permitirlo?"
+
+		"GameUI_ColorPicker_New"				"Nuevo"
+		"GameUI_ColorPicker_Current"			"Actual"
 
 		"settings_damage_prediction"			"Predicción del daño"
 		"settings_damage_prediction_info"		"Reproduce inmediatamente los efectos audiovisuales de infligir daño sin esperar la confirmación del servidor.
@@ -1642,7 +1678,29 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"Forest"		"Bosque"
 		"Tents"			"Tiendas de campaña"
 		"Dock"			"Puerto"
-"Game_radio"                        " %s4%s1: %s2"
+
+		// Rush Map Names
+		"room_101"			"Espiral"
+		"room_102"			"Wallbang"
+		"room_103"			"Caja grande"
+		"room_104"			"Madhouse"
+		"room_201"			"Alcantarilla"
+		"room_202"			"Esquina"
+		"room_203"			"Patio de trenes"
+		"room_204"			"Grúa"
+		"room_205"			"Bloque"
+		"room_206"			"Hidro"
+		"room_207"			"Atómico"
+		"room_208"			"Medusa"
+		"room_209"			"Oso"
+		"room_210"			"Acero"
+		"room_211"			"Contenedor"
+		"room_212"			"Bajada"
+		"room_301"			"Castillo AT"
+		"room_401"			"Castillo T"
+		"convoy"			"Convoy"
+
+		"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [AT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -50313,8 +50371,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"tooltip_kick_player"			"Expulsar al jugador del servidor local"		
 		"tooltip_short_viewaddon"			"Ver mapa personalizado"
 		"tooltip_short_kick_player"			"Expulsar"
-// crow_mask_54117_comment
-// crow_mask_54118_comment
+// crow_mask_54120_comment
+// crow_mask_54121_comment
 }
 
 
