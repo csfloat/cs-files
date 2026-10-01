@@ -19,9 +19,15 @@
 		"GameUI_FriendlyWarning"			"Omien tulituksen tähtäinvaroitus"
 		"GameUI_FriendlyWarning_Desc"		"Näytä tähtäimessä varoitus, kun tähtäät omaa tiimiä."
 
+		"GameUI_CrosshairStyle"					"Tyyli"
+
+		"GameUI_CrosshairStyle0"	"Dynaaminen risti"
+		"GameUI_CrosshairStyle4"	"Staattinen risti"
 		"GameUI_CrosshairStyle7"	"Dynaaminen neliympyrä"
 		"GameUI_CrosshairStyle8"	"Staattinen neliö"
 
+		"GameUI_CrosshairStyle0_Tooltip"	"Dynaaminen risti"
+		"GameUI_CrosshairStyle4_Tooltip"	"Staattinen risti"
 		"GameUI_CrosshairStyle_Friendly"		"Omien tulituksen varoitus"
 		"GameUI_CrosshairFriendlyWarning_Off"	"Aina pois päältä"
 		"GameUI_CrosshairFriendlyWarning_Default" "Vain oletustähtäimessä"
@@ -91,6 +97,9 @@
  
 		"GameUI_Confirm_Write_Setting_Title"	"Asetusten muutospyyntö"
 		"GameUI_Confirm_Write_Setting_Text"		"Workshop-kartta {s:mapname} haluaa muuttaa asetuksiasi. Tähän voi sisältyä muutoksia tähtäinristikkoon, tutkaan, ääneen ja muihin toimintoihin. Haluatko sallia muutokset?"
+
+		"GameUI_ColorPicker_New"				"Uutta"
+		"GameUI_ColorPicker_Current"			"Nykyinen"
 
 		"settings_damage_prediction"			"Vahinkojen ennustaminen"
 		"settings_damage_prediction_info"		"Toistaa vahingon aiheuttamisen äänitehosteet ja visuaaliset tehosteet välittömästi odottamatta palvelimen vahvistusta. Vahinkojen ennustaminen voi saada ampumisen tuntumaan huomattavasti helpommalta, mutta siihen liittyy riski, että ennuste on joskus väärä (esim. tähtäyksen, osumasta johtuvan pysähdyksen tai kuoleman vuoksi, josta asiakasohjelma ei vielä ole tietoinen)."
@@ -1641,7 +1650,9 @@
 		"Forest"		"Metsä"
 		"Tents"			"Teltat"
 		"Dock"			"Laituri"
-"Game_radio"                        " %s4%s1: %s2"
+"room_208"			"Medusa"
+		"room_210"			"Steel"
+		"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [CT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -2381,10 +2392,12 @@
 		"Econ_DateFormat_GMT:f"						"{monthshort}.{mmday}.{year} ({hour}.{min}.{sec}) GMT"
 		"Econ_DateFormat_DateOnly:f"				"{mmday}.{monthshort}.{year}"
 		"Econ_DateFormat_GMT_DateOnly:f"			"{mmday}.{monthshort}.{year} GMT"
+		"Econ_DateFormat_MonthOnly:f"				"{monthlong} {year}"
 		"Econ_DateFormat"							"%mmday%.%monthshort%.%year% (%hour%.%min%.%sec%)"
 		"Econ_DateFormat_GMT"						"%mmday%.%monthshort%.%year% (%hour%.%min%.%sec%) GMT"
 		"Econ_DateFormat_DateOnly"					"%mmday%.%monthshort%.%year%"
 		"Econ_DateFormat_GMT_DateOnly"				"%mmday%.%monthshort%.%year% GMT"
+		"Econ_DateFormat_MonthOnly"					"%monthlong% %year%"
 		"Econ_Loot_List_Sticker_ProPlayerSignatures" "Tarrassa voi olla jonkun seuraavan ammattilaispelaajan nimikirjoitus:"
 		"Econ_Loot_List_Sticker_ProPlayerSignatures_AndSomeMore" "... ja %s1 muuta ammattilaispelaajaa"
 		"Econ_Loot_List_Sticker_ProOrgsStickers"	"Tarra edustaa yhtä seuraavista organisaatioista:"
@@ -38075,6 +38088,8 @@
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Peruskurssi"
 		"SFUI_GameMode_retakes"					"Uudelleenvaltaus"
+		"SFUI_GameMode_rush"					"Rush"
+
 		"ForceNewUserTraining_title"			"Peruskurssi"
 		"ForceNewUserTraining_text"				"Oletko valmis aloittamaan lyhyen harjoituspelin?"
 
@@ -41471,6 +41486,8 @@
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Muistitikku noudettu.\nAsennetaan virusta!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Muistitikku 2 valmiina!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virusmuistitikku noudettu!"	
+
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
 "SFUIHUD_Spectate_Equipment"	"VARUSTUSTEN ARVO"
 		"SFUIHUD_Spectate_TeamMoney"	"TIIMIN RAHAT"
 		"SFUIHUD_Spectate_TeamEQValue"	"TIIMIN VARUSTEIDEN ARVO"
@@ -48361,6 +48378,7 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"settings_video"			"Video"
 		"settings_audio"			"Ääni"
 		"settings_new"				"Uutta"
+		"settings_updated"			"Päivitetty"
 		"settings_about"			"Krediitit"
 		"settings_search"			"Hae"
 		"settings_keyboard_mouse_section"	"Näppäimistön ja hiiren asetukset"
@@ -48392,6 +48410,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"settings_account_conn_section"		"Twitch.tv"
 		"settings_crosshair"				"Tähtäin"
+		"settings_crosshair_sniper"			"Tarkkuuskiväärin tähtäin"
+		"settings_crosshair_grenade"		"Kranaatin tähtäin"
 		"settings_radar_section"			"Tutka"
 		"settings_radarandtablet_section"	"Tutka / Tabletti"
 		"settings_items_section"			"Esine"
@@ -51389,8 +51409,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 		"tooltip_kick_player"			"Poista pelaaja paikalliselta palvelimelta"		
 		"tooltip_short_viewaddon"			"Näytä mukautettu kartta"
 		"tooltip_short_kick_player"			"Poista"
-// crow_mask_54117_comment
-// crow_mask_54118_comment
+// crow_mask_54120_comment
+// crow_mask_54121_comment
 }
 
 

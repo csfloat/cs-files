@@ -41180,6 +41180,9 @@
 		"SFUI_PlayerDetails_GoodTeacher"		"Er en god lærer"
 		"SFUI_PlayerDetails_GoodLeader"			"Er en god leder"
 
+		"SFUI_ReportingPlayers"					"Rapporterer {s:target_player}"
+
+
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Støtende tekstsamtale"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Støtende stemmesamtale"
 		"SFUI_PlayerDetails_Abusive"				"Støtende kommunikasjon eller profil"
@@ -51989,8 +51992,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Trykk [{s:bind_use}] for å aktivere tårnet.</font>"
 
-// crow_mask_54117_comment
-// crow_mask_54118_comment
+// crow_mask_54120_comment
+// crow_mask_54121_comment
 }
 
 
