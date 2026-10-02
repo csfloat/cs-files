@@ -28,9 +28,7 @@
 		"GameUI_CrosshairStyle4"	"Sabit Artı"
 		"GameUI_CrosshairStyle5"	"Dinamik Artı (Eski/Atışlara Duyarlı)"
 		"GameUI_CrosshairStyle6"	"Sadece Nokta"
-		"GameUI_CrosshairStyle7"	"Dinamik Dörtlü"
 		"GameUI_CrosshairStyle8"	"Sabit Kare"
-
 		"GameUI_CrosshairStyle0_Tooltip"	"Dinamik Artı"
 		"GameUI_CrosshairStyle1_Tooltip"	"Dinamik Daire"
 		"GameUI_CrosshairStyle2_Tooltip"	"Dinamik Artı (Klasik)"
@@ -1681,7 +1679,26 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Forest"		"Orman"
 		"Tents"			"Çadırlar"
 		"Dock"			"Dock"
-"Game_radio"                        " %s4%s1: %s2"
+
+		// Rush Map Names
+		"room_101"			"Sarmal Kule"
+		"room_102"			"Tahta Duvar"
+		"room_103"			"Büyük Kutu"
+		"room_104"			"Tımarhane"
+		"room_201"			"Kanalizasyon"
+		"room_202"			"Köpek Dönemeci"
+		"room_203"			"Gar"
+		"room_204"			"Vinç"
+		"room_205"			"Avlu"
+		"room_206"			"Arıtma"
+		"room_207"			"Atom"
+		"room_208"			"Medusa"
+		"room_209"			"Ayı"
+		"room_210"			"Çelik"
+		"room_211"			"Konteyner"
+		"room_301"			"AT Kalesi"
+		"room_401"			"T Kalesi"
+		"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [AT] %s1﹫%s3: %s2"
 		"Cstrike_Chat_T_Loc"                " [T] %s1﹫%s3: %s2"
@@ -2417,10 +2434,14 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Econ_DateFormat_GMT:f"						"{mmday} {monthshort} {year} ({hour}:{min}:{sec}) GMT"
 		"Econ_DateFormat_DateOnly:f"				"{mmday} {monthshort} {year}"
 		"Econ_DateFormat_GMT_DateOnly:f"			"{mmday} {monthshort} {year}"
+		"Econ_DateFormat_MonthOnly:f"				"{monthlong} {year}"
+		"Econ_DateFormat_GMT_MonthOnly:f"			"{monthlong} {year} GMT"
 		"Econ_DateFormat"							"%mmday% %monthshort% %year% (%hour%:%min%:%sec%)"
 		"Econ_DateFormat_GMT"						"%mmday% %monthshort% %year% (%hour%:%min%:%sec%) GMT"
 		"Econ_DateFormat_DateOnly"					"%mmday% %monthshort% %year%"
 		"Econ_DateFormat_GMT_DateOnly"				"%mmday% %monthshort% %year%"
+		"Econ_DateFormat_MonthOnly"					"%monthlong% %year%"
+		"Econ_DateFormat_GMT_MonthOnly"				"%monthlong% %year% GMT"
 		"Econ_Loot_List_Sticker_ProPlayerSignatures" "Çıkartmalar aşağıdaki profesyonel oyunculardan birisi tarafından imzalanabilir:"
 		"Econ_Loot_List_Sticker_ProPlayerSignatures_AndSomeMore" "... ve %s1 diğer profesyonel oyuncu"
 		"Econ_Loot_List_Sticker_ProOrgsStickers"	"Çıkartma aşağıdaki organizasyonlardan bir tanesini temsil edebilir:"
@@ -2816,6 +2837,8 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Attrib_SprayTintValue_18"					"Pembe Savaş Domuzu"
 		"Attrib_SprayTintValue_19"					"Köpekbalığı Beyazı"
 
+		"Attrib_HatchDate"							"Yumurtadan Çıkma Tarihi: %s1"
+
 		//-------------------------------------------------------------------------------------------
 
 		"CSGO_Operation_Scorecard_Title"			"Rekabetçi Skor Kartı"
@@ -3001,6 +3024,8 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		//
 
 		"CSGO_official_leaderboard_mission_embedded"	"Görev Sıralama Tablosu"
+
+		"CSGO_official_leaderboard_rush_solo"		"Arkadaş Sıralama Listesi"
 
 		"CSGO_official_leaderboard_survival_solo"	"Solo Arkadaş Sırlama Listesi"
 		"CSGO_official_leaderboard_survival_solo_next"		"Mangaları Göster"
@@ -37096,6 +37121,8 @@ Bu çıkartma, forZe eSports için Berlin 2019'da oynayan profesyonel oyuncu And
 		"SFUI_GameMode_Workshop"				"Atölye"
 		"SFUI_GameMode_new_user_training"		"Eğitim Günü"
 		"SFUI_GameMode_retakes"					"Geri Alma"
+		"SFUI_GameMode_rush"					"Baskın"
+
 		"ForceNewUserTraining_title"			"Eğitim Günü"
 		"ForceNewUserTraining_text"				"Kısa bir eğitim oturumuna geçmeye hazır mısın?"
 
@@ -39005,6 +39032,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"major_hub_souvenir_package_desc"	"Bir hatıra paketi elde etmek veya <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span> karşılığında satın almak için aşağıdan bitmiş bir maçı seç."
 		"major_hub_souvenir_package_desc_no_price"	"Bir hatıra paketi elde etmek İçin aşağıdan bitmiş bir maç seç."
 		"major_hub_store_title_event" 	"{s:tournament_name} Major Dükkânı"
+		"major_hub_store_title_hud_store" 	"{s:tournament_name} Major Merkezi ve Dükkânı"
 		"major_hub_store_desc" 	"Favori takım ve oyuncunun imzalı çıkartmalarını al."
 		"major_hub_store_desc_2" 	"Şimdi erişilebilir - Şampiyon Çıkartmaları ve Önemli An Süsleri"
 		"major_hub_store_desc_3" 	"Sıralama Serisi Çıkartmaları"
@@ -40107,6 +40135,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_PlayerDetails_GoodTeacher"		"İyi bir Öğretmen"
 		"SFUI_PlayerDetails_GoodLeader"			"İyi bir Lider"
 
+		"SFUI_ReportingPlayers"					"Şikâyet Et: {s:target_player}"
+
+
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Kötü/Küfürlü Sohbet Mesajı"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Kötü/Küfürlü Sesli İletişim"
 		"SFUI_PlayerDetails_Abusive"				"Kötü/Küfürlü İletişim veya Profil"
@@ -40300,6 +40331,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_match_abort_match_network_event"	"Bir ağ kesintisi maçın iptal edilmesine neden oldu.\nBu maç yetenek derecenizi etkilemeyecek."
 		"SFUI_match_abort_match_vac_live"	"VAC Live, bir hileci tespit etti ve maçı sonlandırdı.\nBu maç yetenek dereceni etkilemeyecek."
 		
+		"SFUI_match_abort_match_abnormal_behavior"	"%s1 ve parti üyeleri VACNet bekleme süresi aldı."
+		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNet, maçta düzensiz oynanış tespit etti ve maçı iptal etti."
+
 		"SFUI_match_vac_live_partied_with_cheater"	"Partindeki bir oyuncu yasaklandığı için bu maçtan herhangi bir ilerleme ödülü verilmeyecek."
 		"SFUI_match_abort_match_missing_player"	"Bir oyuncu bağlanmadığı için maç iptal ediliyor."
 		"SFUI_match_abort_match_player_abandoned"	" Bir oyuncunun bağlantısı kesildiği için maç iptal ediliyor."
@@ -40481,6 +40515,12 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"Flash bellek alındı.\nVirüs yükleniyor!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"Flash bellek 2 hazır!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"Virüs flash belleği alındı!"	
+
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
+		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} {puppeteer}"
+		"DecoratedPlayerName_ClanTag:f"						"<span class='decorated-player-name__clan-tag'>[{s:value}]</span>"
+		"DecoratedPlayerName_ControllerName:f"				"<span class='decorated-player-name__controller-name'>{s:value}</span>"
+		"DecoratedPlayerName_Puppeteer:f"					"<span class='decorated-player-name__puppeteer'>({s:value})</span>"
 "SFUIHUD_Spectate_Equipment"	"EKİPMAN DEĞERİ"
 		"SFUIHUD_Spectate_TeamMoney"	"TAKIM PARASI"
 		"SFUIHUD_Spectate_TeamEQValue"	"TAKIM EKİPMAN DEĞERİ"
@@ -41575,6 +41615,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_Casual_EQ_Tip"		"Bu ekolayzer profilini Basit Eğlence maçı süresince uygular."
 
 
+		"SFUI_Settings_Master_Music_Volume"							"Ana Müzik Ses Düzeyi"
 		"SFUI_Settings_Menu_Music_Volume"							"Ana Menü Sesi"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Raunt Başlangıcı Sesi"
 		"SFUI_Settings_Action_Round_Music_Volume"					"Raunt Başlangıcı Sesi"
@@ -41584,6 +41625,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"SFUI_Settings_Death_Camera_Music_Volume"					"Ölüm Kamerası Sesi"
 		"SFUI_Settings_MVP_Music_Volume"							"EDO Müzik Sesi"
 		"SFUI_Settings_DZ_Music_Volume"								"Tehlikeli Bölge Müzik Sesi"
+		"SFUI_Settings_Start_Round_Music_Volume_Tip"				"Satın alma süresi boyunca."
+		"SFUI_Settings_Action_Round_Music_Volume_Tip"				"Raunt başladıktan sonra hareket edildiğinde."
+		"SFUI_Settings_Ten_Second_Warning_Music_Volume_Tip"			"Bombanın patlamasına son on saniye kala, raunt biterken veya rehine taşıyıcısı kurtarma bölgesine yaklaşırken."
 		"SFUI_Block_Com_From_Enemy_Team"							"Düşman Takım ile İletişimi Engelle"
 
 		"GameUI_Settings_Announcer"			"Spiker"
@@ -41940,6 +41984,10 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Steam Grubu Klan Etiketi"
 		"SFUI_Settings_ClanTag_None"								"Takım etiketi yok"
+		"ClanTag_Clear_ClanTag"										"Klan Etiketi Yok"
+		"ClanTag_Updating"											"Klan Etiketi Güncelleniyor..."
+		"ClanTag_Manage_Groups"										"Steam Gruplarını Aç"
+ 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46462,6 +46510,16 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"AddFriend_tooltip"						"Arkadaş ekle"
 		"FriendsLobby_tooltip"					"Lobiler hakkında daha fazlasını öğren"
 		"friends_lobby_count"					"+ {s:lobby_count}"
+		"friends_name_in_draft"					"{g:player_name:clan:name:draft:xuid}"
+		"friends_name_in_accept"				"{g:player_name:clan:name:accept:xuid}"
+		"friends_name_in_party"					"{g:player_name:clan:name:party:partyxuid}"
+		"friends_name_from_steam"				"{g:player_name:name:friend:xuid}"
+		"friends_name_playercard"				"{g:player_name:clan:name:friend:xuid}"
+		"friends_name_generic"					"{s:player-name}"
+
+		"friends_name_in_party_leaderboard"		"{g:player_name:name:party:partyxuid}"
+
+
 		"contextmenu_lobby-count:f"				"{lobby_count, plural, one{{d:lobby_count} Lobi } other{{d:lobby_count} Lobi}}"
 
 
@@ -47360,6 +47418,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"settings_video"			"Görüntü"
 		"settings_audio"			"Ses"
 		"settings_new"				"Yeni"
+		"settings_updated"			"Güncellendi"
 		"settings_about"			"Jenerik"
 		"settings_search"			"Ara"
 		"settings_keyboard_mouse_section"	"Klavye ve Fare Ayarları"
@@ -47390,6 +47449,11 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 
 		"settings_account_conn_section"		"Twitch.tv"
+		"settings_crosshair_info"			"Nişangâh boyutunu, biçimini ve rengini özelleştir. Nişangâh kodunu arkadaşlarınla paylaş veya başka birinin ayarlarını dene."
+		"settings_crosshair_style"			"Tarz Ayarları"
+		"settings_crosshair_settings"		"Nişangâh Ayarları"
+		"settings_crosshair_sniper"			"Keskin Nişancı Dürbünleri"
+		"settings_crosshair_grenade"		"El Bombası Hedef Göstergesi"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Eşya"
@@ -47701,6 +47765,7 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"CSGO_Workshop"								"Atölye"
 		//MatchDraft
 		"matchdraft_phase_0"			"Başlangıç Seçimi/Vetosu"
+		"matchdraft_phase_0_v2"			"Harita Seçimi Başlıyor"
 		"matchdraft_phase_1"			"İlk Başla veya Pas Geç"
 		"matchdraft_phase_2"			"2 Harita Veto Et"
 		"matchdraft_phase_3"			"3 Harita Veto Et"
@@ -47718,8 +47783,12 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"matchdraft_phase_action_wait_0"		"Başlangıç Seçimi/Vetosu"
 		"matchdraft_phase_action_wait_1"		"Rakibin Seçimi Bekleniyor"
 		"matchdraft_phase_action_wait_2"		"Rakibin 2 Harita Veto Etmesi Bekleniyor"
+		"matchdraft_phase_action_wait_2_v2"		"Rakibin 1 Harita Seçmesi Bekleniyor"
 		"matchdraft_phase_action_wait_3"		"Rakibin 3 Harita Veto Etmesi Bekleniyor"
+		"matchdraft_phase_action_wait_3_v2"		"Rakibin 2 Harita Seçmesi Bekleniyor"
 		"matchdraft_phase_action_wait_4"		"Rakibin 1 Harita Veto Etmesi Bekleniyor"
+		"matchdraft_phase_action_wait_4_v2"		"Rakibin 1 Harita Seçmesi Bekleniyor"
+		"matchdraft_phase_action_wait_5_v2"		"Harita Seçimi İçin Bekleniyor"
 		"matchdraft_phase_action_wait_5"		"Rakibin Başlangıç Tarafını Seçmesi Bekleniyor"
 		"matchdraft_phase_action_wait_6"		"Maç Başlıyor"
 		"matchdraft_phase_action_wait_7"		"Hadi Başlayalım"
@@ -47729,8 +47798,12 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"matchdraft_phase_action_1"			"İlk Veto Et veya Pas Geç"
 		"matchdraft_phase_action_2"			"<span class=\"premier-pickban__title__text-red\">Veto</span> - {d:maps}/2 <span class=\"premier-pickban__title__text-red\">Harita</span>"
+		"matchdraft_phase_action_2_v2"		"<span class=\"premier-pickban__title__text-green\">Oynanacak</span> {d:maps}/1 <span class=\"premier-pickban__title__text-green\">Harita Seç</span>"
 		"matchdraft_phase_action_3"			"<span class=\"premier-pickban__title__text-red\">Veto</span> - {d:maps}/3 <span class=\"premier-pickban__title__text-red\">Harita</span>"
+		"matchdraft_phase_action_3_v2"		"<span class=\"premier-pickban__title__text-green\">Oynanacak</span> {d:maps}/2 <span class=\"premier-pickban__title__text-green\">Harita Seç</span>"
 		"matchdraft_phase_action_4"			"<span class=\"premier-pickban__title__text-red\">Veto</span> - {d:maps}/1 <span class=\"premier-pickban__title__text-red\">Harita</span>"
+		"matchdraft_phase_action_4_v2"		"<span class=\"premier-pickban__title__text-green\">Oynanacak</span> {d:maps}/1 <span class=\"premier-pickban__title__text-green\">Harita Seç</span>"
+		"matchdraft_phase_action_5_v2"		"<span class=\"premier-pickban__title__text-green\">Harita Seçiliyor</span>"
 		"matchdraft_phase_action_5"			"<span class=\"premier-pickban__title__text-green\">Başlangıç Tarafını Seç</span>"
 		"matchdraft_phase_action_6"			"Maç Başlıyor"
 		"matchdraft_final_map"				"{s:mapname} Oynanıyor"
@@ -47799,6 +47872,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"tooltip_navbar_report_server"	"Sunucuyu şikâyet et"
 		"tooltip_navbar_stats"			"Tüm maç istatistiklerini tek bir yerde görüntüle"
 		"tooltip_navbar_store"			"Oyun içi öğeler elde et"
+		"tooltip_navbar_vacnet"			"VACNet etiketleme portalını aç"
+
+
 		"tooltip_inspect_weapon_model"	"Silah modelini incele"
 		"tooltip_inspect_weapon_model_faction"	"Oyuncu modelini incele"
 		"tooltip_inspect_play_mvp_anthem"	"EDO marşını çal"
@@ -49505,6 +49581,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"major_store_banner_ranked_desc"	"Karşınızda Sıralama Serisi çıkartmaları. Bu yeni çıkartmalar bir takımın son sıralaması anısına tasarlandı."
 		"major_store_banner_ranked_desc_fixed"	"Sıralama çıkartmaları, Etkinlik Serisi çıkartmalarına oranla sabit ve daha düşük bir fiyata sahiptir."
 		"major_store_balance"			"{d:balance} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
+		"major_store_balance_popup_title"	"Harcayabileceğin Jetonların Var"
+		"major_store_balance_popup_desc"	"{s:tournament_name} dükkânı yakında kapanacak. Hâlâ vaktin varken uğrayıp jetonlarını harcayabilirsin."
+		"major_store_balance_popup_visit"	"Major Merkezini ve Mağazasını Ziyaret Et"
 		"major_store_price"				"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
 		"major_store_price_locked"		"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> <img src='file://{images}/icons/ui/price_locked.svg' class='inline-coin-icon'/>"
 		"major_store_price-pctdown"		"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>  ↓%{d:reduction}"
@@ -50317,6 +50396,9 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"mission_segment_tooltip"						"{d:xp-reward} TP"
 
 		"mission_location"								"<b>{s:gamemode}</b> - <b>{s:location}</b>"
+		"mission_directive:f"							"<b>{d:mission-points}</b> {s:action_directive}"
+ 		"mission_directive_progress:f"					"{d:mission-progress}/<b>{d:mission-points}</b> {s:action_directive}"
+
 		"quest_11000_var_desc:f"	  					"{mission-points, plural, one{<b>{s:gamemode}: {s:location}</b> oynarken {s:item1} ile bir leş yap.} other{<b>{s:gamemode}: {s:location}</b> oynarken {s:item1} ile birden fazla leş yap.}}"
 		"quest_11000_var_partial:f" 					"... {s:item1} ile."
 		"quest_11000_var_ingame:f"	  					"{mission-points, plural, one{{s:item1} ile bir leş yap.} other{{s:item1} ile birden fazla leş yap.}}"
@@ -50374,7 +50456,10 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"quest_11016_var_desc:f"	 					"{mission-points, plural, one{<b>{s:gamemode}: {s:location}</b> oynarken bir raunt kazan.} other{<b>{s:gamemode}: {s:location}</b> oynarken birden fazla raunt kazan.}}"
 		"quest_11016_var_ingame:f"						"{mission-points, plural, one{Bir raunt kazan.} other{Birden fazla raunt kazan.}}"
 
-		// ---------------------------------------------------------------------------------------------
+		"quest_11017_var_desc:f"	 					"{mission-points, plural, one{<b>{s:gamemode}</b> oyun modunda bir maç kazan.} other{<b>{s:gamemode}</b> oyun modunda maç kazan.}}"
+		"quest_11017_var_ingame:f"						"{mission-points, plural, one{Bir maç kazan} other{Maç kazan}}"
+
+// ---------------------------------------------------------------------------------------------
 // Join Friend Listen Servers
 // ---------------------------------------------------------------------------------------------
 
@@ -50383,9 +50468,94 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"tooltip_short_viewaddon"			"Özel Haritayı Görüntüle"
 		"tooltip_short_kick_player"			"At"
 "pet_expired_notification_title"		"Dolu Dolu Yaşanmış Bir Hayat"
-		"pet_expired_notification_msg_nofood_egg_1"	"Hiç sevilmedi. Hiç çatlamadı.<br>Bu ikisi birbiriyle ilişkili."
 		"pet_expired_notification_msg_nofood_egg_2"	"O senin tavuğun olacaktı.<br>Ama görünüşe göre başka planların vardı."
 		"pet_expired_notification_msg_0"		"Evcil hayvanın gitti."
+		"pet_expired_notification_msg_3"		"...bir video oyunu seni yargılıyor olsa da."
+
+		"pet_milestone_pullet"		"Hızla büyüyor, renkleri belirginleşiyor ve seninle göreve çıkmaya hazır. Fotoğraflarını şimdi çek. Bu boyutta uzun süre kalmayacak."
+		"pet_milestone_hen"			"Tam yetişkin bir tavuk. Onu iyi büyüttün. Birlikte geçireceğiniz zamanın tadını çıkar."
+
+		// Tooltips for the action buttons that appear when hovering your pet.
+		"pet_tooltip_zoom_in"				"Daha yakından bak"
+		"pet_tooltip_zoom_out"				"Tam görünüme geri dön"
+		"pet_tooltip_inspect"				"Evcil hayvanını incele"
+		"pet_tooltip_name"					"Evcil hayvanına isim ver"
+		"pet_tooltip_photo_booth"			"Fotoğraf kabinini aç"
+		"pet_tooltip_name_submit"			"Evcil hayvanına bir isim ver"
+		"pet_tooltip_name_back"				"İsim vermeden kapat"
+
+		"pet_photo_booth_age_dangerous"		"Bu tehlikeli poz için henüz yeterince büyük değil."
+// A life stage, not a booth control - the book and the library show it too.
+		"pet_growth_egg"					"Yumurta"
+		"pet_growth_chick"					"Civciv"
+		"pet_growth_chick_inline"			"civciv"
+		"pet_growth_adolescent"				"Piliç"
+		"pet_growth_adolescent_inline"			"piliç"
+		"pet_growth_adult"					"Tavuk"
+		"pet_growth_adult_inline"			"tavuk"
+
+		"pet_photo_booth_aspect_1x1"		"Kare"
+		"pet_photo_booth_aspect_4x3"		"4x3"
+		"pet_photo_booth_aspect_5x4"		"5x4"
+		"pet_photo_booth_aspect_16x9"		"16x9"
+		"pet_photo_booth_aspect_3x4"		"3x4"
+		"pet_photo_booth_aspect_4x5"		"4x5"
+		"pet_photo_booth_aspect_9x16"		"9x16"
+
+		"pet_photo_booth_team_ct"			"AT Ajanı"
+		"pet_photo_booth_team_t"			"T Ajanı"
+
+		"pet_photo_booth_zoom_readout"		"Yakınlaştır {d:zoom_value} ({s:zoom_band})"
+		"pet_photo_booth_zoom_wide"			"Uzaklaştırıldı"
+		"pet_photo_booth_zoom_mid"			"Orta"
+		"pet_photo_booth_zoom_closeup"		"Yakın Çekim"
+		"take_picture"						"Fotoğraf Çek"
+
+		"pet_photo_viewer_copy"			"Fotoğrafı panoya kopyala"
+		"pet_photo_viewer_folder"			"Kütüphane klasörüne git"
+
+		"pet_photo_booth_adjust_exposure"	"Pozlama"
+		"pet_photo_booth_adjust_saturation"	"Doygunluk"
+		"pet_photo_booth_adjust_vibrance"	"Canlılık"
+		"pet_photo_booth_adjust_brightness"	"Parlaklık"
+		"pet_photo_booth_adjust_contrast"	"Kontrast"
+		"pet_photo_booth_adjust_vignette"	"Vinyet"
+		"pet_photo_booth_adjust_grain"		"Gren"
+		"pet_photo_booth_adjust_grid_opacity"		"Izgara Opaklığı"
+		"pet_photo_booth_headwear_none"		"Yok"
+		"pet_photo_booth_headwear_helmet"	"Kask"
+		"pet_photo_booth_headwear_alien"	"Uzaylı"
+		"pet_photo_booth_headwear_banana"	"Muz"
+		"pet_photo_booth_headwear_glasses"	"Gözlük"
+		"pet_photo_booth_headwear_party"	"Parti Şapkası"
+		"pet_photo_booth_headwear_sprout"	"Filiz"
+		"pet_photo_booth_headwear_top_hat"	"Silindir Şapka"
+		"pet_photo_booth_headwear_wizard_hat"	"Büyücü Şapkası"
+
+		"pet_photo_booth_filter_normal"		"Normal"
+		"pet_photo_booth_filter_sepia"		"Sepya"
+		"pet_photo_booth_filter_warm"		"Sıcak"
+		"pet_photo_booth_filter_cool"		"Soğuk"
+		"pet_photo_booth_filter_crisp"		"Keskin"
+		"pet_photo_booth_filter_moonlight"	"Ay Işığı"
+		"pet_photo_booth_filter_silvertone"	"Gümüş Tonu"
+		"pet_photo_booth_filter_psychedelic"	"Psikedelik"
+"pet_photo_booth_pose_9"			"Parmak"
+		"pet_photo_booth_pose_2"			"Diz Çökme"
+		"pet_photo_booth_pose_3"			"Şahin"
+		"pet_photo_booth_pose_7"			"Kafa"
+
+		"pet_photo_booth_activity_sit"		"Otur"
+		"pet_photo_booth_activity_panic"	"Panik"
+		"pet_photo_booth_activity_wag"		"Kuyruk Sallama"
+		"pet_photo_booth_activity_moonwalk"	"Dans"
+		"pet_photo_booth_activity_jump"		"Zıplama"
+		"pet_photo_booth_activity_kick"		"Tekme"
+		"pet_photo_booth_effect_explosion"	"Patlama"
+		"pet_photo_booth_effect_lightning"	"Şimşek"
+		"pet_photo_booth_effect_beam"		"Işın"
+		"pet_photo_booth_effect_laser"		"Lazer"
+		"pet_photo_booth_effect_confetti"	"Konfeti"
 // ---------------------------------------------------------------------------------------------
 // Rush
 // ---------------------------------------------------------------------------------------------
@@ -50415,8 +50585,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"rush_countdown_capture_t"			"Teröristler kuleyi ele geçirmeli."
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Kuleyi etkinleştirmek için [{s:bind_use}] tuşuna bas.</font>"
 
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+// crow_mask_54126_comment
+// crow_mask_54127_comment
 }
 
 

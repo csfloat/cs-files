@@ -28,9 +28,7 @@
 		"GameUI_CrosshairStyle4"	"Cruz estática"
 		"GameUI_CrosshairStyle5"	"Cruz dinâmica (antiga / disparo responsivo)"
 		"GameUI_CrosshairStyle6"	"Apenas ponto"
-		"GameUI_CrosshairStyle7"	"Círculo vazado dinâmico"
 		"GameUI_CrosshairStyle8"	"Quadrado estático"
-
 		"GameUI_CrosshairStyle0_Tooltip"	"Cruz dinâmica"
 		"GameUI_CrosshairStyle1_Tooltip"	"Círculo dinâmico"
 		"GameUI_CrosshairStyle2_Tooltip"	"Cruz dinâmica (clássica)"
@@ -50718,7 +50716,8 @@
 		"pet_book_hint_chick_and_you_pose"		"nas suas mãos"
 		"pet_book_hint_chick_park"				"Sua {s:growth} no {s:stage}"
 		"pet_book_hint_adolescent_intro"		"Sua {s:growth} visitando {s:stage}"
-		"pet_book_hint_adolescent_road_trip"	"Sua {s:growth} visitando {s:stage}"
+		"pet_book_hint_adolescent_road_trip_1"		"Sua {s:growth} visitando {s:stage}"
+		"pet_book_hint_adolescent_road_trip_2"			"Sua {s:growth} visitando {s:stage}"
 		"pet_book_hint_birthday"				"Sua {s:growth} {s:activity} {s:headwear}. Confete e fagulhas opcionais."
 		"pet_book_hint_birthday_headwear"		"com um chapéu de festa"
 		"pet_book_hint_birthday_activity"		"pulando"
@@ -50877,8 +50876,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pressione [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+// crow_mask_54126_comment
+// crow_mask_54127_comment
 }
 
 

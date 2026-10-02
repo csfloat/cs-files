@@ -19,6 +19,11 @@
 		"GameUI_FriendlyWarning"			"Peringatan Friendly Fire pada Crosshair"
 		"GameUI_FriendlyWarning_Desc"		"Tampilkan peringatan pada garis bidik saat membidik teman."
 
+		"GameUI_CrosshairStyle"					"Mode"
+
+		"GameUI_CrosshairStyle0"	"Silang Dinamis"
+		"GameUI_CrosshairStyle1"	"Lingkaran Dinamis"
+		"GameUI_CrosshairStyle2"	"Silang Dinamis (Klasik)"
 		"GameUI_CrosshairStyle4"	"Silang Statis"
 		"GameUI_CrosshairStyle5"	"Silang Dinamis (Orisinal/Umpan Balik Tembakan)"
 		"GameUI_CrosshairStyle4_Tooltip"	"Silang Statis"
@@ -1648,6 +1653,9 @@
 		"Tents"			"Tenda"
 		"Dock"			"Dermaga"
 "room_102"			"Wallbang"
+		"room_208"			"Medusa"
+		"convoy"			"Convoy"
+
 		"Game_radio"                        " %s4%s1: %s2"
 		"Game_radio_location"               " %s4%s1﹫%s2: %s3"
 		"Cstrike_Chat_CT_Loc"               " [AT] %s1﹫%s3: %s2"
@@ -2384,10 +2392,13 @@
 		"Econ_DateFormat_GMT:f"						"{mmday} {monthshort} {year} ({hour}.{min}.{sec}) GMT"
 		"Econ_DateFormat_DateOnly:f"				"{mmday} {monthshort} {year}"
 		"Econ_DateFormat_GMT_DateOnly:f"			"{mmday} {monthshort} {year} GMT"
+		"Econ_DateFormat_GMT_MonthOnly:f"			"{year} {monthlong} GMT"
 		"Econ_DateFormat"							"%mmday% %monthshort% %year% (%hour%:%min%:%sec%)"
 		"Econ_DateFormat_GMT"						"%mmday% %monthshort% %year% (%hour%:%min%:%sec%) GMT"
 		"Econ_DateFormat_DateOnly"					"%mmday% %monthshort% %year%"
 		"Econ_DateFormat_GMT_DateOnly"				"%mmday% %monthshort% %year% GMT"
+		"Econ_DateFormat_MonthOnly"					"%year% %monthlong%"
+		"Econ_DateFormat_GMT_MonthOnly"				"%year% %monthlong% GMT"
 		"Econ_Loot_List_Sticker_ProPlayerSignatures" "Stiker bisa ditandatangani oleh salah satu pemain profesional berikut:"
 		"Econ_Loot_List_Sticker_ProPlayerSignatures_AndSomeMore" "... dan %s1 pemain profesional lainnya"
 		"Econ_Loot_List_Sticker_ProOrgsStickers"	"Stiker bisa mewakili salah satu organisasi berikut:"
@@ -2783,6 +2794,8 @@
 		"Attrib_SprayTintValue_18"					"War Pig Pink"
 		"Attrib_SprayTintValue_19"					"Shark White"
 
+		"Attrib_HatchDate"							"Tanggal Menetas: %s1"
+
 		//-------------------------------------------------------------------------------------------
 
 		"CSGO_Operation_Scorecard_Title"			"Kartu Skor Kompetitif"
@@ -2968,6 +2981,8 @@
 		//
 
 		"CSGO_official_leaderboard_mission_embedded"	"Papan Peringkat Misi"
+
+		"CSGO_official_leaderboard_rush_solo"		"Papan Peringkat Teman"
 
 		"CSGO_official_leaderboard_survival_solo"	"Papan Peringkat Solo Teman"
 		"CSGO_official_leaderboard_survival_solo_next"		"Tampilkan Squad"
@@ -5958,7 +5973,11 @@
 		"coupon_shockone_01"					"Kit Musik | ShockOne, Voices"
 		"coupon_shockone_01_stattrak"			"Kit Musik StatTrak™ | ShockOne, Voices"
 		
-		//////////////////
+		"musickit_starjunk95_01"				"Starjunk 95, Industrial Sunset Memories"
+		"coupon_starjunk95_01"					"Kit Musik | Starjunk 95, Industrial Sunset Memories"
+		"coupon_starjunk95_01_stattrak"			"Kit Musik StatTrak™ | Starjunk 95, Industrial Sunset Memories"
+
+//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -36381,6 +36400,8 @@ melawan FaZe."
 		"SFUI_GameMode_Workshop"				"Workshop"
 		"SFUI_GameMode_new_user_training"		"Hari Pelatihan"
 		"SFUI_GameMode_retakes"					"Retake"
+		"SFUI_GameMode_rush"					"Rush"
+
 		"ForceNewUserTraining_title"			"Hari Pelatihan"
 		"ForceNewUserTraining_text"				"Apa kamu siap untuk melanjutkan ke sesi latihan singkat?"
 
@@ -36722,6 +36743,9 @@ melawan FaZe."
 		"SFUI_Map_cs_shelter"		"Shelter"
 		"SFUI_Map_de_debris"		"Debris"
 		"SFUI_Map_de_eldorado"		"El Dorado"
+		"SFUI_MAP_pet_photo_park"	"Picnic"
+		"SFUI_MAP_pet_photo_studio"	"Studio Foto"
+
 		"SFUI_Map_workshop_preview_dust2"	"Pratinjau Dust II"
 		"SFUI_Map_workshop_preview_ancient"	"Pratinjau Ancient"
 		"SFUI_Map_workshop_preview_inferno"	"Pratinjau Inferno"
@@ -38280,6 +38304,7 @@ melawan FaZe."
 		"major_hub_souvenir_package_desc"	"Klik pertandingan mana pun dari daftar di bawah untuk mengeklaim suvenir atau beli seharga <span class=\"major-hub-store__souvenir__price\">{s:souvenir_price}</span>"
 		"major_hub_souvenir_package_desc_no_price"	"Klik di pertandingan mana pun yang telah selesai dari daftar di bawah untuk mengambil suvenir."
 		"major_hub_store_title_event" 	"Toko Major {s:tournament_name}"
+		"major_hub_store_title_hud_store" 	"Hub & Toko Major {s:tournament_name}"
 		"major_hub_store_desc" 	"Dapatkan stiker tanda tangan tim dan pemain favoritmu"
 		"major_hub_store_desc_2" 	"Telah Tersedia: Stiker Juara dan Gantungan Sorotan"
 		"major_hub_store_desc_3" 	"Stiker Mode Rank"
@@ -39380,6 +39405,9 @@ melawan FaZe."
 		"SFUI_PlayerDetails_GoodTeacher"		"Adalah Guru yang Baik"
 		"SFUI_PlayerDetails_GoodLeader"			"Adalah Pemimpin yang Baik"
 
+		"SFUI_ReportingPlayers"					"Melaporkan {s:target_player}"
+
+
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Obrolan Teks yang Kasar"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Obrolan Suara yang Kasar"
 		"SFUI_PlayerDetails_Abusive"				"Profil atau Komunikasi yang Kasar"
@@ -39573,6 +39601,9 @@ melawan FaZe."
 		"SFUI_match_abort_match_network_event"	"Interupsi pada jaringan mengakibatkan pertandingan dibatalkan.\nPertandingan ini tidak akan mempengaruhi Rating Skill kamu."
 		"SFUI_match_abort_match_vac_live"	"VAC Live mendeteksi adanya cheater dan mengakhiri pertandingan.\nPertandingan ini tidak akan memengaruhi Kelasmu."
 		
+		"SFUI_match_abort_match_abnormal_behavior"	"%s1 dan anggota party lainnya telah menerima penalti VACNet."
+		"SFUI_match_abort_match_abnormal_behavior_pano"	"VACNet mendeteksi adanya permainan yang tidak biasa dan telah membatalkan pertandingan."
+
 		"SFUI_match_vac_live_partied_with_cheater"	"Tidak ada progres yang akan diberikan untuk pertandingan ini karena pemain di party-mu terkena ban."
 		"SFUI_match_abort_match_missing_player"	" Pertandingan dibatalkan karena ada pemain yang tidak dapat terhubung."
 		"SFUI_match_abort_match_player_abandoned"	" Pertandingan dibatalkan karena ada pemain yang terputus."
@@ -39754,6 +39785,11 @@ melawan FaZe."
 		"SFUIHUD_InfoPanel_Coop_Thumb2Insert"					"USB diambil.\nMenginstall virus!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Ready"					"USB 2 siap!"
 		"SFUIHUD_InfoPanel_Coop_Thumb2Retrieved"				"USB virus diambil!"	
+
+		"FullPlayerNameOrder_Default:f"						"{clantag} {original_controller} {puppeteer}"
+		"FullPlayerNameOrder_PlayerSlot:f"					"{playerslot}| {clantag} {original_controller} {puppeteer}"
+		"DecoratedPlayerName_ControllerName:f"				"<span class='decorated-player-name__controller-name'>{s:value}</span>"
+		"DecoratedPlayerName_Puppeteer:f"					"<span class='decorated-player-name__puppeteer'>({s:value})</span>"
 "SFUIHUD_Spectate_Equipment"	"NILAI PERALATAN"
 		"SFUIHUD_Spectate_TeamMoney"	"UANG TIM"
 		"SFUIHUD_Spectate_TeamEQValue"	"NILAI EQ TIM"
@@ -40848,6 +40884,7 @@ melawan FaZe."
 		"SFUI_Settings_Casual_EQ_Tip"		"Menggunakan profil EQ ini di sepanjang pertandingan Kasual"
 
 
+		"SFUI_Settings_Master_Music_Volume"							"Volume Musik Utama"
 		"SFUI_Settings_Menu_Music_Volume"							"Volume Menu Utama"	
 		"SFUI_Settings_Start_Round_Music_Volume"					"Volume Ronde Dimulai"
 		"SFUI_Settings_Action_Round_Music_Volume"					"Volume Sepanjang Ronde"
@@ -40857,6 +40894,12 @@ melawan FaZe."
 		"SFUI_Settings_Death_Camera_Music_Volume"					"Volume Kamera Death"
 		"SFUI_Settings_MVP_Music_Volume"							"Volume MVP"
 		"SFUI_Settings_DZ_Music_Volume"								"Volume Musik Zona Bahaya"
+		"SFUI_Settings_Music_Apply_Competitive_To_All"				"Terapkan Volume Kompetitif ke Semua Mode Lainnya"
+		"SFUI_Settings_Menu_Music_Volume_Tip"						"Latar menu utama, layar pemuatan, pertandingan ditemukan, pemilihan tim, intro tim, akhir pertandingan, pratinjau Kit Musik."
+		"SFUI_Settings_MVP_Music_Volume_Tip"						"Pemain terbaik dalam satu ronde."
+		"SFUI_Settings_Map_Objective_Music_Volume_Tip"				"Saat bom dipasang, atau sandera diselamatkan."
+		"SFUI_Settings_Ten_Second_Warning_Music_Volume_Tip"			"Pada sepuluh detik terakhir hitungan mundur bom, akhir ronde, atau saat pembawa sandera mendekati zona penyelamatan."
+		"SFUI_Settings_Death_Camera_Music_Volume_Tip"				"Saat mati."
 		"SFUI_Block_Com_From_Enemy_Team"							"Blokir Komunikasi dari Tim Musuh"
 
 		"GameUI_Settings_Announcer"			"Penyiar"
@@ -41213,6 +41256,11 @@ melawan FaZe."
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"SFUI_Settings_ClanTag_Title"								"Tag Klan Grup Steam"
 		"SFUI_Settings_ClanTag_None"								"Tidak ada tag tim"
+		"ClanTag_Lister_Title"										"Pilih Tag Klan"
+		"ClanTag_Clear_ClanTag"										"Tidak Ada Tag Klan"
+		"ClanTag_Updating"											"Memperbarui Tag Klan..."
+		"ClanTag_Manage_Groups"										"Buka Grup Steam"
+ 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Buy Menu
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -41290,6 +41338,7 @@ melawan FaZe."
 		"SFUI_BuyMenu_WeaponClass" "MENU PILIH SENJATA"
 
 		"SFUI_BuyMenu_CanOnlyCarryXGrenades:f"		"Kamu hanya bisa membawa {s:s1} granat"
+		"SFUI_BuyMenu_CanOnlyPurchaseTotalXGrenades:f" "Kamu hanya bisa membeli {s:s1} granat"
 		"SFUI_BuyMenu_MaxItemsOfType:f"				"Kamu hanya bisa membawa {s:s1} item jenis ini"
 		"SFUI_BuyMenu_MaxItemsOfTypePurchased:f"	"Kamu hanya bisa membeli {s:s1} item jenis ini"
 		"SFUI_BuyMenu_AlreadyCarrying"				"Item ada di inventaris"
@@ -45733,6 +45782,16 @@ melawan FaZe."
 		"AddFriend_tooltip"						"Tambah Teman"
 		"FriendsLobby_tooltip"					"Pelajari lebih lanjut tentang lobi"
 		"friends_lobby_count"					"+ {s:lobby_count}"
+		"friends_name_in_draft"					"{g:player_name:clan:name:draft:xuid}"
+		"friends_name_in_accept"				"{g:player_name:clan:name:accept:xuid}"
+		"friends_name_in_party"					"{g:player_name:clan:name:party:partyxuid}"
+		"friends_name_from_steam"				"{g:player_name:name:friend:xuid}"
+		"friends_name_playercard"				"{g:player_name:clan:name:friend:xuid}"
+		"friends_name_generic"					"{s:player-name}"
+
+		"friends_name_in_party_leaderboard"		"{g:player_name:name:party:partyxuid}"
+
+
 		"contextmenu_lobby-count:f"				"{d:lobby_count} Lobi "
 
 
@@ -46631,6 +46690,7 @@ melawan FaZe."
 		"settings_video"			"Video"
 		"settings_audio"			"Audio"
 		"settings_new"				"Baru"
+		"settings_updated"			"Diperbarui"
 		"settings_about"			"Kredit"
 		"settings_search"			"Cari"
 		"settings_keyboard_mouse_section"	"Pengaturan Keyboard & Mouse"
@@ -46661,6 +46721,9 @@ melawan FaZe."
 
 
 		"settings_account_conn_section"		"Twitch.tv"
+		"settings_crosshair_style"			"Pengaturan Gaya"
+		"settings_crosshair_sniper"			"Penglihatan Sniper"
+		"settings_crosshair_grenade"		"Garis Bidik Granat"
 		"settings_radar_section"			"Radar"
 		"settings_radarandtablet_section"	"Radar / Tablet"
 		"settings_items_section"			"Item"
@@ -47768,6 +47831,9 @@ melawan FaZe."
 
 		"rankup_redemption_case_warning"							"Membutuhkan kunci yang dibeli untuk membukanya"
 		"rankup_redemption_store_claimed"							"DIAMBIL"	
+		"rankup_redemption_store_expired"							"KEDALUWARSA"	
+
+		"expired_itemdef"											"Kedaluwarsa"
 		//////////////////////////////////////////////////////////////////
 		//
 		//	END OF MATCH
@@ -49649,8 +49715,110 @@ melawan FaZe."
 		"tooltip_kick_player"			"Keluarkan pemain dari server lokal"		
 		"tooltip_short_viewaddon"			"Lihat Map Kustom"
 		"tooltip_short_kick_player"			"Keluarkan"
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+"pet_expired_notification_msg_nofood_2"	"Sejujurnya, ia tidak pernah sekalipun mengeluh."
+		"pet_expired_notification_title_nofood_egg"	"Belum Menetas"
+		"pet_expired_notification_msg_nofood_egg_0"	"Telurmu telah dipindahkan ke sarang yang lebih hangat."
+		"pet_expired_notification_msg_nofood_egg_1"	"Tak pernah dicintai. Tak pernah menetas.<br>Dua hal itu saling berkaitan."
+		"pet_expired_notification_msg_0"		"Peliharaanmu telah pergi."
+		// Tooltips for the action buttons that appear when hovering your pet.
+		"pet_tooltip_zoom_in"				"Lihat lebih dekat"
+		"pet_tooltip_zoom_out"				"Kembali ke tampilan penuh"
+		"pet_tooltip_inspect"				"Periksa peliharaanmu"
+		"pet_tooltip_rename"				"Ganti nama peliharaanmu"
+		"pet_tooltip_photo_booth"			"Buka bilik foto"
+		"pet_tooltip_book"					"Buka HatchBook"
+		"pet_tooltip_name_submit"			"Berikan nama untuk peliharaanmu"
+		"pet_tooltip_name_cancel"			"Hapus apa yang kamu ketik"
+		"pet_photo_booth_age_dangerous"		"Belum cukup umur untuk pose berbahaya ini."
+		"pet_photo_booth_age_maturity"		"Belum cukup umur, pose ini membutuhkan sedikit kedewasaan."
+		// For the effects a pet can also earn: hints at the other way in without saying what earns it.
+		"pet_photo_booth_age_scary_brave"	"Belum cukup umur, kecuali peliharaanmu pernah menghadapi yang lebih buruk."
+		"pet_photo_booth_age_tricks"		"Belum cukup umur untuk melakukan trik-trik ini."
+		// A life stage, not a booth control - the book and the library show it too.
+		"pet_growth_egg"					"Telur"
+		"pet_growth_chick"					"Anak Ayam"
+		"pet_growth_chick_inline"			"anak ayam"
+		"pet_growth_adolescent"				"Ayam Dara"
+		"pet_growth_adolescent_inline"			"ayam dara"
+		"pet_growth_adult"					"Ayam Betina"
+		"pet_growth_adult_inline"			"ayam"
+
+		"pet_photo_booth_aspect_1x1"		"Persegi"
+		"pet_photo_booth_aspect_4x3"		"4x3"
+		"pet_photo_booth_aspect_5x4"		"5x4"
+		"pet_photo_booth_aspect_16x9"		"16x9"
+		"pet_photo_booth_aspect_3x4"		"3x4"
+		"pet_photo_booth_aspect_9x16"		"9x16"
+
+		"pet_photo_booth_team_ct"			"Agen AT"
+		"pet_photo_booth_team_t"			"Agen T"
+
+		"pet_photo_booth_zoom_readout"		"Zoom {d:zoom_value} ({s:zoom_band})"
+		"pet_photo_booth_zoom_wide"			"Diperkecil"
+		"pet_photo_booth_zoom_mid"			"Mid"
+		"pet_photo_booth_zoom_closeup"		"Jarak dekat"
+		"take_picture"						"Ambil Gambar"
+
+		"pet_photo_viewer_copy"			"Salin foto ke clipboard"
+		"pet_photo_booth_adjust_brightness"	"Kecerahan"
+		"pet_photo_booth_adjust_bloom"		"Bloom"
+		"pet_photo_booth_headwear_none"		"Tidak Ada"
+		"pet_photo_booth_headwear_helmet"	"Helm"
+		"pet_photo_booth_filter_normal"		"Normal"
+		"pet_photo_booth_filter_crisp"		"Jernih"
+		// Keyed by the snapshot animation id, which is what a photo records. Button order, not numeric.
+		"pet_photo_booth_pose_0"			"Solo"
+		"pet_photo_booth_map_locked_age"	"Peliharaan yang lebih tua bisa berkunjung ke sini bersamamu."
+		"pet_photo_booth_reset"				"Reset"
+		"pet_photo_booth_open_book"			"Buka Buku Foto"
+		"pet_photo_booth_back_to_book"		"Kembali ke Buku"
+		"pet_upgrade_notification_title"		"Pertumbuhan Pesat"
+		"pet_upgrade_notification_msg"			"Peliharaanmu sedang tumbuh!"
+		"pet_upgrade_notification_msg_1"		"Lihat! Telurmu sedang menetas!<br>Saatnya bertemu anak ayammu."
+		"chicken_egg"							"Telur Ayam"
+		"chicken_egg_cannot_bid_own"			"Kamu tidak dapat mengajukan tawaran untuk Penawaran ini karena kamu sudah memiliki peliharaan."
+
+		"chicken_feed"							"Pakan Ayam"
+		"pet_photo_booth_setting_adjust" 			"Sesuaikan"
+		"pet_photo_booth_setting_filters" 			"Filter"
+		"pet_photo_booth_setting_format" 			"Format"
+		"pet_photo_booth_setting_stage" 			"Latar"
+		"pet_photo_booth_setting_borders" 			"Bingkai"
+		"pet_photo_booth_setting_poses" 			"Pose"
+		"pet_photo_booth_setting_stickers" 			"Stiker"
+		"pet_photo_booth_setting_team" 				"Tim"
+		"pet_photo_booth_setting_headwear" 			"Topi"
+		"pet_photo_booth_setting_light" 			"Lampu"
+		"pet_photo_booth_setting_grid" 			"Kotak Foto"
+		"pet_photo_booth_hint_zoom" 			"Gulir untuk memperbesar"
+		"pet_photo_booth_hint_pan" 				"Shift + seret untuk menggeser tampilan"
+		"pet_book_subtitle" 					"Kisah kehidupan {s:pet_name}"
+		"pet_book_open"							"Buka Buku"
+		"pet_book_open_booth"					"Kembali ke Bilik Foto"
+		"pet_book_drag_hint"					"Seret dan lepas untuk menambah dan menghapus foto."
+		"pet_book_name_placeholder"				"Nama peliharaanmu di sini"
+		"pet_book_hatch_due"					"Menetas {s:hatch_day}"
+		"pet_book_page_counter"					"{d:page} / {d:total}"
+		"pet_book_chapter_chick"				"Anak Ayam"
+		"pet_book_chapter_pullet"				"Ayam Dara"
+		"pet_book_chapter_hen"					"Ayam Betina"
+		"pet_book_menu_current"					"{s:pet_name}"
+		"pet_book_menu_current_unnamed"			"Buku Saat Ini"
+		"pet_book_menu_retired"					"{s:hatch_date}"
+		"tooltip_short_petbook"					"Buku Peliharaan"
+		"pet_photo_library_empty"				"Foto yang kamu ambil akan muncul di sini."
+		"pet_photo_library_delete_title"		"Hapus Foto"
+		// Shown when a photo never reaches disk. A fresh booth is what fixes it, so leaving is the only
+		// thing offered.
+		"pet_photo_save_failed_title"			"Foto Tidak Disimpan"
+		"pet_photo_save_failed_desc"			"Terjadi kesalahan saat menyimpan foto. Coba buka Bilik Foto lagi."
+		// The left hand labels of a photo's settings, as they read in the library tooltip.
+		"pet_photo_caption_pose"				"Pose"
+		"pet_photo_caption_filter"				"Filter"
+		"pet_photo_caption_stage"				"Lokasi"
+		"pet_photo_caption_zoom"				"Zoom"
+// crow_mask_54126_comment
+// crow_mask_54127_comment
 }
 
 

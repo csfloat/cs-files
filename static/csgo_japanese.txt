@@ -28,9 +28,7 @@
 		"GameUI_CrosshairStyle4"	"静的クロス"
 		"GameUI_CrosshairStyle5"	"動的クロス（レガシー/ショート フィードバック）"
 		"GameUI_CrosshairStyle6"	"ドットのみ"
-		"GameUI_CrosshairStyle7"	"動的クアッド"
 		"GameUI_CrosshairStyle8"	"静的スクエア"
-
 		"GameUI_CrosshairStyle0_Tooltip"	"動的クロス"
 		"GameUI_CrosshairStyle1_Tooltip"	"動的サークル"
 		"GameUI_CrosshairStyle2_Tooltip"	"動的クロス（クラシック）"
@@ -39602,6 +39600,9 @@
 		"SFUI_PlayerDetails_GoodTeacher"		"は良き指導者"
 		"SFUI_PlayerDetails_GoodLeader"			"は良きリーダー"
 
+		"SFUI_ReportingPlayers"					" {s:target_player} を報告する"
+
+
 		"SFUI_PlayerDetails_AbusiveTextChat"		"テキストチャットでの暴言"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"ボイスチャットでの暴言"
 		"SFUI_PlayerDetails_Abusive"				"有害コミュニケーションまたはプロフィール"
@@ -50208,7 +50209,6 @@
 		"pet_book_hint_chick_and_you_pose"		"あなたの手の中で"
 		"pet_book_hint_chick_park"				"あなたの {s:growth} 、{s:stage}にて"
 		"pet_book_hint_adolescent_intro"		"あなたの {s:growth} 、{s:stage}にて"
-		"pet_book_hint_adolescent_road_trip"	"あなたの {s:growth} 、{s:stage}にて"
 		"pet_book_hint_birthday"				"{s:headwear}をかぶったあなたの{s:growth}、{s:activity}。紙吹雪やスパークルはお好みで。"
 		"pet_book_hint_birthday_headwear"		"パーティーハットをかぶって"
 		"pet_book_hint_birthday_activity"		"ジャンプ中"
@@ -50367,8 +50367,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}]を押してタワーを起動</font>"
 
-// crow_mask_54120_comment
-// crow_mask_54121_comment
+// crow_mask_54126_comment
+// crow_mask_54127_comment
 }
 
 
