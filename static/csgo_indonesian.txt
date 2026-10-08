@@ -39454,9 +39454,6 @@ melawan FaZe."
 		"SFUI_PlayerDetails_GoodTeacher"		"Adalah Guru yang Baik"
 		"SFUI_PlayerDetails_GoodLeader"			"Adalah Pemimpin yang Baik"
 
-		"SFUI_ReportingPlayers"					"Melaporkan {s:target_player}"
-
-
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Obrolan Teks yang Kasar"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Obrolan Suara yang Kasar"
 		"SFUI_PlayerDetails_Abusive"				"Profil atau Komunikasi yang Kasar"
@@ -50210,8 +50207,8 @@ melawan FaZe."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tekan [{s:bind_use}] untuk menguasai menara.</font>"
 
-// crow_mask_54126_comment
-// crow_mask_54127_comment
+// crow_mask_54135_comment
+// crow_mask_54136_comment
 }
 
 

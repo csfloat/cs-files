@@ -39,6 +39,7 @@
 		"GameUI_CrosshairStyle4_Tooltip"	"Croce statica"
 		"GameUI_CrosshairStyle5_Tooltip"	"Croce dinamica (legacy)"
 		"GameUI_CrosshairStyle6_Tooltip"	"Solo punto"
+		"GameUI_CrosshairStyle7_Tooltip"	"Quadrato dinamico"
 		"GameUI_CrosshairStyle8_Tooltip"	"Quadrato statico"
 
 		"GameUI_CrosshairStyle_Friendly"		"Avviso di fuoco amico"
@@ -40131,7 +40132,7 @@ Esca per una doppia uccisione"
 		"SFUI_PlayerDetails_GoodTeacher"		"È un buon insegnante"
 		"SFUI_PlayerDetails_GoodLeader"			"È un buon leader"
 
-		"SFUI_ReportingPlayers"					"Segnalazione di {s:target_player}"
+		"SFUI_ReportingPlayer"					"Segnalazione di {s:target_player}"
 
 
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Abuso della chat testuale"
@@ -47757,6 +47758,11 @@ Vuoi attivare il tuo pass ora?"
 		"CSGO_Workshop_Mode_dm_freeforall"			"Tutti contro tutti"
 		"CSGO_Workshop_No_Maps"						"Non sei iscritto a nessuna mappa.<br><br>Visita il Workshop di Steam per trovare nuove mappe ed esperienze!"
 		"CSGO_Workshop_Visit"						"Visita il Workshop"
+		"CSGO_Workshop_ViewPage"					"Vedi pagina del Workshop"
+		"CSGO_Workshop_Remove_Installed"			"Rimuovi file scaricati"
+		"CSGO_Workshop_Legacy_Badge"				"Oggetto di CS:GO"
+		"CSGO_Workshop_Remove_Confirm_Title"		"Rimuovi file scaricati"
+		"CSGO_Workshop_Remove_Confirm_Text"			"Rimuovere i file scaricati? Verranno scaricati nuovamente se ti unisci a un server che li utilizza."
 		"CSGO_Workshop_Search_Placeholder"			"Filtra le mappe"
 		"CSGO_Workshop_Mode_Select_Title"			"Scegli modalità"
 
@@ -50890,8 +50896,8 @@ Vuoi attivare il tuo pass ora?"
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Premi [{s:bind_use}] per attivare la torre.</font>"
 
-// crow_mask_54126_comment
-// crow_mask_54127_comment
+// crow_mask_54135_comment
+// crow_mask_54136_comment
 }
 
 

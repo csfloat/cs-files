@@ -39605,7 +39605,7 @@
 		"SFUI_PlayerDetails_GoodTeacher"		"は良き指導者"
 		"SFUI_PlayerDetails_GoodLeader"			"は良きリーダー"
 
-		"SFUI_ReportingPlayers"					" {s:target_player} を報告する"
+		"SFUI_ReportingPlayer"					" {s:target_player} を報告する"
 
 
 		"SFUI_PlayerDetails_AbusiveTextChat"		"テキストチャットでの暴言"
@@ -47238,6 +47238,15 @@
 		"CSGO_Workshop_Mode_dm_freeforall"			"フリーフォーオール"
 		"CSGO_Workshop_No_Maps"						"サブスクライブしているマップはありません。<br><br>Steam ワークショップを開いて新しいマップと新しい体験に出会いましょう！"
 		"CSGO_Workshop_Visit"						"ワークショップを開く"
+		"CSGO_Workshop_ViewPage"					"ワークショップページを表示"
+		"CSGO_Workshop_Unsubscribe"					"サブスク解除"
+		"CSGO_Workshop_Remove_Installed"			"ダウンロードしたファイルを削除"
+		"CSGO_Workshop_Installed_Badge"				"インストール済み"
+		"CSGO_Workshop_Legacy_Badge"				"CS:GO のアイテム"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"サブスク解除"
+		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"サブスクを解除しますか？ ゲーム終了後、Steam は該当ファイルを削除します。"
+		"CSGO_Workshop_Remove_Confirm_Title"		"ダウンロードしたファイルを削除"
+		"CSGO_Workshop_Remove_Confirm_Text"			"ダウンロードしたファイルを削除しますか？ このファイルを使用するサーバーに参加すると、再度ダウンロードされます。"
 		"CSGO_Workshop_Search_Placeholder"			"マップを検索"
 		"CSGO_Workshop_Mode_Select_Title"			"モードを選択"
 
@@ -50376,8 +50385,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}]を押してタワーを起動</font>"
 
-// crow_mask_54126_comment
-// crow_mask_54127_comment
+// crow_mask_54135_comment
+// crow_mask_54136_comment
 }
 
 

@@ -28,7 +28,10 @@
 		"GameUI_CrosshairStyle4"	"Cruz estática"
 		"GameUI_CrosshairStyle5"	"Cruz dinámica (tradicional/respuesta de disparo)"
 		"GameUI_CrosshairStyle6"	"Solo el punto"
+		"GameUI_CrosshairStyle7"	"Cuadrante dinámico"
 		"GameUI_CrosshairStyle8"	"Cuadrado estático"
+		"GameUI_CrosshairStyle9"	"Cuadrante estático"
+
 		"GameUI_CrosshairStyle0_Tooltip"	"Cruz dinámica"
 		"GameUI_CrosshairStyle1_Tooltip"	"Círculo dinámico"
 		"GameUI_CrosshairStyle2_Tooltip"	"Cruz dinámica (clásica)"
@@ -66,6 +69,7 @@
 		"GameUI_CrosshairAlpha"		"Alfa"
 		"GameUI_CrosshairSize"		"Tamaño del punto de mira"
 		"GameUI_CrosshairColor"		"Color y transparencia"
+		"GameUI_CrosshairOutlineColor"	"Color y transparencia del contorno"
 		"GameUI_SniperCrosshairThickness" "Grosor de la mira de francotirador"
 		"GameUI_ColorSliders"		"Colores"
 		"GameUI_ColorQuality"		"Calidad del color"
@@ -78,6 +82,7 @@
 		"GameUI_SplitInnerAlpha" 	"Alfa de la dispersión interior"
 		"GameUI_SplitOuterAlpha" 	"Alfa de la dispersión exterior"
 		"GameUI_SplitRatio" 		"Proporción de la dispersión"
+		"GameUI_StaticQuadSplitRatio"	"Tamaño del cuadrante"
 		"GameUI_DynamicSpreadDistanceLimit" "Límite de la dispersión dinámica"
 		"GameUI_DynamicSpreadDistanceLimit_Tooltip" "Límite de la dispersión dinámica"
 		"GameUI_TStyle" 			"Estilo T"
@@ -40121,9 +40126,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_PlayerDetails_GoodTeacher"		"Es un buen maestro"
 		"SFUI_PlayerDetails_GoodLeader"			"Es un buen líder"
 
-		"SFUI_ReportingPlayers"					"Denunciar a {s:target_player}"
-
-
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Abuso del chat de texto"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Abuso del chat de voz"
 		"SFUI_PlayerDetails_Abusive"				"Comunicaciones o perfil ofensivos"
@@ -50716,7 +50718,9 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"pet_book_hint_chick_park"				"Tu {s:growth} en el {s:stage}"
 		"pet_book_hint_adolescent_intro"		"Tu {s:growth} en {s:stage}"
 		"pet_book_hint_adolescent_road_trip_1"		"Tu {s:growth} en {s:stage}."
+		"pet_book_hint_adolescent_road_trip_1_stage"	"Dust II, Baggage, Inferno o Train"
 		"pet_book_hint_adolescent_road_trip_2"			"Tu {s:growth} en {s:stage}."
+		"pet_book_hint_adolescent_road_trip_2_stage"	"Mirage, Nuke, Cache o Ancient"
 		"pet_book_hint_birthday"				"Tu {s:growth} {s:activity}, {s:headwear}. El confeti y las chispas son opcionales."
 		"pet_book_hint_birthday_headwear"		"con un sombrero de fiesta"
 		"pet_book_hint_birthday_activity"		"en pleno salto"
@@ -50875,8 +50879,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pulsa [{s:bind_use}] para activar la torre.</font>"
 
-// crow_mask_54126_comment
-// crow_mask_54127_comment
+// crow_mask_54135_comment
+// crow_mask_54136_comment
 }
 
 

@@ -40237,7 +40237,7 @@
 		"SFUI_PlayerDetails_GoodTeacher"		"Ensina bem"
 		"SFUI_PlayerDetails_GoodLeader"			"É um bom líder"
 
-		"SFUI_ReportingPlayers"					"A denunciar {s:target_player}"
+		"SFUI_ReportingPlayer"					"A denunciar {s:target_player}"
 
 
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Comunicação abusiva (por texto)"
@@ -47876,6 +47876,15 @@
 		"CSGO_Workshop_Mode_dm_freeforall"			"Todos contra todos"
 		"CSGO_Workshop_No_Maps"						"Não subscreveste nenhum mapa.<br><br>Visita o Steam Workshop para encontrares mapas novos!"
 		"CSGO_Workshop_Visit"						"Visitar Workshop"
+		"CSGO_Workshop_ViewPage"					"Ver página no Workshop"
+		"CSGO_Workshop_Unsubscribe"					"Anular subscrição"
+		"CSGO_Workshop_Remove_Installed"			"Remover ficheiros transferidos"
+		"CSGO_Workshop_Installed_Badge"				"Instalado"
+		"CSGO_Workshop_Legacy_Badge"				"Item do CS:GO"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"Anular subscrição"
+		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"Anular a subscrição? O Steam irá remover os ficheiros depois de saíres do jogo."
+		"CSGO_Workshop_Remove_Confirm_Title"		"Remover ficheiros transferidos"
+		"CSGO_Workshop_Remove_Confirm_Text"			"Remover os ficheiros transferidos? Serão transferidos novamente se entrares num servidor que os use."
 		"CSGO_Workshop_Search_Placeholder"			"Filtrar mapas"
 		"CSGO_Workshop_Mode_Select_Title"			"Escolher modo"
 
@@ -51031,8 +51040,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Prime [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54126_comment
-// crow_mask_54127_comment
+// crow_mask_54135_comment
+// crow_mask_54136_comment
 }
 
 

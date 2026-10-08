@@ -40128,9 +40128,6 @@
 		"SFUI_PlayerDetails_GoodTeacher"		"Ensina bem"
 		"SFUI_PlayerDetails_GoodLeader"			"Lidera bem"
 
-		"SFUI_ReportingPlayers"					"Denunciando {s:target_player}"
-
-
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Conversa por texto abusiva"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Conversa por voz abusiva"
 		"SFUI_PlayerDetails_Abusive"				"Perfil ou comunicações abusivos"
@@ -50883,8 +50880,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pressione [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54126_comment
-// crow_mask_54127_comment
+// crow_mask_54135_comment
+// crow_mask_54136_comment
 }
 
 
