@@ -48821,6 +48821,7 @@
 		"CSGO_Workshop_Remove_Installed"			"ลบไฟล์ที่ดาวน์โหลด"
 		"CSGO_Workshop_Installed_Badge"				"ติดตั้งแล้ว"
 		"CSGO_Workshop_Legacy_Badge"				"ไอเท็ม CS:GO"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"ยกเลิกการสมัครสมาชิก"
 		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"ต้องการยกเลิกการสมัครสมาชิกหรือไม่? Steam จะลบไฟล์หลังจากที่คุณออกจากเกม"
 		"CSGO_Workshop_Remove_Confirm_Title"		"ลบไฟล์ที่ดาวน์โหลด"
 		"CSGO_Workshop_Remove_Confirm_Text"			"ต้องการลบไฟล์ที่ดาวน์โหลดหรือไม่? ไฟล์ดังกล่าวจะได้รับการดาวน์โหลดอีกครั้ง หากคุณเข้าร่วมเซิร์ฟเวอร์ที่ใช้ไฟล์เหล่านั้น"
@@ -51749,7 +51750,6 @@
 		"pet_upgrade_notification_msg_1"		"ดูสิ! ไข่ของคุณกำลังจะฟักออกมา!<br>ได้เวลาพบกับลูกไก่ของคุณแล้ว"
 		"pet_upgrade_notification_msg_2"		"ลูกไก่ของคุณกำลังโตเป็นไก่สาว<br>เกือบจะเป็นแม่ไก่เต็มตัวแล้ว"
 		"pet_upgrade_notification_msg_3"		"ไก่สาวของคุณกำลังจะกลายเป็นแม่ไก่แล้ว<br>โตเต็มวัยและมีขนเต็มตัว!"
-
 		"chicken_egg"							"ไข่ไก่"
 		"chicken_egg_cannot_bid_own"			"คุณไม่สามารถประมูลข้อเสนอนี้ได้เนื่องจากคุณมีสัตว์เลี้ยงอยู่แล้ว"
 
@@ -51979,8 +51979,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>กด [{s:bind_use}] เพื่อเปิดใช้งานหอคอย</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

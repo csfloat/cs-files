@@ -50674,7 +50674,6 @@
 		"pet_upgrade_notification_msg_1"		"Sieh an! Ihr Hühnerei schlüpft!<br>Zeit, Ihr Küken kennenzulernen."
 		"pet_upgrade_notification_msg_2"		"Ihr Küken wächst zu einem Junghuhn heran.<br>Fast schon eine richtige Henne."
 		"pet_upgrade_notification_msg_3"		"Aus dem Junghuhn wird eine Henne.<br>Ausgewachsen und voll befiedert!"
-
 		"chicken_egg"							"Hühnerei"
 		"chicken_egg_desc"						""
 		"chicken_egg_cannot_bid_own"			"Sie können kein Gebot für dieses Angebot abgeben, da Sie bereits ein Haustier besitzen."
@@ -50905,8 +50904,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}] drücken, um den Funkmast zu aktivieren.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

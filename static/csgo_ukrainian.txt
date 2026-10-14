@@ -116,8 +116,8 @@
 		"GameUI_Xhair_Code_Invalid"				"Недійсний або старий код перехрестя"
 		"GameUI_Xhair_Import_Code"				"Імпортувати"
 		"GameUI_Xhair_DynamicPreview_Tooltip"			"Увімкнути/вимкнути динамічний попередній огляд перехрестя"
-		"GameUI_Xhair_DynamicPreview_Enabled"	"Зупинити динамічний попередній огляд"
-		"GameUI_Xhair_DynamicPreview_Disabled"	"Почати динамічний попередній огляд"
+		"GameUI_Xhair_DynamicPreview_Enabled"	"Зупинити динамічний огляд"
+		"GameUI_Xhair_DynamicPreview_Disabled"	"Почати динамічний огляд"
 
 		"tooltip_copycrosshair"				"Копіювати перехрестя"
 		"GameUI_Xhair_Copy_Code_Confirm"		"Замінити поточне перехрестя?"
@@ -53635,7 +53635,6 @@
 		"pet_upgrade_notification_msg_1"		"Дивіться! Хтось вилуплюється з яйця!<br>Час познайомитися з вашою ціпкою."
 		"pet_upgrade_notification_msg_2"		"Ваша ціпка виростає в молоду курочку.<br>Ще трохи й буде доросла курочка."
 		"pet_upgrade_notification_msg_3"		"Ваша молода курочка стає дорослою.<br>Цілком зріла й перната!"
-
 		"chicken_egg"							"Куряче яйце"
 		"chicken_egg_cannot_bid_own"			"Це пропозиція недоступна, бо ви вже маєте улюбленицю."
 
@@ -53865,8 +53864,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Натисніть [{s:bind_use}], щоб активувати вежу.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

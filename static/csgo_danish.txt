@@ -49082,6 +49082,15 @@ bare glem alt om Proseccoen."
 		"CSGO_Workshop_Mode_dm_freeforall"			"Alle mod alle"
 		"CSGO_Workshop_No_Maps"						"Du abonnerer ikke på nogen baner.<br><br>Besøg Steam-værkstedet for at finde nye baner og oplevelser!"
 		"CSGO_Workshop_Visit"						"Besøg værkstedet"
+		"CSGO_Workshop_ViewPage"					"Vis værkstedsside"
+		"CSGO_Workshop_Unsubscribe"					"Afmeld"
+		"CSGO_Workshop_Remove_Installed"			"Fjern downloadede filer"
+		"CSGO_Workshop_Installed_Badge"				"Installeret"
+		"CSGO_Workshop_Legacy_Badge"				"CS:GO-genstand"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"Afmeld"
+		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"Afmeld? Steam fjerner filerne, når du har afsluttet spillet."
+		"CSGO_Workshop_Remove_Confirm_Title"		"Fjern downloadede filer"
+		"CSGO_Workshop_Remove_Confirm_Text"			"Fjern de downloadede filer? De downloades igen, hvis du tilslutter dig en server, som bruger dem."
 		"CSGO_Workshop_Search_Placeholder"			"Filtrer baner"
 		"CSGO_Workshop_Mode_Select_Title"			"Vælg tilstand"
 
@@ -52026,7 +52035,6 @@ bare glem alt om Proseccoen."
 		"pet_upgrade_notification_msg_1"		"Se! Dit æg er ved at klække!<br>Tid til at møde din kylling."
 		"pet_upgrade_notification_msg_2"		"Din kylling er ved at blive til en hønnike.<br>Snart en rigtig høne."
 		"pet_upgrade_notification_msg_3"		"Din hønnike er snart en høne.<br>Fuldt udvokset og fyldt med fjer!"
-
 		"chicken_egg"							"Hønseæg"
 		"chicken_egg_cannot_bid_own"			"Du kan ikke byde på dette tilbud, fordi du allerede ejer et kæledyr."
 
@@ -52256,8 +52264,8 @@ bare glem alt om Proseccoen."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tryk [{s:bind_use}] for at aktivere tårnet.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

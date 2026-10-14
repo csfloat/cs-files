@@ -39454,6 +39454,9 @@ melawan FaZe."
 		"SFUI_PlayerDetails_GoodTeacher"		"Adalah Guru yang Baik"
 		"SFUI_PlayerDetails_GoodLeader"			"Adalah Pemimpin yang Baik"
 
+		"SFUI_ReportingPlayer"					"Melaporkan {s:target_player}"
+
+
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Obrolan Teks yang Kasar"
 		"SFUI_PlayerDetails_AbusiveVoiceChat"		"Obrolan Suara yang Kasar"
 		"SFUI_PlayerDetails_Abusive"				"Profil atau Komunikasi yang Kasar"
@@ -47074,6 +47077,15 @@ melawan FaZe."
 		"CSGO_Workshop_Mode_dm_freeforall"			"Free For All"
 		"CSGO_Workshop_No_Maps"						"Kamu tidak berlangganan ke map mana pun.<br><br>Kunjungi Workshop Steam untuk mencari map dan pengalaman yang baru!"
 		"CSGO_Workshop_Visit"						"Kunjungi Workshop"
+		"CSGO_Workshop_ViewPage"					"Lihat Halaman Workshop"
+		"CSGO_Workshop_Unsubscribe"					"Berhenti Berlangganan"
+		"CSGO_Workshop_Remove_Installed"			"Hapus File yang Diunduh"
+		"CSGO_Workshop_Installed_Badge"				"Terpasang"
+		"CSGO_Workshop_Legacy_Badge"				"Item CS:GO"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"Berhenti Berlangganan"
+		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"Berhenti berlangganan? Steam akan menghapus file setelah kamu keluar dari permainan."
+		"CSGO_Workshop_Remove_Confirm_Title"		"Hapus File yang Diunduh"
+		"CSGO_Workshop_Remove_Confirm_Text"			"Hapus file yang telah diunduh? File akan diunduh kembali jika kamu bergabung ke server yang menggunakannya."
 		"CSGO_Workshop_Search_Placeholder"			"Filter Map"
 		"CSGO_Workshop_Mode_Select_Title"			"Pilih Mode"
 
@@ -49977,7 +49989,6 @@ melawan FaZe."
 		"pet_upgrade_notification_msg_1"		"Lihat! Telurmu sedang menetas!<br>Saatnya bertemu anak ayammu."
 		"pet_upgrade_notification_msg_2"		"Anak ayammu tumbuh menjadi ayam dara.<br>Tak lama lagi, dia akan menjadi ayam betina dewasa."
 		"pet_upgrade_notification_msg_3"		"Ayam dara milikmu kini telah tumbuh menjadi ayam betina dewasa.<br>Sudah dewasa dan berbulu penuh!"
-
 		"chicken_egg"							"Telur Ayam"
 		"chicken_egg_cannot_bid_own"			"Kamu tidak dapat mengajukan tawaran untuk Penawaran ini karena kamu sudah memiliki peliharaan."
 
@@ -50207,8 +50218,8 @@ melawan FaZe."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tekan [{s:bind_use}] untuk menguasai menara.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

@@ -48542,6 +48542,15 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"CSGO_Workshop_Mode_dm_freeforall"			"Free-For-All"
 		"CSGO_Workshop_No_Maps"						"Je bent niet op maps geabonneerd.<br><br>Bezoek de Steam Workshop om nieuwe maps en ervaringen te zoeken!"
 		"CSGO_Workshop_Visit"						"Workshop bezoeken"
+		"CSGO_Workshop_ViewPage"					"Workshop-pagina bekijken"
+		"CSGO_Workshop_Unsubscribe"					"Afmelden"
+		"CSGO_Workshop_Remove_Installed"			"Gedownloade bestanden verwijderen"
+		"CSGO_Workshop_Installed_Badge"				"Geïnstalleerd"
+		"CSGO_Workshop_Legacy_Badge"				"CS:GO-voorwerp"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"Afmelden"
+		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"Afmelden? Steam verwijdert de bestanden zodra je de game afsluit."
+		"CSGO_Workshop_Remove_Confirm_Title"		"Gedownloade bestanden verwijderen"
+		"CSGO_Workshop_Remove_Confirm_Text"			"Gedownloade bestanden verwijderen? Ze worden opnieuw gedownload als je naar een server gaat die ze gebruikt."
 		"CSGO_Workshop_Search_Placeholder"			"Maps filteren"
 		"CSGO_Workshop_Mode_Select_Title"			"Speltype kiezen"
 
@@ -51468,7 +51477,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"pet_upgrade_notification_msg_1"		"Kijk! Je ei is aan het uitkomen!<br>Maak kennis met je kuiken."
 		"pet_upgrade_notification_msg_2"		"Je kuiken is nu een jonge hen aan het worden.<br>Nog even en ze is een echte hen."
 		"pet_upgrade_notification_msg_3"		"Je jonge hen is een volwassen hen aan het worden.<br>Volgroeid en met een dik verenkleed!"
-
 		"chicken_egg"							"Kippenei"
 		"chicken_egg_cannot_bid_own"			"Je kunt geen bod uitbrengen omdat je al een huisdier hebt."
 
@@ -51698,8 +51706,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Druk op [{s:bind_use}] om de toren te activeren.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

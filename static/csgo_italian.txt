@@ -47759,8 +47759,12 @@ Vuoi attivare il tuo pass ora?"
 		"CSGO_Workshop_No_Maps"						"Non sei iscritto a nessuna mappa.<br><br>Visita il Workshop di Steam per trovare nuove mappe ed esperienze!"
 		"CSGO_Workshop_Visit"						"Visita il Workshop"
 		"CSGO_Workshop_ViewPage"					"Vedi pagina del Workshop"
+		"CSGO_Workshop_Unsubscribe"					"Annulla sottoscrizione"
 		"CSGO_Workshop_Remove_Installed"			"Rimuovi file scaricati"
+		"CSGO_Workshop_Installed_Badge"				"Installato"
 		"CSGO_Workshop_Legacy_Badge"				"Oggetto di CS:GO"
+		"CSGO_Workshop_Unsubscribe_Confirm_Title"	"Annulla sottoscrizione"
+		"CSGO_Workshop_Unsubscribe_Confirm_Text"	"Annullare la sottoscrizione? Steam rimuoverà i file dopo la chiusura del gioco."
 		"CSGO_Workshop_Remove_Confirm_Title"		"Rimuovi file scaricati"
 		"CSGO_Workshop_Remove_Confirm_Text"			"Rimuovere i file scaricati? Verranno scaricati nuovamente se ti unisci a un server che li utilizza."
 		"CSGO_Workshop_Search_Placeholder"			"Filtra le mappe"
@@ -50666,7 +50670,6 @@ Vuoi attivare il tuo pass ora?"
 		"pet_upgrade_notification_msg_1"		"Guarda! Il tuo uovo si sta schiudendo!<br>È ora di conoscere il tuo pulcino."
 		"pet_upgrade_notification_msg_2"		"Il tuo pulcino sta diventando un pollastro.<br>Quasi un pollo fatto e finito!"
 		"pet_upgrade_notification_msg_3"		"Il tuo pollastro sta diventando un pollo.<br>Completamente sviluppato e con il piumaggio al completo!"
-
 		"chicken_egg"							"Uovo di gallina"
 		"chicken_egg_cannot_bid_own"			"Non puoi fare un'offerta perché possiedi già un animale."
 
@@ -50896,8 +50899,8 @@ Vuoi attivare il tuo pass ora?"
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Premi [{s:bind_use}] per attivare la torre.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

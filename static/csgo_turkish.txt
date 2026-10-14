@@ -50687,7 +50687,6 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 		"pet_upgrade_notification_msg_1"		"Baksana! Yumurtan çatlıyor!<br>Civcivinle tanışma vakti."
 		"pet_upgrade_notification_msg_2"		"Civcivin büyüyor ve bir pilice dönüşüyor.<br>Gerçek bir tavuk olmaya çok yakın."
 		"pet_upgrade_notification_msg_3"		"Pilicin artık bir tavuk oluyor.<br>Hem yetişkin hem de tüyleri tam!"
-
 		"chicken_egg"							"Tavuk Yumurtası"
 		"chicken_egg_cannot_bid_own"			"Zaten bir evcil hayvanın olduğu için buna teklif veremezsiniz."
 
@@ -50917,8 +50916,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Kuleyi etkinleştirmek için [{s:bind_use}] tuşuna bas.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

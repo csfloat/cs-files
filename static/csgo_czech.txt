@@ -51419,7 +51419,6 @@
 		"pet_upgrade_notification_msg_1"		"Podívej! Tvoje vejce se klube!<br>Je čas, aby ses seznámil se svým kuřátkem."
 		"pet_upgrade_notification_msg_2"		"Tvoje kuře roste do slepičky.<br>Co nevidět z ní bude velká slípka."
 		"pet_upgrade_notification_msg_3"		"Tvoje slepička se mění na slepici.<br>Dospělá a opeřená, ale stále mazlivá."
-
 		"chicken_egg"							"Slepičí vejce"
 		"chicken_egg_cannot_bid_own"			"Na tuto nabídku nemůžeš přihodit, protože už máš slepici."
 
@@ -51649,8 +51648,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Stiskni [{s:bind_use}] pro aktivaci vysílače.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

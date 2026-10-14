@@ -50155,7 +50155,6 @@
 		"pet_upgrade_notification_msg_1"		"ご覧ください！卵が孵化しています！<br>いよいよヒヨコとご対面です！"
 		"pet_upgrade_notification_msg_2"		"あなたのヒヨコが若鶏へと成長しています。<br>まもなく立派なメンドリに。"
 		"pet_upgrade_notification_msg_3"		"若鶏がメンドリへと成長しています。<br>すっかり大きくなって、羽も生えそろいました！"
-
 		"chicken_egg"							"ニワトリの卵"
 		"chicken_egg_cannot_bid_own"			"すでにペットを飼っているため、このオファーには入札できません。"
 
@@ -50385,8 +50384,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}]を押してタワーを起動</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

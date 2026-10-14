@@ -50667,7 +50667,6 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 		"pet_upgrade_notification_msg_1"		"¡Mira! ¡Tu huevo está rompiendo el cascarón!<br>Es hora de conocer a tu pollito."
 		"pet_upgrade_notification_msg_2"		"Tu pollito se está convirtiendo en una gallina joven.<br>Es casi una gallina de verdad."
 		"pet_upgrade_notification_msg_3"		"Tu pollito se está convirtiendo en gallina.<br>¡Ya ha crecido por completo y tiene todo su plumaje!"
-
 		"chicken_egg"							"Huevo de gallina"
 		"chicken_egg_cannot_bid_own"			"No puedes hacer una oferta porque ya tienes una mascota."
 
@@ -50897,8 +50896,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pulsa [{s:bind_use}] para activar la torre.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 

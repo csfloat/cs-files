@@ -50683,7 +50683,6 @@
 		"pet_upgrade_notification_msg_1"		"달걀이 부화하고 있습니다!<br>병아리를 만날 시간입니다."
 		"pet_upgrade_notification_msg_2"		"병아리가 어린 암탉으로 자라고 있습니다.<br>이제 곧 진짜 암탉이 됩니다."
 		"pet_upgrade_notification_msg_3"		"어린 암탉이 어엿한 암탉이 되었습니다.<br>완전히 성장해서 깃털도 풍성해졌습니다!"
-
 		"chicken_egg"							"달걀"
 		"chicken_egg_cannot_bid_own"			"이미 반려동물을 키우고 있으므로 이 제안에 입찰할 수 없습니다."
 
@@ -50911,8 +50910,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}] 키를 눌러 타워를 활성화하세요.</font>"
 
-// crow_mask_54135_comment
 // crow_mask_54136_comment
+// crow_mask_54137_comment
 }
 
 
