@@ -40106,9 +40106,21 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"CSGO_Demo_Toggle"							"[Shift+F2]"
 		"CSGO_Demo_Time"							"{s:current_time} / {s:total_time}"
+		"CSGO_Demo_Time_Label"						"Tijd:"
+		"CSGO_Demo_Tick_Label"						"Tick:"
 		"CSGO_Demo_Round"							"Ronde:"
+		"CSGO_Demo_Round_Start"						"Begin van de ronde"
+		"CSGO_Demo_Highlight_Start"					"Begin van de highlights"
+		"CSGO_Demo_Action_Start"					"Begin van de actie"
 		"CSGO_Demo_Highlight"						"Highlights"
 		"CSGO_Demo_End_Playback"					"Afspelen stoppen"
+		"CSGO_Demo_Quit"						"Stoppen"
+		"CSGO_Demo_Camera_FirstPerson"					"First-person"
+		"CSGO_Demo_Camera_Chase"					"Achtervolgingscamera"
+		"CSGO_Demo_Camera_Free"						"Vrije camera"
+		"CSGO_Demo_Player_None"						"Geen speler"
+		"CSGO_Demo_Paused"						"Gepauzeerd"
+		"CSGO_Demo_Player_Name"						"{g:player_name:player_slot}"
 		"CSGO_Demo_End_Playback_Overwatch"			"Naar het oordeel springen"
 		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Naar oordeel gaan"
 
@@ -40116,7 +40128,6 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Muisbesturing voor de camera inschakelen"
 		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Volgende speler"
 		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Vorige speler"
-		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Volgende camera"
 		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Röntgenzicht aan/uit"
 		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Overzicht aan/uit"
 		"CSGO_Demo_Settings_XRay"					"Röntgenzicht (aan/uit met [{s:bind_slot12}])"
@@ -48841,6 +48852,18 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"tooltip_prime"								"Prime-account"
 
 		"tooltip_demo_highlights_toggle"			"Afspelen van highlights aan/uit"
+		"tooltip_demo_play"							"Afspelen hervatten met 1x snelheid"
+		"tooltip_demo_pause"						"Afspelen pauzeren"
+		"tooltip_demo_player_prev"					"Vorige speler"
+		"tooltip_demo_player_next"					"Volgende speler"
+		"tooltip_demo_next_event"					"Naar volgende kill van een willekeurige speler"
+		"tooltip_demo_time_step_backward"			"{d:timestep_value} seconden terugspoelen"
+		"tooltip_demo_time_step_forward"			"{d:timestep_value} seconden doorspoelen"
+		"tooltip_demo_round_prev"					"Naar vorige ronde"
+		"tooltip_demo_round_next"					"Naar volgende ronde"
+		"tooltip_demo_settings"						"Instellingen"
+		"tooltip_demo_player_list"					"Kies de speler die je wilt bekijken"
+		"tooltip_demo_camera_mode"					"Andere cameramodus"
 		"tooltip_inspect_shopping_cart"				"Naar winkelwagen"
 
 		"mainmenu_go_to_character_loadout"			"Agent in uitrusting tonen"
@@ -51477,6 +51500,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"pet_upgrade_notification_msg_1"		"Kijk! Je ei is aan het uitkomen!<br>Maak kennis met je kuiken."
 		"pet_upgrade_notification_msg_2"		"Je kuiken is nu een jonge hen aan het worden.<br>Nog even en ze is een echte hen."
 		"pet_upgrade_notification_msg_3"		"Je jonge hen is een volwassen hen aan het worden.<br>Volgroeid en met een dik verenkleed!"
+		"pet_countdown_timer_toggle" 			"Zet een timer van 3 seconden aan/uit"
+
 		"chicken_egg"							"Kippenei"
 		"chicken_egg_cannot_bid_own"			"Je kunt geen bod uitbrengen omdat je al een huisdier hebt."
 
@@ -51706,8 +51731,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Druk op [{s:bind_use}] om de toren te activeren.</font>"
 
-// crow_mask_54136_comment
-// crow_mask_54137_comment
+// crow_mask_54159_comment
+// crow_mask_54160_comment
 }
 
 

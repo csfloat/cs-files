@@ -42185,7 +42185,6 @@
 		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Увімкнути керування камерою за допомогою миші"
 		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Наступний гравець"
 		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Попередній гравець"
-		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Наступна камера"
 		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Перемкнути на вид рентген-сканера"
 		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Перемкнути огляд"
 		"CSGO_Demo_Settings_XRay"					"Рентген (перемикається: [{s:bind_slot12}])"
@@ -50952,6 +50951,7 @@
 		"tooltip_prime"								"Прайм-акаунт увімкнено"
 
 		"tooltip_demo_highlights_toggle"			"Перемкнути на «режим ключових моментів»"
+		"tooltip_demo_settings"						"Налаштування"
 		"tooltip_inspect_shopping_cart"				"Відкрити кошик"
 
 		"mainmenu_go_to_character_loadout"			"Дивитися на агента в спорядженні"
@@ -53864,8 +53864,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Натисніть [{s:bind_use}], щоб активувати вежу.</font>"
 
-// crow_mask_54136_comment
-// crow_mask_54137_comment
+// crow_mask_54159_comment
+// crow_mask_54160_comment
 }
 
 

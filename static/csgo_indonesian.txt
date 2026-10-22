@@ -1216,8 +1216,8 @@
 		"Cstrike_TitlesTXT_Name_change_limit_exceeded"						"Perubahan nama ditolak (melampaui batas)"
 		"Cstrike_TitlesTXT_Not_Enough_Money"								"Uangmu tidak cukup"
 		"Cstrike_TitlesTXT_Not_Enough_Money_NextRound"						"Uangmu tidak cukup\n$%s1 yang baru didapatkan tidak bisa digunakan di ronde ini"
-		"Cstrike_TitlesTXT_OBS_CHASE_FREE"									"Kamera Free Chase"
-		"Cstrike_TitlesTXT_OBS_CHASE_LOCKED"								"Kamera Locked Chase"
+		"Cstrike_TitlesTXT_OBS_CHASE_FREE"									"Kamera Pelacak Bebas"
+		"Cstrike_TitlesTXT_OBS_CHASE_LOCKED"								"Kamera Pelacak Terkunci"
 		"Cstrike_TitlesTXT_OBS_IN_EYE"										"First Person"
 		"Cstrike_TitlesTXT_OBS_MAP_CHASE"									"Pemantauan Pengejaran"
 		"Cstrike_TitlesTXT_OBS_MAP_FREE"									"Pemantauan Bebas"
@@ -38674,9 +38674,21 @@ melawan FaZe."
 
 		"CSGO_Demo_Toggle"							"[Shift+F2]"
 		"CSGO_Demo_Time"							"{s:current_time} / {s:total_time}"
+		"CSGO_Demo_Time_Label"						"Waktu:"
+		"CSGO_Demo_Tick_Label"						"Tick:"
 		"CSGO_Demo_Round"							"Ronde:"
+		"CSGO_Demo_Round_Start"						"Ronde Dimulai"
+		"CSGO_Demo_Highlight_Start"					"Sorotan Dimulai"
+		"CSGO_Demo_Action_Start"					"Aksi Dimulai"
 		"CSGO_Demo_Highlight"						"Sorotan"
 		"CSGO_Demo_End_Playback"					"Tutup Rekaman"
+		"CSGO_Demo_Quit"						"Keluar"
+		"CSGO_Demo_Camera_FirstPerson"					"Orang Pertama"
+		"CSGO_Demo_Camera_Chase"					"Kamera Pelacak"
+		"CSGO_Demo_Camera_Free"						"Kamera Bebas"
+		"CSGO_Demo_Player_None"						"Tidak Ada Pemain"
+		"CSGO_Demo_Paused"						"Dijeda"
+		"CSGO_Demo_Player_Name"						"{g:player_name:player_slot}"
 		"CSGO_Demo_End_Playback_Overwatch"			"Lanjut ke Putusan"
 		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Berikan Putusan"
 
@@ -38684,7 +38696,6 @@ melawan FaZe."
 		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Aktifkan Pengendalian Kamera Mouse"
 		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Pemain Berikutnya"
 		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Pemain Sebelumnya"
-		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Kamera Berikutnya"
 		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Aktifkan Pandangan X-Ray"
 		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Beralih ke Kamera Atas"
 		"CSGO_Demo_Settings_XRay"					"X-ray (alihkan dengan [{s:bind_slot12}])"
@@ -39901,7 +39912,7 @@ melawan FaZe."
 
 		"SFUIHUD_Spectate_SpecMode_User"			"[Kamera Dikendalikan Pemain]"
 		"SFUIHUD_Spectate_SpecMode_Free"			"[Kamera Bebas]"
-		"SFUIHUD_Spectate_SpecMode_Chase"			"[Kamera Chase]"
+		"SFUIHUD_Spectate_SpecMode_Chase"			"[Kamera Pelacak]"
 		"SFUIHUD_Spectate_SpecMode_First"			"[First Person]"
 		"SFUIHUD_Spectate_SpecMode_Director"		"[Auto Director]"
 		"SFUIHUD_Spectate_SpecMode_Cameraman"		"[Operator Kamera: %s1]"
@@ -47376,6 +47387,18 @@ melawan FaZe."
 		"tooltip_prime"								"Akun dengan status Prime"
 
 		"tooltip_demo_highlights_toggle"			"Beralih ke sorotan"
+		"tooltip_demo_play"							"Lanjutkan pemutaran dengan kecepatan 1x"
+		"tooltip_demo_pause"						"Jeda pemutaran"
+		"tooltip_demo_player_prev"					"Pemain sebelumnya"
+		"tooltip_demo_player_next"					"Pemain berikutnya"
+		"tooltip_demo_next_event"					"Beralih ke kill berikutnya dari pemain mana pun"
+		"tooltip_demo_time_step_backward"			"Mundur {d:timestep_value} detik"
+		"tooltip_demo_time_step_forward"			"Maju {d:timestep_value} detik"
+		"tooltip_demo_round_prev"					"Mundur ke ronde sebelumnya"
+		"tooltip_demo_round_next"					"Maju ke ronde berikutnya"
+		"tooltip_demo_settings"						"Pengaturan"
+		"tooltip_demo_player_list"					"Pilih pemain yang ingin ditonton"
+		"tooltip_demo_camera_mode"					"Ganti mode kamera"
 		"tooltip_inspect_shopping_cart"				"Buka keranjang belanja"
 
 		"mainmenu_go_to_character_loadout"			"Lihat Agen di Perlengkapan"
@@ -49989,6 +50012,8 @@ melawan FaZe."
 		"pet_upgrade_notification_msg_1"		"Lihat! Telurmu sedang menetas!<br>Saatnya bertemu anak ayammu."
 		"pet_upgrade_notification_msg_2"		"Anak ayammu tumbuh menjadi ayam dara.<br>Tak lama lagi, dia akan menjadi ayam betina dewasa."
 		"pet_upgrade_notification_msg_3"		"Ayam dara milikmu kini telah tumbuh menjadi ayam betina dewasa.<br>Sudah dewasa dan berbulu penuh!"
+		"pet_countdown_timer_toggle" 			"Aktifkan/Nonaktifkan hitung mundur 3 detik"
+
 		"chicken_egg"							"Telur Ayam"
 		"chicken_egg_cannot_bid_own"			"Kamu tidak dapat mengajukan tawaran untuk Penawaran ini karena kamu sudah memiliki peliharaan."
 
@@ -50218,8 +50243,8 @@ melawan FaZe."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tekan [{s:bind_use}] untuk menguasai menara.</font>"
 
-// crow_mask_54136_comment
-// crow_mask_54137_comment
+// crow_mask_54159_comment
+// crow_mask_54160_comment
 }
 
 

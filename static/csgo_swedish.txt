@@ -39397,9 +39397,19 @@
 
 		"CSGO_Demo_Toggle"							"[Shift+F2]"
 		"CSGO_Demo_Time"							"{s:current_time}/{s:total_time}"
+		"CSGO_Demo_Time_Label"						"Tid:"
+		"CSGO_Demo_Tick_Label"						"Tick:"
 		"CSGO_Demo_Round"							"Runda:"
+		"CSGO_Demo_Round_Start"						"Rundans start"
+		"CSGO_Demo_Action_Start"					"Actionstart"
 		"CSGO_Demo_Highlight"						"Höjdpunkter"
 		"CSGO_Demo_End_Playback"					"Avsluta uppspelning"
+		"CSGO_Demo_Quit"						"Avsluta"
+		"CSGO_Demo_Camera_FirstPerson"					"Förstaperson"
+		"CSGO_Demo_Camera_Free"						"Fri kamera"
+		"CSGO_Demo_Player_None"						"Ingen spelare"
+		"CSGO_Demo_Paused"						"Pausad"
+		"CSGO_Demo_Player_Name"						"{g:player_name:player_slot}"
 		"CSGO_Demo_End_Playback_Overwatch"			"Hoppa till utlåtande"
 		"CSGO_Demo_End_Playback_Overwatch_Finished"	"Gå till utlåtande"
 
@@ -39407,7 +39417,6 @@
 		"CSGO_Demo_Enable_Mouse_Camera"				"[{s:bind_drop}]: Aktivera muskamerakontroll"
 		"CSGO_Demo_Player_Next"						"[{s:bind_attack}]: Nästa spelare"
 		"CSGO_Demo_Player_Prev"						"[{s:bind_attack2}]: Föregående spelare"
-		"CSGO_Demo_Next_Camera"						"[{s:bind_jump}]: Nästa kamera"
 		"CSGO_Demo_Toggle_XRay"						"[{s:bind_slot12}]: Aktivera/inaktivera röntgen"
 		"CSGO_Demo_Toggle_Overview"					"[{s:bind_duck}]: Aktivera/inaktivera översikt"
 		"CSGO_Demo_Settings_XRay"					"Röntgen (växla med [{s:bind_slot12}])"
@@ -40180,7 +40189,7 @@
 		"SFUI_PlayerDetails_GoodTeacher"		"Är en bra lärare"
 		"SFUI_PlayerDetails_GoodLeader"			"Är en bra ledare"
 
-		"SFUI_ReportingPlayer"					"Anmäler {s:target_player}"
+		"SFUI_ReportingPlayer"					"Rapporterar {s:target_player}"
 
 
 		"SFUI_PlayerDetails_AbusiveTextChat"		"Stötande textchatt"
@@ -48117,6 +48126,17 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"tooltip_prime"								"Prime-aktiverat konto"
 
 		"tooltip_demo_highlights_toggle"			"Växla för uppspelning av höjdpunkter"
+		"tooltip_demo_play"							"Återuppta uppspelningen med 1x hastighet"
+		"tooltip_demo_pause"						"Pausa uppspelningen"
+		"tooltip_demo_player_prev"					"Föregående spelare"
+		"tooltip_demo_player_next"					"Nästa spelare"
+		"tooltip_demo_time_step_backward"			"Spola tillbaka {d:timestep_value} sekunder"
+		"tooltip_demo_time_step_forward"			"Hoppa framåt {d:timestep_value} sekunder"
+		"tooltip_demo_round_prev"					"Spola tillbaka till föregående runda"
+		"tooltip_demo_round_next"					"Hoppa framåt till nästa runda"
+		"tooltip_demo_settings"						"Inställningar"
+		"tooltip_demo_player_list"					"Välj en spelare att titta på"
+		"tooltip_demo_camera_mode"					"Växla kameraläge"
 		"tooltip_inspect_shopping_cart"				"Öppna kundvagnen"
 
 		"mainmenu_go_to_character_loadout"			"Visa agent i utrustningen"
@@ -50754,6 +50774,8 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 		"pet_upgrade_notification_msg_1"		"Titta! Ägget är på väg att kläckas!<br>Dags att möta kycklingen."
 		"pet_upgrade_notification_msg_2"		"Kycklingen växer upp till en unghöna.<br>Nästan en riktig höna."
 		"pet_upgrade_notification_msg_3"		"Kycklingen börjar bli en höna.<br>Fullvuxen och fullt befjädrad!"
+		"pet_countdown_timer_toggle" 			"Aktivera/inaktivera 3 sekunders nedräkning"
+
 		"chicken_egg"							"Kycklingägg"
 		"chicken_egg_cannot_bid_own"			"Du kan inte lägga bud på det här erbjudandet eftersom du redan har ett husdjur."
 
@@ -50983,8 +51005,8 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tryck på [{s:bind_use}] för att aktivera tornet.</font>"
 
-// crow_mask_54136_comment
-// crow_mask_54137_comment
+// crow_mask_54159_comment
+// crow_mask_54160_comment
 }
 
 
