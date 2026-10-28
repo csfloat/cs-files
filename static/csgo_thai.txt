@@ -2070,6 +2070,7 @@
 		"Team_Cash_Award_no_income"							" +$0 ลงโทษสำหรับการหมดเวลา"
 		"Team_Cash_Award_no_income_suicide"					" +$0 ลงโทษสำหรับการฆ่าตัวตาย"
 		"Team_Cash_Award_Generic"							" +$%s1 รายได้ทีม"
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 รายได้ทีม"
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 รายได้ทีมสำหรับการกำจัด{num_enemies, plural, other{ผู้ก่อการร้าย}} {num_enemies} คน"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 รายได้ทีมสำหรับการกำจัด{num_enemies, plural, other{หน่วยต่อต้านผู้ก่อการร้าย}} {num_enemies} คน"
@@ -52004,8 +52005,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>กด [{s:bind_use}] เพื่อเปิดใช้งานหอคอย</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

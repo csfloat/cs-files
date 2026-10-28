@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" -0 $ sakkoa ajan loppumisesta"
 		"Team_Cash_Award_no_income_suicide"					" 0 sakkoa itsemurhasta"
 		"Team_Cash_Award_Generic"							" +%s1 $ tiimipalkkiota"
+		"Team_Cash_Award_Generic_Negative"					" –$%s1 tiimipalkkiota"
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1 $ tiimipalkkiota {num_enemies} {num_enemies, plural, one{terroristin} other{terroristin}} tappamisesta"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 $ tiimipalkkiota {num_enemies} {num_enemies, plural, one{erikoisjoukkojen jäsenen} other{erikoisjoukkojen jäsenen}} tappamisesta"
@@ -51985,8 +51986,8 @@ Huomaa! Et voi käyttää kivääriä panssarihyökkäyspuvun kanssa."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Paina [{s:bind_use}] aktivoidaksesi tornin.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

@@ -2076,6 +2076,7 @@
 		"Team_Cash_Award_no_income"							" +$0 ：時間結束懲罰"
 		"Team_Cash_Award_no_income_suicide"					" +$0：自殺懲罰"
 		"Team_Cash_Award_Generic"							" +$%s1：隊伍收入"
+		"Team_Cash_Award_Generic_Negative"					" +$%s1：隊伍收入"
 		"Team_Cash_Award_Custom"							" +$%s1：%s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 殲滅 {num_enemies} 名{num_enemies, plural, other{恐怖份子}}的隊伍收入"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 殲滅 {num_enemies} 名{num_enemies, plural, other{反恐小組}}的隊伍收入"
@@ -51762,8 +51763,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>按下 [{s:bind_use}] 以啟動信號塔。</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

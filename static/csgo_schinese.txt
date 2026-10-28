@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" 时间耗尽获得 +$0 惩罚"
 		"Team_Cash_Award_no_income_suicide"					" 自杀获得 +$0 惩罚"
 		"Team_Cash_Award_Generic"							" +$%s1 队伍奖励"
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 队伍奖励"
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 团队奖励：消灭 {num_enemies} 名 {num_enemies, plural, one{T} other{T}}"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 团队奖励：消灭 {num_enemies} 名 {num_enemies, plural, one{CT} other{CT}}"
@@ -50913,8 +50914,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>按下 [{s:bind_use}] 激活信号塔。</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

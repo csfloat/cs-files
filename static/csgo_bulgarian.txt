@@ -2073,6 +2073,7 @@
 		"Team_Cash_Award_no_income"							" +0 $ наказание за изтичане на времето"
 		"Team_Cash_Award_no_income_suicide"					" +0 $ наказание за самоубийство"
 		"Team_Cash_Award_Generic"							" +%s1 $ отборен доход"
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 отборен доход"
 		"Team_Cash_Award_Custom"							" +%s1 $ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1 $ отборен доход за {num_enemies} {num_enemies, plural, one{елиминиран терорист} other{елиминирани терористи}}."
 		"Team_Cash_Award_Dead_CTs:f"						" +%s1 $ отборен доход за {num_enemies} {num_enemies, plural, one{елиминиран контра терорист} other{елиминирани контра терористи}}."
@@ -54348,8 +54349,8 @@ Counter-Strike разполага с четири основни игрални 
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Натиснете [{s:bind_use}], за да активирате кулата.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

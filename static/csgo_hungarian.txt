@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" +0$ büntetés az idő lejárta miatt."
 		"Team_Cash_Award_no_income_suicide"					" +0$ büntetés öngyilkosságért."
 		"Team_Cash_Award_Generic"							" +%s1$ csapatjövedelem."
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 csapatjövedelem"
 		"Team_Cash_Award_Custom"							" +%s1$ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1$ csapatjövedelem {num_enemies} semlegesített {num_enemies, plural, one{terroristáért} other{terroristáért}}."
 		"Team_Cash_Award_Dead_CTs:f"						" +%s1$ csapatjövedelem {num_enemies} semlegesített {num_enemies, plural, one{terrorelhárítóért} other{terrorelhárítóért}}."
@@ -51244,6 +51245,7 @@
 		"pet_book_page_adult_perch_4"			"A JUTALOM NEM FEDEZNÉ A TAKARMÁNYODAT"
 		"pet_book_page_adult_perch_5"			"TÉGED KÖRÖZNEK. ÉN CSUPÁN A SZÁLLÍTÓESZKÖZ VAGYOK"
 		"pet_book_page_adult_perch_6"			"LEGUTÓBBI ISMERT TARTÓZKODÁSI HELY: A FEJEM TETEJE"
+		"pet_book_page_adult_perch_7"			"HA MEGTALÁLTÁK, NE HOZZÁK VISSZA. ISMERI AZ UTAT."
 		"pet_book_page_adult_tricks_0"			"Már van véleményed, és lábmunkád annak alátámasztására."
 		"pet_book_page_adult_tricks_1"			"Nem olyan régen még egy cipőfűzőn sem tudtál megbízhatóan átjutni."
 		"pet_book_page_adult_tricks_2"			"A rúgás valódi. Láttam már ládán alkalmazva, és láttam már a ládát veszíteni."
@@ -51343,8 +51345,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Nyomd meg a(z) [{s:bind_use}] billentyűt a torony aktiválásához.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

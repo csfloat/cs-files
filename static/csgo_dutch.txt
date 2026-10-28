@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" +$ 0 straf omdat de tijd om is"
 		"Team_Cash_Award_no_income_suicide"					" +$ 0 straf voor het plegen van zelfmoord"
 		"Team_Cash_Award_Generic"							" +$ %s1 teambeloning"
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 teambeloning"
 		"Team_Cash_Award_Custom"							" +$ %s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$ %s1 voor het team per {num_enemies} uitgeschakelde {num_enemies, plural, one{terrorist} other{terroristen}}"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 voor het team per {num_enemies} uitgeschakelde {num_enemies, plural, one{CT} other{CT-agenten}}"
@@ -51731,8 +51732,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Druk op [{s:bind_use}] om de toren te activeren.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

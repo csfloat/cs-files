@@ -2073,6 +2073,7 @@
 		"Team_Cash_Award_no_income"							" +0 $ porque o tempo se esgotou"
 		"Team_Cash_Award_no_income_suicide"					" +0 $ por te teres suicidado"
 		"Team_Cash_Award_Generic"							" +%s1 $ de pagamento à equipa"
+		"Team_Cash_Award_Generic_Negative"					" -%s1 $ de pagamento à equipa"
 		"Team_Cash_Award_Custom"							" +%s1 $ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1 $ à equipa por ter eliminado {num_enemies} {num_enemies, plural, one{terrorista} other{terroristas}}"
 		"Team_Cash_Award_Dead_CTs:f"						" +%s1 $ à equipa por ter eliminado {num_enemies} {num_enemies, plural, one{CT} other{CTs}}"
@@ -51064,8 +51065,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Prime [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

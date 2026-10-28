@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" +$0: 제한 시간 초과 페널티"
 		"Team_Cash_Award_no_income_suicide"					" +$0: 자살 페널티"
 		"Team_Cash_Award_Generic"							" +$%s1 팀 보상"
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 팀 보상"
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 {num_enemies, plural, other{테러리스트}} {num_enemies}명 처치 팀 보상"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 {num_enemies, plural, other{대테러부대}} {num_enemies}명 처치 팀 보상"
@@ -48985,11 +48986,11 @@
 		"accolade_killreward_2"							"용병"
 		"accolade_killreward_desc_2"					"획득한 처치 보상:"
 
-		"accolade_utilitydamage"						"데모 마스터"
+		"accolade_utilitydamage"						"유틸리티 마스터"
 		"accolade_utilitydamage_desc"					"유틸리티로 가한 최다 피해량:"
 		"accolade_utilitydamage_value"					"{s:accolade-value-string}"
 
-		"accolade_utilitydamage_2"						"폭파 전문가"
+		"accolade_utilitydamage_2"						"유틸리티 전문가"
 		"accolade_utilitydamage_desc_2"					"유틸리티 피해량:"
 
 		"accolade_enemiesflashed"						"섬광탄 달인"
@@ -50935,8 +50936,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}] 키를 눌러 타워를 활성화하세요.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

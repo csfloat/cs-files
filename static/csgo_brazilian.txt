@@ -2055,10 +2055,10 @@
 		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			"Um inimigo recebeu uma compensação devido ao suicídio de %s1."
 		"Player_Cash_Award_ExplainSuicide_Spectators"			" %s3 recebeu uma compensação de +$%s2 devido ao suicídio de %s1."
 
-		"Team_Cash_Award_T_Win_Bomb"						" +$%s1 para a equipe por detonar a bomba."
-		"Team_Cash_Award_Elim_Hostage"						" +$%s1 para a equipe por eliminar a equipe inimiga."
-		"Team_Cash_Award_Elim_Bomb"							" +$%s1 para a equipe por eliminar a equipe inimiga."
-		"Team_Cash_Award_Win_Time"							" +$%s1 para a equipe pelo fim do tempo."
+		"Team_Cash_Award_T_Win_Bomb"						" +$%s1 à equipe pela detonação da bomba."
+		"Team_Cash_Award_Elim_Hostage"						" +$%s1 à equipe por eliminar a equipe inimiga."
+		"Team_Cash_Award_Elim_Bomb"							" +$%s1 à equipe por eliminar a equipe inimiga."
+		"Team_Cash_Award_Win_Time"							" +$%s1 à equipe pelo fim do tempo."
 		"Team_Cash_Award_Win_Defuse_Bomb"					" +$%s1 à equipe por desarmar a C4."
 		"Team_Cash_Award_Win_Hostages_Rescue"				" +$%s1 à equipe por resgatar os reféns."
 		"Team_Cash_Award_Win_Hostage_Rescue"				" +$%s1 à equipe por resgatar um refém."
@@ -2076,6 +2076,7 @@
 		"Team_Cash_Award_no_income"							" +$0 de penalidade pelo tempo esgotado."
 		"Team_Cash_Award_no_income_suicide"					" +$0 de penalidade pelo suicídio."
 		"Team_Cash_Award_Generic"							" +$%s1 à equipe."
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 de penalidade à equipe."
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 à equipe por eliminar {num_enemies} {num_enemies, plural, one{terrorista} other{terroristas}}."
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 à equipe por eliminar {num_enemies} {num_enemies, plural, one{contraterrorista} other{contraterroristas}}."
@@ -50916,8 +50917,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pressione [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

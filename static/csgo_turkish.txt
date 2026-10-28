@@ -2075,7 +2075,8 @@ VIP'ye bu bölgelerden birine ulaşana kadar koruma sağla."
 		"Team_Cash_Award_T_VIP_Killed"						" +$%s1: VIP'yi öldürdüğünüz için takım geliri."
 		"Team_Cash_Award_no_income"							" +$0: Süre bittiği için ceza."
 		"Team_Cash_Award_no_income_suicide"					" +$0: İntihar ettiğin için ceza."
-		"Team_Cash_Award_Generic"							" +$%s1: takım geliri."
+		"Team_Cash_Award_Generic"							" +$%s1: Takım geliri."
+		"Team_Cash_Award_Generic_Negative"					" -$%s1: Takım geliri."
 		"Team_Cash_Award_Custom"							" +$%s1: %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1: Öldürülen {num_enemies} {num_enemies, plural, other{terörist}} için takım geliri."
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1: Öldürülen {num_enemies} {num_enemies, plural, other{AT}} için takım geliri."
@@ -50941,8 +50942,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Kuleyi etkinleştirmek için [{s:bind_use}] tuşuna bas.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

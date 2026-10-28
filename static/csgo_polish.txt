@@ -2073,6 +2073,7 @@
 		"Team_Cash_Award_no_income"							" +0 $ Kara za wyczerpanie limitu czasowego."
 		"Team_Cash_Award_no_income_suicide"					" +0 $ Kara za samobójstwo."
 		"Team_Cash_Award_Generic"							" +%s1 $ Przychód drużyny."
+		"Team_Cash_Award_Generic_Negative"					" -%s1 $ Przychód drużyny."
 		"Team_Cash_Award_Custom"							" +%s1 $ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1 $ przychodu drużyny za wyeliminowanie {num_enemies} {num_enemies, plural, one{terrorysty} few{terrorystów} many{terrorystów} other{terrorysty}}."
 		"Team_Cash_Award_Dead_CTs:f"						" +%s1 $ przychodu drużyny za wyeliminowanie {num_enemies} {num_enemies, plural, one{antyterrorysty} few{antyterrorystów} many{antyterrorystów} other{antyterrorysty}}."
@@ -50914,8 +50915,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Wciśnij [{s:bind_use}], by aktywować wieżę.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

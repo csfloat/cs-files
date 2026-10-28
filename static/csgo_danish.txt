@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" +0 $ straf af at løbe tør for tid"
 		"Team_Cash_Award_no_income_suicide"					" +0 $ straf over selvmord"
 		"Team_Cash_Award_Generic"							" +%s1 $ holdindkomst"
+		"Team_Cash_Award_Generic_Negative"					" -%s1 $ holdindkomst"
 		"Team_Cash_Award_Custom"							" +%s1 $ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 holdindkomst for {num_enemies} {num_enemies, plural, one{elimineret terrorist} other{eliminerede terrorister}}"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 holdindkomst for {num_enemies} {num_enemies, plural, one{elimineret CT} other{eliminerede CT'er}}"
@@ -52289,8 +52290,8 @@ bare glem alt om Proseccoen."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tryk [{s:bind_use}] for at aktivere tårnet.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

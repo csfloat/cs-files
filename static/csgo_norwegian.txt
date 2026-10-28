@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" +$0 straff for å ha gått tom for tid."
 		"Team_Cash_Award_no_income_suicide"					" +$0 straff for selvmord."
 		"Team_Cash_Award_Generic"							" +$%s1 laginntekt."
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 laginntekt."
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +$%s1 laginntekt for å ha eliminert {num_enemies} {num_enemies, plural, one{terrorist} other{terrorister}}."
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 laginntekt for å ha eliminert {num_enemies} {num_enemies, plural, one{antiterrorist} other{antiterrorister}}."
@@ -52031,8 +52032,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Trykk [{s:bind_use}] for å aktivere tårnet.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

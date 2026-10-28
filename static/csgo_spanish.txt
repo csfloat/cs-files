@@ -2074,6 +2074,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"Team_Cash_Award_no_income"							" +0 $ de penalización por agotar el tiempo."
 		"Team_Cash_Award_no_income_suicide"					" +0 $ de penalización por suicidio."
 		"Team_Cash_Award_Generic"							" +%s1 $ de ingresos del equipo."
+		"Team_Cash_Award_Generic_Negative"					" -%s1 $ de ingresos del equipo."
 		"Team_Cash_Award_Custom"							" +%s1 $ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1 $ de ingresos del equipo por eliminar a {num_enemies} {num_enemies, plural, one{terrorista} other{terroristas}}"
 		"Team_Cash_Award_Dead_CTs:f"						" +%s1 $ de ingresos del equipo por eliminar a {num_enemies} {num_enemies, plural, one{antiterrorista} other{antiterroristas}}"
@@ -50915,8 +50916,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pulsa [{s:bind_use}] para activar la torre.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

@@ -2073,6 +2073,7 @@
 		"Team_Cash_Award_no_income"							" +0 $ za vypršení časového limitu"
 		"Team_Cash_Award_no_income_suicide"					" +0 $ za sebevraždu"
 		"Team_Cash_Award_Generic"							" +%s1 $ pro celý tým"
+		"Team_Cash_Award_Generic_Negative"					" -%s1 $ pro celý tým"
 		"Team_Cash_Award_Custom"							" +%s1 $ %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" +%s1 $ pro celý tým za eliminaci {num_enemies} {num_enemies, plural, one{Teroristy} few{Teroristů} many{Teroristy} other{Teroristů}}"
 		"Team_Cash_Award_Dead_CTs:f"						" +$%s1 pro celý tým za eliminaci {num_enemies} {num_enemies, plural, one{Counter-Teroristy} few{Counter-Teroristů} many{Counter-Teroristy} other{Counter-Teroristů}}"
@@ -51673,8 +51674,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Stiskni [{s:bind_use}] pro aktivaci vysílače.</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 

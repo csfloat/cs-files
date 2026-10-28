@@ -2069,6 +2069,7 @@
 		"Team_Cash_Award_no_income"							" +$0: 時間切れのペナルティ"
 		"Team_Cash_Award_no_income_suicide"					" +$0: セルフキルへのペナルティ"
 		"Team_Cash_Award_Generic"							" +$%s1: チーム報酬"
+		"Team_Cash_Award_Generic_Negative"					" -$%s1 チーム報酬"
 		"Team_Cash_Award_Custom"							" +$%s1 %s2"
 		"Team_Cash_Award_Dead_Terrorists:f"					" {num_enemies, plural, other{テロリスト}}を{num_enemies}人倒したチーム報酬： +$%s1"
 		"Team_Cash_Award_Dead_CTs:f"						" {num_enemies, plural, other{CT}}を{num_enemies}人倒したチーム報酬： +$%s1"
@@ -50409,8 +50410,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}]を押してタワーを起動</font>"
 
-// crow_mask_54159_comment
 // crow_mask_54160_comment
+// crow_mask_54161_comment
 }
 
 
