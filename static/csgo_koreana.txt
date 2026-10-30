@@ -50936,8 +50936,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}] 키를 눌러 타워를 활성화하세요.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

@@ -52005,8 +52005,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>กด [{s:bind_use}] เพื่อเปิดใช้งานหอคอย</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

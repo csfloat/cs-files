@@ -44412,6 +44412,7 @@ Counter-Strike разполага с четири основни игрални 
 		"SFUI_Autobuy"					"Авт. купуване"
 		"SFUI_Rebuy"					"Закупуване на предишните"
 		"SFUI_JoystickSpeedMode"		"Вървене"
+		"SFUI_ReloadMode"				"Режим за безшумно презареждане"
 		"ZoomButtonHold"				"Задържане на бутона за приближаване"
 		"ZoomButtonHold_Desc"			"Дали при задържане, бутонът за приближаване трябва да се държи така, сякаш е бил натиснат неколкократно."
 		"SFUI_MouseZoomSensitivity"     "Множител за чувствителността на приближаване"
@@ -49484,6 +49485,8 @@ Counter-Strike разполага с четири основни игрални 
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} ТОЧКА"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} ТОЧКИ"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Активни мутатори:"
+	"Panorama_Mutator_BigHead"					"Режим за големи глави"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Бонус оръжие:"
@@ -54349,8 +54352,8 @@ Counter-Strike разполага с четири основни игрални 
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Натиснете [{s:bind_use}], за да активирате кулата.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

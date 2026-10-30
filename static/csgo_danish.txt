@@ -52290,8 +52290,8 @@ bare glem alt om Proseccoen."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tryk [{s:bind_use}] for at aktivere tårnet.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

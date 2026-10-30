@@ -40588,6 +40588,7 @@
 		"SFUI_Autobuy"					"自動購入"
 		"SFUI_Rebuy"					"再購入"
 		"SFUI_JoystickSpeedMode"		"歩行モード"
+		"SFUI_ReloadMode"				"サイレントリロードモード"
 		"ZoomButtonHold"				"ズームボタン長押し"
 		"ZoomButtonHold_Desc"			"ズームボタンを押したままにすると、ボタンを繰り返し押しているのと同じ挙動になるかどうかを設定します。"
 		"SFUI_MouseZoomSensitivity"     "ズーム感度倍率"
@@ -45635,6 +45636,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} ポイント"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} ポイント"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"有効なミューテーター："
+	"Panorama_Mutator_BigHead"					"ビッグヘッドモード"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"ボーナス武器:"
@@ -50410,8 +50413,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}]を押してタワーを起動</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

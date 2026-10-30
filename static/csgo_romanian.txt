@@ -50986,8 +50986,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Apasă [{s:bind_use}] pentru a activa turnul.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

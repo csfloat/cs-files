@@ -50916,8 +50916,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pulsa [{s:bind_use}] para activar la torre.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

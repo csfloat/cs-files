@@ -41831,6 +41831,7 @@
 		"SFUI_Autobuy"					"Automatický nákup"
 		"SFUI_Rebuy"					"Nákup předešlého"
 		"SFUI_JoystickSpeedMode"		"Režim chůze"
+		"SFUI_ReloadMode"				"Režim tichého přebíjení"
 		"ZoomButtonHold"				"Při držení přiblížení"
 		"ZoomButtonHold_Desc"			"Určuje, zdali má být při držení klávesy/tlačítka pro přiblížení opakována příslušná akce."
 		"SFUI_MouseZoomSensitivity"     "Násobič citlivosti přiblížení"
@@ -46882,6 +46883,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} BOD"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} BODŮ"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Aktivní mutátory:"
+	"Panorama_Mutator_BigHead"					"Režim velkých hlav"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Bonusová zbraň:"
@@ -51674,8 +51677,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Stiskni [{s:bind_use}] pro aktivaci vysílače.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

@@ -41125,6 +41125,7 @@
 		"SFUI_Autobuy"					"Автозакупка"
 		"SFUI_Rebuy"					"Купить снова"
 		"SFUI_JoystickSpeedMode"		"Режим ходьбы"
+		"SFUI_ReloadMode"				"Режим бесшумной перезарядки"
 		"ZoomButtonHold"				"Зажатие клавиши приближения"
 		"ZoomButtonHold_Desc"			"Должно ли продолжительное удержание кнопки приближения работать как повторяющиеся нажатия на неё."
 		"SFUI_MouseZoomSensitivity"     "Множитель чувствительности в приближении"
@@ -46169,6 +46170,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} ОЧКО"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} ОЧК."
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Действующие мутаторы:"
+	"Panorama_Mutator_BigHead"					"Режим больших голов"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Бонусное оружие:"
@@ -50688,7 +50691,7 @@
 		"pet_photo_booth_effect_explosion"	"Взрыв"
 		"pet_photo_booth_effect_lightning"	"Молния"
 		"pet_photo_booth_effect_beam"		"Луч"
-		"pet_photo_booth_effect_laser"		"Лазер"
+		"pet_photo_booth_effect_laser"		"Лазеры"
 		"pet_photo_booth_effect_fire"		"Пламя"
 		"pet_photo_booth_effect_sparks"		"Искры"
 		"pet_photo_booth_effect_confetti"	"Конфетти"
@@ -50939,8 +50942,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Нажмите [{s:bind_use}], чтобы активировать башню.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

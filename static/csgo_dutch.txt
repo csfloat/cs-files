@@ -41888,6 +41888,7 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 		"SFUI_Autobuy"					"Automatisch kopen"
 		"SFUI_Rebuy"					"Opnieuw kopen"
 		"SFUI_JoystickSpeedMode"		"Loopstand"
+		"SFUI_ReloadMode"				"Stil-herladenstand"
 		"ZoomButtonHold"				"Zoomknop ingedrukt houden"
 		"ZoomButtonHold_Desc"			"Bepaalt of het ingedrukt houden van de zoomknop hetzelfde effect heeft als het herhaaldelijk drukken op de zoomknop."
 		"SFUI_MouseZoomSensitivity"     "Vermenigvuldiger zoomgevoeligheid"
@@ -46939,6 +46940,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} PUNT"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} PUNTEN"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Actieve modificators:"
+	"Panorama_Mutator_BigHead"					"Groot-hoofdstand"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Bonuswapen:"
@@ -51732,8 +51735,8 @@ openhagen 2024-munt.\n\n50% van de opbrengst van de verkoop van deze pas gaat na
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Druk op [{s:bind_use}] om de toren te activeren.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

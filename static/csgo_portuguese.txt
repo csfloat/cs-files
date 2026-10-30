@@ -41226,6 +41226,7 @@
 		"SFUI_Autobuy"					"Compra automática"
 		"SFUI_Rebuy"					"Voltar a comprar"
 		"SFUI_JoystickSpeedMode"		"Modo de andar"
+		"SFUI_ReloadMode"				"Modo de recarregamento silencioso"
 		"ZoomButtonHold"				"Comportamento ao manter zoom premido"
 		"ZoomButtonHold_Desc"			"Controla se manter premido o botão de zoom deve agir como premir o botão repetidamente."
 		"SFUI_MouseZoomSensitivity"     "Multiplicador da sensibilidade do zoom"
@@ -46273,6 +46274,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} PONTO"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} PONTOS"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Modificadores ativos:"
+	"Panorama_Mutator_BigHead"					"Modo Cabeça Grande"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Arma bónus:"
@@ -51065,8 +51068,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Prime [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

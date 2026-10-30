@@ -50942,8 +50942,8 @@ Bu kasa Yaban Ateşi Koleksiyonu'ndan 16 adet topluluk yapımı silah tasarımı
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Kuleyi etkinleştirmek için [{s:bind_use}] tuşuna bas.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

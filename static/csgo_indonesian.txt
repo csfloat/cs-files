@@ -50244,8 +50244,8 @@ melawan FaZe."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tekan [{s:bind_use}] untuk menguasai menara.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

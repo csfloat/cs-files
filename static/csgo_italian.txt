@@ -50925,8 +50925,8 @@ Vuoi attivare il tuo pass ora?"
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Premi [{s:bind_use}] per attivare la torre.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 

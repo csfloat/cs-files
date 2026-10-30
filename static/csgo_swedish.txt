@@ -51009,8 +51009,8 @@ Om samma match redan laddats ner lokalt och filen blivit förstörd, radera då 
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tryck på [{s:bind_use}] för att aktivera tornet.</font>"
 
-// crow_mask_54160_comment
-// crow_mask_54161_comment
+// crow_mask_54163_comment
+// crow_mask_54164_comment
 }
 
 
