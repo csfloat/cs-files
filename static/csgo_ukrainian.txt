@@ -43970,6 +43970,7 @@
 		"SFUI_Autobuy"					"Автозакупівля"
 		"SFUI_Rebuy"					"Повторна закупівля"
 		"SFUI_JoystickSpeedMode"		"Повільний рух"
+		"SFUI_ReloadMode"				"Режим безшумного перезаряджання"
 		"ZoomButtonHold"				"Утримання клавіші наближення"
 		"ZoomButtonHold_Desc"			"Чи повинно тривале утримання клавіші наближення діяти як повторні натискання на неї."
 		"SFUI_MouseZoomSensitivity"     "Множник чутливості прицілу"
@@ -45920,6 +45921,11 @@
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"«Перехоплення», сервер спільноти"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Дивиться матч «Перехоплення»"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Дивиться повтор «Перехоплення»"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"У лобі мапи з майстерні"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Грає на мапі з майстерні"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Мапа з майстерні спільноти"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Дивиться матч на мапі з майстерні"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Дивиться повтор матчу на мапі з майстерні"
 		"SFUI_Lobby_StatusRichPresenceSeparator_classic_competitive"			" "
 
 		"SFUI_PSNPresence_SinglePlayer"		"У режимі для одного гравця"
@@ -49042,6 +49048,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"ОЧКИ: +{d:dm-bonus-points}"
 	"Panorama_DMBonusPanel_KillAward_Points"	"ОЧКИ: +{d:dm-bonus-points}"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Активні мутатори:"
+	"Panorama_Mutator_BigHead"					"Режим великих голів"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Призова зброя:"
@@ -53890,8 +53898,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Натисніть [{s:bind_use}], щоб активувати вежу.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

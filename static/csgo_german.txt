@@ -41110,6 +41110,7 @@
 		"SFUI_Autobuy"					"Autom. Kauf"
 		"SFUI_Rebuy"					"Erneut kaufen"
 		"SFUI_JoystickSpeedMode"		"Bewegungsmodus"
+		"SFUI_ReloadMode"				"Leises-Nachladen-Modus"
 		"ZoomButtonHold"				"Zoom-Taste halten"
 		"ZoomButtonHold_Desc"			"Legt fest, ob das Gerdückthalten der Zoom-Taste denselben Effekt wie wiederholtes Drücken haben soll."
 		"SFUI_MouseZoomSensitivity"     "Zoom-Empfindlichkeitsmultiplikator"
@@ -43038,6 +43039,11 @@
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Rückeroberung (Community)"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Schaut zu: Rückeroberung"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Wiederholt: Rückeroberung"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"In Lobby: Workshop-Karte"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Spielt: Workshop-Karte"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Workshop-Karte (Community)"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Schaut zu: Workshop-Karte"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Wiederholt: Workshop-Karte"
 		"SFUI_PSNPresence_SinglePlayer"		"Einzelspieler"
 		"SFUI_PSNPresence_InLobby"			"In Lobby"
 		"SFUI_PSNPresence_InGame"			"Onlinespiel"
@@ -46154,6 +46160,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} PUNKT"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} PUNKTE"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Aktive Modifikatoren:"
+	"Panorama_Mutator_BigHead"					"Großkopfmodus"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Bonuswaffe:"
@@ -50930,8 +50938,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}] drücken, um den Funkmast zu aktivieren.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

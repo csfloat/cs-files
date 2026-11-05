@@ -41149,6 +41149,7 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"SFUI_Autobuy"					"Cumpără automat"
 		"SFUI_Rebuy"					"Cumpără din nou"
 		"SFUI_JoystickSpeedMode"		"Mers la pas"
+		"SFUI_ReloadMode"				"Modul de reîncărcare silențioasă"
 		"ZoomButtonHold"				"Menținerea apăsată a butonului de zoom"
 		"ZoomButtonHold_Desc"			"Specifică dacă acțiunea de menținere a butonului de zoom ar trebui să fie interpretată ca o apăsare repetată a butonului."
 		"SFUI_MouseZoomSensitivity"     "Multiplicator pentru sensibilitatea aferentă lunetei"
@@ -43077,6 +43078,11 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Joacă pe un server comunitar - Retakes"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Vizionează un meci - Retakes"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Vizionează o reluare - Retakes"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"În lobby - Hartă din atelier"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Joacă un meci - Hartă din atelier"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Joacă pe un server comunitar - Hartă din atelier"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Vizionează un meci - Hartă din atelier"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Vizionează o reluare - Hartă din atelier"
 		"SFUI_PSNPresence_SinglePlayer"		"Joacă singur"
 		"SFUI_PSNPresence_InLobby"			"În lobby"
 		"SFUI_PSNPresence_InGame"			"Joacă online"
@@ -46193,6 +46199,7 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} PUNCT"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} PUNCTE"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Modificatori activi:"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Armă bonus:"
@@ -50986,8 +50993,8 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Apasă [{s:bind_use}] pentru a activa turnul.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

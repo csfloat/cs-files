@@ -41106,6 +41106,7 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_Autobuy"					"Autocomprar"
 		"SFUI_Rebuy"					"Volver a comprar"
 		"SFUI_JoystickSpeedMode"		"Modo caminar"
+		"SFUI_ReloadMode"				"Modo de recarga silenciosa"
 		"ZoomButtonHold"				"Mantener presionado el zoom"
 		"ZoomButtonHold_Desc"			"Determina si al mantener presionado el zoom el arma se comporta como si se mantuviera presionado."
 		"SFUI_MouseZoomSensitivity"     "Multiplicador de sensibilidad del zoom"
@@ -43034,6 +43035,11 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Recapturas de la Comunidad"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Viendo Recapturas"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Viendo repetición de Recapturas"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"En una sala de un mapa del Workshop"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Jugando un mapa del Workshop"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Mapa del Workshop de la Comunidad"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Viendo un mapa del Workshop"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Viendo repetición de un mapa del Workshop"
 		"SFUI_PSNPresence_SinglePlayer"		"Un jugador"
 		"SFUI_PSNPresence_InLobby"			"En una sala"
 		"SFUI_PSNPresence_InGame"			"Partida online"
@@ -46152,6 +46158,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} PUNTO"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} PUNTOS"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Modificadores activos:"
+	"Panorama_Mutator_BigHead"					"Modo cabezones"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Arma adicional:"
@@ -50922,8 +50930,8 @@ Tu obtención de EXP de recompensa de misión no volverá a su valor normal hast
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pulsa [{s:bind_use}] para activar la torre.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

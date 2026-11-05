@@ -42422,6 +42422,7 @@ bare glem alt om Proseccoen."
 		"SFUI_Autobuy"					"Auto-køb"
 		"SFUI_Rebuy"					"Genkøb"
 		"SFUI_JoystickSpeedMode"		"Gå-tilstand"
+		"SFUI_ReloadMode"				"Lydløs genladning"
 		"ZoomButtonHold"				"Hold zoomtast"
 		"ZoomButtonHold_Desc"			"Bestemmer, om zoomtasten skal gentage sin handling eller ej, hvis den holdes nede."
 		"SFUI_MouseZoomSensitivity"     "Multiplikator for zoomfølsomhed"
@@ -44358,6 +44359,11 @@ bare glem alt om Proseccoen."
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Retakes (fællesskab)"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Ser Retakes"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Gengiver Retakes"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"I lobby (værkstedsbane)"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Spiller værkstedsbane"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Værkstedsbane (fællesskab)"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Ser på værkstedsbane"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Gengiver værkstedsbane"
 		"SFUI_PSNPresence_SinglePlayer"		"Single Player"
 		"SFUI_PSNPresence_InLobby"			"I lobby"
 		"SFUI_PSNPresence_InGame"			"Online-spil"
@@ -47475,6 +47481,8 @@ bare glem alt om Proseccoen."
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} POINT"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} POINT"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Aktive mutationer:"
+	"Panorama_Mutator_BigHead"					"Stort hoved-tilstand"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Bonusvåben:"
@@ -52290,8 +52298,8 @@ bare glem alt om Proseccoen."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tryk [{s:bind_use}] for at aktivere tårnet.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

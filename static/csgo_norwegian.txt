@@ -42172,6 +42172,7 @@
 		"SFUI_Autobuy"					"Autokjøp"
 		"SFUI_Rebuy"					"Gjenkjøp"
 		"SFUI_JoystickSpeedMode"		"Gåmodus"
+		"SFUI_ReloadMode"				"Stille lading"
 		"ZoomButtonHold"				"Hold zoomtast"
 		"ZoomButtonHold_Desc"			"Bestemmer om zoomtasten skal oppføre seg som om den trykkes på gjentatte ganger eller ikke."
 		"SFUI_MouseZoomSensitivity"     "Multiplikator for zoomfølsomhet"
@@ -44108,6 +44109,11 @@
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Motangrep (samfunn)"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Ser på motangrep"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Ser på reprise (motangrep)"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"I lobby (workshopkart)"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Spiller workshopkart"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Workshopkart (samfunn)"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Ser på workshopkart"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Ser på reprise (workshopkart)"
 		"SFUI_PSNPresence_SinglePlayer"		"Enkeltspiller"
 		"SFUI_PSNPresence_InLobby"			"I lobby"
 		"SFUI_PSNPresence_InGame"			"Online spill"
@@ -47225,6 +47231,8 @@
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} POENG"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} POENG"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Aktive mutasjoner:"
+	"Panorama_Mutator_BigHead"					"Stort hode-modus"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Bonusvåpen:"
@@ -52032,8 +52040,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Trykk [{s:bind_use}] for å aktivere tårnet.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

@@ -40430,6 +40430,7 @@ melawan FaZe."
 		"SFUI_Autobuy"					"Beli Otomatis"
 		"SFUI_Rebuy"					"Beli Lagi"
 		"SFUI_JoystickSpeedMode"		"Mode Berjalan"
+		"SFUI_ReloadMode"				"Mode Pengisian Ulang Senyap"
 		"ZoomButtonHold"				"Tahan Tombol Zoom"
 		"ZoomButtonHold_Desc"			"Apakah menahan tombol zoom dianggap seakan-akan ditekan berulang kali atau tidak."
 		"SFUI_MouseZoomSensitivity"     "Pengganda Sensitivitas Zoom"
@@ -42358,6 +42359,11 @@ melawan FaZe."
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Retake Komunitas"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Menonton Retake"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Menonton Ulang Retake"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"Di Lobi Map Workshop"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Bermain Map Workshop"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Map Workshop Komunitas"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Menonton Map Workshop"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Menonton Tayangan Ulang Map Workshop"
 		"SFUI_PSNPresence_SinglePlayer"		"Pemain Tunggal"
 		"SFUI_PSNPresence_InLobby"			"Di Lobi"
 		"SFUI_PSNPresence_InGame"			"Game Online"
@@ -45474,6 +45480,8 @@ melawan FaZe."
 	"Panorama_DMBonusPanel_KillAward_Point"		"+{d:dm-bonus-points} POIN"
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} POIN"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
+	"Panorama_Mutators_Title"					"Mod Aktif:"
+	"Panorama_Mutator_BigHead"					"Mode Kepala Besar"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Senjata Bonus:"
@@ -50244,8 +50252,8 @@ melawan FaZe."
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Tekan [{s:bind_use}] untuk menguasai menara.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

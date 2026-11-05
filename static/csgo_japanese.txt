@@ -42442,7 +42442,7 @@
 		"SFUI_Lobby_StatusRichPresence_coopmission_review"				"CS をリプレイ中"
 		"SFUI_Lobby_StatusRichPresence_custom_lobby"						"カスタムマップロビー"
 		"SFUI_Lobby_StatusRichPresence_custom_game"						"カスタムマップをプレイ中"
-		"SFUI_Lobby_StatusRichPresence_custom_community"					"コミュニティ - カスタムマップ"
+		"SFUI_Lobby_StatusRichPresence_custom_community"					"コミュニティカスタムマップ"
 		"SFUI_Lobby_StatusRichPresence_custom_watch"						"カスタムマップを観戦中"
 		"SFUI_Lobby_StatusRichPresence_custom_review"					"カスタムマップをリプレイ中"
 		"SFUI_Lobby_StatusRichPresence_gungameprogressive_lobby"		"アームズ・レースのロビー"
@@ -42519,6 +42519,11 @@
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"コミュニティ - リテイクス"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"リテイクスを観戦中"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"リテイクスをリプレイ中"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"ワークショップマップ ロビー"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"ワークショップマップをプレイ中"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"コミュニティワークショップマップ"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"ワークショップマップを観戦中"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"ワークショップマップをリプレイ中"
 		"SFUI_PSNPresence_SinglePlayer"		"シングルプレイヤー"
 		"SFUI_PSNPresence_InLobby"			"ロビーにいます"
 		"SFUI_PSNPresence_InGame"			"オンラインゲーム"
@@ -50413,8 +50418,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>[{s:bind_use}]を押してタワーを起動</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

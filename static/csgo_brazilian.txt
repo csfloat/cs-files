@@ -43033,6 +43033,11 @@
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Retomadas — Servidor da comunidade"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Assistindo ao vivo — Retomadas"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Assistindo a replay — Retomadas"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"Mapa da Oficina — Sala"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Jogando em mapa da Oficina"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Mapa da Oficina — Servidor da comunidade"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Assistindo ao vivo — Mapa da Oficina"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Assistindo a replay — Mapa da Oficina"
 		"SFUI_PSNPresence_SinglePlayer"		"Um jogador"
 		"SFUI_PSNPresence_InLobby"			"Em sala"
 		"SFUI_PSNPresence_InGame"			"Partida on-line"
@@ -50920,8 +50925,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pressione [{s:bind_use}] para ativar a torre.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 

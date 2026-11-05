@@ -46363,6 +46363,11 @@ Counter-Strike разполага с четири основни игрални 
 		"SFUI_Lobby_StatusRichPresence_retakes_community"				"Обществено „Повторно превземане“"
 		"SFUI_Lobby_StatusRichPresence_retakes_watch"					"Гледа „Повторно превземане“"
 		"SFUI_Lobby_StatusRichPresence_retakes_review"					"Повторение на „Повторно превземане“"
+		"SFUI_Lobby_StatusRichPresence_workshop_lobby"					"В лоби за карта от работилницата"
+		"SFUI_Lobby_StatusRichPresence_workshop_game"					"Играе карта от работилницата"
+		"SFUI_Lobby_StatusRichPresence_workshop_community"				"Обществена карта от работилницата"
+		"SFUI_Lobby_StatusRichPresence_workshop_watch"					"Гледа карта от работилницата"
+		"SFUI_Lobby_StatusRichPresence_workshop_review"					"Повторение на карта от работилницата"
 		"SFUI_Lobby_StatusRichPresenceSeparator_classic_competitive"			" "
 
 		"SFUI_PSNPresence_SinglePlayer"		"Самостоятелна игра"
@@ -54352,8 +54357,8 @@ Counter-Strike разполага с четири основни игрални 
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Натиснете [{s:bind_use}], за да активирате кулата.</font>"
 
-// crow_mask_54163_comment
-// crow_mask_54164_comment
+// crow_mask_54168_comment
+// crow_mask_54169_comment
 }
 
 
