@@ -46200,6 +46200,7 @@ Fiecare pronostic corect te aduce cu <b>3</b> puncte mai aproape de trofeul Pick
 	"Panorama_DMBonusPanel_KillAward_Points"	"+{d:dm-bonus-points} PUNCTE"
 	"Panorama_DMBonusPanel_KillAward_Killpoints"	"+{d:dm-bonus-points}"
 	"Panorama_Mutators_Title"					"Modificatori activi:"
+	"Panorama_Mutator_BigHead"					"Mod cu cap-mare"
 	//"Panorama_DMBonusPanel_KillAward_Points_Label"	"Points"
 	"Panorama_DMBonusPanel_Timer"				"{s:dm-bonus-timer}"
 	"Panorama_DMBonusPanel_Title"				"Armă bonus:"
