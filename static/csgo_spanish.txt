@@ -1,3 +1,4 @@
+
 "lang"
 {
 "Language" "spanish"
@@ -5198,8 +5199,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"CSGO_TeamID_18"		"Equipo Bravo de Valve"
 		"CSGO_TeamID_20"		"Equipo NiP A"
 		"CSGO_TeamID_21"		"Equipo NiP B"
-		"CSGO_TeamID_22"		"Equipo de Tomi"
-		"CSGO_TeamID_23"		"Equipo de Duncan"
+		"CSGO_TeamID_22"		"Team Tomi"
+		"CSGO_TeamID_23"		"Team Duncan"
 		"CSGO_TeamID_24"		"Team Dignitas"
 		"CSGO_TeamID_25"		"HellRaisers"
 		"CSGO_TeamID_26"		"Team LDLC.com"
@@ -5325,8 +5326,11 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"CSGO_TeamID_146"       "Gaimin Gladiators"
 		"CSGO_TeamID_147"       "SINNERS"
 		"CSGO_TeamID_148"       "THUNDERdOWNUNDER"
-
-
+		"CSGO_TeamID_149" 		"The One"
+		"CSGO_TeamID_150" 		"GOSH"
+		"CSGO_TeamID_151" 		"DENDELE"
+		"CSGO_TeamID_152" 		"BB Team"
+		"CSGO_TeamID_153" 		"PVISION"
 
 
 		"Place_Name_1st"		"Campeón"
@@ -6034,8 +6038,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"musickit_starjunk95_01_desc"			"Disfruta de un kit de música de la emisora con más ritmo de la galaxia, con los sonidos más punteros de hoy empapados de la nostalgia retro del ayer. Esto es Starjunk 95."
 		"coupon_starjunk95_01"					"Kit de música | Starjunk 95, Industrial Sunset Memories"
 		"coupon_starjunk95_01_stattrak"			"Kit de música de StatTrak™ | Starjunk 95, Industrial Sunset Memories"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"." // Note: This only supports , and .
 
@@ -30981,7 +30985,14 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_MajorEventVenue_StreamTitle_26_2" "Colonia 2026 - Major IEM - Retransmisión en directo"
 
 		//
-		// 2026 IEM Cologne 2026 CS2 Major Championship Strings Block End
+//
+//
+//
+	"CSGO_TournamentPass_singapore2026" "Pase de espectador de Singapur 2026"
+	"CSGO_TournamentPass_singapore2026_Desc" "Este es un pase de espectador precintado del Major Championship de CS2 PGL de Singapur 2026. Una vez abierto, te proporcionará una moneda de Singapur 2026 que registra tu progreso a lo largo del evento, acceso completo al Desafío Pick'Em de Singapur 2026, iconos para el chat de Steam.tv, desafíos de moneda y oportunidades ilimitadas para obtener grafitis en el juego durante todo el evento.\n\nPuedes subir de nivel tu moneda de Singapur 2026 completando desafíos. Obtendrás 300 fichas de Singapur 2026 cada vez que la moneda suba de nivel.\n\nEl 50 % de los beneficios de la venta de este pase se destina a los jugadores y organizaciones participantes."
+	"CSGO_Tournament_Event_Location_27"		"Singapur 2026"
+		//
+		// 2026 PGL Singapore 2026 CS2 Major Championship Strings Block End
 		// ======================================
 
 
@@ -36863,7 +36874,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"store_nav_more"		"Ver todo..."
 		"store_nav_shop_all"		"Ver todo..."
 		"store_nav_section_coupon_nightmode2" "NIGHTMODE II<br>Kits de música"
-
 		"StoreCheckout_NoItems"			"¡Tu carro de la compra está vacío!"
 		"StoreCheckout_TooManyItems"	"¡Tienes demasiados artículos en tu carro de la compra!"
 		"StoreCheckout_Loading"			"Procediendo al pago..."
@@ -41441,7 +41451,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"SFUI_Settings_AOProxy"				"Oclusión ambiental"
 		"SFUI_Settings_AOProxy_Info"		"Calcula la iluminación usando «Oclusión ambiental». Activar «Oclusión ambiental» puede reducir el rendimiento gráfico."
-
 		"SFUI_Settings_FSR"					"FidelityFX Super Resolution (FSR)"
 		"SFUI_Settings_FSR_Info"			"FidelityFX Super Resolution puede mejorar el rendimiento al renderizar gráficos con una resolución y escala inferiores mediante un escalamiento que usa una técnica espacial de alta calidad."
 		"SFUI_Settings_FSR_Disabled"		"Desactivado (calidad máxima)"
@@ -44421,6 +44430,22 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"SFUI_ProPlayer_soulfly" "Caner Kesici"
 		"SFUI_ProPlayer_stressarn" "Jordan Manevski"
 		"SFUI_ProPlayer_tjp" "Tynan Purtell"
+		"SFUI_ProPlayer_artfr0st" "Artem Kharitonov"
+		"SFUI_ProPlayer_fr3nd" "Sebastian Kuśmierz"
+		"SFUI_ProPlayer_fury5k" "Davaasuren Ganbaatar"
+		"SFUI_ProPlayer_jboen" "Jason Nielsen"
+		"SFUI_ProPlayer_jorko" "Georgi Mitev"
+		"SFUI_ProPlayer_kair0n" "Aleksandr Anashkin"
+		"SFUI_ProPlayer_martinezsa" "Antonio Martínez"
+		"SFUI_ProPlayer_mistem" "Gareth Ries"
+		"SFUI_ProPlayer_neityu" "Ryan Aubry"
+		"SFUI_ProPlayer_nemanha" "Nemanja Đukić"
+		"SFUI_ProPlayer_poiii" "Alex Sundgren"
+		"SFUI_ProPlayer_robo" "Nikita Dushin"
+		"SFUI_ProPlayer_sirah" "William Kjærsgaard"
+		"SFUI_ProPlayer_syph0" "Daniel Ageyev"
+		"SFUI_ProPlayer_tikuak" "Zolbayar Chimedtseren"
+		"SFUI_ProPlayer_xelex" "Adrian Vincze"
 
 
 
@@ -49614,16 +49639,12 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"major_store_sort" 				"Clasificación"
 		"major_store_sort_highlow" 		"Precio (de mayor a menor)"
 		"major_store_sort_lowhigh" 		"Precio (de menor a mayor)"
-		"major_store_sort_popular_decending" 		"Popularidad (de mayor a menor)"
-		"major_store_sort_popular_ascending" 		"Popularidad (de menor a mayor)"
-		"major_store_sort_weekly_decending" 		"Bajada de precio (%) en 7 días"
 		"major_store_sort_weekly_ascending" 		"Precio máximo en 7 días"
 		"major_store_sort_alphabetical" "Alfabético"
 		"major_store_sort_filter"		"Filtro"
 		"major_store_nav_home"			"Inicio"
 		"major_store_nav_tab_bookmarked"	"Favoritos"
 		"major_store_nav_tab_bookmarked_count" "Favoritos ({d:count})"
-		"major_store_nav_tab_ranked"		"Clasificaciones"
 		"major_store_nav_tab_champions"		"Campeones"
 		"major_store_nav_tab_charms"		"Colgantes"
 		"major_store_nav_tab_popular"		"Populares"
@@ -49647,7 +49668,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"major_store_balance_popup_desc"	"La tienda de {s:tournament_name} cerrará pronto. Pásate por ella y gasta las fichas restantes mientras puedas."
 		"major_store_balance_popup_visit"	"Visita el centro de contenido y la tienda del major"
 		"major_store_price"				"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
-		"major_store_price_locked"		"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> <img src='file://{images}/icons/ui/price_locked.svg' class='inline-coin-icon'/>"
 		"major_store_price-pctdown"		"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>  ↓{d:reduction} %"
 		"major_store_price-change"		"{d:price-change}" 
 		"major_store_total-price"		"{d:total-price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
@@ -49712,7 +49732,6 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 		"major_store_checkout_purchase_tokens_tooltip100"	"Compra un mínimo de 100 fichas adicionales para completar el pago.<br><br>El 50 % de los beneficios de la venta de fichas se destina a los jugadores y organizaciones participantes."
 		"major_store_checkout_purchase_tokens_tooltip"	"Compra fichas adicionales para completar el pago.<br><br>El 50 % de los beneficios de la venta de fichas se destina a los jugadores y organizaciones participantes."
 		"major_store_checkout_not_enough_tokens"		"Necesitas más fichas para completar el pago."
-		"major_store_hot_trend"	"Una de las 40 pegatinas más populares"
 		"major_store_balance_tooltip"	"<br>Las fichas sirven para conseguir artículos del torneo. Puedes comprarlas al pagar desde el carro.<br><br>100 fichas = {s:local-price}<br><br><b>Protección de precio</b><br>Si el precio de cualquier artículo disminuye en 25 fichas o más dentro de las 24 horas posteriores a su canje, la diferencia se reembolsará automáticamente a tu saldo de fichas 7 días después.<br><br><b>Reparto de beneficios del Major</b><br>El 50 % de los beneficios de la venta de fichas se destina a los jugadores y organizaciones participantes."
 		"major_store_refesh_tooltip"	"Tiempo restante hasta la próxima actualización de precios.<br><br>Los precios son globales y se ajustan automáticamente según la demanda de cada artículo."
 		"major_store_bookmark_tooltip"	"Añadir o quitar de favoritos"
@@ -50924,8 +50943,8 @@ La predicción del daño puede mejorar la respuesta de los disparos de forma sig
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>Pulsa [{s:bind_use}] para activar la torre.</font>"
 
-// crow_mask_54168_comment
-// crow_mask_54169_comment
+// crow_mask_55913_comment
+// crow_mask_55914_comment
 }
 
 

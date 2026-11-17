@@ -1,3 +1,4 @@
+
 "lang"
 {
 "Language" "thai"
@@ -5437,10 +5438,6 @@
 		"CSGO_TeamID_146"       "Gaimin Gladiators"
 		"CSGO_TeamID_147"       "SINNERS"
 		"CSGO_TeamID_148"       "THUNDERdOWNUNDER"
-
-
-
-
 		"Place_Name_1st"		"แชมป์"
 		"Place_Name_2nd"		"ผู้เข้ารอบชิงชนะเลิศ"
 		"Place_Name_3rd-4th"	"ผู้เข้ารอบรองชนะเลิศ"
@@ -6226,8 +6223,8 @@
 		"musickit_starjunk95_01_desc"			"สัมผัสประสบการณ์เสียงเพลงจากสถานีที่ยอดเยี่ยมที่สุดในกาแล็กซี นำเสนอท่วงทำนองเพลงสดใหม่แห่งยุคปัจจุบันที่ผสานเข้ากับความทรงจำอันอันแสนคลาสสิกของวันวาน นี่คือ Starjunk 95"
 		"coupon_starjunk95_01"					"ชุดอุปกรณ์เพลง | Starjunk 95, Industrial Sunset Memories"
 		"coupon_starjunk95_01_stattrak"			"ชุดอุปกรณ์เพลง StatTrak™ | Starjunk 95, Industrial Sunset Memories"
-
-//////////////////
+		
+		//////////////////
 
 	"csgo_thousands_separator"			"," // Note: This only supports , and .
 
@@ -31752,7 +31749,11 @@
 		"SFUI_MajorEventVenue_StreamTitle_26_2" "Cologne 2026 - เมเจอร์ IEM - สตรีมสด"
 
 		//
-		// 2026 IEM Cologne 2026 CS2 Major Championship Strings Block End
+//
+//
+//
+	//
+		// 2026 PGL Singapore 2026 CS2 Major Championship Strings Block End
 		// ======================================
 
 
@@ -37894,7 +37895,6 @@
 		"store_nav_more"		"ดูทั้งหมด..."
 		"store_nav_shop_all"		"ดูทั้งหมด..."
 		"store_nav_section_coupon_nightmode2" "ชุดอุปกรณ์เพลง<br>NIGHTMODE II"
-
 		"StoreCheckout_NoItems"			"รถเข็นของคุณว่างเปล่า!"
 		"StoreCheckout_TooManyItems"	"คุณมีไอเท็มอยู่ในรถเข็นของคุณมากเกินไป!"
 		"StoreCheckout_Loading"			"กำลังชำระเงิน..."
@@ -42499,7 +42499,6 @@
 
 		"SFUI_Settings_AOProxy"				"การซ้อนทับแสงเงา"
 		"SFUI_Settings_AOProxy_Info"		"คำนวณการจัดแสงโดยใช้การซ้อนทับแสงเงา เมื่อเปิดใช้งานการซ้อนทับแสงเงาอาจทำให้กราฟิกมีประสิทธิภาพลดลงได้"
-
 		"SFUI_Settings_FSR"					"Fidelity FX Super Resolution"
 		"SFUI_Settings_FSR_Info"			"Fidelity FX Super Resolution อาจเพิ่มประสิทธิภาพให้สูงขึ้นโดยการเรนเดอร์ที่ความละเอียดต่ำลงและเพิ่มขนาดขึ้นโดยใช้เทคนิคเชิงพื้นที่คุณภาพสูง"
 		"SFUI_Settings_FSR_Disabled"		"ปิดการใช้งาน (คุณภาพสูงสุด)"
@@ -45487,10 +45486,6 @@
 		"SFUI_ProPlayer_soulfly" "Caner Kesici"
 		"SFUI_ProPlayer_stressarn" "Jordan Manevski"
 		"SFUI_ProPlayer_tjp" "Tynan Purtell"
-
-
-
-
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Leaderboards
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -50703,16 +50698,12 @@
 		"major_store_sort" 				"การจัดอันดับ"
 		"major_store_sort_highlow" 		"ราคาสูงไปต่ำ"
 		"major_store_sort_lowhigh" 		"ราคาต่ำไปสูง"
-		"major_store_sort_popular_decending" 		"ความนิยมสูงไปต่ำ"
-		"major_store_sort_popular_ascending" 		"ความนิยมต่ำไปสูง"
-		"major_store_sort_weekly_decending" 		"% ลดราคาในช่วง 7 วัน"
 		"major_store_sort_weekly_ascending" 		"ราคาสูงสุดในช่วง 7 วัน"
 		"major_store_sort_alphabetical" "ตามลำดับตัวอักษร"
 		"major_store_sort_filter"		"ตัวกรอง"
 		"major_store_nav_home"			"หน้าหลัก"
 		"major_store_nav_tab_bookmarked"	"รายการที่ชื่นชอบ"
 		"major_store_nav_tab_bookmarked_count" "รายการที่ชื่นชอบ( {d:count} )"
-		"major_store_nav_tab_ranked"		"แรงก์"
 		"major_store_nav_tab_champions"		"แชมป์"
 		"major_store_nav_tab_charms"		"พวงกุญแจ"
 		"major_store_nav_tab_popular"		"กระแสนิยม"
@@ -50736,7 +50727,6 @@
 		"major_store_balance_popup_desc"	"ร้านค้า {s:tournament_name} กำลังจะปิดเร็ว ๆ นี้ แวะมาใช้โทเค็นที่เหลือของคุณแลกไอเท็มในขณะที่คุณยังทำได้"
 		"major_store_balance_popup_visit"	"เยี่ยมชมร้านค้าและศูนย์กลางเมเจอร์"
 		"major_store_price"				"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
-		"major_store_price_locked"		"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/> <img src='file://{images}/icons/ui/price_locked.svg' class='inline-coin-icon'/>"
 		"major_store_price-pctdown"		"{d:price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>  ↓{d:reduction}%"
 		"major_store_price-change"		"{d:price-change}" 
 		"major_store_total-price"		"{d:total-price} <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
@@ -50801,7 +50791,6 @@
 		"major_store_checkout_purchase_tokens_tooltip100"	"ซื้อโทเค็นเพิ่มเติมอย่างน้อย 100 โทเค็นเพื่อดำเนินการชำระเงินให้เสร็จสมบูรณ์<br><br>รายได้ 50% จากการขายโทเค็นเหล่านี้จะนำไปสนับสนุนผู้เล่นและองค์กรที่เข้าร่วม"
 		"major_store_checkout_purchase_tokens_tooltip"	"ซื้อโทเค็นเพิ่มเติมเพื่อดำเนินการชำระเงินให้เสร็จสมบูรณ์<br><br>รายได้ 50% จากการขายโทเค็นจะถูกนำไปมอบให้กับผู้เล่นและองค์กรที่เข้าร่วม"
 		"major_store_checkout_not_enough_tokens"		"คุณต้องมีโทเค็นมากกว่านี้เพื่อดำเนินการชำระเงินให้เสร็จสมบูรณ์"
-		"major_store_hot_trend"	"หนึ่งในสติกเกอร์กระแสนิยมสูงสุด 40 อันดับแรก"
 		"major_store_balance_tooltip"	"<br>โทเค็นเหล่านี้ใช้สำหรับแลกรับไอเท็มทัวร์นาเมนต์ คุณสามารถซื้อโทเค็นได้เมื่อดำเนินการชำระเงินจากรถเข็น<br><br>100 โทเค็น = {s:local-price}<br><br><b>การคุ้มครองราคา</b><br>หากราคาของไอเท็มที่แลกรับลดลงตั้งแต่ 25 โทเค็นขึ้นไปภายในเวลา 24 ชั่วโมง ส่วนต่างจะถูกคืนเข้าสู่ยอดดุลโทเค็นของคุณโดยอัตโนมัติใน 7 วันถัดไป<br><br><b>การแบ่งปันรายได้จากร้านค้าเมเจอร์</b><br>รายได้ 50% จากการขายโทเค็นเหล่านี้จะนำไปสนับสนุนผู้เล่นและองค์กรที่เข้าร่วม"
 		"major_store_refesh_tooltip"	"เวลาคงเหลือก่อนการอัปเดตราคาครั้งถัดไป<br><br>ราคาเป็นราคาเดียวกันทั่วโลกและจะปรับเองโดยอัตโนมัติตามความต้องการไอเท็มแต่ละชิ้น"
 		"major_store_bookmark_tooltip"	"เพิ่มหรือลบออกจากสิ่งที่ชื่นชอบ"
@@ -52013,8 +52002,8 @@
 
 		"rush_use_prompt_tower"				"<font color='#ffffff'>กด [{s:bind_use}] เพื่อเปิดใช้งานหอคอย</font>"
 
-// crow_mask_54168_comment
-// crow_mask_54169_comment
+// crow_mask_55913_comment
+// crow_mask_55914_comment
 }
 
 
