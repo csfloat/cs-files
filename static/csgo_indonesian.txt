@@ -6047,6 +6047,7 @@
 		"coupon_djdiesel_01_stattrak"			"Kit Musik StatTrak™ | DJ DIESEL & Hairitage, BANG YOUR HEAD"
 		
 		"musickit_fool_01"						"F.O.O.L, Criminals"
+		"musickit_fool_01_desc"					"T-side akhirnya punya lagu tema. Gelap, sinematik, dan penuh irama synthwave, \"Criminals\" dari F.O.O.L siap mengiringi setiap eksekusi."
 		"coupon_fool_01"						"Kit Musik | F.O.O.L, Criminals"
 		"coupon_fool_01_stattrak"				"Kit Musik StatTrak™ | F.O.O.L, Criminals"
 		
@@ -6056,14 +6057,17 @@
 		"coupon_noisestorm_01_stattrak"			"Kit Musik StatTrak™ | Noisestorm, Crab Rave"
 		
 		"musickit_pegboardnerds_01"					"Pegboard Nerds, Disconnected"
+		"musickit_pegboardnerds_01_desc"			"\"Disconnected\" dari Pegboard Nerds, salah satu lagu klasik Monstercat, telah menggetarkan speaker selama lebih dari satu dekade. Kali ini, giliran tim lawan yang akan dibuat bergetar."
 		"coupon_pegboardnerds_01"					"Kit Musik | Pegboard Nerds, Disconnected"
 		"coupon_pegboardnerds_01_stattrak"			"Kit Musik StatTrak™ | Pegboard Nerds, Disconnected"
 		
 		"musickit_tristam_braken_01"				"Tristam & Braken, Flight"
+		"musickit_tristam_braken_01_desc"			"\"Flight\" dari Tristam & Braken menghadirkan nostalgia yang begitu kental, dengan kualitas musik yang masih sama nikmatnya untuk didengar seperti saat pertama kali dirilis pada 2013."
 		"coupon_tristam_braken_01"					"Kit Musik | Tristam & Braken, Flight"
 		"coupon_tristam_braken_01_stattrak"			"Kit Musik StatTrak™ | Tristam & Braken, Flight"
 		
 		"musickit_vicetone_01"					"Vicetone & Cozi Zuehlsdorff, Nevada"
+		"musickit_vicetone_01_desc"				"Beberapa lagu dapat membawamu kembali ke masa lalu, dan \"Nevada\" dari Vicetone merupakan nostalgia tahun 2016 yang paling nikmat didengarkan sambil merayakan kemenangan."
 		"coupon_vicetone_01"					"Kit Musik | Vicetone & Cozi Zuehlsdorff, Nevada"
 		"coupon_vicetone_01_stattrak"			"Kit Musik StatTrak™ | Vicetone & Cozi Zuehlsdorff, Nevada"
 
@@ -40057,7 +40061,6 @@ melawan FaZe."
 		"major_hub_store_title_event" 	"Toko Major {s:tournament_name}"
 		"major_hub_store_title_hud_store" 	"Hub & Toko Major {s:tournament_name}"
 		"major_hub_store_desc" 	"Dapatkan stiker tanda tangan tim dan pemain favoritmu"
-		"major_hub_store_finish_prices"	"Emas 3.000 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Holo 625 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, Perak 125 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>, dan Kertas 25 <img src='file://{images}/icons/ui/major_coin.svg' class='inline-coin-icon'/>"
 		"major_hub_store_desc_2" 	"Telah Tersedia: Stiker Juara dan Gantungan Sorotan"
 		"major_hub_store_desc_3" 	"Stiker Mode Rank"
 		"major_hub_make_souvenir_title"  "Buat Suvenir"
